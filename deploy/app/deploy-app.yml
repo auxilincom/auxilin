@@ -1,0 +1,79 @@
+---
+- name: Deploy application using docker
+  hosts: app
+  become: true
+  vars_files:
+    - ["vars/credentials.yml"]
+    - ["vars/main.yml"]
+  tasks:
+    - name: Log into DockerHub
+      docker_login:
+        username: "{{docker_registry_username}}"
+        password: "{{docker_registry_password}}"
+        email: "{{docker_registry_email}}"
+
+    - name: pull api docker image
+      docker_image:
+        state: present
+        force: yes
+        name: "auxilinapp/auxilin-api:{{ docker_tag }}"
+
+    - name: run api container
+      docker_container:
+        name: "api-{{ item }}"
+        image: "auxilinapp/auxilin-api:{{ docker_tag }}"
+        state: started
+        restart_policy: always
+        recreate: yes
+        restart: yes
+        published_ports:
+          - "127.0.0.1:{{ item }}:3001"
+        env:
+          NODE_ENV: "{{ env }}"
+        networks:
+          - name: "{{ network_name }}"
+      with_items: "{{ api_ports }}"
+
+    - name: pull web docker image
+      docker_image:
+        state: present
+        force: yes
+        name: "auxilinapp/auxilin-web:{{ docker_tag }}"
+
+    - name: run web container
+      docker_container:
+        name: "web-{{ item }}"
+        image: "auxilinapp/auxilin-web:{{ docker_tag }}"
+        state: started
+        restart_policy: always
+        recreate: yes
+        restart: yes
+        published_ports:
+          - "127.0.0.1:{{ item }}:3002"
+        env:
+          NODE_ENV: "{{ env }}"
+        networks:
+          - name: "{{ network_name }}"
+      with_items: "{{ web_ports }}"
+
+    - name: pull landing docker image
+      docker_image:
+        state: present
+        force: yes
+        name: "auxilinapp/auxilin-landing:{{ docker_tag }}"
+
+    - name: run landing container
+      docker_container:
+        name: "landing-{{ item }}"
+        image: "auxilinapp/auxilin-landing:{{ docker_tag }}"
+        state: started
+        restart_policy: always
+        recreate: yes
+        restart: yes
+        published_ports:
+          - "127.0.0.1:{{ item }}:3000"
+        env:
+          NODE_ENV: "{{ env }}"
+        networks:
+          - name: "{{ network_name }}"
+      with_items: "{{ landing_ports }}"

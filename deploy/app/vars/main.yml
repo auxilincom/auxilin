@@ -1,0 +1,37 @@
+# Nginx variables
+nginx_main_template_enable: true
+nginx_main_template_user: www-data
+nginx_main_template_worker_processes: 2
+nginx_main_template_worker_connections: 1024
+nginx_http_template_enable: true
+
+app_name: "auxilin"
+app_domain: "auxilin.com"
+app_home: "/home/{{app_name}}"
+network_name: "auxilin_isolated_network"
+mongo_data_dir: "/home/{{app_name}}/mongo-data"
+redis_data_dir: "/home/{{app_name}}/redis-data"
+
+api_domain: "demo-api.auxilin.com"
+api_ports: [ 6000 ]
+
+web_domain: "demo-app.auxilin.com"
+web_ports: [ 6100 ]
+
+landing_domain: "demo.auxilin.com"
+landing_ports: [ 6200 ]
+
+server_ssl_key_path: "/etc/letsencrypt/live/auxilin.com/fullchain.pem"
+server_ssl_cert_path: "/etc/letsencrypt/live/auxilin.com/privkey.pem"
+server_ssl_dhparams: "/etc/nginx/dhparams.pem"
+
+server_setup_letsencrypt_ssl: true
+server_setup_ssl: false
+
+# Letsencrypt variables
+certbot_version: v0.27.1
+email: launch@auxilin.com
+use_dns_plugin: true
+domains_list:
+  - "auxilin.com"
+  - "*.auxilin.com"

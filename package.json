@@ -1,0 +1,13 @@
+{
+  "name": "auxilin",
+  "description": "A toolkit for makers to start better products faster 🚀",
+  "author": "Auxilin",
+  "license": "MIT",
+  "devDependencies": {
+    "all-contributors-cli": "5.4.1"
+  },
+  "scripts": {
+    "add-contributor": "all-contributors add",
+    "generate-contributors": "all-contributors generate"
+  }
+}
