@@ -39,7 +39,7 @@ Make sure to run them often:
 |Environment|Url|
 |:---|:----------|
 |Production 🚀|`In a few weeks ⚡️`|
-|Staging ☠️|[https://demo.auxilin.com](https://demo.auxilin.com/)|
+|Staging ☠️|[https://demo-landing.auxilin.com](https://demo-landing.auxilin.com/)|
 
 
 ## Deployment

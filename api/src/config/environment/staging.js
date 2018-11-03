@@ -17,7 +17,7 @@ module.exports = {
   },
   apiUrl: 'https://demo-api.auxilin.com',
   webUrl: 'https://demo-app.auxilin.com',
-  landingUrl: 'https://demo.auxilin.com',
+  landingUrl: 'https://demo-landing.auxilin.com',
   mailgun: {
     apiKey: process.env.MAILGUN_API_KEY || '',
     domain: process.env.MAILGUN_DOMAIN || '',

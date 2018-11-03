@@ -54,7 +54,7 @@ We made it simple for you to get started with Auxilin. Just go to the [auxilin.c
 ## Auxilin Demo
 
 * [CI Demo](https://ci.auxilin.com/auxilincom/auxilin) — build, test and deploy Auxilin to test environment after every commit to master branch.
-* [Auxilin Landing Demo](https://demo.auxilin.com/).
+* [Auxilin Landing Demo](https://demo-landing.auxilin.com/).
 * [Auxilin React App Demo](https://demo-app.auxilin.com/).
 
 ## Change Log

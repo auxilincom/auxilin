@@ -18,7 +18,7 @@ api_ports: [ 6000 ]
 web_domain: "demo-app.auxilin.com"
 web_ports: [ 6100 ]
 
-landing_domain: "demo.auxilin.com"
+landing_domain: "demo-landing.auxilin.com"
 landing_ports: [ 6200 ]
 
 server_ssl_key_path: "/etc/letsencrypt/live/auxilin.com/fullchain.pem"
