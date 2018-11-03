@@ -1,0 +1,7 @@
+* text=auto
+
+*.yml   text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.js    text eol=lf
+*.pcss  text eol=lf
