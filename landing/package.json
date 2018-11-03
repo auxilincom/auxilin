@@ -1,0 +1,61 @@
+{
+  "name": "nextjs-landing-starter",
+  "version": "0.2.2",
+  "description": "Common landing website starter driven by next.js",
+  "main": "src/server/app.js",
+  "author": "Auxilin",
+  "license": "MIT",
+  "keywords": [
+    "landing",
+    "next.js",
+    "react",
+    "postcss",
+    "auxilin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auxilincom/nextjs-landing-starter"
+  },
+  "scripts": {
+    "development": "npm run next-server",
+    "start": "npm run next-server",
+    "next-server": "node ./src/server/app.js",
+    "test": "run-s test:**",
+    "test:eslint": "eslint src/**/*.js src/**/*.jsx",
+    "test:lint-styles": "stylelint \"src/client/**/*.pcss\""
+  },
+  "dependencies": {
+    "@auxilin/common-logger": "0.2.0",
+    "axios": "0.18.0",
+    "classnames": "2.2.6",
+    "cssnano": "4.1.7",
+    "extract-css-chunks-webpack-plugin": "3.2.1",
+    "find-up": "2.1.0",
+    "lodash": "4.17.11",
+    "next": "7.0.2",
+    "normalize.css": "8.0.0",
+    "npm-run-all": "4.1.3",
+    "postcss-import": "12.0.1",
+    "postcss-nested": "4.1.0",
+    "postcss-preset-env": "6.3.0",
+    "prop-types": "15.6.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-icon-base": "2.1.2",
+    "stylelint": "9.7.1",
+    "stylelint-config-standard": "18.2.0"
+  },
+  "devDependencies": {
+    "@auxilin/eslint-config": "0.1.1",
+    "babel-eslint": "10.0.1",
+    "babel-plugin-inline-react-svg": "1.0.1",
+    "babel-plugin-module-resolver": "3.1.1",
+    "css-loader": "1.0.1",
+    "eslint": "5.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
+    "extracted-loader": "1.0.7",
+    "postcss-loader": "3.0.0"
+  }
+}
