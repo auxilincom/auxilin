@@ -30,6 +30,8 @@
           - "127.0.0.1:{{ item }}:3001"
         env:
           NODE_ENV: "{{ env }}"
+          MAILGUN_API_KEY: "{{mailgun_api_key}}"
+          MAILGUN_DOMAIN: "{{mailgun_domain}}"
         networks:
           - name: "{{ network_name }}"
       with_items: "{{ api_ports }}"

@@ -56,13 +56,13 @@ pipeline:
 
   deploy-staging-app:
     image: williamyeh/ansible:ubuntu16.04
-    secrets: [ ssh_key, docker_username, docker_password, docker_email ]
+    secrets: [ ssh_key, docker_username, docker_password, docker_email, mailgun_api_key, mailgun_domain ]
     commands:
       - mkdir -p ~/.ssh/
       - echo -n "$SSH_KEY" >> ~/.ssh/id_rsa_app && chmod 600 ~/.ssh/id_rsa_app
       - cp ./deploy/app/vars/credentials-template.yml ./deploy/app/vars/credentials.yml
       - chmod +x ./deploy/app/bin/deploy-staging.sh
-      - cd ./deploy/app && ./bin/deploy-staging.sh --private-key ~/.ssh/id_rsa_app --extra-vars "docker_tag=latest docker_registry_username=$DOCKER_USERNAME docker_registry_password=$DOCKER_PASSWORD docker_registry_email=$DOCKER_EMAIL"
+      - cd ./deploy/app && ./bin/deploy-staging.sh --private-key ~/.ssh/id_rsa_app --extra-vars "docker_tag=latest docker_registry_username=$DOCKER_USERNAME docker_registry_password=$DOCKER_PASSWORD docker_registry_email=$DOCKER_EMAIL mailgun_api_key=$MAILGUN_API_KEY mailgun_domain=$MAILGUN_DOMAIN"
     when:
       branch: ["master"]
       event: [push]

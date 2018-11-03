@@ -44,21 +44,21 @@
 
     - name: copy nginx virtual host file
       template: src="templates/staging-nginx-config.j2"
-                dest="/etc/nginx/sites-available/00_auxilin_site"
+                dest="/etc/nginx/sites-available/00_{{app_name}}_site"
                 owner=root
                 group=root
       when: not server_setup_letsencrypt_ssl and not server_setup_ssl
 
     - name: copy nginx virtual host file for ssl
       template: src="templates/staging-nginx-config-with-ssl.j2"
-                dest="/etc/nginx/sites-available/00_auxilin_site"
+                dest="/etc/nginx/sites-available/00_{{app_name}}_site"
                 owner=root
                 group=root
       when: server_setup_letsencrypt_ssl or server_setup_ssl
 
     - name: link nginx virtual host file
-      file: src="/etc/nginx/sites-available/00_auxilin_site"
-            dest="/etc/nginx/conf.d/http/00_auxilin_site.conf"
+      file: src="/etc/nginx/sites-available/00_{{app_name}}_site"
+            dest="/etc/nginx/conf.d/http/00_{{app_name}}_site.conf"
             state=link
 
     - name: restart nginx
