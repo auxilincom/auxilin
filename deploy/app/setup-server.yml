@@ -13,6 +13,10 @@
         - "{{app_home}}"
         - "{{mongo_data_dir}}"
         - "{{redis_data_dir}}"
+
+    - name: create application networks
+      docker_network:
+        name: "{{ network_name }}"
     
     - name: pull redis docker image
       docker_image:
