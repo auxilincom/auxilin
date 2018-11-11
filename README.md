@@ -11,14 +11,15 @@
 [![Star on GitHub](https://img.shields.io/github/stars/auxilincom/auxilin.svg?style=social&label=Stars)](https://github.com/auxilincom/auxilin/stargazers)
 [![Follow](https://img.shields.io/twitter/follow/auxilin.svg?style=social&label=Follow)](https://twitter.com/auxilin)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/auxilincom/auxilin.svg?style=social)](https://twitter.com/intent/tweet?text=I%27m%20building%20my%20next%20product%20with%20Auxilin%20%F0%9F%9A%80.%20Check%20it%20out:%20https://github.com/auxilincom/auxilin)
+[![@auxilin](https://img.shields.io/badge/%F0%9F%92%AC%20Telegram-t.me/auxilin-blue.svg)](https://t.me/auxilin)
 
-A toolkit for makers to ship better products faster 🚀. 
+[Auxilin](https://auxilin.com) is a Node, React product starter kit that helps you **launch quicker**, **avoid many mistakes** and **successed**.
 
-[Auxilin](https://github.com/auxilincom/auxilin) is a tool which help you setup your new product in matter of minutes. Auxilin is based on a number of open-source components, resulted from years of hard work on a number of awesome products. We carefully select, document and share our production-ready knowledge with you. 
+## Get in touch 👏
 
-We encourage developers to share production-ready solutions and help to  business ship something people need as quick as possible. 
+Join our [Telegram community (t.me/auxilin)](https://t.me/auxilin).
 
-If you're looking to start your new product based on Auxilin we'd be happy to provide you with a free consultation. Contact Auxilin at launch@auxilin.com.
+If you're looking to *start your new product based on Auxilin 🚀* or *contributing to Auxilin in any way*, please, **[schedule a call with us](https://drift.me/launch)** or contact at **launch@auxilin.com**.
 
 ## Why Auxilin?
 
