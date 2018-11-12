@@ -3,8 +3,6 @@ services:
   mongo:
     command: mongod
     image: mongo:4.0.4
-    networks:
-      - auxilin_test
     ports:
       - "27017:27017"
     volumes:
@@ -16,19 +14,15 @@ services:
     command: npm test
     depends_on:
       - mongo
-    networks:
-      - auxilin_test
+    links:
+      - mongo
   web-test:
     build:
       context: "./web"
       dockerfile: Dockerfile
     command: npm test
-    network:
-      - auxilin_test
   landing-test:
     build:
       context: "./landing"
       dockerfile: Dockerfile
     command: npm test
-    network:
-      - auxilin_test

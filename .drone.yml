@@ -1,11 +1,11 @@
 pipeline:
   run-test-suite:
-    image: michalpodeszwa/docker-compose:latest
+    image: stefanotorresi/docker-compose:latest
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
       - chmod +x ./bin/drone-run-tests.sh
-      - ./bin/drone-run-tests.sh api-tests web-test landing-test
+      - ./bin/drone-run-tests.sh api-tests
     when:
       event: [pull_request]
 
