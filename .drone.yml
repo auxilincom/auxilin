@@ -5,7 +5,7 @@ pipeline:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
       - chmod +x ./bin/drone-run-tests.sh
-      - ./bin/drone-run-tests.sh api-tests
+      - ./bin/drone-run-tests.sh api-tests web-test landing-test
     when:
       event: [pull_request]
 
