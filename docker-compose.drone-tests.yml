@@ -2,7 +2,9 @@ version: '3.3'
 services:
   mongo:
     command: mongod
-    image: mongo:4.0.3
+    image: mongo:4.0.4
+    ports:
+      - "27017:27017"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
   api-tests:
@@ -12,3 +14,15 @@ services:
     command: npm test
     depends_on:
       - mongo
+    links:
+      - mongo
+  web-test:
+    build:
+      context: "./web"
+      dockerfile: Dockerfile
+    command: npm test
+  landing-test:
+    build:
+      context: "./landing"
+      dockerfile: Dockerfile
+    command: npm test

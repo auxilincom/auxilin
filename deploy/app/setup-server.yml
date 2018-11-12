@@ -22,15 +22,15 @@
       docker_image:
         state: present
         force: yes
-        name: "redis:5.0.0"
-        tag: "5.0.0"
+        name: "redis:5.0.1"
+        tag: "5.0.1"
       tags:
         - redis
 
     - name: run redis using docker
       docker_container:
         name: redis
-        image: redis:5.0.0
+        image: redis:5.0.1
         command: ["redis-server", "--appendonly", "yes"]
         state: started
         restart_policy: always
@@ -47,15 +47,15 @@
       docker_image:
         state: present
         force: yes
-        name: "mongo:4.0.3"
-        tag: "4.0.3"
+        name: "mongo:4.0.4"
+        tag: "4.0.4"
       tags:
         - mongo
 
     - name: run mongo using docker
       docker_container:
-        name: auxilin-mongo
-        image: mongo:4.0.3
+        name: mongo
+        image: mongo:4.0.4
         command: mongod
         state: started
         restart_policy: always
