@@ -1,0 +1,12 @@
+---
+- name: Setup monitoring server
+  hosts: monitoring
+  become: true
+  vars_files:
+    - "vars/main.yml"
+  roles:
+    - { role: angstwad.docker_ubuntu }
+  tasks:
+    - name: create monitoring networks
+      docker_network:
+        name: "{{ monitoring_network_name }}"

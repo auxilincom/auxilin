@@ -1,0 +1,53 @@
+# Nginx variables
+nginx_main_template_enable: true
+nginx_main_template_user: www-data
+nginx_main_template_worker_processes: 2
+nginx_main_template_worker_connections: 1024
+nginx_http_template_enable: true
+
+server_setup_ssl: false
+server_setup_letsencrypt_ssl: true
+
+server_ssl_key_path: "/etc/letsencrypt/live/demo-monitor.auxilin.com/fullchain.pem"
+server_ssl_cert_path: "/etc/letsencrypt/live/demo-monitor.auxilin.com/privkey.pem"
+server_ssl_dhparams: "/etc/nginx/dhparams.pem"
+
+# Letsencrypt variables
+certbot_version: v0.27.1
+email: launch@auxilin.com
+domains_list:
+  - "demo-monitor.auxilin.com"
+
+hostname: auxilin
+
+monitoring_network_name: auxilin_monitor_isolated_network
+app_network_name: auxilin_isolated_network
+
+gf_domain: demo-monitor.auxilin.com
+
+# postgres database name
+postgres_db_name: auxilin_grafana
+
+# Data source name, used by grafana
+data_source_name: DS_INFLUXDB
+# Influx database name
+influx_db_name: "monitoring"
+
+# InfluxDB connection string, used by telegraf to send data
+# e.g.
+#   http://10.10.3.33:8086
+influxdb_connection: http://104.248.19.180:8086
+
+# Mongo connection string, used by telegraf to monitor count of operations
+# e.g.
+#   mongodb://user:auth_key@10.10.3.30:27017,
+#   mongodb://10.10.3.33:18832,
+#   10.0.0.1:10000, etc.
+# mongo_connection: mongodb://10.10.3.33:27017
+mongo_connection: mongodb://mongo:27017
+# Redis connection string, used by telegraf to monitor count of operations
+# e.g.
+#   tcp://localhost:6379
+#   tcp://:password@192.168.99.100
+#   unix:///var/run/redis.sock
+redis_connection: tcp://redis:6379
