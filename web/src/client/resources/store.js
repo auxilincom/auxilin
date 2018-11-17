@@ -2,7 +2,7 @@
 
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import { connectRouter, routerMiddleware } from 'connected-react-router';
+import { routerMiddleware } from 'connected-react-router';
 import type { BrowserHistory } from 'history/createBrowserHistory';
 
 import reducer from './reducer';
@@ -10,7 +10,7 @@ import type { StoreType, StateType } from './types';
 
 const configureStore = (initialState: StateType, history: BrowserHistory): StoreType => {
   const store: StoreType = createStore(
-    connectRouter(history)(reducer),
+    reducer(history),
     initialState,
     compose(
       applyMiddleware(routerMiddleware(history), thunk),
@@ -20,7 +20,7 @@ const configureStore = (initialState: StateType, history: BrowserHistory): Store
 
   if (module.hot) {
     module.hot.accept('./reducer', () => {
-      store.replaceReducer(connectRouter(history)(reducer));
+      store.replaceReducer(reducer(history));
     });
   }
 

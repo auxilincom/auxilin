@@ -1,26 +1,19 @@
 // @flow
 
 import { combineReducers } from 'redux';
+import { connectRouter } from 'connected-react-router';
+
 import type { CombinedReducer } from 'redux';
+import type { BrowserHistory } from 'history/createBrowserHistory';
 
 import type { StateType, ActionType } from './types';
 
 import toast from './toast/toast.reducer';
-import type { ReducerType as ToastReducerType } from './toast/toast.types';
-
 import user from './user/user.reducer';
-import type { ReducerType as UserReducerType } from './user/user.types';
 
-type ReducersType = {
-  user: UserReducerType,
-  toast: ToastReducerType,
-};
-
-const reducers: ReducersType = {
+// eslint-disable-next-line
+export default (history: BrowserHistory): CombinedReducer<StateType, ActionType> => combineReducers({
+  router: connectRouter(history),
   user,
   toast,
-};
-
-const combinedReducer: CombinedReducer<StateType, ActionType> = combineReducers(reducers);
-
-export default combinedReducer;
+});

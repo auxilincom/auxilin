@@ -1,4 +1,4 @@
-FROM node:10.12.0
+FROM node:10.13.0
 
 EXPOSE 3002
 COPY ["./package.json", "./package-lock.json", "./.eslintrc.js", "./.eslintignore", "./.babelrc", "./browserslist", "./.stylelintrc", "/app/"]
