@@ -1,24 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
 import Head from 'next/head';
-
-import Rocket from '~/static/rocket.svg';
-
-import Ansible from '~/static/ansible.svg';
-import CI from '~/static/ci.svg';
-import DigitalOcean from '~/static/digital-ocean.svg';
-import Github from '~/static/github.svg';
-import Docker from '~/static/docker.svg';
-import Grafana from '~/static/grafana.svg';
-import ReactSVG from '~/static/react.svg';
-import Slack from '~/static/slack.svg';
-import SourceCode from '~/static/source-code.svg';
 
 import Layout from '~/layouts/main';
 import ButtonLink from '~/components/button-link';
-import { sizes as buttonSizes } from '~/components/button';
 import { states } from '~/constants';
 
 import styles from './styles.pcss';
+
+import Video from './components/video';
+import Pics from './components/pics';
+
+const Green = ({ children }) => {
+  return (
+    <span className={styles.green}>{children}</span>
+  );
+};
+
+Green.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default () => (
   <Layout className={styles.layout}>
@@ -26,65 +28,77 @@ export default () => (
       <title>A brand new next.js landing website</title>
     </Head>
 
-    <Layout.HeaderContent state={states.purple}>
-      <div className={styles.page}>
-        <div className={styles.container}>
-          <div className={styles.intro}>
-            <h1 className={styles.title}>The new standard in starters for landing websites</h1>
-
-            <p className={styles.description}>
-              {`Auxilin is a tool which help you setup your new product in matter of
-              minutes. Auxilin is based on stack of open-source components, resulted
-              from years of hard work on a number of awesome products.`}
-            </p>
-
-            <ButtonLink
-              state={states.green}
-              size={buttonSizes.small}
-              className={styles.link}
-              href="/signup"
-              prefetch
-            >
-              {'Create Account'}
-            </ButtonLink>
-          </div>
-
-          <div className={styles.logo}>
-            <Rocket />
-          </div>
-        </div>
+    <Layout.Header></Layout.Header>
+    <Layout.Section className={styles.intro}>
+      <h1 className={styles.title}>
+        {'Launch it right.'}
+        {' '}
+        <Green>Now.</Green>
+      </h1>
+      <p className={classnames(styles.subtitle, styles.short)}>
+        {`Auxilin is an open-source, production-ready starter kit
+        for building SaaS products at a warp speed.
+        We save development time and allow you to focus on the nitty gritty of the idea.`}
+      </p>
+    </Layout.Section>
+    <Video />
+    <Layout.Section className={styles.help}>
+      <div className={styles.leftSide}>
+        <h1 className={classnames(styles.title, styles.right, styles.large)}>
+          {'We help you'}
+          {' '}
+          <Green>launch</Green>
+          {' '}
+          {'quicker, avoid many mistakes and'}
+          {' '}
+          <Green>succeed</Green>
+        </h1>
       </div>
-    </Layout.HeaderContent>
-
-    <Layout.Content className={styles.content}>
-      <div className={styles.shipDescription}>
-        <h2>THE COMPLETE SET OF TOOLS TO START YOUR PROJECT</h2>
-
-        <p>
-          {`Shipping is crucial part of any new product. The quicker you ship, the
-          more time you have to validate your hypotheses. The quicker you validate
-          your idea, the sooner you know if you're building what people want.`}
+      <div className={styles.rightSide}>
+        <Pics />
+      </div>
+    </Layout.Section>
+    <Layout.Section className={styles.clients} isNoBorder>
+      <div className={styles.leftSide}>
+        <h1 className={classnames(styles.title, styles.right, styles.large)}>
+          {'Clients speak'}
+        </h1>
+      </div>
+      <div className={styles.rightSide}>
+        <p className={classnames(styles.subtitle, styles.short, styles.quote)}>
+          {`Auxilin saved us a lot of time to launch Maqpie back in 2017.
+          Keep up great work.`}
         </p>
-      </div>
-
-      <div className={styles.icons}>
-        <div>
-          <span><Ansible /></span>
-          <span><CI /></span>
-          <span><DigitalOcean /></span>
-        </div>
-        <div>
-          <span><Github /></span>
-          <span><Docker /></span>
-          <span><Grafana /></span>
-        </div>
-        <div>
-          <span><ReactSVG /></span>
-          <span><Slack /></span>
-          <span><SourceCode /></span>
+        <div className={styles.client}>
+          <img
+            src="/static/andrew.jpeg"
+            alt="client"
+            className={styles.clientPhoto}
+          />
+          <p className={classnames(styles.subtitle, styles.short, styles.bold)}>
+            {'Andrew, CEO at Maqpie'}
+          </p>
         </div>
       </div>
-    </Layout.Content>
-
+    </Layout.Section>
+    <Layout.Section className={styles.waiting} isNoBorder isWithShadow>
+      <div className={styles.leftSide}>
+        <h1 className={classnames(styles.title, styles.right, styles.large)}>
+          <div>What are</div>
+          {'you waiting for?'}
+        </h1>
+      </div>
+      <div className={styles.rightSide}>
+        <div className={styles.center}>
+          <ButtonLink
+            className={styles.button}
+            href="/signup"
+            state={states.green}
+          >
+            {'Get started for free'}
+          </ButtonLink>
+        </div>
+      </div>
+    </Layout.Section>
   </Layout>
 );

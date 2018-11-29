@@ -98,7 +98,7 @@ export default class ForgotPassword extends PureComponent {
             type="submit"
             primary
             isLoading={isLoading}
-            state={states.purple}
+            state={states.green}
           >
             {'Submit'}
           </Button>
@@ -111,19 +111,17 @@ export default class ForgotPassword extends PureComponent {
     const { emailSent } = this.state;
 
     return (
-      <Layout state={states.purple}>
-        <Layout.HeaderContent state={states.purple}>
-          <Auth className={styles.panel}>
-            <Wrap>
-
-              {
-                emailSent
-                  ? ForgotPassword.emailSent()
-                  : this.form()
-              }
-            </Wrap>
-          </Auth>
-        </Layout.HeaderContent>
+      <Layout>
+        <Layout.Header />
+        <Auth className={styles.panel}>
+          <Wrap>
+            {
+              emailSent
+                ? ForgotPassword.emailSent()
+                : this.form()
+            }
+          </Wrap>
+        </Auth>
       </Layout>
     );
   }

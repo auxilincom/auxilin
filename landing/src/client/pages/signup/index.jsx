@@ -99,77 +99,75 @@ export default class Signup extends PureComponent {
     );
 
     return (
-      <Layout state={states.green}>
-        <Layout.HeaderContent state={states.green}>
-          <Auth className={styles.panel}>
-            {signupSuccess ? (
-              <div className={styles.signupSuccess}>
-                <h2>Thank you for signing up!</h2>
-                <p>
-                  {`The verification email has been sent to ${email}.`}
-                  <br />
-                  {`Please follow the instructions from the email to complete
+      <Layout>
+        <Layout.Header />
+        <Auth className={styles.panel}>
+          {signupSuccess ? (
+            <div className={styles.signupSuccess}>
+              <h2>Thank you for signing up!</h2>
+              <p>
+                {`The verification email has been sent to ${email}.`}
+                <br />
+                {`Please follow the instructions from the email to complete
                   a signup process.`}
-                </p>
-                {devVerifyEmailLinkEl}
-              </div>
-            ) : (
-              <Wrap>
-                <h2>Sign Up</h2>
-
-                <Form onSubmit={this.submitSignupAsync} className={styles.form}>
-                  <div className={styles.names}>
-                    <Input
-                      key="first-name"
-                      value={firstName}
-                      onChange={this.setFirstName}
-                      required
-                      type="text"
-                      placeholder="First Name"
-                    />
-                    <Input
-                      key="last-name"
-                      value={lastName}
-                      onChange={this.setLastName}
-                      required
-                      type="text"
-                      placeholder="Last Name"
-                    />
-                  </div>
+              </p>
+              {devVerifyEmailLinkEl}
+            </div>
+          ) : (
+            <Wrap>
+              <h2>Sign Up</h2>
+              <Form onSubmit={this.submitSignupAsync} className={styles.form}>
+                <div className={styles.names}>
                   <Input
-                    key="email"
-                    value={email}
-                    onChange={this.setEmail}
+                    key="first-name"
+                    value={firstName}
+                    onChange={this.setFirstName}
                     required
-                    type="email"
-                    placeholder="Email"
+                    type="text"
+                    placeholder="First Name"
                   />
                   <Input
-                    key="password"
-                    value={password}
-                    onChange={this.setPassword}
+                    key="last-name"
+                    value={lastName}
+                    onChange={this.setLastName}
                     required
-                    type="password"
-                    placeholder="Password"
+                    type="text"
+                    placeholder="Last Name"
                   />
+                </div>
+                <Input
+                  key="email"
+                  value={email}
+                  onChange={this.setEmail}
+                  required
+                  type="email"
+                  placeholder="Email"
+                />
+                <Input
+                  key="password"
+                  value={password}
+                  onChange={this.setPassword}
+                  required
+                  type="password"
+                  placeholder="Password"
+                />
 
-                  <Error error={error} />
+                <Error error={error} />
 
-                  <Button
-                    className={styles.signup}
-                    action="submit"
-                    type="submit"
-                    isLoading={isLoading}
-                  >
-                    {'Join'}
-                  </Button>
+                <Button
+                  state={states.green}
+                  action="submit"
+                  type="submit"
+                  isLoading={isLoading}
+                >
+                  {'Join'}
+                </Button>
 
-                </Form>
-              </Wrap>
-            )}
-            <img alt="signup" src="/static/postman.jpg" />
-          </Auth>
-        </Layout.HeaderContent>
+              </Form>
+            </Wrap>
+          )}
+          <img alt="signup" src="/static/postman.jpg" />
+        </Auth>
       </Layout>
     );
   }

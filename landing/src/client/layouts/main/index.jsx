@@ -2,20 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import { states } from '~/constants';
-
-import HeaderContent from './components/header-content';
-import Content from './components/content';
+import Header from './components/header';
+import Section from './components/section';
 import Footer from './components/footer';
 
 import styles from './styles.pcss';
 
-const Layout = ({ children, className, state }) => {
+const Layout = ({ children, className }) => {
   return (
     <div className={classnames(styles.wrap, className)}>
       {children}
-
-      <Footer state={state} />
+      <Footer />
     </div>
   );
 };
@@ -23,15 +20,13 @@ const Layout = ({ children, className, state }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
-  state: PropTypes.string,
 };
 
 Layout.defaultProps = {
   className: '',
-  state: states.purple,
 };
 
-Layout.HeaderContent = HeaderContent;
-Layout.Content = Content;
+Layout.Header = Header;
+Layout.Section = Section;
 
 export default Layout;

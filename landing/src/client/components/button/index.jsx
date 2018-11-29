@@ -51,7 +51,7 @@ Button.defaultProps = {
   isLoading: false,
   action: 'button',
   children: null,
-  state: states.purple,
+  state: states.transparent,
   size: sizes.medium,
   type: 'button',
 };

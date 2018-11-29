@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import ButtonLink from '~/components/button-link';
-import Link from '~/components/link';
 import { states } from '~/constants';
 
-import Logo from '~/static/logo.svg';
+import ButtonLink from '~/components/button-link';
+import Link from '~/components/link';
+
+import Logo from '~/static/auxilin-logo.svg';
 import ArrowSvg from './components/arrow';
 
 import styles from './styles.pcss';
@@ -53,7 +54,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  state: states.purple,
+  state: states.transparent,
 };
 
 export default Header;

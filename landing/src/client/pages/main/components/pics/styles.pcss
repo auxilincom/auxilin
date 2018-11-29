@@ -1,0 +1,52 @@
+@import 'variables.pcss';
+
+.pic {
+  height: auto;
+  width: 49%;
+  margin-bottom: var(--distance-500);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
+}
+
+.pics {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: var(--distance-1600) 0;
+
+  @media screen and (max-width: 700px) {
+    padding-top: 0;
+  }
+}
+
+.text-wrap {
+  position: relative;
+  height: 0;
+  width: 100%;
+  top: calc(-50% - var(--text-1000));
+  text-align: center;
+}
+
+.text {
+  font-weight: var(--text-weight-700);
+  color: var(--white);
+  font-size: var(--text-800);
+  line-height: calc(var(--text-800) * 3);
+  background: var(--black-opacity);
+  display: block;
+
+  &.two-lines {
+    line-height: var(--text-1000);
+  }
+}

@@ -10,9 +10,6 @@ export default class FaHeart extends React.Component {
         width="13"
         height="10"
         viewBox="0 0 13 10"
-        style={{
-          stroke: 'white',
-        }}
         {...this.props}
       >
         <path className={styles.arrow} d="M1,5H12" />
