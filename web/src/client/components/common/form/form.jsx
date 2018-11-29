@@ -1,17 +1,16 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import styles from './form.styles.pcss';
 
 type PropsType = {
-  children: Node,
+  children: React$Node,
   className?: string,
 };
 
-const Form = ({ className, children }: PropsType): Node => {
+const Form = ({ className, children }: PropsType): React$Node => {
   return (
     <div className={classnames(styles.form, className)}>
       {children}

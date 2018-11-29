@@ -1,33 +1,37 @@
 // @flow
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 
+import { Switch, Route } from 'react-router-dom';
 import { FaBell } from 'react-icons/fa';
 
-import { indexPath } from 'components/layout/layout.paths';
-
-import Logo from 'assets/images/logo.svg';
-
-import Menu from './components/menu';
 import Search from './components/search';
 import UserMenu from './components/user-menu';
 
 import styles from './header.styles.pcss';
 
+const renderPageTitle = (title: string): React$Node => (
+  <span className={styles.title}>
+    {title}
+  </span>
+);
+
 const Header = (): React$Node => {
   return (
     <div className={styles.header}>
-      <Link className={styles.title} to={indexPath()}>
-        <Logo />
-      </Link>
+      <div>
+        <Switch>
+          <Route path="/" exact render={(): React$Node => renderPageTitle('Dashboard')} />
+          <Route path="/profile" render={(): React$Node => renderPageTitle('Profile')} />
+        </Switch>
+      </div>
+      <div className={styles.headerItems}>
+        <Search className={styles.search} />
 
-      <Menu className={styles.menuList} />
-      <Search className={styles.search} />
+        <FaBell size={20} className={styles.notificationsBtn} />
 
-      <FaBell size={20} className={styles.notificationsBtn} />
-
-      <UserMenu />
+        <UserMenu />
+      </div>
     </div>
   );
 };

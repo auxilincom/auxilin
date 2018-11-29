@@ -1,18 +1,31 @@
 @import 'variables.pcss';
 
+.focus-border {
+  height: 2px;
+  background-color: var(--deep-purple-700);
+  position: relative;
+  top: -1px;
+  margin: auto;
+  display: none;
+  width: 0%;
+}
+
 .input {
-  border: 1px solid var(--grey-700);
+  border: 0;
+  border-bottom: 1px solid var(--grey-400);
   height: var(--text-height-700);
   line-height: var(--text-height-700);
-  border-radius: var(--border-radius-300);
   outline: none;
   width: 100%;
   box-sizing: border-box;
   padding: 0 var(--distance-400);
+  background-color: inherit;
+  color: inherit;
 
-  &:hover,
-  &:focus {
-    border-color: var(--light-blue-800);
+  &:focus + .focus-border-wrap .focus-border {
+    display: block;
+    animation: border 0.7s;
+    width: 100%;
   }
 
   &.error {
@@ -29,4 +42,13 @@
   font-size: var(--text-400);
   color: var(--red-500);
   margin-top: var(--distance-400);
+}
+
+.focus-border-wrap {
+  height: 0;
+}
+
+@keyframes border {
+  from { width: 0%; }
+  to { width: 100%; }
 }

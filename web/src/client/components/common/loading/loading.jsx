@@ -1,11 +1,10 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 
 import styles from './loading.styles.pcss';
 
-const Loading = (): Node => {
+const Loading = (): React$Node => {
   return (
     <div className={styles.cubeWrapper}>
       <div className={styles.cubeFolding}>

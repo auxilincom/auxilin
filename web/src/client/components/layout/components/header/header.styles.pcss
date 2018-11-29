@@ -1,29 +1,27 @@
 @import 'variables.pcss';
 
 .header {
-  background-color: var(--deep-purple-600);
-  color: var(--white);
+  color: var(--grey-600);
   padding: var(--distance-500) var(--distance-600);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerItems {
   display: flex;
   align-items: center;
 }
 
 .title {
-  color: var(--white);
-  font-weight: 600;
   text-decoration: none;
-
-  svg {
-    width: 80px;
-  }
-}
-
-.menu-list {
-  margin-left: var(--distance-800);
+  font-size: var(--text-700);
+  font-weight: var(--text-weight-100);
 }
 
 .notifications-btn {
   margin-right: var(--distance-600);
+  color: var(--grey-800);
   cursor: pointer;
 }
 

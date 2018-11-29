@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import _uniq from 'lodash/uniq';
@@ -31,7 +30,7 @@ export default class Input extends Component<PropsType> {
     onChange(e.target.value);
   };
 
-  errors(): Node {
+  errors(): React$Node {
     const { errors } = this.props;
     if (!errors.length) {
       return null;
@@ -44,7 +43,7 @@ export default class Input extends Component<PropsType> {
     );
   }
 
-  render(): Node {
+  render(): React$Node {
     const { className, errors } = this.props;
     const props = _omit(this.props, ['className', 'errors', 'onChange']);
 
@@ -57,7 +56,9 @@ export default class Input extends Component<PropsType> {
           onChange={this.onChange}
           {...props}
         />
-
+        <div className={styles.focusBorderWrap}>
+          <div className={styles.focusBorder} />
+        </div>
         {this.errors()}
       </div>
     );

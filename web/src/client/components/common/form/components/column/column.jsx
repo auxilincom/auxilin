@@ -1,17 +1,16 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import styles from './column.styles.pcss';
 
 type PropsType = {
-  children?: Node,
+  children?: React$Node,
   className?: string,
 };
 
-const Column = ({ children, className }: PropsType): Node => (
+const Column = ({ children, className }: PropsType): React$Node => (
   <div className={classnames(styles.column, className)}>
     {children}
   </div>

@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
@@ -32,7 +31,7 @@ type StatePropsType = {
 type KeyDownFnType = (e: SyntheticKeyboardEvent<HTMLDivElement>) => void;
 type VoidFnType = () => void;
 
-const icon = (messageType: MessageTypeType): Node => {
+const icon = (messageType: MessageTypeType): React$Node => {
   switch (messageType) {
     case 'error':
       return <FaExclamationCircle className={styles.icon} size={25} />;
@@ -82,10 +81,10 @@ class Toast extends Component<ToastPropsType> {
 
   el: HTMLElement;
 
-  messagesList(): Array<Node> {
+  messagesList(): Array<React$Node> {
     const { messages } = this.props;
 
-    return messages.map((message: MessageType, index: number): Node => {
+    return messages.map((message: MessageType, index: number): React$Node => {
       const text = !message.text || typeof message.text === 'string'
         ? message.text
         : message.text.join(', ');
@@ -117,7 +116,7 @@ class Toast extends Component<ToastPropsType> {
     });
   }
 
-  render(): Node {
+  render(): React$Node {
     return ReactDOM.createPortal(this.messagesList(), this.el);
   }
 }

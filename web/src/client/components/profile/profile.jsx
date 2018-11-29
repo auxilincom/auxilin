@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 import { connect } from 'react-redux';
 
 import _omit from 'lodash/omit';
@@ -11,7 +10,7 @@ import type { StateType } from 'resources/types';
 
 import Input from 'components/common/input';
 import Button, { colors as buttonColors } from 'components/common/button';
-import Form, { Row, Column } from 'components/common/form';
+import Form from 'components/common/form';
 
 import { errorsToObject } from 'helpers/api/api.error';
 
@@ -136,7 +135,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
 
   updateUserAsync: AsyncFnType;
 
-  render(): Node {
+  render(): React$Node {
     const {
       firstName,
       lastName,
@@ -144,71 +143,57 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
     } = this.state;
 
     return (
-      <div>
-        <h1>
-          {'Profile'}
-        </h1>
+      <div className={styles.profile}>
+        <div className={styles.profileHeader}>
+          <span className={styles.headerTitle}>
+            {'Edit Profile'}
+          </span>
+          <span className={styles.headerDescription}>
+            {'Complete your profile'}
+          </span>
+        </div>
+        <Form className={styles.form}>
+          <span className={styles.inputTitle}>
+            {'First name'}
+          </span>
 
-        <Form>
-          <Row>
-            <Column>
-              <span>
-                {'First name'}
-              </span>
+          <Input
+            errors={this.error('firstName')}
+            value={firstName}
+            onChange={this.onFieldChange('firstName')}
+            onBlur={this.validateField('firstName')}
+          />
 
-              <Input
-                errors={this.error('firstName')}
-                value={firstName}
-                onChange={this.onFieldChange('firstName')}
-                onBlur={this.validateField('firstName')}
-              />
-            </Column>
+          <span className={styles.inputTitle}>
+            {'Last name'}
+          </span>
 
-            <Column>
-              <span>
-                {'Last name'}
-              </span>
+          <Input
+            errors={this.error('lastName')}
+            value={lastName}
+            onChange={this.onFieldChange('lastName')}
+            onBlur={this.validateField('lastName')}
+          />
+          <span className={styles.inputTitle}>
+            {'Email'}
+          </span>
 
-              <Input
-                errors={this.error('lastName')}
-                value={lastName}
-                onChange={this.onFieldChange('lastName')}
-                onBlur={this.validateField('lastName')}
-              />
-            </Column>
-          </Row>
-          <Row>
-            <Column>
-              <span>
-                {'Email'}
-              </span>
-
-              <Input
-                errors={this.error('email')}
-                value={email}
-                onChange={this.onFieldChange('email')}
-                onBlur={this.validateField('email')}
-              />
-            </Column>
-
-            <Column />
-          </Row>
-          <Row>
-            <Column>
-              <Button className={styles.button} tabIndex={-1} color={buttonColors.red}>
-                {'Cancel'}
-              </Button>
-
-              <Button
-                className={styles.button}
-                onClick={this.updateUserAsync}
-                tabIndex={0}
-                color={buttonColors.green}
-              >
-                {'Save'}
-              </Button>
-            </Column>
-          </Row>
+          <Input
+            errors={this.error('email')}
+            value={email}
+            onChange={this.onFieldChange('email')}
+            onBlur={this.validateField('email')}
+          />
+          <div className={styles.buttonWrap}>
+            <Button
+              className={styles.button}
+              onClick={this.updateUserAsync}
+              tabIndex={0}
+              color={buttonColors.purple}
+            >
+              {'Save'}
+            </Button>
+          </div>
         </Form>
       </div>
     );

@@ -3,17 +3,14 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-import type { IconBaseProps } from 'react-icon-base';
 import type { LocationShape } from 'react-router-dom';
 
 import { Link } from 'react-router-dom';
 
 import {
   FaAngleDown,
-  FaUnlockAlt,
-  FaSignOutAlt,
 } from 'react-icons/fa';
-import UserCircleO from 'components/common/icons/user-circle-o';
+import { MdPerson } from 'react-icons/md';
 
 import {
   profilePath,
@@ -30,7 +27,6 @@ type StateType = {
 type LinkType = {
   label: string,
   to: LocationShape,
-  icon: React$ComponentType<IconBaseProps>,
   routerLink: boolean,
 };
 
@@ -38,19 +34,16 @@ const linksList: Array<LinkType> = [
   {
     label: 'Profile',
     to: profilePath(),
-    icon: UserCircleO,
     routerLink: true,
   },
   {
     label: 'Change Password',
     to: changePasswordPath(),
-    icon: FaUnlockAlt,
     routerLink: true,
   },
   {
     label: 'Log Out',
     to: logoutPath(),
-    icon: FaSignOutAlt,
     routerLink: false,
   },
 ];
@@ -60,7 +53,6 @@ class UserMenu extends Component<*, StateType> {
     return linksList.map((link: LinkType): React$Node => {
       const linkContent: React$Node = (
         <>
-          <link.icon size={16} />
           <span>
             {link.label}
           </span>
@@ -139,7 +131,7 @@ class UserMenu extends Component<*, StateType> {
             this.menu = menu;
           }}
         >
-          <UserCircleO size={30} />
+          <MdPerson size={25} />
           <FaAngleDown
             size={20}
             className={classnames(styles.angle, { [styles.open]: menuOpen })}

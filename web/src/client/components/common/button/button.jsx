@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import type { Node } from 'react';
 import classnames from 'classnames';
 
 import styles from './button.styles.pcss';
@@ -10,12 +9,13 @@ const colors = {
   green: 'green',
   blue: 'blue',
   red: 'red',
+  purple: 'purple',
 };
 
-type ColorType = 'green' | 'blue' | 'red';
+type ColorType = 'green' | 'blue' | 'red' | 'purple' | null;
 
 type PropsType = {
-  children: Node,
+  children: React$Node,
   onClick?: (e: SyntheticEvent<HTMLDivElement>) => Promise<*> | void,
   onKeyDown?: (e: SyntheticKeyboardEvent<HTMLDivElement>) => Promise<*> | void,
   tabIndex?: string | number,
@@ -41,7 +41,7 @@ class Button extends Component<PropsType> {
     }
   };
 
-  render(): Node {
+  render(): React$Node {
     const {
       children, tabIndex, onClick, onKeyDown, color, className,
     } = this.props;

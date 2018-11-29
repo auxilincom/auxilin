@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import type { Node } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import createHistory from 'history/createBrowserHistory';
@@ -29,7 +28,7 @@ const initialState: StateType = {
 const history: BrowserHistory = createHistory();
 const store: StoreType = configureStore(initialState, history);
 
-const Root = (): Node => (
+const Root = (): React$Node => (
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Layout>

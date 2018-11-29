@@ -1,0 +1,60 @@
+@import 'variables.pcss';
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--grey-300);
+  box-shadow: 0 16px 38px -12px var(--grey-400), 0 4px 25px 0 var(--grey-400), 0 8px 10px -5px var(--grey-400);
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: var(--distance-500) var(--distance-500) 0 var(--distance-500);
+  padding-bottom: var(--distance-500);
+  border-bottom: 1px solid var(--grey-400);
+
+  svg {
+    width: 220px;
+    height: 50px;
+  }
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: var(--distance-600);
+}
+
+.active {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px var(--deep-purple-300);
+  background: var(--deep-purple-700);
+  color: var(--white);
+
+  &:visited {
+    color: var(--white);
+  }
+}
+
+.nav-link {
+  a {
+    height: 3em;
+    text-align: center;
+    margin-bottom: var(--distance-500);
+    border-radius: var(--border-radius-400);
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    padding-left: var(--distance-700);
+  }
+}
+
+.nav-link-icon {
+  margin-right: var(--distance-500);
+}
