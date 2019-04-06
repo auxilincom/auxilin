@@ -29,7 +29,7 @@ const formatError = (err) => {
   return defaultMessage;
 };
 
-export default({ error } = {}) => {
+export default ({ error } = {}) => {
   if (!error) {
     return null;
   }
