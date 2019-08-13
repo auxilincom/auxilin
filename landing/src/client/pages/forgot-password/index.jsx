@@ -66,11 +66,7 @@ export default class ForgotPassword extends PureComponent {
   }
 
   form() {
-    const {
-      email,
-      error,
-      isLoading,
-    } = this.state;
+    const { email, error, isLoading } = this.state;
 
     return [
       <h2 key="title">Reset Your Password</h2>,
@@ -114,13 +110,7 @@ export default class ForgotPassword extends PureComponent {
       <Layout>
         <Layout.Header />
         <Auth className={styles.panel}>
-          <Wrap>
-            {
-              emailSent
-                ? ForgotPassword.emailSent()
-                : this.form()
-            }
-          </Wrap>
+          <Wrap>{emailSent ? ForgotPassword.emailSent() : this.form()}</Wrap>
         </Auth>
       </Layout>
     );

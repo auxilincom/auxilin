@@ -20,7 +20,7 @@ import styles from './styles.pcss';
 export default class ResetPassword extends PureComponent {
   static propTypes = {
     token: PropTypes.string.isRequired,
-  }
+  };
 
   constructor(props) {
     super(props);
@@ -63,10 +63,7 @@ export default class ResetPassword extends PureComponent {
 
   form() {
     const {
-      emailSent,
-      password,
-      isLoading,
-      error,
+      emailSent, password, isLoading, error,
     } = this.state;
 
     if (emailSent) {
@@ -120,9 +117,7 @@ export default class ResetPassword extends PureComponent {
       <Layout>
         <Layout.Header />
         <Auth className={styles.panel}>
-          <Wrap className={styles.formWrap}>
-            {this.form()}
-          </Wrap>
+          <Wrap className={styles.formWrap}>{this.form()}</Wrap>
         </Auth>
       </Layout>
     );

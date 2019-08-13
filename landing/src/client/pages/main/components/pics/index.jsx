@@ -7,16 +7,12 @@ const pics = [
   {
     img: 'static/strategy.jpg',
     alt: 'Strategy',
-    content: (
-      <span className={styles.text}>Strategy</span>
-    ),
+    content: <span className={styles.text}>Strategy</span>,
   },
   {
     img: 'static/launch.jpg',
     alt: 'Launch',
-    content: (
-      <span className={styles.text}>Launch</span>
-    ),
+    content: <span className={styles.text}>Launch</span>,
   },
   {
     img: 'static/integration.jpg',
@@ -32,18 +28,12 @@ const pics = [
   {
     img: 'static/monitoring.jpg',
     alt: 'Monitoring',
-    content: (
-      <span className={styles.text}>Monitoring</span>
-    ),
+    content: <span className={styles.text}>Monitoring</span>,
   },
   {
     img: 'static/koa-react.jpg',
     alt: 'Stack',
-    content: (
-      <span className={styles.text}>
-        {'Node & React'}
-      </span>
-    ),
+    content: <span className={styles.text}>Node & React</span>,
   },
   {
     img: 'static/deploy.jpg',
@@ -64,9 +54,7 @@ export default () => (
       return (
         <div key={pic.alt} className={styles.pic}>
           <img src={pic.img} alt={pic.alt} />
-          <div className={styles.textWrap}>
-            {pic.content}
-          </div>
+          <div className={styles.textWrap}>{pic.content}</div>
         </div>
       );
     })}

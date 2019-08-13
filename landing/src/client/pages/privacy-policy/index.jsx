@@ -76,9 +76,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'Registration and Contact Information.'}
-          </span>
+          <span className={styles.chapter}>Registration and Contact Information.</span>
           {`We collect information about you when you (a) register to use the
           Services and (b) otherwise provide contact information to Us via email,
           mail, or through Our Offerings. This information you provide may
@@ -88,9 +86,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'Payment Information.'}
-          </span>
+          <span className={styles.chapter}>Payment Information.</span>
           {`When you purchase the Services, We will also collect transaction
           information, which may include your credit card information, billing
           and mailing address, and other payment-related information
@@ -99,9 +95,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'Technical, Usage and Location Information.'}
-          </span>
+          <span className={styles.chapter}>Technical, Usage and Location Information.</span>
           {`We automatically collect information on how you interact with the
           Offerings, such as the IP address from which you access the Offerings,
           date and time, information about your browser, operating system and
@@ -112,9 +106,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'Third Party Platforms.'}
-          </span>
+          <span className={styles.chapter}>Third Party Platforms.</span>
           {`We may collect information when you interact with Our advertisements
           and other content on third-party sites or platforms, such as social
           networking sites. This may include information such as "Likes",
@@ -123,17 +115,13 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'Other Information.'}
-          </span>
+          <span className={styles.chapter}>Other Information.</span>
           {`We may collect other information from you that is not specifically
           listed here. We may use any such information in accordance with this
           Privacy Policy or as otherwise permitted by you.`}
         </p>
 
-        <p className={styles.chapter}>
-          {'B. Customer Data.'}
-        </p>
+        <p className={styles.chapter}>B. Customer Data.</p>
 
         <p>
           {`You may submit various types of information and data into the Services
@@ -159,9 +147,7 @@ export default class Signin extends PureComponent {
             that you will not have to re-enter it during this or subsequent visits);`}
           </li>
 
-          <li>
-            {'To process your inquiries and otherwise deliver customer service;'}
-          </li>
+          <li>To process your inquiries and otherwise deliver customer service;</li>
 
           <li>
             {`To process your payments, We share and use Payment Information as
@@ -332,9 +318,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'How We Respond to Do Not Track Signals.'}
-          </span>
+          <span className={styles.chapter}>How We Respond to Do Not Track Signals.</span>
           {`Your Web browser may have a "do not track" setting which,
           when enabled, causes your browser to send a do not track HTTP header
           file or "signal" to each site you visit. At present, the
@@ -409,9 +393,7 @@ export default class Signin extends PureComponent {
         <h2>10. YOUR CALIFORNIA PRIVACY RIGHTS AND DISCLOSURES</h2>
 
         <p>
-          <span className={styles.chapter}>
-            {'California Shine the Light Law.'}
-          </span>
+          <span className={styles.chapter}>California Shine the Light Law.</span>
           {`If you are a California resident and we disclose your personally
           identifiable information to third parties for such third parties'
           direct marketing purposes, California's Shine the Light Law (CA Civil
@@ -423,9 +405,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'California Minors.'}
-          </span>
+          <span className={styles.chapter}>California Minors.</span>
           {`At any time, you can delete or remove your posts using the same deletion
           or removal procedures described in Section 8 (Accessing and Updating
           Your Personal Information) above, or otherwise through the Offerings.

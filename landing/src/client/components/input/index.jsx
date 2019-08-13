@@ -5,12 +5,7 @@ import PropTypes from 'prop-types';
 import styles from './styles.pcss';
 
 const Input = ({ className, ...props }) => {
-  return (
-    <input
-      className={classnames(styles.input, className)}
-      {...props}
-    />
-  );
+  return <input className={classnames(styles.input, className)} {...props} />;
 };
 
 Input.propTypes = {

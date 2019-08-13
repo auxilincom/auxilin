@@ -6,10 +6,7 @@ import styles from './styles.pcss';
 
 const Form = ({ children, className, ...props }) => {
   return (
-    <form
-      className={classnames(styles.form, className)}
-      {...props}
-    >
+    <form className={classnames(styles.form, className)} {...props}>
       {children}
     </form>
   );

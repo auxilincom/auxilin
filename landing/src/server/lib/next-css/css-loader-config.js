@@ -34,17 +34,17 @@ module.exports = (
   }
 
   if (!isServer && !extractCssInitialized) {
-    config.plugins.push(new ExtractCssChunks({
-      // Options similar to the same options in webpackOptions.output
-      // both options are optional
-      filename: dev
-        ? 'static/chunks/[name].css'
-        : 'static/chunks/[name].[contenthash:8].css',
-      chunkFilename: dev
-        ? 'static/chunks/[name].chunk.css'
-        : 'static/chunks/[name].[contenthash:8].chunk.css',
-      hot: dev,
-    }));
+    config.plugins.push(
+      new ExtractCssChunks({
+        // Options similar to the same options in webpackOptions.output
+        // both options are optional
+        filename: dev ? 'static/chunks/[name].css' : 'static/chunks/[name].[contenthash:8].css',
+        chunkFilename: dev
+          ? 'static/chunks/[name].chunk.css'
+          : 'static/chunks/[name].[contenthash:8].chunk.css',
+        hot: dev,
+      }),
+    );
     extractCssInitialized = true;
   }
 
@@ -53,11 +53,13 @@ module.exports = (
       config.optimization.minimizer = []; // eslint-disable-line
     }
 
-    config.optimization.minimizer.push(new OptimizeCssAssetsWebpackPlugin({
-      cssProcessorOptions: {
-        discardComments: { removeAll: true },
-      },
-    }));
+    config.optimization.minimizer.push(
+      new OptimizeCssAssetsWebpackPlugin({
+        cssProcessorOptions: {
+          discardComments: { removeAll: true },
+        },
+      }),
+    );
   }
 
   const postcssConfigPath = findUp.sync('postcss.config.js', {
@@ -67,11 +69,9 @@ module.exports = (
 
   if (postcssConfigPath) {
     // Copy the postcss-loader config options first.
-    const postcssOptionsConfig = Object.assign(
-      {},
-      postcssLoaderOptions.config,
-      { path: postcssConfigPath },
-    );
+    const postcssOptionsConfig = Object.assign({}, postcssLoaderOptions.config, {
+      path: postcssConfigPath,
+    });
 
     postcssLoader = {
       loader: 'postcss-loader',
@@ -89,7 +89,7 @@ module.exports = (
         modules: cssModules,
         sourceMap: dev,
         importLoaders: loaders.length + (postcssLoader ? 1 : 0),
-        exportOnlyLocals: isServer,
+        onlyLocals: isServer,
       },
       cssLoaderOptions,
     ),
@@ -106,7 +106,13 @@ module.exports = (
   }
 
   return [
-    !isServer && ExtractCssChunks.loader,
+    !isServer && {
+      loader: ExtractCssChunks.loader,
+      options: {
+        hot: true, // if you want HMR
+        reloadAll: true, // when desperation kicks in - this is a brute force HMR flag
+      },
+    },
     cssLoader,
     postcssLoader,
     ...loaders,

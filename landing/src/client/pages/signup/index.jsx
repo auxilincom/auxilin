@@ -51,10 +51,7 @@ export default class Signup extends PureComponent {
     });
 
     const {
-      firstName,
-      lastName,
-      email,
-      password,
+      firstName, lastName, email, password,
     } = this.state;
 
     try {
@@ -91,7 +88,7 @@ export default class Signup extends PureComponent {
     } = this.state;
 
     const devVerifyEmailLink = _signupToken
-      ? `${apiUrl}/account/verifyEmail/${_signupToken}`
+      ? `${apiUrl}/account/verify-email/${_signupToken}`
       : null;
 
     const devVerifyEmailLinkEl = devVerifyEmailLink && (
@@ -154,15 +151,9 @@ export default class Signup extends PureComponent {
 
                 <Error error={error} />
 
-                <Button
-                  state={states.green}
-                  action="submit"
-                  type="submit"
-                  isLoading={isLoading}
-                >
+                <Button state={states.green} action="submit" type="submit" isLoading={isLoading}>
                   {'Join'}
                 </Button>
-
               </Form>
             </Wrap>
           )}

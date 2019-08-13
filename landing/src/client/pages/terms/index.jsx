@@ -483,9 +483,7 @@ export default class Signin extends PureComponent {
         <h2>7. SUBSCRIPTION TERM, FEES & PAYMENT</h2>
 
         <p>
-          <span className={styles.chapter}>
-            {'7.1. Subscription Term and Renewals.'}
-          </span>
+          <span className={styles.chapter}>7.1. Subscription Term and Renewals.</span>
           {`Unless otherwise specified on the applicable Order Form, each Subscription
           Term will automatically renew for additional twelve month periods unless
           either party gives the other written notice of termination at least
@@ -554,18 +552,14 @@ export default class Signin extends PureComponent {
           </li>
 
           <li>
-            <span className={styles.listTitle}>
-              {'Changing Credit Card Information.'}
-            </span>
+            <span className={styles.listTitle}>Changing Credit Card Information.</span>
             {`At any time, Customer may change its Credit Card information by
             entering updated Credit Card information via the "Billing"
             page.`}
           </li>
 
           <li>
-            <span className={styles.listTitle}>
-              {'Termination of Recurring Billing.'}
-            </span>
+            <span className={styles.listTitle}>Termination of Recurring Billing.</span>
             {`In addition to any termination rights set forth in this Agreement,
             Customer may terminate the Subscription Term by sending Auxilin notice
             of non-renewal to support@Auxilin.com in accordance with Section 7.1
@@ -581,9 +575,7 @@ export default class Signin extends PureComponent {
           </li>
 
           <li>
-            <span className={styles.listTitle}>
-              {'Payment of Outstanding Fees.'}
-            </span>
+            <span className={styles.listTitle}>Payment of Outstanding Fees.</span>
             {`Upon any termination or expiration of the Subscription Term, Auxilin
             will charge Customer's Credit Card (or invoice Customer directly)
             for any outstanding fees for Customer's use of the Services
@@ -727,9 +719,7 @@ export default class Signin extends PureComponent {
         <h2>12. LIMITATION OF REMEDIES AND DAMAGES</h2>
 
         <p>
-          <span className={styles.chapter}>
-            {'12.1. Consequential Damages Waiver.'}
-          </span>
+          <span className={styles.chapter}>12.1. Consequential Damages Waiver.</span>
           {`EXCEPT FOR EXCLUDED CLAIMS (DEFINED BELOW), NEITHER PARTY (NOR ITS
           SUPPLIERS) SHALL HAVE ANY LIABILITY ARISING OUT OF OR RELATED TO THIS
           AGREEMENT FOR ANY LOSS OF USE, LOST DATA, LOST PROFITS, FAILURE OF
@@ -874,9 +864,7 @@ export default class Signin extends PureComponent {
         </p>
 
         <p>
-          <span className={styles.chapter}>
-            {'15.3. Governing Law; Dispute Resolution.'}
-          </span>
+          <span className={styles.chapter}>15.3. Governing Law; Dispute Resolution.</span>
         </p>
 
         <p>

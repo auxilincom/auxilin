@@ -5,18 +5,11 @@ import NextLink from 'next/link';
 import _omit from 'lodash/omit';
 
 const Link = (props) => {
-  const {
-    href,
-    className,
-    children,
-  } = props;
+  const { href, className, children } = props;
 
   return (
     <NextLink {..._omit(props, ['className'])}>
-      <a
-        href={href}
-        className={className}
-      >
+      <a href={href} className={className}>
         {children}
       </a>
     </NextLink>

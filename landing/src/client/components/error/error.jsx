@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { ApiError } from '~/helpers/api';
 
@@ -16,9 +17,7 @@ const formatError = (err) => {
       if (err.data && err.data.errors) {
         return err.data.errors.map((e) => {
           return Object.values(e).map((errorValue) => {
-            return (
-              <div>{errorValue}</div>
-            );
+            return <div>{errorValue}</div>;
           });
         });
       }
@@ -29,14 +28,22 @@ const formatError = (err) => {
   return defaultMessage;
 };
 
-export default ({ error } = {}) => {
+const ErrorComponent = ({ error }) => {
   if (!error) {
     return null;
   }
 
-  return (
-    <div className={styles.error}>
-      {formatError(error)}
-    </div>
-  );
+  return <div className={styles.error}>{formatError(error)}</div>;
 };
+
+ErrorComponent.propTypes = {
+  error: PropTypes.shape({
+    data: PropTypes.object,
+  }),
+};
+
+ErrorComponent.defaultProps = {
+  error: null,
+};
+
+export default ErrorComponent;
