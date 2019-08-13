@@ -1,9 +1,15 @@
 // @flow
 
-import type { StateType } from 'resources/types';
-import type { MessageType } from './toast.types';
-import * as fromToast from './toast.reducer';
+import { createSelector } from 'reselect';
 
-export const getToasterMessages = (state: StateType, filter: string): Array<MessageType> => {
-  return fromToast.getToasterMessages(state.toast, filter);
-};
+import type { StateType } from 'resources/types';
+import type { Selector } from 'flow-interfaces/types';
+
+import type { MessageType, StateType as ToastStateType } from './toast.types';
+
+const toastSelector = (state: StateType): ToastStateType => state.toast;
+
+export const allMessagesSelector: Selector<Array<MessageType>> = createSelector(
+  toastSelector,
+  (toast: ToastStateType): Array<MessageType> => toast.messages,
+);

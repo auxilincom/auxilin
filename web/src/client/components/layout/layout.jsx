@@ -23,9 +23,7 @@ class Layout extends Component<PropsType> {
 
         <Header />
 
-        <div className={styles.content}>
-          {children}
-        </div>
+        <div className={styles.content}>{children}</div>
 
         <Footer />
 

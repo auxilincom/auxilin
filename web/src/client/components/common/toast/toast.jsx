@@ -5,14 +5,10 @@ import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import classnames from 'classnames';
 
-import {
-  FaExclamationCircle,
-  FaExclamationTriangle,
-  FaCheckCircle,
-} from 'react-icons/fa';
+import { FaExclamationCircle, FaExclamationTriangle, FaCheckCircle } from 'react-icons/fa';
 
 import type { StateType } from 'resources/types';
-import { getToasterMessages } from 'resources/toast/toast.selectors';
+import { allMessagesSelector } from 'resources/toast/toast.selectors';
 import { removeMessage as removeMessageAction } from 'resources/toast/toast.actions';
 
 import type { MessageType, MessageTypeType } from 'resources/toast/toast.types';
@@ -24,9 +20,9 @@ type ToastPropsType = {
   removeMessage: (id: string) => *,
 };
 
-type StatePropsType = {
+type StatePropsType = {|
   messages: Array<MessageType>,
-};
+|};
 
 type KeyDownFnType = (e: SyntheticKeyboardEvent<HTMLDivElement>) => void;
 type VoidFnType = () => void;
@@ -48,6 +44,8 @@ const icon = (messageType: MessageTypeType): React$Node => {
 };
 
 class Toast extends Component<ToastPropsType> {
+  el: HTMLElement;
+
   constructor(props: ToastPropsType) {
     super(props);
 
@@ -79,15 +77,11 @@ class Toast extends Component<ToastPropsType> {
     }
   };
 
-  el: HTMLElement;
-
   messagesList(): Array<React$Node> {
     const { messages } = this.props;
 
     return messages.map((message: MessageType, index: number): React$Node => {
-      const text = !message.text || typeof message.text === 'string'
-        ? message.text
-        : message.text.join(', ');
+      const text = !message.text || typeof message.text === 'string' ? message.text : message.text.join(', ');
 
       return (
         <div
@@ -100,16 +94,8 @@ class Toast extends Component<ToastPropsType> {
         >
           {icon(message.type)}
           <div>
-            {
-              message.title && (
-                <div className={styles.title}>
-                  {message.title}
-                </div>
-              )
-            }
-            <div>
-              {text}
-            </div>
+            {message.title && <div className={styles.title}>{message.title}</div>}
+            <div>{text}</div>
           </div>
         </div>
       );
@@ -122,9 +108,12 @@ class Toast extends Component<ToastPropsType> {
 }
 
 const mapStateToProps = (state: StateType): StatePropsType => ({
-  messages: getToasterMessages(state, 'all'),
+  messages: allMessagesSelector(state),
 });
 
-export default connect(mapStateToProps, {
-  removeMessage: removeMessageAction,
-})(Toast);
+export default connect<ToastPropsType, {}, _, _, _, _>(
+  mapStateToProps,
+  {
+    removeMessage: removeMessageAction,
+  },
+)(Toast);

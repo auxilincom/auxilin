@@ -33,42 +33,28 @@ class Card extends Component<PropsType> {
     footerIcon: null,
     iconColor: 'green',
     className: '',
-  }
+  };
 
   render(): React$Node {
     const {
-      icon: Icon,
-      title,
-      value,
-      footerIcon: FooterIcon,
-      footerContent,
-      iconColor,
-      className,
+      icon: Icon, title, value, footerIcon: FooterIcon, footerContent = null, iconColor, className,
     } = this.props;
 
     return (
       <div className={classnames(styles.card, className)}>
         <div className={styles.cardHeader}>
-          <div className={classnames(styles.cardIcon, styles[iconColor])}>
-            {Icon && <Icon size="42px" color="white" />}
-          </div>
+          <div className={classnames(styles.cardIcon, styles[iconColor])}>{Icon ? <Icon size="42px" color="white" /> : null}</div>
 
           <div className={styles.cardData}>
-            <span className={styles.cardTitle}>
-              {title}
-            </span>
+            <span className={styles.cardTitle}>{title}</span>
 
-            <span className={styles.cardValue}>
-              {value}
-            </span>
+            <span className={styles.cardValue}>{value}</span>
           </div>
         </div>
 
         <div className={styles.cardFooter}>
-          {FooterIcon && <FooterIcon size="15px" className={styles.cardFooterIcon} />}
-          <span>
-            {footerContent}
-          </span>
+          {FooterIcon ? <FooterIcon size="15px" className={styles.cardFooterIcon} /> : null}
+          <span>{footerContent}</span>
         </div>
       </div>
     );

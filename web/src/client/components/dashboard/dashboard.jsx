@@ -3,14 +3,7 @@
 import React, { Component } from 'react';
 
 import {
-  MdPeople,
-  MdMessage,
-  MdFileDownload,
-  MdErrorOutline,
-  MdDone,
-  MdTrendingUp,
-  MdStorage,
-  MdWbSunny,
+  MdPeople, MdMessage, MdFileDownload, MdErrorOutline, MdDone, MdTrendingUp, MdStorage, MdWbSunny,
 } from 'react-icons/md';
 
 import Card, { iconColors } from './components/card';
@@ -79,12 +72,7 @@ const tables: Array<TableType> = [
     headerDescription: 'All Products That Were Shipped',
     color: tableColors.green,
     columns: ['Country', 'Money turnover', 'Market share'],
-    rows: [
-      ['USA', '2.920', '53.23%'],
-      ['Germany', '1.300', '20.43%'],
-      ['Australia', '760', '10.35%'],
-      ['United Kingdom', '690', '7.87%'],
-    ],
+    rows: [['USA', '2.920', '53.23%'], ['Germany', '1.300', '20.43%'], ['Australia', '760', '10.35%'], ['United Kingdom', '690', '7.87%']],
     keyIndex: 0,
     className: styles.dashboardTable,
   },
@@ -114,6 +102,7 @@ class Dashboard extends Component<{}> {
           {tables.map((table: TableType): React$Node => {
             return (
               <Table
+                key={table.headerTitle}
                 headerTitle={table.headerTitle}
                 headerDescription={table.headerDescription}
                 color={table.color}

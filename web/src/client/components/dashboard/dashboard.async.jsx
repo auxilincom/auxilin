@@ -1,23 +1,17 @@
 // @flow
 
-import React from 'react';
-import Loadable from 'react-loadable';
+import React, { Suspense } from 'react';
 
-import { LoadingAsync } from 'components/common/loading';
+import Loading from 'components/common/loading';
 
-/* eslint-disable flowtype/no-weak-types */
+const LoadableComponent = React.lazy(() => import('./index')); // eslint-disable-line
 
-type EsModuleType = {
-  default: React$ComponentType<*>,
+const Async = (props: *): React$Node => {
+  return (
+    <Suspense fallback={<Loading />}>
+      <LoadableComponent {...props} />
+    </Suspense>
+  );
 };
 
-const LoadableComponent = Loadable({
-  loader: (): Promise<EsModuleType> => import('./index'),
-  loading: LoadingAsync,
-  render(loaded: EsModuleType, props: any): React$Node {
-    const LoadedComponent: React$ComponentType<*> = loaded.default;
-    return <LoadedComponent {...props} />;
-  },
-});
-
-export default LoadableComponent;
+export default Async;

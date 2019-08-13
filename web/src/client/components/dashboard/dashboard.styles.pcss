@@ -7,19 +7,25 @@
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: calc(var(--distance-400) * -1);
 }
 
 .dashboard-card {
-  width: 24%;
+  flex: 0.2 0 180px;
+  margin: var(--distance-400);
 }
 
 .tables {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: var(--distance-900);
+  margin: var(--distance-900) calc(var(--distance-400) * -1) 0 calc(var(--distance-400) * -1);
 }
 
 .dashboard-table {
-  width: 49%;
+  min-width: 300px;
+  flex: 1;
+  margin: var(--distance-400);
 }

@@ -11,11 +11,7 @@ type PropsType = {
 };
 
 const Form = ({ className, children }: PropsType): React$Node => {
-  return (
-    <div className={classnames(styles.form, className)}>
-      {children}
-    </div>
-  );
+  return <div className={classnames(styles.form, className)}>{children}</div>;
 };
 
 Form.defaultProps = {

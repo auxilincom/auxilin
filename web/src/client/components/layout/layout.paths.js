@@ -17,11 +17,6 @@ export const changePasswordPath = (options: LocationShape = {}): LocationShape =
   pathname: '/change-password',
 });
 
-export const logoutPath = (options: LocationShape = {}): LocationShape => ({
-  ...options,
-  pathname: '/logout',
-});
-
 export const reportsPath = (options: LocationShape = {}): LocationShape => ({
   ...options,
   pathname: '/reports',

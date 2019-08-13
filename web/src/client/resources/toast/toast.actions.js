@@ -42,11 +42,7 @@ const addMessage = (dispatch: DispatchFnType, data: ShortMessageType) => {
   });
 };
 
-export const addErrorMessage = (
-  title: string,
-  text: string,
-  isHTML: boolean = false,
-): VoidFnType => (dispatch: DispatchFnType) => {
+export const addErrorMessage = (title: string, text?: string, isHTML?: boolean = false): VoidFnType => (dispatch: DispatchFnType) => {
   addMessage(dispatch, {
     type: 'error',
     title,
@@ -55,11 +51,7 @@ export const addErrorMessage = (
   });
 };
 
-export const addSuccessMessage = (
-  title: string,
-  text: string,
-  isHTML: boolean = false,
-): VoidFnType => (dispatch: DispatchFnType) => {
+export const addSuccessMessage = (title: string, text?: string, isHTML?: boolean = false): VoidFnType => (dispatch: DispatchFnType) => {
   addMessage(dispatch, {
     type: 'success',
     title,
@@ -73,10 +65,7 @@ export const removeMessage = (id: string): RemoveMessageType => ({
   id,
 });
 
-export const addErrorMessageFromError = (
-  error: ApiErrorType,
-  title?: string = 'Error:',
-): VoidFnType => (dispatch: DispatchFnType) => {
+export const addErrorMessageFromError = (error: ApiErrorType, title?: string = 'Error:'): VoidFnType => (dispatch: DispatchFnType) => {
   const { errors }: ErrorDataType = error.data;
 
   addMessage(dispatch, {

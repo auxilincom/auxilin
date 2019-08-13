@@ -28,3 +28,7 @@ export type ActionType = {
 };
 
 export type ReducerType = (state?: StateType, action: ActionType) => StateType;
+
+export type AddErrorMessageType = (title: string, text?: string, isHTML?: boolean) => void;
+
+export type AddSuccessMessageType = (title: string, text?: string, isHTML?: boolean) => void;

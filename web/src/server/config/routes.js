@@ -1,9 +1,8 @@
 const axios = require('axios');
 const Router = require('koa-router');
-const jwt = require('jsonwebtoken');
-const _ = require('lodash');
 
 const config = require('config');
+const constants = require('app.constants');
 
 const { logger } = global;
 
@@ -12,11 +11,18 @@ const indexRouter = new Router();
 const signinUrl = `${config.landingUrl}/signin`;
 const apiUrl = config.apiInternalUrl || config.apiUrl;
 
-indexRouter.get('/logout', async (ctx) => {
-  ctx.session = null;
-  ctx.redirect(signinUrl);
-  ctx.body = {};
-});
+const apiGet = (ctx, url, method = 'get') => {
+  const accessToken = ctx.cookies.get(constants.COOKIES.ACCESS_TOKEN);
+  const refreshToken = ctx.cookies.get(constants.COOKIES.REFRESH_TOKEN);
+
+  return axios[method](`${apiUrl}${url}`, {
+    responseType: 'json',
+    withCredentials: true,
+    headers: {
+      Cookie: `${constants.COOKIES.ACCESS_TOKEN}=${accessToken};${constants.COOKIES.REFRESH_TOKEN}=${refreshToken};`,
+    },
+  });
+};
 
 // match all routes but not files (i.e. routes with dots)
 indexRouter.get(/^((?!\.).)*$/, async (ctx) => {
@@ -24,41 +30,15 @@ indexRouter.get(/^((?!\.).)*$/, async (ctx) => {
     isDev: config.isDev,
     config: {
       apiUrl: config.apiUrl,
+      signinUrl,
     },
     user: {},
-    token: '',
   };
 
-  const jwtOptions = _.pick(config.jwt, ['audience', 'issuer']);
-
   try {
-    if (ctx.query.token && jwt.verify(ctx.query.token, config.jwt.secret, jwtOptions)) {
-      ctx.session.token = ctx.query.token;
-      ctx.redirect(ctx.path);
-    }
+    const response = await apiGet(ctx, '/users/current');
+    data.user = response.data;
   } catch (error) {
-    ctx.session.token = null;
-    logger.error(error);
-    ctx.redirect(signinUrl);
-    return null;
-  }
-
-  try {
-    if (ctx.session.token && jwt.verify(ctx.session.token, config.jwt.secret, jwtOptions)) {
-      const response = await axios.get(`${apiUrl}/users/current`, {
-        responseType: 'json',
-        headers: { Authorization: `Bearer ${ctx.session.token}` },
-      });
-
-      data.user = response.data;
-      data.token = ctx.session.token;
-    } else {
-      ctx.session.token = null;
-      ctx.redirect(signinUrl);
-      return null;
-    }
-  } catch (error) {
-    ctx.session.token = null;
     logger.error(error);
     ctx.redirect(signinUrl);
     return null;

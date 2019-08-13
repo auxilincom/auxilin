@@ -64,10 +64,7 @@ export const validateUser = async (data: $Shape<StateType>): Promise<ValidationR
   };
 };
 
-export const updateUser = (
-  id: string,
-  data: StateType,
-): UserFnType => async (dispatch: DispatchFnType): Promise<StateType> => {
+export const updateUser = (id: string, data: StateType): UserFnType => async (dispatch: DispatchFnType): Promise<StateType> => {
   try {
     const response: AxiosUserType = await api.updateUser(id, data);
     dispatch({

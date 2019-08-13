@@ -19,14 +19,211 @@ type IconBaseProps = {
   color?: string,
 };
 
+declare module 'react-icons/di' {
+  declare export class DiAndroid extends React$Component<IconBaseProps> {}
+  declare export class DiAngularSimple extends React$Component<IconBaseProps> {}
+  declare export class DiAppcelerator extends React$Component<IconBaseProps> {}
+  declare export class DiApple extends React$Component<IconBaseProps> {}
+  declare export class DiAppstore extends React$Component<IconBaseProps> {}
+  declare export class DiAptana extends React$Component<IconBaseProps> {}
+  declare export class DiAsterisk extends React$Component<IconBaseProps> {}
+  declare export class DiAtlassian extends React$Component<IconBaseProps> {}
+  declare export class DiAtom extends React$Component<IconBaseProps> {}
+  declare export class DiAws extends React$Component<IconBaseProps> {}
+  declare export class DiBackbone extends React$Component<IconBaseProps> {}
+  declare export class DiBingSmall extends React$Component<IconBaseProps> {}
+  declare export class DiBintray extends React$Component<IconBaseProps> {}
+  declare export class DiBitbucket extends React$Component<IconBaseProps> {}
+  declare export class DiBlackberry extends React$Component<IconBaseProps> {}
+  declare export class DiBootstrap extends React$Component<IconBaseProps> {}
+  declare export class DiBower extends React$Component<IconBaseProps> {}
+  declare export class DiBrackets extends React$Component<IconBaseProps> {}
+  declare export class DiBugsense extends React$Component<IconBaseProps> {}
+  declare export class DiCelluloid extends React$Component<IconBaseProps> {}
+  declare export class DiChrome extends React$Component<IconBaseProps> {}
+  declare export class DiCisco extends React$Component<IconBaseProps> {}
+  declare export class DiClojureAlt extends React$Component<IconBaseProps> {}
+  declare export class DiClojure extends React$Component<IconBaseProps> {}
+  declare export class DiCloud9 extends React$Component<IconBaseProps> {}
+  declare export class DiCoda extends React$Component<IconBaseProps> {}
+  declare export class DiCodeBadge extends React$Component<IconBaseProps> {}
+  declare export class DiCode extends React$Component<IconBaseProps> {}
+  declare export class DiCodeigniter extends React$Component<IconBaseProps> {}
+  declare export class DiCodepen extends React$Component<IconBaseProps> {}
+  declare export class DiCodrops extends React$Component<IconBaseProps> {}
+  declare export class DiCoffeescript extends React$Component<IconBaseProps> {}
+  declare export class DiCompass extends React$Component<IconBaseProps> {}
+  declare export class DiComposer extends React$Component<IconBaseProps> {}
+  declare export class DiCreativecommonsBadge extends React$Component<IconBaseProps> {}
+  declare export class DiCreativecommons extends React$Component<IconBaseProps> {}
+  declare export class DiCssTricks extends React$Component<IconBaseProps> {}
+  declare export class DiCss3Full extends React$Component<IconBaseProps> {}
+  declare export class DiCss3 extends React$Component<IconBaseProps> {}
+  declare export class DiCssdeck extends React$Component<IconBaseProps> {}
+  declare export class DiDart extends React$Component<IconBaseProps> {}
+  declare export class DiDatabase extends React$Component<IconBaseProps> {}
+  declare export class DiDebian extends React$Component<IconBaseProps> {}
+  declare export class DiDigitalOcean extends React$Component<IconBaseProps> {}
+  declare export class DiDjango extends React$Component<IconBaseProps> {}
+  declare export class DiDlang extends React$Component<IconBaseProps> {}
+  declare export class DiDocker extends React$Component<IconBaseProps> {}
+  declare export class DiDoctrine extends React$Component<IconBaseProps> {}
+  declare export class DiDojo extends React$Component<IconBaseProps> {}
+  declare export class DiDotnet extends React$Component<IconBaseProps> {}
+  declare export class DiDreamweaver extends React$Component<IconBaseProps> {}
+  declare export class DiDropbox extends React$Component<IconBaseProps> {}
+  declare export class DiDrupal extends React$Component<IconBaseProps> {}
+  declare export class DiEclipse extends React$Component<IconBaseProps> {}
+  declare export class DiEmber extends React$Component<IconBaseProps> {}
+  declare export class DiEnvato extends React$Component<IconBaseProps> {}
+  declare export class DiErlang extends React$Component<IconBaseProps> {}
+  declare export class DiExtjs extends React$Component<IconBaseProps> {}
+  declare export class DiFirebase extends React$Component<IconBaseProps> {}
+  declare export class DiFirefox extends React$Component<IconBaseProps> {}
+  declare export class DiFsharp extends React$Component<IconBaseProps> {}
+  declare export class DiGhostSmall extends React$Component<IconBaseProps> {}
+  declare export class DiGhost extends React$Component<IconBaseProps> {}
+  declare export class DiGitBranch extends React$Component<IconBaseProps> {}
+  declare export class DiGitCommit extends React$Component<IconBaseProps> {}
+  declare export class DiGitCompare extends React$Component<IconBaseProps> {}
+  declare export class DiGitMerge extends React$Component<IconBaseProps> {}
+  declare export class DiGitPullRequest extends React$Component<IconBaseProps> {}
+  declare export class DiGit extends React$Component<IconBaseProps> {}
+  declare export class DiGithubAlt extends React$Component<IconBaseProps> {}
+  declare export class DiGithubBadge extends React$Component<IconBaseProps> {}
+  declare export class DiGithubFull extends React$Component<IconBaseProps> {}
+  declare export class DiGithub extends React$Component<IconBaseProps> {}
+  declare export class DiGnu extends React$Component<IconBaseProps> {}
+  declare export class DiGo extends React$Component<IconBaseProps> {}
+  declare export class DiGoogleAnalytics extends React$Component<IconBaseProps> {}
+  declare export class DiGoogleDrive extends React$Component<IconBaseProps> {}
+  declare export class DiGoogleCloudPlatform extends React$Component<IconBaseProps> {}
+  declare export class DiGrails extends React$Component<IconBaseProps> {}
+  declare export class DiGroovy extends React$Component<IconBaseProps> {}
+  declare export class DiGrunt extends React$Component<IconBaseProps> {}
+  declare export class DiGulp extends React$Component<IconBaseProps> {}
+  declare export class DiHackernews extends React$Component<IconBaseProps> {}
+  declare export class DiHaskell extends React$Component<IconBaseProps> {}
+  declare export class DiHeroku extends React$Component<IconBaseProps> {}
+  declare export class DiHtml53DEffects extends React$Component<IconBaseProps> {}
+  declare export class DiHtml5Connectivity extends React$Component<IconBaseProps> {}
+  declare export class DiHtml5DeviceAccess extends React$Component<IconBaseProps> {}
+  declare export class DiHtml5Multimedia extends React$Component<IconBaseProps> {}
+  declare export class DiHtml5 extends React$Component<IconBaseProps> {}
+  declare export class DiIe extends React$Component<IconBaseProps> {}
+  declare export class DiIllustrator extends React$Component<IconBaseProps> {}
+  declare export class DiIntellij extends React$Component<IconBaseProps> {}
+  declare export class DiIonic extends React$Component<IconBaseProps> {}
+  declare export class DiJava extends React$Component<IconBaseProps> {}
+  declare export class DiJavascript1 extends React$Component<IconBaseProps> {}
+  declare export class DiJavascript extends React$Component<IconBaseProps> {}
+  declare export class DiJekyllSmall extends React$Component<IconBaseProps> {}
+  declare export class DiJenkins extends React$Component<IconBaseProps> {}
+  declare export class DiJira extends React$Component<IconBaseProps> {}
+  declare export class DiJoomla extends React$Component<IconBaseProps> {}
+  declare export class DiJqueryLogo extends React$Component<IconBaseProps> {}
+  declare export class DiJqueryUiLogo extends React$Component<IconBaseProps> {}
+  declare export class DiJsBadge extends React$Component<IconBaseProps> {}
+  declare export class DiKomodo extends React$Component<IconBaseProps> {}
+  declare export class DiKrakenjsBadge extends React$Component<IconBaseProps> {}
+  declare export class DiKrakenjs extends React$Component<IconBaseProps> {}
+  declare export class DiLaravel extends React$Component<IconBaseProps> {}
+  declare export class DiLess extends React$Component<IconBaseProps> {}
+  declare export class DiLinux extends React$Component<IconBaseProps> {}
+  declare export class DiMagento extends React$Component<IconBaseProps> {}
+  declare export class DiMailchimp extends React$Component<IconBaseProps> {}
+  declare export class DiMarkdown extends React$Component<IconBaseProps> {}
+  declare export class DiMaterializecss extends React$Component<IconBaseProps> {}
+  declare export class DiMeteor extends React$Component<IconBaseProps> {}
+  declare export class DiMeteorfull extends React$Component<IconBaseProps> {}
+  declare export class DiMitlicence extends React$Component<IconBaseProps> {}
+  declare export class DiModernizr extends React$Component<IconBaseProps> {}
+  declare export class DiMongodb extends React$Component<IconBaseProps> {}
+  declare export class DiMootoolsBadge extends React$Component<IconBaseProps> {}
+  declare export class DiMootools extends React$Component<IconBaseProps> {}
+  declare export class DiMozilla extends React$Component<IconBaseProps> {}
+  declare export class DiMsqlServer extends React$Component<IconBaseProps> {}
+  declare export class DiMysql extends React$Component<IconBaseProps> {}
+  declare export class DiNancy extends React$Component<IconBaseProps> {}
+  declare export class DiNetbeans extends React$Component<IconBaseProps> {}
+  declare export class DiNetmagazine extends React$Component<IconBaseProps> {}
+  declare export class DiNginx extends React$Component<IconBaseProps> {}
+  declare export class DiNodejsSmall extends React$Component<IconBaseProps> {}
+  declare export class DiNodejs extends React$Component<IconBaseProps> {}
+  declare export class DiNpm extends React$Component<IconBaseProps> {}
+  declare export class DiOnedrive extends React$Component<IconBaseProps> {}
+  declare export class DiOpenshift extends React$Component<IconBaseProps> {}
+  declare export class DiOpensource extends React$Component<IconBaseProps> {}
+  declare export class DiOpera extends React$Component<IconBaseProps> {}
+  declare export class DiPerl extends React$Component<IconBaseProps> {}
+  declare export class DiPhonegap extends React$Component<IconBaseProps> {}
+  declare export class DiPhotoshop extends React$Component<IconBaseProps> {}
+  declare export class DiPhp extends React$Component<IconBaseProps> {}
+  declare export class DiPostgresql extends React$Component<IconBaseProps> {}
+  declare export class DiProlog extends React$Component<IconBaseProps> {}
+  declare export class DiPython extends React$Component<IconBaseProps> {}
+  declare export class DiRackspace extends React$Component<IconBaseProps> {}
+  declare export class DiRaphael extends React$Component<IconBaseProps> {}
+  declare export class DiRasberryPi extends React$Component<IconBaseProps> {}
+  declare export class DiReact extends React$Component<IconBaseProps> {}
+  declare export class DiRedhat extends React$Component<IconBaseProps> {}
+  declare export class DiRedis extends React$Component<IconBaseProps> {}
+  declare export class DiRequirejs extends React$Component<IconBaseProps> {}
+  declare export class DiResponsive extends React$Component<IconBaseProps> {}
+  declare export class DiRor extends React$Component<IconBaseProps> {}
+  declare export class DiRubyRough extends React$Component<IconBaseProps> {}
+  declare export class DiRuby extends React$Component<IconBaseProps> {}
+  declare export class DiRust extends React$Component<IconBaseProps> {}
+  declare export class DiSafari extends React$Component<IconBaseProps> {}
+  declare export class DiSass extends React$Component<IconBaseProps> {}
+  declare export class DiScala extends React$Component<IconBaseProps> {}
+  declare export class DiScriptcs extends React$Component<IconBaseProps> {}
+  declare export class DiScrum extends React$Component<IconBaseProps> {}
+  declare export class DiSenchatouch extends React$Component<IconBaseProps> {}
+  declare export class DiSizzlejs extends React$Component<IconBaseProps> {}
+  declare export class DiSmashingMagazine extends React$Component<IconBaseProps> {}
+  declare export class DiSnapSvg extends React$Component<IconBaseProps> {}
+  declare export class DiSpark extends React$Component<IconBaseProps> {}
+  declare export class DiSqllite extends React$Component<IconBaseProps> {}
+  declare export class DiStackoverflow extends React$Component<IconBaseProps> {}
+  declare export class DiStreamline extends React$Component<IconBaseProps> {}
+  declare export class DiStylus extends React$Component<IconBaseProps> {}
+  declare export class DiSublime extends React$Component<IconBaseProps> {}
+  declare export class DiSwift extends React$Component<IconBaseProps> {}
+  declare export class DiSymfonyBadge extends React$Component<IconBaseProps> {}
+  declare export class DiSymfony extends React$Component<IconBaseProps> {}
+  declare export class DiTechcrunch extends React$Component<IconBaseProps> {}
+  declare export class DiTerminalBadge extends React$Component<IconBaseProps> {}
+  declare export class DiTerminal extends React$Component<IconBaseProps> {}
+  declare export class DiTravis extends React$Component<IconBaseProps> {}
+  declare export class DiTrello extends React$Component<IconBaseProps> {}
+  declare export class DiTypo3 extends React$Component<IconBaseProps> {}
+  declare export class DiUbuntu extends React$Component<IconBaseProps> {}
+  declare export class DiUikit extends React$Component<IconBaseProps> {}
+  declare export class DiUnitySmall extends React$Component<IconBaseProps> {}
+  declare export class DiVim extends React$Component<IconBaseProps> {}
+  declare export class DiVisualstudio extends React$Component<IconBaseProps> {}
+  declare export class DiW3C extends React$Component<IconBaseProps> {}
+  declare export class DiWebplatform extends React$Component<IconBaseProps> {}
+  declare export class DiWindows extends React$Component<IconBaseProps> {}
+  declare export class DiWordpress extends React$Component<IconBaseProps> {}
+  declare export class DiYahooSmall extends React$Component<IconBaseProps> {}
+  declare export class DiYahoo extends React$Component<IconBaseProps> {}
+  declare export class DiYeoman extends React$Component<IconBaseProps> {}
+  declare export class DiYii extends React$Component<IconBaseProps> {}
+  declare export class DiZend extends React$Component<IconBaseProps> {}
+}
+
 declare module 'react-icons/fa' {
-  declare export class Fa500px extends React$Component<IconBaseProps> {}
+  declare export class Fa500Px extends React$Component<IconBaseProps> {}
   declare export class FaAccessibleIcon extends React$Component<IconBaseProps> {}
   declare export class FaAccusoft extends React$Component<IconBaseProps> {}
   declare export class FaAcquisitionsIncorporated extends React$Component<IconBaseProps> {}
   declare export class FaAdn extends React$Component<IconBaseProps> {}
+  declare export class FaAdobe extends React$Component<IconBaseProps> {}
   declare export class FaAdversal extends React$Component<IconBaseProps> {}
   declare export class FaAffiliatetheme extends React$Component<IconBaseProps> {}
+  declare export class FaAirbnb extends React$Component<IconBaseProps> {}
   declare export class FaAlgolia extends React$Component<IconBaseProps> {}
   declare export class FaAlipay extends React$Component<IconBaseProps> {}
   declare export class FaAmazonPay extends React$Component<IconBaseProps> {}
@@ -41,13 +238,16 @@ declare module 'react-icons/fa' {
   declare export class FaApper extends React$Component<IconBaseProps> {}
   declare export class FaApplePay extends React$Component<IconBaseProps> {}
   declare export class FaApple extends React$Component<IconBaseProps> {}
+  declare export class FaArtstation extends React$Component<IconBaseProps> {}
   declare export class FaAsymmetrik extends React$Component<IconBaseProps> {}
+  declare export class FaAtlassian extends React$Component<IconBaseProps> {}
   declare export class FaAudible extends React$Component<IconBaseProps> {}
   declare export class FaAutoprefixer extends React$Component<IconBaseProps> {}
   declare export class FaAvianex extends React$Component<IconBaseProps> {}
   declare export class FaAviato extends React$Component<IconBaseProps> {}
   declare export class FaAws extends React$Component<IconBaseProps> {}
   declare export class FaBandcamp extends React$Component<IconBaseProps> {}
+  declare export class FaBattleNet extends React$Component<IconBaseProps> {}
   declare export class FaBehanceSquare extends React$Component<IconBaseProps> {}
   declare export class FaBehance extends React$Component<IconBaseProps> {}
   declare export class FaBimobject extends React$Component<IconBaseProps> {}
@@ -60,9 +260,12 @@ declare module 'react-icons/fa' {
   declare export class FaBlogger extends React$Component<IconBaseProps> {}
   declare export class FaBluetoothB extends React$Component<IconBaseProps> {}
   declare export class FaBluetooth extends React$Component<IconBaseProps> {}
+  declare export class FaBootstrap extends React$Component<IconBaseProps> {}
   declare export class FaBtc extends React$Component<IconBaseProps> {}
+  declare export class FaBuffer extends React$Component<IconBaseProps> {}
   declare export class FaBuromobelexperte extends React$Component<IconBaseProps> {}
   declare export class FaBuysellads extends React$Component<IconBaseProps> {}
+  declare export class FaCanadianMapleLeaf extends React$Component<IconBaseProps> {}
   declare export class FaCcAmazonPay extends React$Component<IconBaseProps> {}
   declare export class FaCcAmex extends React$Component<IconBaseProps> {}
   declare export class FaCcApplePay extends React$Component<IconBaseProps> {}
@@ -74,12 +277,15 @@ declare module 'react-icons/fa' {
   declare export class FaCcStripe extends React$Component<IconBaseProps> {}
   declare export class FaCcVisa extends React$Component<IconBaseProps> {}
   declare export class FaCentercode extends React$Component<IconBaseProps> {}
+  declare export class FaCentos extends React$Component<IconBaseProps> {}
   declare export class FaChrome extends React$Component<IconBaseProps> {}
+  declare export class FaChromecast extends React$Component<IconBaseProps> {}
   declare export class FaCloudscale extends React$Component<IconBaseProps> {}
   declare export class FaCloudsmith extends React$Component<IconBaseProps> {}
   declare export class FaCloudversify extends React$Component<IconBaseProps> {}
   declare export class FaCodepen extends React$Component<IconBaseProps> {}
   declare export class FaCodiepie extends React$Component<IconBaseProps> {}
+  declare export class FaConfluence extends React$Component<IconBaseProps> {}
   declare export class FaConnectdevelop extends React$Component<IconBaseProps> {}
   declare export class FaContao extends React$Component<IconBaseProps> {}
   declare export class FaCpanel extends React$Component<IconBaseProps> {}
@@ -101,6 +307,7 @@ declare module 'react-icons/fa' {
   declare export class FaCss3Alt extends React$Component<IconBaseProps> {}
   declare export class FaCss3 extends React$Component<IconBaseProps> {}
   declare export class FaCuttlefish extends React$Component<IconBaseProps> {}
+  declare export class FaDAndDBeyond extends React$Component<IconBaseProps> {}
   declare export class FaDAndD extends React$Component<IconBaseProps> {}
   declare export class FaDashcube extends React$Component<IconBaseProps> {}
   declare export class FaDelicious extends React$Component<IconBaseProps> {}
@@ -108,13 +315,15 @@ declare module 'react-icons/fa' {
   declare export class FaDeskpro extends React$Component<IconBaseProps> {}
   declare export class FaDev extends React$Component<IconBaseProps> {}
   declare export class FaDeviantart extends React$Component<IconBaseProps> {}
+  declare export class FaDhl extends React$Component<IconBaseProps> {}
+  declare export class FaDiaspora extends React$Component<IconBaseProps> {}
   declare export class FaDigg extends React$Component<IconBaseProps> {}
   declare export class FaDigitalOcean extends React$Component<IconBaseProps> {}
   declare export class FaDiscord extends React$Component<IconBaseProps> {}
   declare export class FaDiscourse extends React$Component<IconBaseProps> {}
   declare export class FaDochub extends React$Component<IconBaseProps> {}
   declare export class FaDocker extends React$Component<IconBaseProps> {}
-  declare export class FaDraft2digital extends React$Component<IconBaseProps> {}
+  declare export class FaDraft2Digital extends React$Component<IconBaseProps> {}
   declare export class FaDribbbleSquare extends React$Component<IconBaseProps> {}
   declare export class FaDribbble extends React$Component<IconBaseProps> {}
   declare export class FaDropbox extends React$Component<IconBaseProps> {}
@@ -131,12 +340,16 @@ declare module 'react-icons/fa' {
   declare export class FaErlang extends React$Component<IconBaseProps> {}
   declare export class FaEthereum extends React$Component<IconBaseProps> {}
   declare export class FaEtsy extends React$Component<IconBaseProps> {}
+  declare export class FaEvernote extends React$Component<IconBaseProps> {}
   declare export class FaExpeditedssl extends React$Component<IconBaseProps> {}
   declare export class FaFacebookF extends React$Component<IconBaseProps> {}
   declare export class FaFacebookMessenger extends React$Component<IconBaseProps> {}
   declare export class FaFacebookSquare extends React$Component<IconBaseProps> {}
   declare export class FaFacebook extends React$Component<IconBaseProps> {}
   declare export class FaFantasyFlightGames extends React$Component<IconBaseProps> {}
+  declare export class FaFedex extends React$Component<IconBaseProps> {}
+  declare export class FaFedora extends React$Component<IconBaseProps> {}
+  declare export class FaFigma extends React$Component<IconBaseProps> {}
   declare export class FaFirefox extends React$Component<IconBaseProps> {}
   declare export class FaFirstOrderAlt extends React$Component<IconBaseProps> {}
   declare export class FaFirstOrder extends React$Component<IconBaseProps> {}
@@ -200,13 +413,17 @@ declare module 'react-icons/fa' {
   declare export class FaHubspot extends React$Component<IconBaseProps> {}
   declare export class FaImdb extends React$Component<IconBaseProps> {}
   declare export class FaInstagram extends React$Component<IconBaseProps> {}
+  declare export class FaIntercom extends React$Component<IconBaseProps> {}
   declare export class FaInternetExplorer extends React$Component<IconBaseProps> {}
+  declare export class FaInvision extends React$Component<IconBaseProps> {}
   declare export class FaIoxhost extends React$Component<IconBaseProps> {}
+  declare export class FaItchIo extends React$Component<IconBaseProps> {}
   declare export class FaItunesNote extends React$Component<IconBaseProps> {}
   declare export class FaItunes extends React$Component<IconBaseProps> {}
   declare export class FaJava extends React$Component<IconBaseProps> {}
   declare export class FaJediOrder extends React$Component<IconBaseProps> {}
   declare export class FaJenkins extends React$Component<IconBaseProps> {}
+  declare export class FaJira extends React$Component<IconBaseProps> {}
   declare export class FaJoget extends React$Component<IconBaseProps> {}
   declare export class FaJoomla extends React$Component<IconBaseProps> {}
   declare export class FaJsSquare extends React$Component<IconBaseProps> {}
@@ -241,6 +458,7 @@ declare module 'react-icons/fa' {
   declare export class FaMedrt extends React$Component<IconBaseProps> {}
   declare export class FaMeetup extends React$Component<IconBaseProps> {}
   declare export class FaMegaport extends React$Component<IconBaseProps> {}
+  declare export class FaMendeley extends React$Component<IconBaseProps> {}
   declare export class FaMicrosoft extends React$Component<IconBaseProps> {}
   declare export class FaMix extends React$Component<IconBaseProps> {}
   declare export class FaMixcloud extends React$Component<IconBaseProps> {}
@@ -290,16 +508,17 @@ declare module 'react-icons/fa' {
   declare export class FaQuinscape extends React$Component<IconBaseProps> {}
   declare export class FaQuora extends React$Component<IconBaseProps> {}
   declare export class FaRProject extends React$Component<IconBaseProps> {}
-  declare export class FaR extends React$Component<IconBaseProps> {}
+  declare export class FaRaspberryPi extends React$Component<IconBaseProps> {}
   declare export class FaRavelry extends React$Component<IconBaseProps> {}
   declare export class FaReact extends React$Component<IconBaseProps> {}
+  declare export class FaReacteurope extends React$Component<IconBaseProps> {}
   declare export class FaReadme extends React$Component<IconBaseProps> {}
   declare export class FaRebel extends React$Component<IconBaseProps> {}
   declare export class FaRedRiver extends React$Component<IconBaseProps> {}
   declare export class FaRedditAlien extends React$Component<IconBaseProps> {}
   declare export class FaRedditSquare extends React$Component<IconBaseProps> {}
   declare export class FaReddit extends React$Component<IconBaseProps> {}
-  declare export class FaRendact extends React$Component<IconBaseProps> {}
+  declare export class FaRedhat extends React$Component<IconBaseProps> {}
   declare export class FaRenren extends React$Component<IconBaseProps> {}
   declare export class FaReplyd extends React$Component<IconBaseProps> {}
   declare export class FaResearchgate extends React$Component<IconBaseProps> {}
@@ -308,6 +527,7 @@ declare module 'react-icons/fa' {
   declare export class FaRocketchat extends React$Component<IconBaseProps> {}
   declare export class FaRockrms extends React$Component<IconBaseProps> {}
   declare export class FaSafari extends React$Component<IconBaseProps> {}
+  declare export class FaSalesforce extends React$Component<IconBaseProps> {}
   declare export class FaSass extends React$Component<IconBaseProps> {}
   declare export class FaSchlix extends React$Component<IconBaseProps> {}
   declare export class FaScribd extends React$Component<IconBaseProps> {}
@@ -320,6 +540,7 @@ declare module 'react-icons/fa' {
   declare export class FaSimplybuilt extends React$Component<IconBaseProps> {}
   declare export class FaSistrix extends React$Component<IconBaseProps> {}
   declare export class FaSith extends React$Component<IconBaseProps> {}
+  declare export class FaSketch extends React$Component<IconBaseProps> {}
   declare export class FaSkyatlas extends React$Component<IconBaseProps> {}
   declare export class FaSkype extends React$Component<IconBaseProps> {}
   declare export class FaSlackHash extends React$Component<IconBaseProps> {}
@@ -329,7 +550,9 @@ declare module 'react-icons/fa' {
   declare export class FaSnapchatSquare extends React$Component<IconBaseProps> {}
   declare export class FaSnapchat extends React$Component<IconBaseProps> {}
   declare export class FaSoundcloud extends React$Component<IconBaseProps> {}
+  declare export class FaSourcetree extends React$Component<IconBaseProps> {}
   declare export class FaSpeakap extends React$Component<IconBaseProps> {}
+  declare export class FaSpeakerDeck extends React$Component<IconBaseProps> {}
   declare export class FaSpotify extends React$Component<IconBaseProps> {}
   declare export class FaSquarespace extends React$Component<IconBaseProps> {}
   declare export class FaStackExchange extends React$Component<IconBaseProps> {}
@@ -347,6 +570,8 @@ declare module 'react-icons/fa' {
   declare export class FaStumbleupon extends React$Component<IconBaseProps> {}
   declare export class FaSuperpowers extends React$Component<IconBaseProps> {}
   declare export class FaSupple extends React$Component<IconBaseProps> {}
+  declare export class FaSuse extends React$Component<IconBaseProps> {}
+  declare export class FaSymfony extends React$Component<IconBaseProps> {}
   declare export class FaTeamspeak extends React$Component<IconBaseProps> {}
   declare export class FaTelegramPlane extends React$Component<IconBaseProps> {}
   declare export class FaTelegram extends React$Component<IconBaseProps> {}
@@ -354,6 +579,7 @@ declare module 'react-icons/fa' {
   declare export class FaTheRedYeti extends React$Component<IconBaseProps> {}
   declare export class FaThemeco extends React$Component<IconBaseProps> {}
   declare export class FaThemeisle extends React$Component<IconBaseProps> {}
+  declare export class FaThinkPeaks extends React$Component<IconBaseProps> {}
   declare export class FaTradeFederation extends React$Component<IconBaseProps> {}
   declare export class FaTrello extends React$Component<IconBaseProps> {}
   declare export class FaTripadvisor extends React$Component<IconBaseProps> {}
@@ -364,10 +590,13 @@ declare module 'react-icons/fa' {
   declare export class FaTwitter extends React$Component<IconBaseProps> {}
   declare export class FaTypo3 extends React$Component<IconBaseProps> {}
   declare export class FaUber extends React$Component<IconBaseProps> {}
+  declare export class FaUbuntu extends React$Component<IconBaseProps> {}
   declare export class FaUikit extends React$Component<IconBaseProps> {}
   declare export class FaUniregistry extends React$Component<IconBaseProps> {}
   declare export class FaUntappd extends React$Component<IconBaseProps> {}
+  declare export class FaUps extends React$Component<IconBaseProps> {}
   declare export class FaUsb extends React$Component<IconBaseProps> {}
+  declare export class FaUsps extends React$Component<IconBaseProps> {}
   declare export class FaUssunnah extends React$Component<IconBaseProps> {}
   declare export class FaVaadin extends React$Component<IconBaseProps> {}
   declare export class FaViacoin extends React$Component<IconBaseProps> {}
@@ -381,6 +610,7 @@ declare module 'react-icons/fa' {
   declare export class FaVk extends React$Component<IconBaseProps> {}
   declare export class FaVnv extends React$Component<IconBaseProps> {}
   declare export class FaVuejs extends React$Component<IconBaseProps> {}
+  declare export class FaWaze extends React$Component<IconBaseProps> {}
   declare export class FaWeebly extends React$Component<IconBaseProps> {}
   declare export class FaWeibo extends React$Component<IconBaseProps> {}
   declare export class FaWeixin extends React$Component<IconBaseProps> {}
@@ -397,19 +627,21 @@ declare module 'react-icons/fa' {
   declare export class FaWpbeginner extends React$Component<IconBaseProps> {}
   declare export class FaWpexplorer extends React$Component<IconBaseProps> {}
   declare export class FaWpforms extends React$Component<IconBaseProps> {}
+  declare export class FaWpressr extends React$Component<IconBaseProps> {}
   declare export class FaXbox extends React$Component<IconBaseProps> {}
   declare export class FaXingSquare extends React$Component<IconBaseProps> {}
   declare export class FaXing extends React$Component<IconBaseProps> {}
   declare export class FaYCombinator extends React$Component<IconBaseProps> {}
   declare export class FaYahoo extends React$Component<IconBaseProps> {}
+  declare export class FaYammer extends React$Component<IconBaseProps> {}
   declare export class FaYandexInternational extends React$Component<IconBaseProps> {}
   declare export class FaYandex extends React$Component<IconBaseProps> {}
+  declare export class FaYarn extends React$Component<IconBaseProps> {}
   declare export class FaYelp extends React$Component<IconBaseProps> {}
   declare export class FaYoast extends React$Component<IconBaseProps> {}
   declare export class FaYoutubeSquare extends React$Component<IconBaseProps> {}
   declare export class FaYoutube extends React$Component<IconBaseProps> {}
   declare export class FaZhihu extends React$Component<IconBaseProps> {}
-  declare export class FaAbacus extends React$Component<IconBaseProps> {}
   declare export class FaAd extends React$Component<IconBaseProps> {}
   declare export class FaAddressBook extends React$Component<IconBaseProps> {}
   declare export class FaAddressCard extends React$Component<IconBaseProps> {}
@@ -458,8 +690,11 @@ declare module 'react-icons/fa' {
   declare export class FaAtom extends React$Component<IconBaseProps> {}
   declare export class FaAudioDescription extends React$Component<IconBaseProps> {}
   declare export class FaAward extends React$Component<IconBaseProps> {}
+  declare export class FaBabyCarriage extends React$Component<IconBaseProps> {}
+  declare export class FaBaby extends React$Component<IconBaseProps> {}
   declare export class FaBackspace extends React$Component<IconBaseProps> {}
   declare export class FaBackward extends React$Component<IconBaseProps> {}
+  declare export class FaBacon extends React$Component<IconBaseProps> {}
   declare export class FaBalanceScale extends React$Component<IconBaseProps> {}
   declare export class FaBan extends React$Component<IconBaseProps> {}
   declare export class FaBandAid extends React$Component<IconBaseProps> {}
@@ -481,16 +716,19 @@ declare module 'react-icons/fa' {
   declare export class FaBible extends React$Component<IconBaseProps> {}
   declare export class FaBicycle extends React$Component<IconBaseProps> {}
   declare export class FaBinoculars extends React$Component<IconBaseProps> {}
+  declare export class FaBiohazard extends React$Component<IconBaseProps> {}
   declare export class FaBirthdayCake extends React$Component<IconBaseProps> {}
   declare export class FaBlenderPhone extends React$Component<IconBaseProps> {}
   declare export class FaBlender extends React$Component<IconBaseProps> {}
   declare export class FaBlind extends React$Component<IconBaseProps> {}
+  declare export class FaBlog extends React$Component<IconBaseProps> {}
   declare export class FaBold extends React$Component<IconBaseProps> {}
   declare export class FaBolt extends React$Component<IconBaseProps> {}
   declare export class FaBomb extends React$Component<IconBaseProps> {}
   declare export class FaBone extends React$Component<IconBaseProps> {}
   declare export class FaBong extends React$Component<IconBaseProps> {}
   declare export class FaBookDead extends React$Component<IconBaseProps> {}
+  declare export class FaBookMedical extends React$Component<IconBaseProps> {}
   declare export class FaBookOpen extends React$Component<IconBaseProps> {}
   declare export class FaBookReader extends React$Component<IconBaseProps> {}
   declare export class FaBook extends React$Component<IconBaseProps> {}
@@ -501,6 +739,7 @@ declare module 'react-icons/fa' {
   declare export class FaBoxes extends React$Component<IconBaseProps> {}
   declare export class FaBraille extends React$Component<IconBaseProps> {}
   declare export class FaBrain extends React$Component<IconBaseProps> {}
+  declare export class FaBreadSlice extends React$Component<IconBaseProps> {}
   declare export class FaBriefcaseMedical extends React$Component<IconBaseProps> {}
   declare export class FaBriefcase extends React$Component<IconBaseProps> {}
   declare export class FaBroadcastTower extends React$Component<IconBaseProps> {}
@@ -514,17 +753,19 @@ declare module 'react-icons/fa' {
   declare export class FaBusAlt extends React$Component<IconBaseProps> {}
   declare export class FaBus extends React$Component<IconBaseProps> {}
   declare export class FaBusinessTime extends React$Component<IconBaseProps> {}
-  declare export class FaCalculatorAlt extends React$Component<IconBaseProps> {}
   declare export class FaCalculator extends React$Component<IconBaseProps> {}
   declare export class FaCalendarAlt extends React$Component<IconBaseProps> {}
   declare export class FaCalendarCheck extends React$Component<IconBaseProps> {}
+  declare export class FaCalendarDay extends React$Component<IconBaseProps> {}
   declare export class FaCalendarMinus extends React$Component<IconBaseProps> {}
   declare export class FaCalendarPlus extends React$Component<IconBaseProps> {}
   declare export class FaCalendarTimes extends React$Component<IconBaseProps> {}
+  declare export class FaCalendarWeek extends React$Component<IconBaseProps> {}
   declare export class FaCalendar extends React$Component<IconBaseProps> {}
   declare export class FaCameraRetro extends React$Component<IconBaseProps> {}
   declare export class FaCamera extends React$Component<IconBaseProps> {}
   declare export class FaCampground extends React$Component<IconBaseProps> {}
+  declare export class FaCandyCane extends React$Component<IconBaseProps> {}
   declare export class FaCannabis extends React$Component<IconBaseProps> {}
   declare export class FaCapsules extends React$Component<IconBaseProps> {}
   declare export class FaCarAlt extends React$Component<IconBaseProps> {}
@@ -540,8 +781,10 @@ declare module 'react-icons/fa' {
   declare export class FaCaretSquareRight extends React$Component<IconBaseProps> {}
   declare export class FaCaretSquareUp extends React$Component<IconBaseProps> {}
   declare export class FaCaretUp extends React$Component<IconBaseProps> {}
+  declare export class FaCarrot extends React$Component<IconBaseProps> {}
   declare export class FaCartArrowDown extends React$Component<IconBaseProps> {}
   declare export class FaCartPlus extends React$Component<IconBaseProps> {}
+  declare export class FaCashRegister extends React$Component<IconBaseProps> {}
   declare export class FaCat extends React$Component<IconBaseProps> {}
   declare export class FaCertificate extends React$Component<IconBaseProps> {}
   declare export class FaChair extends React$Component<IconBaseProps> {}
@@ -556,6 +799,7 @@ declare module 'react-icons/fa' {
   declare export class FaCheckDouble extends React$Component<IconBaseProps> {}
   declare export class FaCheckSquare extends React$Component<IconBaseProps> {}
   declare export class FaCheck extends React$Component<IconBaseProps> {}
+  declare export class FaCheese extends React$Component<IconBaseProps> {}
   declare export class FaChessBishop extends React$Component<IconBaseProps> {}
   declare export class FaChessBoard extends React$Component<IconBaseProps> {}
   declare export class FaChessKing extends React$Component<IconBaseProps> {}
@@ -577,6 +821,7 @@ declare module 'react-icons/fa' {
   declare export class FaCircleNotch extends React$Component<IconBaseProps> {}
   declare export class FaCircle extends React$Component<IconBaseProps> {}
   declare export class FaCity extends React$Component<IconBaseProps> {}
+  declare export class FaClinicMedical extends React$Component<IconBaseProps> {}
   declare export class FaClipboardCheck extends React$Component<IconBaseProps> {}
   declare export class FaClipboardList extends React$Component<IconBaseProps> {}
   declare export class FaClipboard extends React$Component<IconBaseProps> {}
@@ -584,7 +829,12 @@ declare module 'react-icons/fa' {
   declare export class FaClone extends React$Component<IconBaseProps> {}
   declare export class FaClosedCaptioning extends React$Component<IconBaseProps> {}
   declare export class FaCloudDownloadAlt extends React$Component<IconBaseProps> {}
+  declare export class FaCloudMeatball extends React$Component<IconBaseProps> {}
+  declare export class FaCloudMoonRain extends React$Component<IconBaseProps> {}
   declare export class FaCloudMoon extends React$Component<IconBaseProps> {}
+  declare export class FaCloudRain extends React$Component<IconBaseProps> {}
+  declare export class FaCloudShowersHeavy extends React$Component<IconBaseProps> {}
+  declare export class FaCloudSunRain extends React$Component<IconBaseProps> {}
   declare export class FaCloudSun extends React$Component<IconBaseProps> {}
   declare export class FaCloudUploadAlt extends React$Component<IconBaseProps> {}
   declare export class FaCloud extends React$Component<IconBaseProps> {}
@@ -599,12 +849,14 @@ declare module 'react-icons/fa' {
   declare export class FaCommentAlt extends React$Component<IconBaseProps> {}
   declare export class FaCommentDollar extends React$Component<IconBaseProps> {}
   declare export class FaCommentDots extends React$Component<IconBaseProps> {}
+  declare export class FaCommentMedical extends React$Component<IconBaseProps> {}
   declare export class FaCommentSlash extends React$Component<IconBaseProps> {}
   declare export class FaComment extends React$Component<IconBaseProps> {}
   declare export class FaCommentsDollar extends React$Component<IconBaseProps> {}
   declare export class FaComments extends React$Component<IconBaseProps> {}
   declare export class FaCompactDisc extends React$Component<IconBaseProps> {}
   declare export class FaCompass extends React$Component<IconBaseProps> {}
+  declare export class FaCompressArrowsAlt extends React$Component<IconBaseProps> {}
   declare export class FaCompress extends React$Component<IconBaseProps> {}
   declare export class FaConciergeBell extends React$Component<IconBaseProps> {}
   declare export class FaCookieBite extends React$Component<IconBaseProps> {}
@@ -619,11 +871,13 @@ declare module 'react-icons/fa' {
   declare export class FaCrosshairs extends React$Component<IconBaseProps> {}
   declare export class FaCrow extends React$Component<IconBaseProps> {}
   declare export class FaCrown extends React$Component<IconBaseProps> {}
+  declare export class FaCrutch extends React$Component<IconBaseProps> {}
   declare export class FaCube extends React$Component<IconBaseProps> {}
   declare export class FaCubes extends React$Component<IconBaseProps> {}
   declare export class FaCut extends React$Component<IconBaseProps> {}
   declare export class FaDatabase extends React$Component<IconBaseProps> {}
   declare export class FaDeaf extends React$Component<IconBaseProps> {}
+  declare export class FaDemocrat extends React$Component<IconBaseProps> {}
   declare export class FaDesktop extends React$Component<IconBaseProps> {}
   declare export class FaDharmachakra extends React$Component<IconBaseProps> {}
   declare export class FaDiagnoses extends React$Component<IconBaseProps> {}
@@ -658,18 +912,21 @@ declare module 'react-icons/fa' {
   declare export class FaDrum extends React$Component<IconBaseProps> {}
   declare export class FaDrumstickBite extends React$Component<IconBaseProps> {}
   declare export class FaDumbbell extends React$Component<IconBaseProps> {}
+  declare export class FaDumpsterFire extends React$Component<IconBaseProps> {}
+  declare export class FaDumpster extends React$Component<IconBaseProps> {}
   declare export class FaDungeon extends React$Component<IconBaseProps> {}
   declare export class FaEdit extends React$Component<IconBaseProps> {}
+  declare export class FaEgg extends React$Component<IconBaseProps> {}
   declare export class FaEject extends React$Component<IconBaseProps> {}
   declare export class FaEllipsisH extends React$Component<IconBaseProps> {}
   declare export class FaEllipsisV extends React$Component<IconBaseProps> {}
-  declare export class FaEmptySet extends React$Component<IconBaseProps> {}
   declare export class FaEnvelopeOpenText extends React$Component<IconBaseProps> {}
   declare export class FaEnvelopeOpen extends React$Component<IconBaseProps> {}
   declare export class FaEnvelopeSquare extends React$Component<IconBaseProps> {}
   declare export class FaEnvelope extends React$Component<IconBaseProps> {}
   declare export class FaEquals extends React$Component<IconBaseProps> {}
   declare export class FaEraser extends React$Component<IconBaseProps> {}
+  declare export class FaEthernet extends React$Component<IconBaseProps> {}
   declare export class FaEuroSign extends React$Component<IconBaseProps> {}
   declare export class FaExchangeAlt extends React$Component<IconBaseProps> {}
   declare export class FaExclamationCircle extends React$Component<IconBaseProps> {}
@@ -717,12 +974,14 @@ declare module 'react-icons/fa' {
   declare export class FaFilm extends React$Component<IconBaseProps> {}
   declare export class FaFilter extends React$Component<IconBaseProps> {}
   declare export class FaFingerprint extends React$Component<IconBaseProps> {}
+  declare export class FaFireAlt extends React$Component<IconBaseProps> {}
   declare export class FaFireExtinguisher extends React$Component<IconBaseProps> {}
   declare export class FaFire extends React$Component<IconBaseProps> {}
   declare export class FaFirstAid extends React$Component<IconBaseProps> {}
   declare export class FaFish extends React$Component<IconBaseProps> {}
   declare export class FaFistRaised extends React$Component<IconBaseProps> {}
   declare export class FaFlagCheckered extends React$Component<IconBaseProps> {}
+  declare export class FaFlagUsa extends React$Component<IconBaseProps> {}
   declare export class FaFlag extends React$Component<IconBaseProps> {}
   declare export class FaFlask extends React$Component<IconBaseProps> {}
   declare export class FaFlushed extends React$Component<IconBaseProps> {}
@@ -736,7 +995,6 @@ declare module 'react-icons/fa' {
   declare export class FaFrog extends React$Component<IconBaseProps> {}
   declare export class FaFrownOpen extends React$Component<IconBaseProps> {}
   declare export class FaFrown extends React$Component<IconBaseProps> {}
-  declare export class FaFunction extends React$Component<IconBaseProps> {}
   declare export class FaFunnelDollar extends React$Component<IconBaseProps> {}
   declare export class FaFutbol extends React$Component<IconBaseProps> {}
   declare export class FaGamepad extends React$Component<IconBaseProps> {}
@@ -746,12 +1004,16 @@ declare module 'react-icons/fa' {
   declare export class FaGenderless extends React$Component<IconBaseProps> {}
   declare export class FaGhost extends React$Component<IconBaseProps> {}
   declare export class FaGift extends React$Component<IconBaseProps> {}
+  declare export class FaGifts extends React$Component<IconBaseProps> {}
+  declare export class FaGlassCheers extends React$Component<IconBaseProps> {}
   declare export class FaGlassMartiniAlt extends React$Component<IconBaseProps> {}
   declare export class FaGlassMartini extends React$Component<IconBaseProps> {}
+  declare export class FaGlassWhiskey extends React$Component<IconBaseProps> {}
   declare export class FaGlasses extends React$Component<IconBaseProps> {}
   declare export class FaGlobeAfrica extends React$Component<IconBaseProps> {}
   declare export class FaGlobeAmericas extends React$Component<IconBaseProps> {}
   declare export class FaGlobeAsia extends React$Component<IconBaseProps> {}
+  declare export class FaGlobeEurope extends React$Component<IconBaseProps> {}
   declare export class FaGlobe extends React$Component<IconBaseProps> {}
   declare export class FaGolfBall extends React$Component<IconBaseProps> {}
   declare export class FaGopuram extends React$Component<IconBaseProps> {}
@@ -773,14 +1035,19 @@ declare module 'react-icons/fa' {
   declare export class FaGrinWink extends React$Component<IconBaseProps> {}
   declare export class FaGrin extends React$Component<IconBaseProps> {}
   declare export class FaGripHorizontal extends React$Component<IconBaseProps> {}
+  declare export class FaGripLinesVertical extends React$Component<IconBaseProps> {}
+  declare export class FaGripLines extends React$Component<IconBaseProps> {}
   declare export class FaGripVertical extends React$Component<IconBaseProps> {}
+  declare export class FaGuitar extends React$Component<IconBaseProps> {}
   declare export class FaHSquare extends React$Component<IconBaseProps> {}
+  declare export class FaHamburger extends React$Component<IconBaseProps> {}
   declare export class FaHammer extends React$Component<IconBaseProps> {}
   declare export class FaHamsa extends React$Component<IconBaseProps> {}
   declare export class FaHandHoldingHeart extends React$Component<IconBaseProps> {}
   declare export class FaHandHoldingUsd extends React$Component<IconBaseProps> {}
   declare export class FaHandHolding extends React$Component<IconBaseProps> {}
   declare export class FaHandLizard extends React$Component<IconBaseProps> {}
+  declare export class FaHandMiddleFinger extends React$Component<IconBaseProps> {}
   declare export class FaHandPaper extends React$Component<IconBaseProps> {}
   declare export class FaHandPeace extends React$Component<IconBaseProps> {}
   declare export class FaHandPointDown extends React$Component<IconBaseProps> {}
@@ -795,6 +1062,7 @@ declare module 'react-icons/fa' {
   declare export class FaHands extends React$Component<IconBaseProps> {}
   declare export class FaHandshake extends React$Component<IconBaseProps> {}
   declare export class FaHanukiah extends React$Component<IconBaseProps> {}
+  declare export class FaHardHat extends React$Component<IconBaseProps> {}
   declare export class FaHashtag extends React$Component<IconBaseProps> {}
   declare export class FaHatWizard extends React$Component<IconBaseProps> {}
   declare export class FaHaykal extends React$Component<IconBaseProps> {}
@@ -803,6 +1071,7 @@ declare module 'react-icons/fa' {
   declare export class FaHeadphonesAlt extends React$Component<IconBaseProps> {}
   declare export class FaHeadphones extends React$Component<IconBaseProps> {}
   declare export class FaHeadset extends React$Component<IconBaseProps> {}
+  declare export class FaHeartBroken extends React$Component<IconBaseProps> {}
   declare export class FaHeart extends React$Component<IconBaseProps> {}
   declare export class FaHeartbeat extends React$Component<IconBaseProps> {}
   declare export class FaHelicopter extends React$Component<IconBaseProps> {}
@@ -811,12 +1080,15 @@ declare module 'react-icons/fa' {
   declare export class FaHippo extends React$Component<IconBaseProps> {}
   declare export class FaHistory extends React$Component<IconBaseProps> {}
   declare export class FaHockeyPuck extends React$Component<IconBaseProps> {}
+  declare export class FaHollyBerry extends React$Component<IconBaseProps> {}
   declare export class FaHome extends React$Component<IconBaseProps> {}
+  declare export class FaHorseHead extends React$Component<IconBaseProps> {}
   declare export class FaHorse extends React$Component<IconBaseProps> {}
   declare export class FaHospitalAlt extends React$Component<IconBaseProps> {}
   declare export class FaHospitalSymbol extends React$Component<IconBaseProps> {}
   declare export class FaHospital extends React$Component<IconBaseProps> {}
   declare export class FaHotTub extends React$Component<IconBaseProps> {}
+  declare export class FaHotdog extends React$Component<IconBaseProps> {}
   declare export class FaHotel extends React$Component<IconBaseProps> {}
   declare export class FaHourglassEnd extends React$Component<IconBaseProps> {}
   declare export class FaHourglassHalf extends React$Component<IconBaseProps> {}
@@ -825,9 +1097,12 @@ declare module 'react-icons/fa' {
   declare export class FaHouseDamage extends React$Component<IconBaseProps> {}
   declare export class FaHryvnia extends React$Component<IconBaseProps> {}
   declare export class FaICursor extends React$Component<IconBaseProps> {}
+  declare export class FaIceCream extends React$Component<IconBaseProps> {}
+  declare export class FaIcicles extends React$Component<IconBaseProps> {}
   declare export class FaIdBadge extends React$Component<IconBaseProps> {}
   declare export class FaIdCardAlt extends React$Component<IconBaseProps> {}
   declare export class FaIdCard extends React$Component<IconBaseProps> {}
+  declare export class FaIgloo extends React$Component<IconBaseProps> {}
   declare export class FaImage extends React$Component<IconBaseProps> {}
   declare export class FaImages extends React$Component<IconBaseProps> {}
   declare export class FaInbox extends React$Component<IconBaseProps> {}
@@ -836,8 +1111,6 @@ declare module 'react-icons/fa' {
   declare export class FaInfinity extends React$Component<IconBaseProps> {}
   declare export class FaInfoCircle extends React$Component<IconBaseProps> {}
   declare export class FaInfo extends React$Component<IconBaseProps> {}
-  declare export class FaIntegral extends React$Component<IconBaseProps> {}
-  declare export class FaIntersection extends React$Component<IconBaseProps> {}
   declare export class FaItalic extends React$Component<IconBaseProps> {}
   declare export class FaJedi extends React$Component<IconBaseProps> {}
   declare export class FaJoint extends React$Component<IconBaseProps> {}
@@ -850,10 +1123,10 @@ declare module 'react-icons/fa' {
   declare export class FaKissWinkHeart extends React$Component<IconBaseProps> {}
   declare export class FaKiss extends React$Component<IconBaseProps> {}
   declare export class FaKiwiBird extends React$Component<IconBaseProps> {}
-  declare export class FaLambda extends React$Component<IconBaseProps> {}
   declare export class FaLandmark extends React$Component<IconBaseProps> {}
   declare export class FaLanguage extends React$Component<IconBaseProps> {}
   declare export class FaLaptopCode extends React$Component<IconBaseProps> {}
+  declare export class FaLaptopMedical extends React$Component<IconBaseProps> {}
   declare export class FaLaptop extends React$Component<IconBaseProps> {}
   declare export class FaLaughBeam extends React$Component<IconBaseProps> {}
   declare export class FaLaughSquint extends React$Component<IconBaseProps> {}
@@ -909,6 +1182,7 @@ declare module 'react-icons/fa' {
   declare export class FaMemory extends React$Component<IconBaseProps> {}
   declare export class FaMenorah extends React$Component<IconBaseProps> {}
   declare export class FaMercury extends React$Component<IconBaseProps> {}
+  declare export class FaMeteor extends React$Component<IconBaseProps> {}
   declare export class FaMicrochip extends React$Component<IconBaseProps> {}
   declare export class FaMicrophoneAltSlash extends React$Component<IconBaseProps> {}
   declare export class FaMicrophoneAlt extends React$Component<IconBaseProps> {}
@@ -918,6 +1192,7 @@ declare module 'react-icons/fa' {
   declare export class FaMinusCircle extends React$Component<IconBaseProps> {}
   declare export class FaMinusSquare extends React$Component<IconBaseProps> {}
   declare export class FaMinus extends React$Component<IconBaseProps> {}
+  declare export class FaMitten extends React$Component<IconBaseProps> {}
   declare export class FaMobileAlt extends React$Component<IconBaseProps> {}
   declare export class FaMobile extends React$Component<IconBaseProps> {}
   declare export class FaMoneyBillAlt extends React$Component<IconBaseProps> {}
@@ -933,6 +1208,7 @@ declare module 'react-icons/fa' {
   declare export class FaMotorcycle extends React$Component<IconBaseProps> {}
   declare export class FaMountain extends React$Component<IconBaseProps> {}
   declare export class FaMousePointer extends React$Component<IconBaseProps> {}
+  declare export class FaMugHot extends React$Component<IconBaseProps> {}
   declare export class FaMusic extends React$Component<IconBaseProps> {}
   declare export class FaNetworkWired extends React$Component<IconBaseProps> {}
   declare export class FaNeuter extends React$Component<IconBaseProps> {}
@@ -943,9 +1219,9 @@ declare module 'react-icons/fa' {
   declare export class FaObjectUngroup extends React$Component<IconBaseProps> {}
   declare export class FaOilCan extends React$Component<IconBaseProps> {}
   declare export class FaOm extends React$Component<IconBaseProps> {}
-  declare export class FaOmega extends React$Component<IconBaseProps> {}
   declare export class FaOtter extends React$Component<IconBaseProps> {}
   declare export class FaOutdent extends React$Component<IconBaseProps> {}
+  declare export class FaPager extends React$Component<IconBaseProps> {}
   declare export class FaPaintBrush extends React$Component<IconBaseProps> {}
   declare export class FaPaintRoller extends React$Component<IconBaseProps> {}
   declare export class FaPalette extends React$Component<IconBaseProps> {}
@@ -970,15 +1246,17 @@ declare module 'react-icons/fa' {
   declare export class FaPencilAlt extends React$Component<IconBaseProps> {}
   declare export class FaPencilRuler extends React$Component<IconBaseProps> {}
   declare export class FaPeopleCarry extends React$Component<IconBaseProps> {}
+  declare export class FaPepperHot extends React$Component<IconBaseProps> {}
   declare export class FaPercent extends React$Component<IconBaseProps> {}
   declare export class FaPercentage extends React$Component<IconBaseProps> {}
+  declare export class FaPersonBooth extends React$Component<IconBaseProps> {}
   declare export class FaPhoneSlash extends React$Component<IconBaseProps> {}
   declare export class FaPhoneSquare extends React$Component<IconBaseProps> {}
   declare export class FaPhoneVolume extends React$Component<IconBaseProps> {}
   declare export class FaPhone extends React$Component<IconBaseProps> {}
-  declare export class FaPi extends React$Component<IconBaseProps> {}
   declare export class FaPiggyBank extends React$Component<IconBaseProps> {}
   declare export class FaPills extends React$Component<IconBaseProps> {}
+  declare export class FaPizzaSlice extends React$Component<IconBaseProps> {}
   declare export class FaPlaceOfWorship extends React$Component<IconBaseProps> {}
   declare export class FaPlaneArrival extends React$Component<IconBaseProps> {}
   declare export class FaPlaneDeparture extends React$Component<IconBaseProps> {}
@@ -992,6 +1270,7 @@ declare module 'react-icons/fa' {
   declare export class FaPodcast extends React$Component<IconBaseProps> {}
   declare export class FaPollH extends React$Component<IconBaseProps> {}
   declare export class FaPoll extends React$Component<IconBaseProps> {}
+  declare export class FaPooStorm extends React$Component<IconBaseProps> {}
   declare export class FaPoo extends React$Component<IconBaseProps> {}
   declare export class FaPoop extends React$Component<IconBaseProps> {}
   declare export class FaPortrait extends React$Component<IconBaseProps> {}
@@ -1013,6 +1292,9 @@ declare module 'react-icons/fa' {
   declare export class FaQuoteLeft extends React$Component<IconBaseProps> {}
   declare export class FaQuoteRight extends React$Component<IconBaseProps> {}
   declare export class FaQuran extends React$Component<IconBaseProps> {}
+  declare export class FaRadiationAlt extends React$Component<IconBaseProps> {}
+  declare export class FaRadiation extends React$Component<IconBaseProps> {}
+  declare export class FaRainbow extends React$Component<IconBaseProps> {}
   declare export class FaRandom extends React$Component<IconBaseProps> {}
   declare export class FaReceipt extends React$Component<IconBaseProps> {}
   declare export class FaRecycle extends React$Component<IconBaseProps> {}
@@ -1021,6 +1303,8 @@ declare module 'react-icons/fa' {
   declare export class FaRegistered extends React$Component<IconBaseProps> {}
   declare export class FaReplyAll extends React$Component<IconBaseProps> {}
   declare export class FaReply extends React$Component<IconBaseProps> {}
+  declare export class FaRepublican extends React$Component<IconBaseProps> {}
+  declare export class FaRestroom extends React$Component<IconBaseProps> {}
   declare export class FaRetweet extends React$Component<IconBaseProps> {}
   declare export class FaRibbon extends React$Component<IconBaseProps> {}
   declare export class FaRing extends React$Component<IconBaseProps> {}
@@ -1039,10 +1323,13 @@ declare module 'react-icons/fa' {
   declare export class FaRupeeSign extends React$Component<IconBaseProps> {}
   declare export class FaSadCry extends React$Component<IconBaseProps> {}
   declare export class FaSadTear extends React$Component<IconBaseProps> {}
+  declare export class FaSatelliteDish extends React$Component<IconBaseProps> {}
+  declare export class FaSatellite extends React$Component<IconBaseProps> {}
   declare export class FaSave extends React$Component<IconBaseProps> {}
   declare export class FaSchool extends React$Component<IconBaseProps> {}
   declare export class FaScrewdriver extends React$Component<IconBaseProps> {}
   declare export class FaScroll extends React$Component<IconBaseProps> {}
+  declare export class FaSdCard extends React$Component<IconBaseProps> {}
   declare export class FaSearchDollar extends React$Component<IconBaseProps> {}
   declare export class FaSearchLocation extends React$Component<IconBaseProps> {}
   declare export class FaSearchMinus extends React$Component<IconBaseProps> {}
@@ -1065,27 +1352,33 @@ declare module 'react-icons/fa' {
   declare export class FaShoppingCart extends React$Component<IconBaseProps> {}
   declare export class FaShower extends React$Component<IconBaseProps> {}
   declare export class FaShuttleVan extends React$Component<IconBaseProps> {}
-  declare export class FaSigma extends React$Component<IconBaseProps> {}
   declare export class FaSignInAlt extends React$Component<IconBaseProps> {}
   declare export class FaSignLanguage extends React$Component<IconBaseProps> {}
   declare export class FaSignOutAlt extends React$Component<IconBaseProps> {}
   declare export class FaSign extends React$Component<IconBaseProps> {}
-  declare export class FaSignalAltSlash extends React$Component<IconBaseProps> {}
-  declare export class FaSignalAlt extends React$Component<IconBaseProps> {}
-  declare export class FaSignalSlash extends React$Component<IconBaseProps> {}
   declare export class FaSignal extends React$Component<IconBaseProps> {}
   declare export class FaSignature extends React$Component<IconBaseProps> {}
+  declare export class FaSimCard extends React$Component<IconBaseProps> {}
   declare export class FaSitemap extends React$Component<IconBaseProps> {}
+  declare export class FaSkating extends React$Component<IconBaseProps> {}
+  declare export class FaSkiingNordic extends React$Component<IconBaseProps> {}
+  declare export class FaSkiing extends React$Component<IconBaseProps> {}
   declare export class FaSkullCrossbones extends React$Component<IconBaseProps> {}
   declare export class FaSkull extends React$Component<IconBaseProps> {}
   declare export class FaSlash extends React$Component<IconBaseProps> {}
+  declare export class FaSleigh extends React$Component<IconBaseProps> {}
   declare export class FaSlidersH extends React$Component<IconBaseProps> {}
   declare export class FaSmileBeam extends React$Component<IconBaseProps> {}
   declare export class FaSmileWink extends React$Component<IconBaseProps> {}
   declare export class FaSmile extends React$Component<IconBaseProps> {}
+  declare export class FaSmog extends React$Component<IconBaseProps> {}
   declare export class FaSmokingBan extends React$Component<IconBaseProps> {}
   declare export class FaSmoking extends React$Component<IconBaseProps> {}
+  declare export class FaSms extends React$Component<IconBaseProps> {}
+  declare export class FaSnowboarding extends React$Component<IconBaseProps> {}
   declare export class FaSnowflake extends React$Component<IconBaseProps> {}
+  declare export class FaSnowman extends React$Component<IconBaseProps> {}
+  declare export class FaSnowplow extends React$Component<IconBaseProps> {}
   declare export class FaSocks extends React$Component<IconBaseProps> {}
   declare export class FaSolarPanel extends React$Component<IconBaseProps> {}
   declare export class FaSortAlphaDown extends React$Component<IconBaseProps> {}
@@ -1105,7 +1398,6 @@ declare module 'react-icons/fa' {
   declare export class FaSprayCan extends React$Component<IconBaseProps> {}
   declare export class FaSquareFull extends React$Component<IconBaseProps> {}
   declare export class FaSquareRootAlt extends React$Component<IconBaseProps> {}
-  declare export class FaSquareRoot extends React$Component<IconBaseProps> {}
   declare export class FaSquare extends React$Component<IconBaseProps> {}
   declare export class FaStamp extends React$Component<IconBaseProps> {}
   declare export class FaStarAndCrescent extends React$Component<IconBaseProps> {}
@@ -1149,12 +1441,14 @@ declare module 'react-icons/fa' {
   declare export class FaTachometerAlt extends React$Component<IconBaseProps> {}
   declare export class FaTag extends React$Component<IconBaseProps> {}
   declare export class FaTags extends React$Component<IconBaseProps> {}
-  declare export class FaTally extends React$Component<IconBaseProps> {}
   declare export class FaTape extends React$Component<IconBaseProps> {}
   declare export class FaTasks extends React$Component<IconBaseProps> {}
   declare export class FaTaxi extends React$Component<IconBaseProps> {}
   declare export class FaTeethOpen extends React$Component<IconBaseProps> {}
   declare export class FaTeeth extends React$Component<IconBaseProps> {}
+  declare export class FaTemperatureHigh extends React$Component<IconBaseProps> {}
+  declare export class FaTemperatureLow extends React$Component<IconBaseProps> {}
+  declare export class FaTenge extends React$Component<IconBaseProps> {}
   declare export class FaTerminal extends React$Component<IconBaseProps> {}
   declare export class FaTextHeight extends React$Component<IconBaseProps> {}
   declare export class FaTextWidth extends React$Component<IconBaseProps> {}
@@ -1168,12 +1462,10 @@ declare module 'react-icons/fa' {
   declare export class FaThermometerQuarter extends React$Component<IconBaseProps> {}
   declare export class FaThermometerThreeQuarters extends React$Component<IconBaseProps> {}
   declare export class FaThermometer extends React$Component<IconBaseProps> {}
-  declare export class FaTheta extends React$Component<IconBaseProps> {}
   declare export class FaThumbsDown extends React$Component<IconBaseProps> {}
   declare export class FaThumbsUp extends React$Component<IconBaseProps> {}
   declare export class FaThumbtack extends React$Component<IconBaseProps> {}
   declare export class FaTicketAlt extends React$Component<IconBaseProps> {}
-  declare export class FaTilde extends React$Component<IconBaseProps> {}
   declare export class FaTimesCircle extends React$Component<IconBaseProps> {}
   declare export class FaTimes extends React$Component<IconBaseProps> {}
   declare export class FaTintSlash extends React$Component<IconBaseProps> {}
@@ -1182,7 +1474,9 @@ declare module 'react-icons/fa' {
   declare export class FaToggleOff extends React$Component<IconBaseProps> {}
   declare export class FaToggleOn extends React$Component<IconBaseProps> {}
   declare export class FaToiletPaper extends React$Component<IconBaseProps> {}
+  declare export class FaToilet extends React$Component<IconBaseProps> {}
   declare export class FaToolbox extends React$Component<IconBaseProps> {}
+  declare export class FaTools extends React$Component<IconBaseProps> {}
   declare export class FaTooth extends React$Component<IconBaseProps> {}
   declare export class FaTorah extends React$Component<IconBaseProps> {}
   declare export class FaToriiGate extends React$Component<IconBaseProps> {}
@@ -1190,9 +1484,12 @@ declare module 'react-icons/fa' {
   declare export class FaTrademark extends React$Component<IconBaseProps> {}
   declare export class FaTrafficLight extends React$Component<IconBaseProps> {}
   declare export class FaTrain extends React$Component<IconBaseProps> {}
+  declare export class FaTram extends React$Component<IconBaseProps> {}
   declare export class FaTransgenderAlt extends React$Component<IconBaseProps> {}
   declare export class FaTransgender extends React$Component<IconBaseProps> {}
   declare export class FaTrashAlt extends React$Component<IconBaseProps> {}
+  declare export class FaTrashRestoreAlt extends React$Component<IconBaseProps> {}
+  declare export class FaTrashRestore extends React$Component<IconBaseProps> {}
   declare export class FaTrash extends React$Component<IconBaseProps> {}
   declare export class FaTree extends React$Component<IconBaseProps> {}
   declare export class FaTrophy extends React$Component<IconBaseProps> {}
@@ -1209,7 +1506,6 @@ declare module 'react-icons/fa' {
   declare export class FaUnderline extends React$Component<IconBaseProps> {}
   declare export class FaUndoAlt extends React$Component<IconBaseProps> {}
   declare export class FaUndo extends React$Component<IconBaseProps> {}
-  declare export class FaUnion extends React$Component<IconBaseProps> {}
   declare export class FaUniversalAccess extends React$Component<IconBaseProps> {}
   declare export class FaUniversity extends React$Component<IconBaseProps> {}
   declare export class FaUnlink extends React$Component<IconBaseProps> {}
@@ -1231,6 +1527,7 @@ declare module 'react-icons/fa' {
   declare export class FaUserMd extends React$Component<IconBaseProps> {}
   declare export class FaUserMinus extends React$Component<IconBaseProps> {}
   declare export class FaUserNinja extends React$Component<IconBaseProps> {}
+  declare export class FaUserNurse extends React$Component<IconBaseProps> {}
   declare export class FaUserPlus extends React$Component<IconBaseProps> {}
   declare export class FaUserSecret extends React$Component<IconBaseProps> {}
   declare export class FaUserShield extends React$Component<IconBaseProps> {}
@@ -1243,7 +1540,6 @@ declare module 'react-icons/fa' {
   declare export class FaUsers extends React$Component<IconBaseProps> {}
   declare export class FaUtensilSpoon extends React$Component<IconBaseProps> {}
   declare export class FaUtensils extends React$Component<IconBaseProps> {}
-  declare export class FaValueAbsolute extends React$Component<IconBaseProps> {}
   declare export class FaVectorSquare extends React$Component<IconBaseProps> {}
   declare export class FaVenusDouble extends React$Component<IconBaseProps> {}
   declare export class FaVenusMars extends React$Component<IconBaseProps> {}
@@ -1257,16 +1553,17 @@ declare module 'react-icons/fa' {
   declare export class FaVolumeDown extends React$Component<IconBaseProps> {}
   declare export class FaVolumeMute extends React$Component<IconBaseProps> {}
   declare export class FaVolumeOff extends React$Component<IconBaseProps> {}
-  declare export class FaVolumeSlash extends React$Component<IconBaseProps> {}
   declare export class FaVolumeUp extends React$Component<IconBaseProps> {}
-  declare export class FaVolume extends React$Component<IconBaseProps> {}
+  declare export class FaVoteYea extends React$Component<IconBaseProps> {}
+  declare export class FaVrCardboard extends React$Component<IconBaseProps> {}
   declare export class FaWalking extends React$Component<IconBaseProps> {}
   declare export class FaWallet extends React$Component<IconBaseProps> {}
   declare export class FaWarehouse extends React$Component<IconBaseProps> {}
+  declare export class FaWater extends React$Component<IconBaseProps> {}
+  declare export class FaWaveSquare extends React$Component<IconBaseProps> {}
   declare export class FaWeightHanging extends React$Component<IconBaseProps> {}
   declare export class FaWeight extends React$Component<IconBaseProps> {}
   declare export class FaWheelchair extends React$Component<IconBaseProps> {}
-  declare export class FaWifiSlash extends React$Component<IconBaseProps> {}
   declare export class FaWifi extends React$Component<IconBaseProps> {}
   declare export class FaWind extends React$Component<IconBaseProps> {}
   declare export class FaWindowClose extends React$Component<IconBaseProps> {}
@@ -2135,7 +2432,7 @@ declare module 'react-icons/io' {
 }
 
 declare module 'react-icons/md' {
-  declare export class Md3dRotation extends React$Component<IconBaseProps> {}
+  declare export class Md3DRotation extends React$Component<IconBaseProps> {}
   declare export class MdAccessibility extends React$Component<IconBaseProps> {}
   declare export class MdAccessible extends React$Component<IconBaseProps> {}
   declare export class MdAccountBalance extends React$Component<IconBaseProps> {}
@@ -3488,6 +3785,7 @@ declare module 'react-icons/go' {
   declare export class GoDiffRenamed extends React$Component<IconBaseProps> {}
   declare export class GoDiff extends React$Component<IconBaseProps> {}
   declare export class GoEllipsis extends React$Component<IconBaseProps> {}
+  declare export class GoEyeClosed extends React$Component<IconBaseProps> {}
   declare export class GoEye extends React$Component<IconBaseProps> {}
   declare export class GoFileBinary extends React$Component<IconBaseProps> {}
   declare export class GoFileCode extends React$Component<IconBaseProps> {}
@@ -3500,6 +3798,8 @@ declare module 'react-icons/go' {
   declare export class GoFileZip extends React$Component<IconBaseProps> {}
   declare export class GoFile extends React$Component<IconBaseProps> {}
   declare export class GoFlame extends React$Component<IconBaseProps> {}
+  declare export class GoFoldDown extends React$Component<IconBaseProps> {}
+  declare export class GoFoldUp extends React$Component<IconBaseProps> {}
   declare export class GoFold extends React$Component<IconBaseProps> {}
   declare export class GoGear extends React$Component<IconBaseProps> {}
   declare export class GoGift extends React$Component<IconBaseProps> {}
@@ -3510,6 +3810,7 @@ declare module 'react-icons/go' {
   declare export class GoGitCompare extends React$Component<IconBaseProps> {}
   declare export class GoGitMerge extends React$Component<IconBaseProps> {}
   declare export class GoGitPullRequest extends React$Component<IconBaseProps> {}
+  declare export class GoGithubAction extends React$Component<IconBaseProps> {}
   declare export class GoGlobe extends React$Component<IconBaseProps> {}
   declare export class GoGrabber extends React$Component<IconBaseProps> {}
   declare export class GoGraph extends React$Component<IconBaseProps> {}
@@ -3558,6 +3859,7 @@ declare module 'react-icons/go' {
   declare export class GoPencil extends React$Component<IconBaseProps> {}
   declare export class GoPerson extends React$Component<IconBaseProps> {}
   declare export class GoPin extends React$Component<IconBaseProps> {}
+  declare export class GoPlay extends React$Component<IconBaseProps> {}
   declare export class GoPlug extends React$Component<IconBaseProps> {}
   declare export class GoPlusSmall extends React$Component<IconBaseProps> {}
   declare export class GoPlus extends React$Component<IconBaseProps> {}
@@ -3576,6 +3878,7 @@ declare module 'react-icons/go' {
   declare export class GoRepoPush extends React$Component<IconBaseProps> {}
   declare export class GoRepo extends React$Component<IconBaseProps> {}
   declare export class GoReport extends React$Component<IconBaseProps> {}
+  declare export class GoRequestChanges extends React$Component<IconBaseProps> {}
   declare export class GoRocket extends React$Component<IconBaseProps> {}
   declare export class GoRss extends React$Component<IconBaseProps> {}
   declare export class GoRuby extends React$Component<IconBaseProps> {}
@@ -3683,6 +3986,9 @@ declare module 'react-icons/fi' {
   declare export class FiCloud extends React$Component<IconBaseProps> {}
   declare export class FiCode extends React$Component<IconBaseProps> {}
   declare export class FiCodepen extends React$Component<IconBaseProps> {}
+  declare export class FiCodesandbox extends React$Component<IconBaseProps> {}
+  declare export class FiCoffee extends React$Component<IconBaseProps> {}
+  declare export class FiColumns extends React$Component<IconBaseProps> {}
   declare export class FiCommand extends React$Component<IconBaseProps> {}
   declare export class FiCompass extends React$Component<IconBaseProps> {}
   declare export class FiCopy extends React$Component<IconBaseProps> {}
@@ -3714,6 +4020,7 @@ declare module 'react-icons/fi' {
   declare export class FiFacebook extends React$Component<IconBaseProps> {}
   declare export class FiFastForward extends React$Component<IconBaseProps> {}
   declare export class FiFeather extends React$Component<IconBaseProps> {}
+  declare export class FiFigma extends React$Component<IconBaseProps> {}
   declare export class FiFileMinus extends React$Component<IconBaseProps> {}
   declare export class FiFilePlus extends React$Component<IconBaseProps> {}
   declare export class FiFileText extends React$Component<IconBaseProps> {}
@@ -3724,6 +4031,7 @@ declare module 'react-icons/fi' {
   declare export class FiFolderMinus extends React$Component<IconBaseProps> {}
   declare export class FiFolderPlus extends React$Component<IconBaseProps> {}
   declare export class FiFolder extends React$Component<IconBaseProps> {}
+  declare export class FiFrown extends React$Component<IconBaseProps> {}
   declare export class FiGift extends React$Component<IconBaseProps> {}
   declare export class FiGitBranch extends React$Component<IconBaseProps> {}
   declare export class FiGitCommit extends React$Component<IconBaseProps> {}
@@ -3738,12 +4046,14 @@ declare module 'react-icons/fi' {
   declare export class FiHeadphones extends React$Component<IconBaseProps> {}
   declare export class FiHeart extends React$Component<IconBaseProps> {}
   declare export class FiHelpCircle extends React$Component<IconBaseProps> {}
+  declare export class FiHexagon extends React$Component<IconBaseProps> {}
   declare export class FiHome extends React$Component<IconBaseProps> {}
   declare export class FiImage extends React$Component<IconBaseProps> {}
   declare export class FiInbox extends React$Component<IconBaseProps> {}
   declare export class FiInfo extends React$Component<IconBaseProps> {}
   declare export class FiInstagram extends React$Component<IconBaseProps> {}
   declare export class FiItalic extends React$Component<IconBaseProps> {}
+  declare export class FiKey extends React$Component<IconBaseProps> {}
   declare export class FiLayers extends React$Component<IconBaseProps> {}
   declare export class FiLayout extends React$Component<IconBaseProps> {}
   declare export class FiLifeBuoy extends React$Component<IconBaseProps> {}
@@ -3760,6 +4070,7 @@ declare module 'react-icons/fi' {
   declare export class FiMap extends React$Component<IconBaseProps> {}
   declare export class FiMaximize2 extends React$Component<IconBaseProps> {}
   declare export class FiMaximize extends React$Component<IconBaseProps> {}
+  declare export class FiMeh extends React$Component<IconBaseProps> {}
   declare export class FiMenu extends React$Component<IconBaseProps> {}
   declare export class FiMessageCircle extends React$Component<IconBaseProps> {}
   declare export class FiMessageSquare extends React$Component<IconBaseProps> {}
@@ -3774,6 +4085,7 @@ declare module 'react-icons/fi' {
   declare export class FiMoon extends React$Component<IconBaseProps> {}
   declare export class FiMoreHorizontal extends React$Component<IconBaseProps> {}
   declare export class FiMoreVertical extends React$Component<IconBaseProps> {}
+  declare export class FiMousePointer extends React$Component<IconBaseProps> {}
   declare export class FiMove extends React$Component<IconBaseProps> {}
   declare export class FiMusic extends React$Component<IconBaseProps> {}
   declare export class FiNavigation2 extends React$Component<IconBaseProps> {}
@@ -3783,6 +4095,7 @@ declare module 'react-icons/fi' {
   declare export class FiPaperclip extends React$Component<IconBaseProps> {}
   declare export class FiPauseCircle extends React$Component<IconBaseProps> {}
   declare export class FiPause extends React$Component<IconBaseProps> {}
+  declare export class FiPenTool extends React$Component<IconBaseProps> {}
   declare export class FiPercent extends React$Component<IconBaseProps> {}
   declare export class FiPhoneCall extends React$Component<IconBaseProps> {}
   declare export class FiPhoneForwarded extends React$Component<IconBaseProps> {}
@@ -3828,6 +4141,7 @@ declare module 'react-icons/fi' {
   declare export class FiSlash extends React$Component<IconBaseProps> {}
   declare export class FiSliders extends React$Component<IconBaseProps> {}
   declare export class FiSmartphone extends React$Component<IconBaseProps> {}
+  declare export class FiSmile extends React$Component<IconBaseProps> {}
   declare export class FiSpeaker extends React$Component<IconBaseProps> {}
   declare export class FiSquare extends React$Component<IconBaseProps> {}
   declare export class FiStar extends React$Component<IconBaseProps> {}
@@ -3846,6 +4160,7 @@ declare module 'react-icons/fi' {
   declare export class FiToggleRight extends React$Component<IconBaseProps> {}
   declare export class FiTrash2 extends React$Component<IconBaseProps> {}
   declare export class FiTrash extends React$Component<IconBaseProps> {}
+  declare export class FiTrello extends React$Component<IconBaseProps> {}
   declare export class FiTrendingDown extends React$Component<IconBaseProps> {}
   declare export class FiTrendingUp extends React$Component<IconBaseProps> {}
   declare export class FiTriangle extends React$Component<IconBaseProps> {}
@@ -3876,6 +4191,7 @@ declare module 'react-icons/fi' {
   declare export class FiWifi extends React$Component<IconBaseProps> {}
   declare export class FiWind extends React$Component<IconBaseProps> {}
   declare export class FiXCircle extends React$Component<IconBaseProps> {}
+  declare export class FiXOctagon extends React$Component<IconBaseProps> {}
   declare export class FiXSquare extends React$Component<IconBaseProps> {}
   declare export class FiX extends React$Component<IconBaseProps> {}
   declare export class FiYoutube extends React$Component<IconBaseProps> {}
@@ -3883,4 +4199,3576 @@ declare module 'react-icons/fi' {
   declare export class FiZap extends React$Component<IconBaseProps> {}
   declare export class FiZoomIn extends React$Component<IconBaseProps> {}
   declare export class FiZoomOut extends React$Component<IconBaseProps> {}
+}
+
+declare module 'react-icons/gi' {
+  declare export class GiPoliceBadge extends React$Component<IconBaseProps> {}
+  declare export class GiBrutalHelm extends React$Component<IconBaseProps> {}
+  declare export class GiCrossbow extends React$Component<IconBaseProps> {}
+  declare export class GiFlame extends React$Component<IconBaseProps> {}
+  declare export class GiMiteAlt extends React$Component<IconBaseProps> {}
+  declare export class GiSpiderAlt extends React$Component<IconBaseProps> {}
+  declare export class GiSpiderFace extends React$Component<IconBaseProps> {}
+  declare export class GiAnnexation extends React$Component<IconBaseProps> {}
+  declare export class GiBadGnome extends React$Component<IconBaseProps> {}
+  declare export class GiBattleship extends React$Component<IconBaseProps> {}
+  declare export class GiBoarEnsign extends React$Component<IconBaseProps> {}
+  declare export class GiCarnyx extends React$Component<IconBaseProps> {}
+  declare export class GiCarrier extends React$Component<IconBaseProps> {}
+  declare export class GiChariot extends React$Component<IconBaseProps> {}
+  declare export class GiCruiser extends React$Component<IconBaseProps> {}
+  declare export class GiDread extends React$Component<IconBaseProps> {}
+  declare export class GiDreadnought extends React$Component<IconBaseProps> {}
+  declare export class GiEarthWorm extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingTrout extends React$Component<IconBaseProps> {}
+  declare export class GiFomorian extends React$Component<IconBaseProps> {}
+  declare export class GiGreatWarTank extends React$Component<IconBaseProps> {}
+  declare export class GiHolyOak extends React$Component<IconBaseProps> {}
+  declare export class GiIronHulledWarship extends React$Component<IconBaseProps> {}
+  declare export class GiMedusaHead extends React$Component<IconBaseProps> {}
+  declare export class GiNunFace extends React$Component<IconBaseProps> {}
+  declare export class GiOccupy extends React$Component<IconBaseProps> {}
+  declare export class GiOldKing extends React$Component<IconBaseProps> {}
+  declare export class GiOppidum extends React$Component<IconBaseProps> {}
+  declare export class GiPolarBear extends React$Component<IconBaseProps> {}
+  declare export class GiSwordman extends React$Component<IconBaseProps> {}
+  declare export class GiSwordwoman extends React$Component<IconBaseProps> {}
+  declare export class GiTorc extends React$Component<IconBaseProps> {}
+  declare export class GiTransparentSlime extends React$Component<IconBaseProps> {}
+  declare export class GiTreeFace extends React$Component<IconBaseProps> {}
+  declare export class GiTumulus extends React$Component<IconBaseProps> {}
+  declare export class GiWitchFace extends React$Component<IconBaseProps> {}
+  declare export class GiAcrobatic extends React$Component<IconBaseProps> {}
+  declare export class GiApothecary extends React$Component<IconBaseProps> {}
+  declare export class GiBigGear extends React$Component<IconBaseProps> {}
+  declare export class GiCatch extends React$Component<IconBaseProps> {}
+  declare export class GiCauldron extends React$Component<IconBaseProps> {}
+  declare export class GiChameleonGlyph extends React$Component<IconBaseProps> {}
+  declare export class GiDeathJuice extends React$Component<IconBaseProps> {}
+  declare export class GiDistraction extends React$Component<IconBaseProps> {}
+  declare export class GiFishCooked extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiFriedFish extends React$Component<IconBaseProps> {}
+  declare export class GiHoodedAssassin extends React$Component<IconBaseProps> {}
+  declare export class GiHoodedFigure extends React$Component<IconBaseProps> {}
+  declare export class GiKusarigama extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaHead extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaHeroicStance extends React$Component<IconBaseProps> {}
+  declare export class GiNorthStarShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiOnSight extends React$Component<IconBaseProps> {}
+  declare export class GiPlantsAndAnimals extends React$Component<IconBaseProps> {}
+  declare export class GiRam extends React$Component<IconBaseProps> {}
+  declare export class GiRevolt extends React$Component<IconBaseProps> {}
+  declare export class GiRobberHand extends React$Component<IconBaseProps> {}
+  declare export class GiRunningNinja extends React$Component<IconBaseProps> {}
+  declare export class GiSeveredHand extends React$Component<IconBaseProps> {}
+  declare export class GiSharpShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiSkullSabertooth extends React$Component<IconBaseProps> {}
+  declare export class GiSmokeBomb extends React$Component<IconBaseProps> {}
+  declare export class GiStarShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiTabiBoot extends React$Component<IconBaseProps> {}
+  declare export class GiThreePointedShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiWhirlpoolShuriken extends React$Component<IconBaseProps> {}
+  declare export class Gi3DHammer extends React$Component<IconBaseProps> {}
+  declare export class Gi3DMeeple extends React$Component<IconBaseProps> {}
+  declare export class Gi3DStairs extends React$Component<IconBaseProps> {}
+  declare export class GiAbacus extends React$Component<IconBaseProps> {}
+  declare export class GiAchillesHeel extends React$Component<IconBaseProps> {}
+  declare export class GiAcousticMegaphone extends React$Component<IconBaseProps> {}
+  declare export class GiAfrica extends React$Component<IconBaseProps> {}
+  declare export class GiAges extends React$Component<IconBaseProps> {}
+  declare export class GiAirBalloon extends React$Component<IconBaseProps> {}
+  declare export class GiAirtightHatch extends React$Component<IconBaseProps> {}
+  declare export class GiAlarmClock extends React$Component<IconBaseProps> {}
+  declare export class GiAlgae extends React$Component<IconBaseProps> {}
+  declare export class GiAlienBug extends React$Component<IconBaseProps> {}
+  declare export class GiAlienEgg extends React$Component<IconBaseProps> {}
+  declare export class GiAllSeeingEye extends React$Component<IconBaseProps> {}
+  declare export class GiAlmond extends React$Component<IconBaseProps> {}
+  declare export class GiAmberMosquito extends React$Component<IconBaseProps> {}
+  declare export class GiAmbulance extends React$Component<IconBaseProps> {}
+  declare export class GiAmericanFootballBall extends React$Component<IconBaseProps> {}
+  declare export class GiAmericanFootballHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiAmericanShield extends React$Component<IconBaseProps> {}
+  declare export class GiAmphora extends React$Component<IconBaseProps> {}
+  declare export class GiAnarchy extends React$Component<IconBaseProps> {}
+  declare export class GiAncientRuins extends React$Component<IconBaseProps> {}
+  declare export class GiAncientScrew extends React$Component<IconBaseProps> {}
+  declare export class GiAncientSword extends React$Component<IconBaseProps> {}
+  declare export class GiAngola extends React$Component<IconBaseProps> {}
+  declare export class GiAngryEyes extends React$Component<IconBaseProps> {}
+  declare export class GiAnimalHide extends React$Component<IconBaseProps> {}
+  declare export class GiAnt extends React$Component<IconBaseProps> {}
+  declare export class GiAntarctica extends React$Component<IconBaseProps> {}
+  declare export class GiAntibody extends React$Component<IconBaseProps> {}
+  declare export class GiAnticlockwiseRotation extends React$Component<IconBaseProps> {}
+  declare export class GiAnts extends React$Component<IconBaseProps> {}
+  declare export class GiAnubis extends React$Component<IconBaseProps> {}
+  declare export class GiAquarium extends React$Component<IconBaseProps> {}
+  declare export class GiAquarius extends React$Component<IconBaseProps> {}
+  declare export class GiAqueduct extends React$Component<IconBaseProps> {}
+  declare export class GiArabicDoor extends React$Component<IconBaseProps> {}
+  declare export class GiArcTriomphe extends React$Component<IconBaseProps> {}
+  declare export class GiArcher extends React$Component<IconBaseProps> {}
+  declare export class GiAries extends React$Component<IconBaseProps> {}
+  declare export class GiArmBandage extends React$Component<IconBaseProps> {}
+  declare export class GiArmSling extends React$Component<IconBaseProps> {}
+  declare export class GiArm extends React$Component<IconBaseProps> {}
+  declare export class GiArmadillo extends React$Component<IconBaseProps> {}
+  declare export class GiArmorDowngrade extends React$Component<IconBaseProps> {}
+  declare export class GiArmorPunch extends React$Component<IconBaseProps> {}
+  declare export class GiArmorUpgrade extends React$Component<IconBaseProps> {}
+  declare export class GiArmoredBoomerang extends React$Component<IconBaseProps> {}
+  declare export class GiArrest extends React$Component<IconBaseProps> {}
+  declare export class GiArrowCursor extends React$Component<IconBaseProps> {}
+  declare export class GiArrowWings extends React$Component<IconBaseProps> {}
+  declare export class GiAscendingBlock extends React$Component<IconBaseProps> {}
+  declare export class GiAsianLantern extends React$Component<IconBaseProps> {}
+  declare export class GiAspergillum extends React$Component<IconBaseProps> {}
+  declare export class GiAsteroid extends React$Component<IconBaseProps> {}
+  declare export class GiAstronautHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiAtlas extends React$Component<IconBaseProps> {}
+  declare export class GiAttachedShield extends React$Component<IconBaseProps> {}
+  declare export class GiAudioCassette extends React$Component<IconBaseProps> {}
+  declare export class GiAustralia extends React$Component<IconBaseProps> {}
+  declare export class GiAxeInLog extends React$Component<IconBaseProps> {}
+  declare export class GiBabyFace extends React$Component<IconBaseProps> {}
+  declare export class GiBabyfootPlayers extends React$Component<IconBaseProps> {}
+  declare export class GiBackgammon extends React$Component<IconBaseProps> {}
+  declare export class GiBackpack extends React$Component<IconBaseProps> {}
+  declare export class GiBackwardTime extends React$Component<IconBaseProps> {}
+  declare export class GiBadBreath extends React$Component<IconBaseProps> {}
+  declare export class GiBallerinaShoes extends React$Component<IconBaseProps> {}
+  declare export class GiBalloonDog extends React$Component<IconBaseProps> {}
+  declare export class GiBambooFountain extends React$Component<IconBaseProps> {}
+  declare export class GiBamboo extends React$Component<IconBaseProps> {}
+  declare export class GiBananaBunch extends React$Component<IconBaseProps> {}
+  declare export class GiBananaPeel extends React$Component<IconBaseProps> {}
+  declare export class GiBananaPeeled extends React$Component<IconBaseProps> {}
+  declare export class GiBanana extends React$Component<IconBaseProps> {}
+  declare export class GiBandit extends React$Component<IconBaseProps> {}
+  declare export class GiBangingGavel extends React$Component<IconBaseProps> {}
+  declare export class GiBank extends React$Component<IconBaseProps> {}
+  declare export class GiBanknote extends React$Component<IconBaseProps> {}
+  declare export class GiBarbarian extends React$Component<IconBaseProps> {}
+  declare export class GiBarbecue extends React$Component<IconBaseProps> {}
+  declare export class GiBarn extends React$Component<IconBaseProps> {}
+  declare export class GiBarracksTent extends React$Component<IconBaseProps> {}
+  declare export class GiBarracks extends React$Component<IconBaseProps> {}
+  declare export class GiBarrel extends React$Component<IconBaseProps> {}
+  declare export class GiBarricade extends React$Component<IconBaseProps> {}
+  declare export class GiBarrier extends React$Component<IconBaseProps> {}
+  declare export class GiBaseballBat extends React$Component<IconBaseProps> {}
+  declare export class GiBaseballGlove extends React$Component<IconBaseProps> {}
+  declare export class GiBasketballBall extends React$Component<IconBaseProps> {}
+  declare export class GiBasketballBasket extends React$Component<IconBaseProps> {}
+  declare export class GiBasketballJersey extends React$Component<IconBaseProps> {}
+  declare export class GiBastet extends React$Component<IconBaseProps> {}
+  declare export class GiBatMask extends React$Component<IconBaseProps> {}
+  declare export class GiBat extends React$Component<IconBaseProps> {}
+  declare export class GiBattleMech extends React$Component<IconBaseProps> {}
+  declare export class GiBeachBall extends React$Component<IconBaseProps> {}
+  declare export class GiBeachBucket extends React$Component<IconBaseProps> {}
+  declare export class GiBeamSatellite extends React$Component<IconBaseProps> {}
+  declare export class GiBearHead extends React$Component<IconBaseProps> {}
+  declare export class GiBedLamp extends React$Component<IconBaseProps> {}
+  declare export class GiBed extends React$Component<IconBaseProps> {}
+  declare export class GiBeehive extends React$Component<IconBaseProps> {}
+  declare export class GiBeerBottle extends React$Component<IconBaseProps> {}
+  declare export class GiBeet extends React$Component<IconBaseProps> {}
+  declare export class GiBelgium extends React$Component<IconBaseProps> {}
+  declare export class GiBeltArmor extends React$Component<IconBaseProps> {}
+  declare export class GiBerriesBowl extends React$Component<IconBaseProps> {}
+  declare export class GiBerryBush extends React$Component<IconBaseProps> {}
+  declare export class GiBiceps extends React$Component<IconBaseProps> {}
+  declare export class GiBilledCap extends React$Component<IconBaseProps> {}
+  declare export class GiBindle extends React$Component<IconBaseProps> {}
+  declare export class GiBinoculars extends React$Component<IconBaseProps> {}
+  declare export class GiBison extends React$Component<IconBaseProps> {}
+  declare export class GiBlackBelt extends React$Component<IconBaseProps> {}
+  declare export class GiBlackKnightHelm extends React$Component<IconBaseProps> {}
+  declare export class GiBlackSea extends React$Component<IconBaseProps> {}
+  declare export class GiBlacksmith extends React$Component<IconBaseProps> {}
+  declare export class GiBlindfold extends React$Component<IconBaseProps> {}
+  declare export class GiBlockHouse extends React$Component<IconBaseProps> {}
+  declare export class GiBo extends React$Component<IconBaseProps> {}
+  declare export class GiBoatFishing extends React$Component<IconBaseProps> {}
+  declare export class GiBoatHorizon extends React$Component<IconBaseProps> {}
+  declare export class GiBoatPropeller extends React$Component<IconBaseProps> {}
+  declare export class GiBodyBalance extends React$Component<IconBaseProps> {}
+  declare export class GiBodyHeight extends React$Component<IconBaseProps> {}
+  declare export class GiBolivia extends React$Component<IconBaseProps> {}
+  declare export class GiBoltBomb extends React$Component<IconBaseProps> {}
+  declare export class GiBoltCutter extends React$Component<IconBaseProps> {}
+  declare export class GiBoltSpellCast extends React$Component<IconBaseProps> {}
+  declare export class GiBoneKnife extends React$Component<IconBaseProps> {}
+  declare export class GiBoneMace extends React$Component<IconBaseProps> {}
+  declare export class GiBonsaiTree extends React$Component<IconBaseProps> {}
+  declare export class GiBookCover extends React$Component<IconBaseProps> {}
+  declare export class GiBookPile extends React$Component<IconBaseProps> {}
+  declare export class GiBookshelf extends React$Component<IconBaseProps> {}
+  declare export class GiBoomerang extends React$Component<IconBaseProps> {}
+  declare export class GiBooze extends React$Component<IconBaseProps> {}
+  declare export class GiBossKey extends React$Component<IconBaseProps> {}
+  declare export class GiBottleCap extends React$Component<IconBaseProps> {}
+  declare export class GiBottledShadow extends React$Component<IconBaseProps> {}
+  declare export class GiBoulderDash extends React$Component<IconBaseProps> {}
+  declare export class GiBouncingSpring extends React$Component<IconBaseProps> {}
+  declare export class GiBowArrow extends React$Component<IconBaseProps> {}
+  declare export class GiBowTieRibbon extends React$Component<IconBaseProps> {}
+  declare export class GiBowTie extends React$Component<IconBaseProps> {}
+  declare export class GiBowels extends React$Component<IconBaseProps> {}
+  declare export class GiBowenKnot extends React$Component<IconBaseProps> {}
+  declare export class GiBowlingPin extends React$Component<IconBaseProps> {}
+  declare export class GiBowlingStrike extends React$Component<IconBaseProps> {}
+  declare export class GiBoxCutter extends React$Component<IconBaseProps> {}
+  declare export class GiBracer extends React$Component<IconBaseProps> {}
+  declare export class GiBrainLeak extends React$Component<IconBaseProps> {}
+  declare export class GiBrainTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiBrasero extends React$Component<IconBaseProps> {}
+  declare export class GiBrassKnuckles extends React$Component<IconBaseProps> {}
+  declare export class GiBrazilFlag extends React$Component<IconBaseProps> {}
+  declare export class GiBrazil extends React$Component<IconBaseProps> {}
+  declare export class GiBread extends React$Component<IconBaseProps> {}
+  declare export class GiBrickPile extends React$Component<IconBaseProps> {}
+  declare export class GiBrickWall extends React$Component<IconBaseProps> {}
+  declare export class GiBriefcase extends React$Component<IconBaseProps> {}
+  declare export class GiBroccoli extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenAxe extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenPottery extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenWall extends React$Component<IconBaseProps> {}
+  declare export class GiBroom extends React$Component<IconBaseProps> {}
+  declare export class GiBrute extends React$Component<IconBaseProps> {}
+  declare export class GiBuffaloHead extends React$Component<IconBaseProps> {}
+  declare export class GiBulldozer extends React$Component<IconBaseProps> {}
+  declare export class GiBulletImpacts extends React$Component<IconBaseProps> {}
+  declare export class GiBullyMinion extends React$Component<IconBaseProps> {}
+  declare export class GiBuoy extends React$Component<IconBaseProps> {}
+  declare export class GiBus extends React$Component<IconBaseProps> {}
+  declare export class GiButter extends React$Component<IconBaseProps> {}
+  declare export class GiButterflyKnife extends React$Component<IconBaseProps> {}
+  declare export class GiButtonFinger extends React$Component<IconBaseProps> {}
+  declare export class GiBuyCard extends React$Component<IconBaseProps> {}
+  declare export class GiByzantinTemple extends React$Component<IconBaseProps> {}
+  declare export class GiCactus extends React$Component<IconBaseProps> {}
+  declare export class GiCadillacHelm extends React$Component<IconBaseProps> {}
+  declare export class GiCaduceus extends React$Component<IconBaseProps> {}
+  declare export class GiCaesar extends React$Component<IconBaseProps> {}
+  declare export class GiCage extends React$Component<IconBaseProps> {}
+  declare export class GiCalavera extends React$Component<IconBaseProps> {}
+  declare export class GiCalendar extends React$Component<IconBaseProps> {}
+  declare export class GiCaltrops extends React$Component<IconBaseProps> {}
+  declare export class GiCamargueCross extends React$Component<IconBaseProps> {}
+  declare export class GiCambodia extends React$Component<IconBaseProps> {}
+  declare export class GiCamelHead extends React$Component<IconBaseProps> {}
+  declare export class GiCamel extends React$Component<IconBaseProps> {}
+  declare export class GiCampingTent extends React$Component<IconBaseProps> {}
+  declare export class GiCancer extends React$Component<IconBaseProps> {}
+  declare export class GiCandles extends React$Component<IconBaseProps> {}
+  declare export class GiCandlestickPhone extends React$Component<IconBaseProps> {}
+  declare export class GiCandyCanes extends React$Component<IconBaseProps> {}
+  declare export class GiCanoe extends React$Component<IconBaseProps> {}
+  declare export class GiCape extends React$Component<IconBaseProps> {}
+  declare export class GiCapricorn extends React$Component<IconBaseProps> {}
+  declare export class GiCaptainHatProfile extends React$Component<IconBaseProps> {}
+  declare export class GiCarBattery extends React$Component<IconBaseProps> {}
+  declare export class GiCarKey extends React$Component<IconBaseProps> {}
+  declare export class GiCarWheel extends React$Component<IconBaseProps> {}
+  declare export class GiCarambola extends React$Component<IconBaseProps> {}
+  declare export class GiCaravan extends React$Component<IconBaseProps> {}
+  declare export class GiCardBurn extends React$Component<IconBaseProps> {}
+  declare export class GiCardExchange extends React$Component<IconBaseProps> {}
+  declare export class GiCardJoker extends React$Component<IconBaseProps> {}
+  declare export class GiCardboardBox extends React$Component<IconBaseProps> {}
+  declare export class GiCarnivalMask extends React$Component<IconBaseProps> {}
+  declare export class GiCarnivorousPlant extends React$Component<IconBaseProps> {}
+  declare export class GiCarrot extends React$Component<IconBaseProps> {}
+  declare export class GiCassowaryHead extends React$Component<IconBaseProps> {}
+  declare export class GiCastleRuins extends React$Component<IconBaseProps> {}
+  declare export class GiCastle extends React$Component<IconBaseProps> {}
+  declare export class GiCaterpillar extends React$Component<IconBaseProps> {}
+  declare export class GiCavalry extends React$Component<IconBaseProps> {}
+  declare export class GiCaveEntrance extends React$Component<IconBaseProps> {}
+  declare export class GiCaveman extends React$Component<IconBaseProps> {}
+  declare export class GiCctvCamera extends React$Component<IconBaseProps> {}
+  declare export class GiCeilingBarnacle extends React$Component<IconBaseProps> {}
+  declare export class GiCeilingLight extends React$Component<IconBaseProps> {}
+  declare export class GiCentaur extends React$Component<IconBaseProps> {}
+  declare export class GiChainsaw extends React$Component<IconBaseProps> {}
+  declare export class GiChalkOutlineMurder extends React$Component<IconBaseProps> {}
+  declare export class GiChampions extends React$Component<IconBaseProps> {}
+  declare export class GiChargingBull extends React$Component<IconBaseProps> {}
+  declare export class GiChart extends React$Component<IconBaseProps> {}
+  declare export class GiCheckeredFlag extends React$Component<IconBaseProps> {}
+  declare export class GiChecklist extends React$Component<IconBaseProps> {}
+  declare export class GiChefToque extends React$Component<IconBaseProps> {}
+  declare export class GiChelseaBoot extends React$Component<IconBaseProps> {}
+  declare export class GiCherish extends React$Component<IconBaseProps> {}
+  declare export class GiCherry extends React$Component<IconBaseProps> {}
+  declare export class GiChestArmor extends React$Component<IconBaseProps> {}
+  declare export class GiChest extends React$Component<IconBaseProps> {}
+  declare export class GiChickenOven extends React$Component<IconBaseProps> {}
+  declare export class GiChicken extends React$Component<IconBaseProps> {}
+  declare export class GiChiliPepper extends React$Component<IconBaseProps> {}
+  declare export class GiChimney extends React$Component<IconBaseProps> {}
+  declare export class GiChipsBag extends React$Component<IconBaseProps> {}
+  declare export class GiChisel extends React$Component<IconBaseProps> {}
+  declare export class GiChurch extends React$Component<IconBaseProps> {}
+  declare export class GiCigale extends React$Component<IconBaseProps> {}
+  declare export class GiCigar extends React$Component<IconBaseProps> {}
+  declare export class GiCigarette extends React$Component<IconBaseProps> {}
+  declare export class GiCircle extends React$Component<IconBaseProps> {}
+  declare export class GiCityCar extends React$Component<IconBaseProps> {}
+  declare export class GiClapperboard extends React$Component<IconBaseProps> {}
+  declare export class GiClaws extends React$Component<IconBaseProps> {}
+  declare export class GiClayBrick extends React$Component<IconBaseProps> {}
+  declare export class GiClaymoreExplosive extends React$Component<IconBaseProps> {}
+  declare export class GiClockwiseRotation extends React$Component<IconBaseProps> {}
+  declare export class GiClosedBarbute extends React$Component<IconBaseProps> {}
+  declare export class GiClosedDoors extends React$Component<IconBaseProps> {}
+  declare export class GiClothespin extends React$Component<IconBaseProps> {}
+  declare export class GiCloudDownload extends React$Component<IconBaseProps> {}
+  declare export class GiCloudUpload extends React$Component<IconBaseProps> {}
+  declare export class GiClown extends React$Component<IconBaseProps> {}
+  declare export class GiClownfish extends React$Component<IconBaseProps> {}
+  declare export class GiCoalWagon extends React$Component<IconBaseProps> {}
+  declare export class GiCobra extends React$Component<IconBaseProps> {}
+  declare export class GiCoconuts extends React$Component<IconBaseProps> {}
+  declare export class GiCoffeeBeans extends React$Component<IconBaseProps> {}
+  declare export class GiCoffeeCup extends React$Component<IconBaseProps> {}
+  declare export class GiCoinsPile extends React$Component<IconBaseProps> {}
+  declare export class GiCoins extends React$Component<IconBaseProps> {}
+  declare export class GiColiseum extends React$Component<IconBaseProps> {}
+  declare export class GiColombia extends React$Component<IconBaseProps> {}
+  declare export class GiColombianStatue extends React$Component<IconBaseProps> {}
+  declare export class GiCompactDisc extends React$Component<IconBaseProps> {}
+  declare export class GiCompanionCube extends React$Component<IconBaseProps> {}
+  declare export class GiComputerFan extends React$Component<IconBaseProps> {}
+  declare export class GiConcreteBag extends React$Component<IconBaseProps> {}
+  declare export class GiConfrontation extends React$Component<IconBaseProps> {}
+  declare export class GiCongress extends React$Component<IconBaseProps> {}
+  declare export class GiConqueror extends React$Component<IconBaseProps> {}
+  declare export class GiContortionist extends React$Component<IconBaseProps> {}
+  declare export class GiContract extends React$Component<IconBaseProps> {}
+  declare export class GiControlTower extends React$Component<IconBaseProps> {}
+  declare export class GiConvergenceTarget extends React$Component<IconBaseProps> {}
+  declare export class GiConvict extends React$Component<IconBaseProps> {}
+  declare export class GiConvince extends React$Component<IconBaseProps> {}
+  declare export class GiConwayLifeGlider extends React$Component<IconBaseProps> {}
+  declare export class GiCookie extends React$Component<IconBaseProps> {}
+  declare export class GiCookingPot extends React$Component<IconBaseProps> {}
+  declare export class GiCorn extends React$Component<IconBaseProps> {}
+  declare export class GiCornerFlag extends React$Component<IconBaseProps> {}
+  declare export class GiCornucopia extends React$Component<IconBaseProps> {}
+  declare export class GiCoronation extends React$Component<IconBaseProps> {}
+  declare export class GiCorporal extends React$Component<IconBaseProps> {}
+  declare export class GiCorset extends React$Component<IconBaseProps> {}
+  declare export class GiCottonFlower extends React$Component<IconBaseProps> {}
+  declare export class GiCoveredJar extends React$Component<IconBaseProps> {}
+  declare export class GiCow extends React$Component<IconBaseProps> {}
+  declare export class GiCowboyBoot extends React$Component<IconBaseProps> {}
+  declare export class GiCowboyHolster extends React$Component<IconBaseProps> {}
+  declare export class GiCrafting extends React$Component<IconBaseProps> {}
+  declare export class GiCrane extends React$Component<IconBaseProps> {}
+  declare export class GiCrenelCrown extends React$Component<IconBaseProps> {}
+  declare export class GiCricketBat extends React$Component<IconBaseProps> {}
+  declare export class GiCricket extends React$Component<IconBaseProps> {}
+  declare export class GiCrimeSceneTape extends React$Component<IconBaseProps> {}
+  declare export class GiCroissant extends React$Component<IconBaseProps> {}
+  declare export class GiCrookFlail extends React$Component<IconBaseProps> {}
+  declare export class GiCrossShield extends React$Component<IconBaseProps> {}
+  declare export class GiCrosscutSaw extends React$Component<IconBaseProps> {}
+  declare export class GiCrosshair extends React$Component<IconBaseProps> {}
+  declare export class GiCrowNest extends React$Component<IconBaseProps> {}
+  declare export class GiCrowbar extends React$Component<IconBaseProps> {}
+  declare export class GiCrucifix extends React$Component<IconBaseProps> {}
+  declare export class GiCryoChamber extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalShrine extends React$Component<IconBaseProps> {}
+  declare export class GiCube extends React$Component<IconBaseProps> {}
+  declare export class GiCupcake extends React$Component<IconBaseProps> {}
+  declare export class GiCurlingStone extends React$Component<IconBaseProps> {}
+  declare export class GiCustodianHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiCutLemon extends React$Component<IconBaseProps> {}
+  declare export class GiCyberEye extends React$Component<IconBaseProps> {}
+  declare export class GiCyborgFace extends React$Component<IconBaseProps> {}
+  declare export class GiCycling extends React$Component<IconBaseProps> {}
+  declare export class GiDaemonPull extends React$Component<IconBaseProps> {}
+  declare export class GiDaggerRose extends React$Component<IconBaseProps> {}
+  declare export class GiDandelionFlower extends React$Component<IconBaseProps> {}
+  declare export class GiDango extends React$Component<IconBaseProps> {}
+  declare export class GiDart extends React$Component<IconBaseProps> {}
+  declare export class GiDatabase extends React$Component<IconBaseProps> {}
+  declare export class GiDeadHead extends React$Component<IconBaseProps> {}
+  declare export class GiDefenseSatellite extends React$Component<IconBaseProps> {}
+  declare export class GiDesert extends React$Component<IconBaseProps> {}
+  declare export class GiDeshretRedCrown extends React$Component<IconBaseProps> {}
+  declare export class GiDesk extends React$Component<IconBaseProps> {}
+  declare export class GiDetour extends React$Component<IconBaseProps> {}
+  declare export class GiDiamondHilt extends React$Component<IconBaseProps> {}
+  declare export class GiDiamondRing extends React$Component<IconBaseProps> {}
+  declare export class GiDiceEightFacesEight extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesFive extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesFour extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesOne extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesSix extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesThree extends React$Component<IconBaseProps> {}
+  declare export class GiDiceSixFacesTwo extends React$Component<IconBaseProps> {}
+  declare export class GiDiceTwentyFacesTwenty extends React$Component<IconBaseProps> {}
+  declare export class GiDigHole extends React$Component<IconBaseProps> {}
+  declare export class GiDimetrodon extends React$Component<IconBaseProps> {}
+  declare export class GiDiplodocus extends React$Component<IconBaseProps> {}
+  declare export class GiDiploma extends React$Component<IconBaseProps> {}
+  declare export class GiDirectionSign extends React$Component<IconBaseProps> {}
+  declare export class GiDirectionSigns extends React$Component<IconBaseProps> {}
+  declare export class GiDirectorChair extends React$Component<IconBaseProps> {}
+  declare export class GiDiscGolfBag extends React$Component<IconBaseProps> {}
+  declare export class GiDiscGolfBasket extends React$Component<IconBaseProps> {}
+  declare export class GiDiscussion extends React$Component<IconBaseProps> {}
+  declare export class GiDivingHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiDjinn extends React$Component<IconBaseProps> {}
+  declare export class GiDogBowl extends React$Component<IconBaseProps> {}
+  declare export class GiDolmen extends React$Component<IconBaseProps> {}
+  declare export class GiDolphin extends React$Component<IconBaseProps> {}
+  declare export class GiDominoTiles extends React$Component<IconBaseProps> {}
+  declare export class GiDonut extends React$Component<IconBaseProps> {}
+  declare export class GiDoorHandle extends React$Component<IconBaseProps> {}
+  declare export class GiDoughRoller extends React$Component<IconBaseProps> {}
+  declare export class GiDragonOrb extends React$Component<IconBaseProps> {}
+  declare export class GiDrakkarDragon extends React$Component<IconBaseProps> {}
+  declare export class GiDrakkar extends React$Component<IconBaseProps> {}
+  declare export class GiDrawbridge extends React$Component<IconBaseProps> {}
+  declare export class GiDreamCatcher extends React$Component<IconBaseProps> {}
+  declare export class GiDrill extends React$Component<IconBaseProps> {}
+  declare export class GiDrinking extends React$Component<IconBaseProps> {}
+  declare export class GiDrum extends React$Component<IconBaseProps> {}
+  declare export class GiDuckPalm extends React$Component<IconBaseProps> {}
+  declare export class GiDuck extends React$Component<IconBaseProps> {}
+  declare export class GiDunceCap extends React$Component<IconBaseProps> {}
+  declare export class GiDungeonGate extends React$Component<IconBaseProps> {}
+  declare export class GiDungeonLight extends React$Component<IconBaseProps> {}
+  declare export class GiDuration extends React$Component<IconBaseProps> {}
+  declare export class GiDutchBike extends React$Component<IconBaseProps> {}
+  declare export class GiDwarfFace extends React$Component<IconBaseProps> {}
+  declare export class GiDwennimmen extends React$Component<IconBaseProps> {}
+  declare export class GiDynamite extends React$Component<IconBaseProps> {}
+  declare export class GiEagleHead extends React$Component<IconBaseProps> {}
+  declare export class GiEarrings extends React$Component<IconBaseProps> {}
+  declare export class GiEarthAfricaEurope extends React$Component<IconBaseProps> {}
+  declare export class GiEarthAmerica extends React$Component<IconBaseProps> {}
+  declare export class GiEarthAsiaOceania extends React$Component<IconBaseProps> {}
+  declare export class GiEasterEgg extends React$Component<IconBaseProps> {}
+  declare export class GiEatingPelican extends React$Component<IconBaseProps> {}
+  declare export class GiEating extends React$Component<IconBaseProps> {}
+  declare export class GiEcology extends React$Component<IconBaseProps> {}
+  declare export class GiEel extends React$Component<IconBaseProps> {}
+  declare export class GiEgypt extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianBird extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianProfile extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianPyramids extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianSphinx extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianTemple extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianUrns extends React$Component<IconBaseProps> {}
+  declare export class GiEgyptianWalk extends React$Component<IconBaseProps> {}
+  declare export class GiEightBall extends React$Component<IconBaseProps> {}
+  declare export class GiElectricalResistance extends React$Component<IconBaseProps> {}
+  declare export class GiElephantHead extends React$Component<IconBaseProps> {}
+  declare export class GiElephant extends React$Component<IconBaseProps> {}
+  declare export class GiElfEar extends React$Component<IconBaseProps> {}
+  declare export class GiEmeraldNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyChessboard extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyMetalBucketHandle extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyMetalBucket extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyWoodBucketHandle extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyWoodBucket extends React$Component<IconBaseProps> {}
+  declare export class GiEncirclement extends React$Component<IconBaseProps> {}
+  declare export class GiEnergyTank extends React$Component<IconBaseProps> {}
+  declare export class GiEnrage extends React$Component<IconBaseProps> {}
+  declare export class GiEntryDoor extends React$Component<IconBaseProps> {}
+  declare export class GiErmine extends React$Component<IconBaseProps> {}
+  declare export class GiEternalLove extends React$Component<IconBaseProps> {}
+  declare export class GiEuropeanFlag extends React$Component<IconBaseProps> {}
+  declare export class GiEvasion extends React$Component<IconBaseProps> {}
+  declare export class GiEvilTower extends React$Component<IconBaseProps> {}
+  declare export class GiExitDoor extends React$Component<IconBaseProps> {}
+  declare export class GiExpand extends React$Component<IconBaseProps> {}
+  declare export class GiExpense extends React$Component<IconBaseProps> {}
+  declare export class GiEyeOfHorus extends React$Component<IconBaseProps> {}
+  declare export class GiEyeTarget extends React$Component<IconBaseProps> {}
+  declare export class GiEyelashes extends React$Component<IconBaseProps> {}
+  declare export class GiFClef extends React$Component<IconBaseProps> {}
+  declare export class GiFaceToFace extends React$Component<IconBaseProps> {}
+  declare export class GiFactoryArm extends React$Component<IconBaseProps> {}
+  declare export class GiFactory extends React$Component<IconBaseProps> {}
+  declare export class GiFairyWings extends React$Component<IconBaseProps> {}
+  declare export class GiFairy extends React$Component<IconBaseProps> {}
+  declare export class GiFalconMoon extends React$Component<IconBaseProps> {}
+  declare export class GiFallingBomb extends React$Component<IconBaseProps> {}
+  declare export class GiFallingRocks extends React$Component<IconBaseProps> {}
+  declare export class GiFalloutShelter extends React$Component<IconBaseProps> {}
+  declare export class GiFamilyHouse extends React$Component<IconBaseProps> {}
+  declare export class GiFamilyTree extends React$Component<IconBaseProps> {}
+  declare export class GiFarmTractor extends React$Component<IconBaseProps> {}
+  declare export class GiFarmer extends React$Component<IconBaseProps> {}
+  declare export class GiFeline extends React$Component<IconBaseProps> {}
+  declare export class GiFemaleLegs extends React$Component<IconBaseProps> {}
+  declare export class GiFemaleVampire extends React$Component<IconBaseProps> {}
+  declare export class GiFemale extends React$Component<IconBaseProps> {}
+  declare export class GiFencer extends React$Component<IconBaseProps> {}
+  declare export class GiFertilizerBag extends React$Component<IconBaseProps> {}
+  declare export class GiFez extends React$Component<IconBaseProps> {}
+  declare export class GiFigurehead extends React$Component<IconBaseProps> {}
+  declare export class GiFiles extends React$Component<IconBaseProps> {}
+  declare export class GiFilmProjector extends React$Component<IconBaseProps> {}
+  declare export class GiFilmSpool extends React$Component<IconBaseProps> {}
+  declare export class GiFilmStrip extends React$Component<IconBaseProps> {}
+  declare export class GiFinch extends React$Component<IconBaseProps> {}
+  declare export class GiFingerPrint extends React$Component<IconBaseProps> {}
+  declare export class GiFingernail extends React$Component<IconBaseProps> {}
+  declare export class GiFireExtinguisher extends React$Component<IconBaseProps> {}
+  declare export class GiFireFlower extends React$Component<IconBaseProps> {}
+  declare export class GiFireShrine extends React$Component<IconBaseProps> {}
+  declare export class GiFireSpellCast extends React$Component<IconBaseProps> {}
+  declare export class GiFireplace extends React$Component<IconBaseProps> {}
+  declare export class GiFirstAidKit extends React$Component<IconBaseProps> {}
+  declare export class GiFishMonster extends React$Component<IconBaseProps> {}
+  declare export class GiFishSmoking extends React$Component<IconBaseProps> {}
+  declare export class GiFishingBoat extends React$Component<IconBaseProps> {}
+  declare export class GiFishingPole extends React$Component<IconBaseProps> {}
+  declare export class GiFishingSpoon extends React$Component<IconBaseProps> {}
+  declare export class GiFishing extends React$Component<IconBaseProps> {}
+  declare export class GiFlail extends React$Component<IconBaseProps> {}
+  declare export class GiFlamethrowerSoldier extends React$Component<IconBaseProps> {}
+  declare export class GiFlamethrower extends React$Component<IconBaseProps> {}
+  declare export class GiFlamingo extends React$Component<IconBaseProps> {}
+  declare export class GiFlangedMace extends React$Component<IconBaseProps> {}
+  declare export class GiFlashlight extends React$Component<IconBaseProps> {}
+  declare export class GiFlatTire extends React$Component<IconBaseProps> {}
+  declare export class GiFlax extends React$Component<IconBaseProps> {}
+  declare export class GiFleurDeLys extends React$Component<IconBaseProps> {}
+  declare export class GiFlintSpark extends React$Component<IconBaseProps> {}
+  declare export class GiFlipFlops extends React$Component<IconBaseProps> {}
+  declare export class GiFloatingGhost extends React$Component<IconBaseProps> {}
+  declare export class GiFloatingTentacles extends React$Component<IconBaseProps> {}
+  declare export class GiFlood extends React$Component<IconBaseProps> {}
+  declare export class GiFloorHatch extends React$Component<IconBaseProps> {}
+  declare export class GiFloorPolisher extends React$Component<IconBaseProps> {}
+  declare export class GiFlowerStar extends React$Component<IconBaseProps> {}
+  declare export class GiFlute extends React$Component<IconBaseProps> {}
+  declare export class GiFly extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingFox extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingTarget extends React$Component<IconBaseProps> {}
+  declare export class GiFog extends React$Component<IconBaseProps> {}
+  declare export class GiFoodTruck extends React$Component<IconBaseProps> {}
+  declare export class GiFootPlaster extends React$Component<IconBaseProps> {}
+  declare export class GiFootyField extends React$Component<IconBaseProps> {}
+  declare export class GiForearm extends React$Component<IconBaseProps> {}
+  declare export class GiForestCamp extends React$Component<IconBaseProps> {}
+  declare export class GiForest extends React$Component<IconBaseProps> {}
+  declare export class GiForklift extends React$Component<IconBaseProps> {}
+  declare export class GiFoxTail extends React$Component<IconBaseProps> {}
+  declare export class GiFreemasonry extends React$Component<IconBaseProps> {}
+  declare export class GiFriedEggs extends React$Component<IconBaseProps> {}
+  declare export class GiFrisbee extends React$Component<IconBaseProps> {}
+  declare export class GiFrogPrince extends React$Component<IconBaseProps> {}
+  declare export class GiFruitTree extends React$Component<IconBaseProps> {}
+  declare export class GiFuelTank extends React$Component<IconBaseProps> {}
+  declare export class GiFuji extends React$Component<IconBaseProps> {}
+  declare export class GiFullFolder extends React$Component<IconBaseProps> {}
+  declare export class GiFullMetalBucketHandle extends React$Component<IconBaseProps> {}
+  declare export class GiFullMetalBucket extends React$Component<IconBaseProps> {}
+  declare export class GiFullMotorcycleHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiFullWoodBucketHandle extends React$Component<IconBaseProps> {}
+  declare export class GiFullWoodBucket extends React$Component<IconBaseProps> {}
+  declare export class GiFunnel extends React$Component<IconBaseProps> {}
+  declare export class GiFurBoot extends React$Component<IconBaseProps> {}
+  declare export class GiFurShirt extends React$Component<IconBaseProps> {}
+  declare export class GiGClef extends React$Component<IconBaseProps> {}
+  declare export class GiGalea extends React$Component<IconBaseProps> {}
+  declare export class GiGameConsole extends React$Component<IconBaseProps> {}
+  declare export class GiGamepad extends React$Component<IconBaseProps> {}
+  declare export class GiGargoyle extends React$Component<IconBaseProps> {}
+  declare export class GiGarlic extends React$Component<IconBaseProps> {}
+  declare export class GiGasPump extends React$Component<IconBaseProps> {}
+  declare export class GiGate extends React$Component<IconBaseProps> {}
+  declare export class GiGaulsHelm extends React$Component<IconBaseProps> {}
+  declare export class GiGauntlet extends React$Component<IconBaseProps> {}
+  declare export class GiGemini extends React$Component<IconBaseProps> {}
+  declare export class GiGiantSquid extends React$Component<IconBaseProps> {}
+  declare export class GiGiant extends React$Component<IconBaseProps> {}
+  declare export class GiGingerbreadMan extends React$Component<IconBaseProps> {}
+  declare export class GiGlaive extends React$Component<IconBaseProps> {}
+  declare export class GiGlassBall extends React$Component<IconBaseProps> {}
+  declare export class GiGlassCelebration extends React$Component<IconBaseProps> {}
+  declare export class GiGlobeRing extends React$Component<IconBaseProps> {}
+  declare export class GiGloves extends React$Component<IconBaseProps> {}
+  declare export class GiGoblinCamp extends React$Component<IconBaseProps> {}
+  declare export class GiGoblinHead extends React$Component<IconBaseProps> {}
+  declare export class GiGoldMine extends React$Component<IconBaseProps> {}
+  declare export class GiGoldNuggets extends React$Component<IconBaseProps> {}
+  declare export class GiGoldStack extends React$Component<IconBaseProps> {}
+  declare export class GiGolemHead extends React$Component<IconBaseProps> {}
+  declare export class GiGolfFlag extends React$Component<IconBaseProps> {}
+  declare export class GiGoose extends React$Component<IconBaseProps> {}
+  declare export class GiGorilla extends React$Component<IconBaseProps> {}
+  declare export class GiGps extends React$Component<IconBaseProps> {}
+  declare export class GiGraduateCap extends React$Component<IconBaseProps> {}
+  declare export class GiGrain extends React$Component<IconBaseProps> {}
+  declare export class GiGranary extends React$Component<IconBaseProps> {}
+  declare export class GiGraspingSlug extends React$Component<IconBaseProps> {}
+  declare export class GiGrass extends React$Component<IconBaseProps> {}
+  declare export class GiGraveyard extends React$Component<IconBaseProps> {}
+  declare export class GiGreatPyramid extends React$Component<IconBaseProps> {}
+  declare export class GiGreaves extends React$Component<IconBaseProps> {}
+  declare export class GiGreekSphinx extends React$Component<IconBaseProps> {}
+  declare export class GiGreekTemple extends React$Component<IconBaseProps> {}
+  declare export class GiGreenhouse extends React$Component<IconBaseProps> {}
+  declare export class GiGriffinSymbol extends React$Component<IconBaseProps> {}
+  declare export class GiGuards extends React$Component<IconBaseProps> {}
+  declare export class GiGunRose extends React$Component<IconBaseProps> {}
+  declare export class GiH2O extends React$Component<IconBaseProps> {}
+  declare export class GiHabitatDome extends React$Component<IconBaseProps> {}
+  declare export class GiHairStrands extends React$Component<IconBaseProps> {}
+  declare export class GiHalfBodyCrawling extends React$Component<IconBaseProps> {}
+  declare export class GiHalfDead extends React$Component<IconBaseProps> {}
+  declare export class GiHamburgerMenu extends React$Component<IconBaseProps> {}
+  declare export class GiHamburger extends React$Component<IconBaseProps> {}
+  declare export class GiHammerSickle extends React$Component<IconBaseProps> {}
+  declare export class GiHandBag extends React$Component<IconBaseProps> {}
+  declare export class GiHandBandage extends React$Component<IconBaseProps> {}
+  declare export class GiHandGrip extends React$Component<IconBaseProps> {}
+  declare export class GiHandOfGod extends React$Component<IconBaseProps> {}
+  declare export class GiHandOk extends React$Component<IconBaseProps> {}
+  declare export class GiHandSaw extends React$Component<IconBaseProps> {}
+  declare export class GiHandcuffed extends React$Component<IconBaseProps> {}
+  declare export class GiHandheldFan extends React$Component<IconBaseProps> {}
+  declare export class GiHangGlider extends React$Component<IconBaseProps> {}
+  declare export class GiHanger extends React$Component<IconBaseProps> {}
+  declare export class GiHangingSign extends React$Component<IconBaseProps> {}
+  declare export class GiHazmatSuit extends React$Component<IconBaseProps> {}
+  declare export class GiHeadbandKnot extends React$Component<IconBaseProps> {}
+  declare export class GiHeadphones extends React$Component<IconBaseProps> {}
+  declare export class GiHealing extends React$Component<IconBaseProps> {}
+  declare export class GiHealthCapsule extends React$Component<IconBaseProps> {}
+  declare export class GiHealthPotion extends React$Component<IconBaseProps> {}
+  declare export class GiHeartBattery extends React$Component<IconBaseProps> {}
+  declare export class GiHeartBeats extends React$Component<IconBaseProps> {}
+  declare export class GiHeartNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiHeartWings extends React$Component<IconBaseProps> {}
+  declare export class GiHedjetWhiteCrown extends React$Component<IconBaseProps> {}
+  declare export class GiHelicoprion extends React$Component<IconBaseProps> {}
+  declare export class GiHelicopterTail extends React$Component<IconBaseProps> {}
+  declare export class GiHelicopter extends React$Component<IconBaseProps> {}
+  declare export class GiHellCrosses extends React$Component<IconBaseProps> {}
+  declare export class GiHemp extends React$Component<IconBaseProps> {}
+  declare export class GiHeptagram extends React$Component<IconBaseProps> {}
+  declare export class GiHerbsBundle extends React$Component<IconBaseProps> {}
+  declare export class GiHexagonalNut extends React$Component<IconBaseProps> {}
+  declare export class GiHieroglyphY extends React$Component<IconBaseProps> {}
+  declare export class GiHighGrass extends React$Component<IconBaseProps> {}
+  declare export class GiHighHeel extends React$Component<IconBaseProps> {}
+  declare export class GiHighKick extends React$Component<IconBaseProps> {}
+  declare export class GiHighTide extends React$Component<IconBaseProps> {}
+  declare export class GiHillConquest extends React$Component<IconBaseProps> {}
+  declare export class GiHillFort extends React$Component<IconBaseProps> {}
+  declare export class GiHills extends React$Component<IconBaseProps> {}
+  declare export class GiHistogram extends React$Component<IconBaseProps> {}
+  declare export class GiHobbitDwelling extends React$Component<IconBaseProps> {}
+  declare export class GiHockey extends React$Component<IconBaseProps> {}
+  declare export class GiHoleLadder extends React$Component<IconBaseProps> {}
+  declare export class GiHole extends React$Component<IconBaseProps> {}
+  declare export class GiHolyHandGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiHolyWater extends React$Component<IconBaseProps> {}
+  declare export class GiHomeGarage extends React$Component<IconBaseProps> {}
+  declare export class GiHops extends React$Component<IconBaseProps> {}
+  declare export class GiHorizontalFlip extends React$Component<IconBaseProps> {}
+  declare export class GiHornedReptile extends React$Component<IconBaseProps> {}
+  declare export class GiHorseHead extends React$Component<IconBaseProps> {}
+  declare export class GiHorseshoe extends React$Component<IconBaseProps> {}
+  declare export class GiHorus extends React$Component<IconBaseProps> {}
+  declare export class GiHospital extends React$Component<IconBaseProps> {}
+  declare export class GiHotMeal extends React$Component<IconBaseProps> {}
+  declare export class GiHouseKeys extends React$Component<IconBaseProps> {}
+  declare export class GiHouse extends React$Component<IconBaseProps> {}
+  declare export class GiHumanCannonball extends React$Component<IconBaseProps> {}
+  declare export class GiHumanEar extends React$Component<IconBaseProps> {}
+  declare export class GiHumanPyramid extends React$Component<IconBaseProps> {}
+  declare export class GiHummingbird extends React$Component<IconBaseProps> {}
+  declare export class GiHungary extends React$Component<IconBaseProps> {}
+  declare export class GiHuntingBolas extends React$Component<IconBaseProps> {}
+  declare export class GiHut extends React$Component<IconBaseProps> {}
+  declare export class GiHutsVillage extends React$Component<IconBaseProps> {}
+  declare export class GiIBeam extends React$Component<IconBaseProps> {}
+  declare export class GiIBrick extends React$Component<IconBaseProps> {}
+  declare export class GiIcarus extends React$Component<IconBaseProps> {}
+  declare export class GiIceCreamCone extends React$Component<IconBaseProps> {}
+  declare export class GiIceGolem extends React$Component<IconBaseProps> {}
+  declare export class GiIcePop extends React$Component<IconBaseProps> {}
+  declare export class GiIceSkate extends React$Component<IconBaseProps> {}
+  declare export class GiIceSpellCast extends React$Component<IconBaseProps> {}
+  declare export class GiIceberg extends React$Component<IconBaseProps> {}
+  declare export class GiIceland extends React$Component<IconBaseProps> {}
+  declare export class GiIdCard extends React$Component<IconBaseProps> {}
+  declare export class GiIdea extends React$Component<IconBaseProps> {}
+  declare export class GiIgloo extends React$Component<IconBaseProps> {}
+  declare export class GiImperialCrown extends React$Component<IconBaseProps> {}
+  declare export class GiIndianPalace extends React$Component<IconBaseProps> {}
+  declare export class GiInfo extends React$Component<IconBaseProps> {}
+  declare export class GiInjustice extends React$Component<IconBaseProps> {}
+  declare export class GiInterceptorShip extends React$Component<IconBaseProps> {}
+  declare export class GiInvisibleFace extends React$Component<IconBaseProps> {}
+  declare export class GiInvisible extends React$Component<IconBaseProps> {}
+  declare export class GiIonicColumn extends React$Component<IconBaseProps> {}
+  declare export class GiIsland extends React$Component<IconBaseProps> {}
+  declare export class GiItalia extends React$Component<IconBaseProps> {}
+  declare export class GiIvoryTusks extends React$Component<IconBaseProps> {}
+  declare export class GiJBrick extends React$Component<IconBaseProps> {}
+  declare export class GiJackPlug extends React$Component<IconBaseProps> {}
+  declare export class GiJapan extends React$Component<IconBaseProps> {}
+  declare export class GiJasmine extends React$Component<IconBaseProps> {}
+  declare export class GiJasonMask extends React$Component<IconBaseProps> {}
+  declare export class GiJawlessCyclop extends React$Component<IconBaseProps> {}
+  declare export class GiJeep extends React$Component<IconBaseProps> {}
+  declare export class GiJerrycan extends React$Component<IconBaseProps> {}
+  declare export class GiJesterHat extends React$Component<IconBaseProps> {}
+  declare export class GiJetFighter extends React$Component<IconBaseProps> {}
+  declare export class GiJewelCrown extends React$Component<IconBaseProps> {}
+  declare export class GiJoin extends React$Component<IconBaseProps> {}
+  declare export class GiJoystick extends React$Component<IconBaseProps> {}
+  declare export class GiJug extends React$Component<IconBaseProps> {}
+  declare export class GiJugglingClubs extends React$Component<IconBaseProps> {}
+  declare export class GiJugglingSeal extends React$Component<IconBaseProps> {}
+  declare export class GiJumpAcross extends React$Component<IconBaseProps> {}
+  declare export class GiJumpingDog extends React$Component<IconBaseProps> {}
+  declare export class GiJupiter extends React$Component<IconBaseProps> {}
+  declare export class GiKangaroo extends React$Component<IconBaseProps> {}
+  declare export class GiKatana extends React$Component<IconBaseProps> {}
+  declare export class GiKenkuHead extends React$Component<IconBaseProps> {}
+  declare export class GiKeyboard extends React$Component<IconBaseProps> {}
+  declare export class GiKeyring extends React$Component<IconBaseProps> {}
+  declare export class GiKidneys extends React$Component<IconBaseProps> {}
+  declare export class GiKimono extends React$Component<IconBaseProps> {}
+  declare export class GiKingJuMask extends React$Component<IconBaseProps> {}
+  declare export class GiKite extends React$Component<IconBaseProps> {}
+  declare export class GiKiwiBird extends React$Component<IconBaseProps> {}
+  declare export class GiKiwiFruit extends React$Component<IconBaseProps> {}
+  declare export class GiKlingon extends React$Component<IconBaseProps> {}
+  declare export class GiKneePad extends React$Component<IconBaseProps> {}
+  declare export class GiKneeling extends React$Component<IconBaseProps> {}
+  declare export class GiKnot extends React$Component<IconBaseProps> {}
+  declare export class GiKoala extends React$Component<IconBaseProps> {}
+  declare export class GiKrakenTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiLBrick extends React$Component<IconBaseProps> {}
+  declare export class GiLabCoat extends React$Component<IconBaseProps> {}
+  declare export class GiLadder extends React$Component<IconBaseProps> {}
+  declare export class GiLadle extends React$Component<IconBaseProps> {}
+  declare export class GiLadybug extends React$Component<IconBaseProps> {}
+  declare export class GiLargeDress extends React$Component<IconBaseProps> {}
+  declare export class GiLargePaintBrush extends React$Component<IconBaseProps> {}
+  declare export class GiLaserTurret extends React$Component<IconBaseProps> {}
+  declare export class GiLasso extends React$Component<IconBaseProps> {}
+  declare export class GiLatvia extends React$Component<IconBaseProps> {}
+  declare export class GiLaurelsTrophy extends React$Component<IconBaseProps> {}
+  declare export class GiLeadPipe extends React$Component<IconBaseProps> {}
+  declare export class GiLeak extends React$Component<IconBaseProps> {}
+  declare export class GiLeatherArmor extends React$Component<IconBaseProps> {}
+  declare export class GiLed extends React$Component<IconBaseProps> {}
+  declare export class GiLegArmor extends React$Component<IconBaseProps> {}
+  declare export class GiLemon extends React$Component<IconBaseProps> {}
+  declare export class GiLeo extends React$Component<IconBaseProps> {}
+  declare export class GiLevelCrossing extends React$Component<IconBaseProps> {}
+  declare export class GiLiar extends React$Component<IconBaseProps> {}
+  declare export class GiLibertyWing extends React$Component<IconBaseProps> {}
+  declare export class GiLibra extends React$Component<IconBaseProps> {}
+  declare export class GiLifeBar extends React$Component<IconBaseProps> {}
+  declare export class GiLifeBuoy extends React$Component<IconBaseProps> {}
+  declare export class GiLightBackpack extends React$Component<IconBaseProps> {}
+  declare export class GiLightProjector extends React$Component<IconBaseProps> {}
+  declare export class GiLightSabers extends React$Component<IconBaseProps> {}
+  declare export class GiLighter extends React$Component<IconBaseProps> {}
+  declare export class GiLighthouse extends React$Component<IconBaseProps> {}
+  declare export class GiLightningDome extends React$Component<IconBaseProps> {}
+  declare export class GiLilyPads extends React$Component<IconBaseProps> {}
+  declare export class GiLipstick extends React$Component<IconBaseProps> {}
+  declare export class GiLiver extends React$Component<IconBaseProps> {}
+  declare export class GiLoad extends React$Component<IconBaseProps> {}
+  declare export class GiLockPicking extends React$Component<IconBaseProps> {}
+  declare export class GiLockSpy extends React$Component<IconBaseProps> {}
+  declare export class GiLockedBox extends React$Component<IconBaseProps> {}
+  declare export class GiLockedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiLockpicks extends React$Component<IconBaseProps> {}
+  declare export class GiLog extends React$Component<IconBaseProps> {}
+  declare export class GiLoincloth extends React$Component<IconBaseProps> {}
+  declare export class GiLookAt extends React$Component<IconBaseProps> {}
+  declare export class GiLoveLetter extends React$Component<IconBaseProps> {}
+  declare export class GiLoveMystery extends React$Component<IconBaseProps> {}
+  declare export class GiLovers extends React$Component<IconBaseProps> {}
+  declare export class GiLowTide extends React$Component<IconBaseProps> {}
+  declare export class GiLuchador extends React$Component<IconBaseProps> {}
+  declare export class GiLunarModule extends React$Component<IconBaseProps> {}
+  declare export class GiLunarWand extends React$Component<IconBaseProps> {}
+  declare export class GiLungs extends React$Component<IconBaseProps> {}
+  declare export class GiLynxHead extends React$Component<IconBaseProps> {}
+  declare export class GiMagicHat extends React$Component<IconBaseProps> {}
+  declare export class GiMagicPotion extends React$Component<IconBaseProps> {}
+  declare export class GiMagicTrident extends React$Component<IconBaseProps> {}
+  declare export class GiMagickTrick extends React$Component<IconBaseProps> {}
+  declare export class GiMailbox extends React$Component<IconBaseProps> {}
+  declare export class GiMale extends React$Component<IconBaseProps> {}
+  declare export class GiMammoth extends React$Component<IconBaseProps> {}
+  declare export class GiMandrillHead extends React$Component<IconBaseProps> {}
+  declare export class GiMantaRay extends React$Component<IconBaseProps> {}
+  declare export class GiManualJuicer extends React$Component<IconBaseProps> {}
+  declare export class GiManualMeatGrinder extends React$Component<IconBaseProps> {}
+  declare export class GiMarbles extends React$Component<IconBaseProps> {}
+  declare export class GiMarsCuriosity extends React$Component<IconBaseProps> {}
+  declare export class GiMarsPathfinder extends React$Component<IconBaseProps> {}
+  declare export class GiMatryoshkaDolls extends React$Component<IconBaseProps> {}
+  declare export class GiMayanPyramid extends React$Component<IconBaseProps> {}
+  declare export class GiMeal extends React$Component<IconBaseProps> {}
+  declare export class GiMechaHead extends React$Component<IconBaseProps> {}
+  declare export class GiMechaMask extends React$Component<IconBaseProps> {}
+  declare export class GiMechanicGarage extends React$Component<IconBaseProps> {}
+  declare export class GiMedallist extends React$Component<IconBaseProps> {}
+  declare export class GiMedicinePills extends React$Component<IconBaseProps> {}
+  declare export class GiMedicines extends React$Component<IconBaseProps> {}
+  declare export class GiMedievalGate extends React$Component<IconBaseProps> {}
+  declare export class GiMedievalPavilion extends React$Component<IconBaseProps> {}
+  declare export class GiMeepleGroup extends React$Component<IconBaseProps> {}
+  declare export class GiMeepleKing extends React$Component<IconBaseProps> {}
+  declare export class GiMeeple extends React$Component<IconBaseProps> {}
+  declare export class GiMegaphone extends React$Component<IconBaseProps> {}
+  declare export class GiMeltingIceCube extends React$Component<IconBaseProps> {}
+  declare export class GiMenhir extends React$Component<IconBaseProps> {}
+  declare export class GiMermaid extends React$Component<IconBaseProps> {}
+  declare export class GiMeshNetwork extends React$Component<IconBaseProps> {}
+  declare export class GiMetalPlate extends React$Component<IconBaseProps> {}
+  declare export class GiMetalSkirt extends React$Component<IconBaseProps> {}
+  declare export class GiMetroid extends React$Component<IconBaseProps> {}
+  declare export class GiMetronome extends React$Component<IconBaseProps> {}
+  declare export class GiMexico extends React$Component<IconBaseProps> {}
+  declare export class GiMicrophone extends React$Component<IconBaseProps> {}
+  declare export class GiMightyBoosh extends React$Component<IconBaseProps> {}
+  declare export class GiMightyForce extends React$Component<IconBaseProps> {}
+  declare export class GiMilitaryFort extends React$Component<IconBaseProps> {}
+  declare export class GiMilleniumKey extends React$Component<IconBaseProps> {}
+  declare export class GiMimicChest extends React$Component<IconBaseProps> {}
+  declare export class GiMineTruck extends React$Component<IconBaseProps> {}
+  declare export class GiMineWagon extends React$Component<IconBaseProps> {}
+  declare export class GiMiner extends React$Component<IconBaseProps> {}
+  declare export class GiMiniSubmarine extends React$Component<IconBaseProps> {}
+  declare export class GiMiningHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiMissileLauncher extends React$Component<IconBaseProps> {}
+  declare export class GiMoai extends React$Component<IconBaseProps> {}
+  declare export class GiModernCity extends React$Component<IconBaseProps> {}
+  declare export class GiMokaPot extends React$Component<IconBaseProps> {}
+  declare export class GiMonaLisa extends React$Component<IconBaseProps> {}
+  declare export class GiMonclerJacket extends React$Component<IconBaseProps> {}
+  declare export class GiMoneyStack extends React$Component<IconBaseProps> {}
+  declare export class GiMonkFace extends React$Component<IconBaseProps> {}
+  declare export class GiMonkeyWrench extends React$Component<IconBaseProps> {}
+  declare export class GiMonoWheelRobot extends React$Component<IconBaseProps> {}
+  declare export class GiMonumentValley extends React$Component<IconBaseProps> {}
+  declare export class GiMoonOrbit extends React$Component<IconBaseProps> {}
+  declare export class GiMorgueFeet extends React$Component<IconBaseProps> {}
+  declare export class GiMorphBall extends React$Component<IconBaseProps> {}
+  declare export class GiMortar extends React$Component<IconBaseProps> {}
+  declare export class GiMountainCave extends React$Component<IconBaseProps> {}
+  declare export class GiMouse extends React$Component<IconBaseProps> {}
+  declare export class GiMove extends React$Component<IconBaseProps> {}
+  declare export class GiMp5 extends React$Component<IconBaseProps> {}
+  declare export class GiMugShot extends React$Component<IconBaseProps> {}
+  declare export class GiMultipleTargets extends React$Component<IconBaseProps> {}
+  declare export class GiMummyHead extends React$Component<IconBaseProps> {}
+  declare export class GiMuscularTorso extends React$Component<IconBaseProps> {}
+  declare export class GiMushroomHouse extends React$Component<IconBaseProps> {}
+  declare export class GiMushrooms extends React$Component<IconBaseProps> {}
+  declare export class GiMusicalKeyboard extends React$Component<IconBaseProps> {}
+  declare export class GiMusicalNotes extends React$Component<IconBaseProps> {}
+  declare export class GiMusicalScore extends React$Component<IconBaseProps> {}
+  declare export class GiMute extends React$Component<IconBaseProps> {}
+  declare export class GiNeckBite extends React$Component<IconBaseProps> {}
+  declare export class GiNefertiti extends React$Component<IconBaseProps> {}
+  declare export class GiNestedHearts extends React$Component<IconBaseProps> {}
+  declare export class GiNestedHexagons extends React$Component<IconBaseProps> {}
+  declare export class GiNetworkBars extends React$Component<IconBaseProps> {}
+  declare export class GiNewBorn extends React$Component<IconBaseProps> {}
+  declare export class GiNewspaper extends React$Component<IconBaseProps> {}
+  declare export class GiNightVision extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaArmor extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaVelociraptor extends React$Component<IconBaseProps> {}
+  declare export class GiNoodles extends React$Component<IconBaseProps> {}
+  declare export class GiNoseFront extends React$Component<IconBaseProps> {}
+  declare export class GiNoseSide extends React$Component<IconBaseProps> {}
+  declare export class GiNuclearPlant extends React$Component<IconBaseProps> {}
+  declare export class GiNunchaku extends React$Component<IconBaseProps> {}
+  declare export class GiNurseFemale extends React$Component<IconBaseProps> {}
+  declare export class GiNurseMale extends React$Component<IconBaseProps> {}
+  declare export class GiOBrick extends React$Component<IconBaseProps> {}
+  declare export class GiOakLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiOasis extends React$Component<IconBaseProps> {}
+  declare export class GiObelisk extends React$Component<IconBaseProps> {}
+  declare export class GiObservatory extends React$Component<IconBaseProps> {}
+  declare export class GiOcarina extends React$Component<IconBaseProps> {}
+  declare export class GiOden extends React$Component<IconBaseProps> {}
+  declare export class GiOffshorePlatform extends React$Component<IconBaseProps> {}
+  declare export class GiOgre extends React$Component<IconBaseProps> {}
+  declare export class GiOilPump extends React$Component<IconBaseProps> {}
+  declare export class GiOilRig extends React$Component<IconBaseProps> {}
+  declare export class GiOldLantern extends React$Component<IconBaseProps> {}
+  declare export class GiOldMicrophone extends React$Component<IconBaseProps> {}
+  declare export class GiOldWagon extends React$Component<IconBaseProps> {}
+  declare export class GiOlive extends React$Component<IconBaseProps> {}
+  declare export class GiOni extends React$Component<IconBaseProps> {}
+  declare export class GiOpenFolder extends React$Component<IconBaseProps> {}
+  declare export class GiOpenedFoodCan extends React$Component<IconBaseProps> {}
+  declare export class GiOphiuchus extends React$Component<IconBaseProps> {}
+  declare export class GiOrange extends React$Component<IconBaseProps> {}
+  declare export class GiOrcHead extends React$Component<IconBaseProps> {}
+  declare export class GiOrganigram extends React$Component<IconBaseProps> {}
+  declare export class GiOstrich extends React$Component<IconBaseProps> {}
+  declare export class GiOutbackHat extends React$Component<IconBaseProps> {}
+  declare export class GiOverlordHelm extends React$Component<IconBaseProps> {}
+  declare export class GiOysterPearl extends React$Component<IconBaseProps> {}
+  declare export class GiPaddles extends React$Component<IconBaseProps> {}
+  declare export class GiPagoda extends React$Component<IconBaseProps> {}
+  declare export class GiPaintBrush extends React$Component<IconBaseProps> {}
+  declare export class GiPaintBucket extends React$Component<IconBaseProps> {}
+  declare export class GiPaintRoller extends React$Component<IconBaseProps> {}
+  declare export class GiPaintedPottery extends React$Component<IconBaseProps> {}
+  declare export class GiPalette extends React$Component<IconBaseProps> {}
+  declare export class GiPalisade extends React$Component<IconBaseProps> {}
+  declare export class GiPalmTree extends React$Component<IconBaseProps> {}
+  declare export class GiPanFlute extends React$Component<IconBaseProps> {}
+  declare export class GiPanda extends React$Component<IconBaseProps> {}
+  declare export class GiPanzerfaust extends React$Component<IconBaseProps> {}
+  declare export class GiPaperBoat extends React$Component<IconBaseProps> {}
+  declare export class GiPaperClip extends React$Component<IconBaseProps> {}
+  declare export class GiPaperPlane extends React$Component<IconBaseProps> {}
+  declare export class GiPaperTray extends React$Component<IconBaseProps> {}
+  declare export class GiPaperWindmill extends React$Component<IconBaseProps> {}
+  declare export class GiPapyrus extends React$Component<IconBaseProps> {}
+  declare export class GiParaguay extends React$Component<IconBaseProps> {}
+  declare export class GiParasaurolophus extends React$Component<IconBaseProps> {}
+  declare export class GiPartyFlags extends React$Component<IconBaseProps> {}
+  declare export class GiPathDistance extends React$Component<IconBaseProps> {}
+  declare export class GiPathTile extends React$Component<IconBaseProps> {}
+  declare export class GiPayMoney extends React$Component<IconBaseProps> {}
+  declare export class GiPeach extends React$Component<IconBaseProps> {}
+  declare export class GiPear extends React$Component<IconBaseProps> {}
+  declare export class GiPearlNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiPelvisBone extends React$Component<IconBaseProps> {}
+  declare export class GiPencilBrush extends React$Component<IconBaseProps> {}
+  declare export class GiPencil extends React$Component<IconBaseProps> {}
+  declare export class GiPendulumSwing extends React$Component<IconBaseProps> {}
+  declare export class GiPenguin extends React$Component<IconBaseProps> {}
+  declare export class GiPeriscope extends React$Component<IconBaseProps> {}
+  declare export class GiPerson extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceFive extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceFour extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceOne extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesFive extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesFour extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesOne extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesRandom extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesSix extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesThree extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSixFacesTwo extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceSix extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceThree extends React$Component<IconBaseProps> {}
+  declare export class GiPerspectiveDiceTwo extends React$Component<IconBaseProps> {}
+  declare export class GiPharoah extends React$Component<IconBaseProps> {}
+  declare export class GiPhone extends React$Component<IconBaseProps> {}
+  declare export class GiPhotoCamera extends React$Component<IconBaseProps> {}
+  declare export class GiPhrygianCap extends React$Component<IconBaseProps> {}
+  declare export class GiPianoKeys extends React$Component<IconBaseProps> {}
+  declare export class GiPickOfDestiny extends React$Component<IconBaseProps> {}
+  declare export class GiPieChart extends React$Component<IconBaseProps> {}
+  declare export class GiPiggyBank extends React$Component<IconBaseProps> {}
+  declare export class GiPikeman extends React$Component<IconBaseProps> {}
+  declare export class GiPilgrimHat extends React$Component<IconBaseProps> {}
+  declare export class GiPillow extends React$Component<IconBaseProps> {}
+  declare export class GiPin extends React$Component<IconBaseProps> {}
+  declare export class GiPinballFlipper extends React$Component<IconBaseProps> {}
+  declare export class GiPineapple extends React$Component<IconBaseProps> {}
+  declare export class GiPingPongBat extends React$Component<IconBaseProps> {}
+  declare export class GiPipes extends React$Component<IconBaseProps> {}
+  declare export class GiPiranha extends React$Component<IconBaseProps> {}
+  declare export class GiPirateCannon extends React$Component<IconBaseProps> {}
+  declare export class GiPirateCaptain extends React$Component<IconBaseProps> {}
+  declare export class GiPirateCoat extends React$Component<IconBaseProps> {}
+  declare export class GiPirateFlag extends React$Component<IconBaseProps> {}
+  declare export class GiPirateHat extends React$Component<IconBaseProps> {}
+  declare export class GiPirateHook extends React$Component<IconBaseProps> {}
+  declare export class GiPisaTower extends React$Component<IconBaseProps> {}
+  declare export class GiPisces extends React$Component<IconBaseProps> {}
+  declare export class GiPizzaSlice extends React$Component<IconBaseProps> {}
+  declare export class GiPlagueDoctorProfile extends React$Component<IconBaseProps> {}
+  declare export class GiPlainArrow extends React$Component<IconBaseProps> {}
+  declare export class GiPlainCircle extends React$Component<IconBaseProps> {}
+  declare export class GiPlainSquare extends React$Component<IconBaseProps> {}
+  declare export class GiPlaneWing extends React$Component<IconBaseProps> {}
+  declare export class GiPlanetCore extends React$Component<IconBaseProps> {}
+  declare export class GiPlanks extends React$Component<IconBaseProps> {}
+  declare export class GiPlasticDuck extends React$Component<IconBaseProps> {}
+  declare export class GiPlesiosaurus extends React$Component<IconBaseProps> {}
+  declare export class GiPlow extends React$Component<IconBaseProps> {}
+  declare export class GiPlug extends React$Component<IconBaseProps> {}
+  declare export class GiPocketRadio extends React$Component<IconBaseProps> {}
+  declare export class GiPodiumSecond extends React$Component<IconBaseProps> {}
+  declare export class GiPodiumThird extends React$Component<IconBaseProps> {}
+  declare export class GiPodiumWinner extends React$Component<IconBaseProps> {}
+  declare export class GiPodium extends React$Component<IconBaseProps> {}
+  declare export class GiPoliceCar extends React$Component<IconBaseProps> {}
+  declare export class GiPoliceOfficerHead extends React$Component<IconBaseProps> {}
+  declare export class GiPoliceTarget extends React$Component<IconBaseProps> {}
+  declare export class GiPoloShirt extends React$Component<IconBaseProps> {}
+  declare export class GiPoncho extends React$Component<IconBaseProps> {}
+  declare export class GiPoolDive extends React$Component<IconBaseProps> {}
+  declare export class GiPopcorn extends React$Component<IconBaseProps> {}
+  declare export class GiPopeCrown extends React$Component<IconBaseProps> {}
+  declare export class GiPorcelainVase extends React$Component<IconBaseProps> {}
+  declare export class GiPositionMarker extends React$Component<IconBaseProps> {}
+  declare export class GiPotato extends React$Component<IconBaseProps> {}
+  declare export class GiPowderBag extends React$Component<IconBaseProps> {}
+  declare export class GiPowerGenerator extends React$Component<IconBaseProps> {}
+  declare export class GiPowerRing extends React$Component<IconBaseProps> {}
+  declare export class GiPrayerBeads extends React$Component<IconBaseProps> {}
+  declare export class GiPrayingMantis extends React$Component<IconBaseProps> {}
+  declare export class GiPresent extends React$Component<IconBaseProps> {}
+  declare export class GiPretzel extends React$Component<IconBaseProps> {}
+  declare export class GiPriceTag extends React$Component<IconBaseProps> {}
+  declare export class GiPrimitiveNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiPrimitiveTorch extends React$Component<IconBaseProps> {}
+  declare export class GiPrisoner extends React$Component<IconBaseProps> {}
+  declare export class GiPrivateFirstClass extends React$Component<IconBaseProps> {}
+  declare export class GiPrivate extends React$Component<IconBaseProps> {}
+  declare export class GiPropellerBeanie extends React$Component<IconBaseProps> {}
+  declare export class GiProtectionGlasses extends React$Component<IconBaseProps> {}
+  declare export class GiPschentDoubleCrown extends React$Component<IconBaseProps> {}
+  declare export class GiPterodactylus extends React$Component<IconBaseProps> {}
+  declare export class GiPublicSpeaker extends React$Component<IconBaseProps> {}
+  declare export class GiPull extends React$Component<IconBaseProps> {}
+  declare export class GiPulleyHook extends React$Component<IconBaseProps> {}
+  declare export class GiPumpkin extends React$Component<IconBaseProps> {}
+  declare export class GiPurpleTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiPush extends React$Component<IconBaseProps> {}
+  declare export class GiPuzzle extends React$Component<IconBaseProps> {}
+  declare export class GiQuiver extends React$Component<IconBaseProps> {}
+  declare export class GiRabbitHead extends React$Component<IconBaseProps> {}
+  declare export class GiRabbit extends React$Component<IconBaseProps> {}
+  declare export class GiRadiations extends React$Component<IconBaseProps> {}
+  declare export class GiRadioTower extends React$Component<IconBaseProps> {}
+  declare export class GiRailway extends React$Component<IconBaseProps> {}
+  declare export class GiRake extends React$Component<IconBaseProps> {}
+  declare export class GiRamProfile extends React$Component<IconBaseProps> {}
+  declare export class GiRaspberry extends React$Component<IconBaseProps> {}
+  declare export class GiRat extends React$Component<IconBaseProps> {}
+  declare export class GiRattlesnake extends React$Component<IconBaseProps> {}
+  declare export class GiReceiveMoney extends React$Component<IconBaseProps> {}
+  declare export class GiReed extends React$Component<IconBaseProps> {}
+  declare export class GiRefinery extends React$Component<IconBaseProps> {}
+  declare export class GiReloadGunBarrel extends React$Component<IconBaseProps> {}
+  declare export class GiReptileTail extends React$Component<IconBaseProps> {}
+  declare export class GiResize extends React$Component<IconBaseProps> {}
+  declare export class GiRevolver extends React$Component<IconBaseProps> {}
+  declare export class GiRhinocerosHorn extends React$Component<IconBaseProps> {}
+  declare export class GiRibbonMedal extends React$Component<IconBaseProps> {}
+  declare export class GiRibbonShield extends React$Component<IconBaseProps> {}
+  declare export class GiRingMould extends React$Component<IconBaseProps> {}
+  declare export class GiRing extends React$Component<IconBaseProps> {}
+  declare export class GiRingingAlarm extends React$Component<IconBaseProps> {}
+  declare export class GiRingmaster extends React$Component<IconBaseProps> {}
+  declare export class GiRiver extends React$Component<IconBaseProps> {}
+  declare export class GiRoad extends React$Component<IconBaseProps> {}
+  declare export class GiRobberMask extends React$Component<IconBaseProps> {}
+  declare export class GiRobber extends React$Component<IconBaseProps> {}
+  declare export class GiRobinHoodHat extends React$Component<IconBaseProps> {}
+  declare export class GiRobotAntennas extends React$Component<IconBaseProps> {}
+  declare export class GiRobotHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiRobotLeg extends React$Component<IconBaseProps> {}
+  declare export class GiRocketThruster extends React$Component<IconBaseProps> {}
+  declare export class GiRockingChair extends React$Component<IconBaseProps> {}
+  declare export class GiRodOfAsclepius extends React$Component<IconBaseProps> {}
+  declare export class GiRolledCloth extends React$Component<IconBaseProps> {}
+  declare export class GiRollingDiceCup extends React$Component<IconBaseProps> {}
+  declare export class GiRollingDices extends React$Component<IconBaseProps> {}
+  declare export class GiRomanShield extends React$Component<IconBaseProps> {}
+  declare export class GiRomanToga extends React$Component<IconBaseProps> {}
+  declare export class GiRooster extends React$Component<IconBaseProps> {}
+  declare export class GiRopeCoil extends React$Component<IconBaseProps> {}
+  declare export class GiRopeway extends React$Component<IconBaseProps> {}
+  declare export class GiRoundKnob extends React$Component<IconBaseProps> {}
+  declare export class GiRoundSilo extends React$Component<IconBaseProps> {}
+  declare export class GiRoundStar extends React$Component<IconBaseProps> {}
+  declare export class GiRoundStrawBale extends React$Component<IconBaseProps> {}
+  declare export class GiRoundTable extends React$Component<IconBaseProps> {}
+  declare export class GiRss extends React$Component<IconBaseProps> {}
+  declare export class GiRugbyConversion extends React$Component<IconBaseProps> {}
+  declare export class GiRunningShoe extends React$Component<IconBaseProps> {}
+  declare export class GiRupee extends React$Component<IconBaseProps> {}
+  declare export class GiRustySword extends React$Component<IconBaseProps> {}
+  declare export class GiSBrick extends React$Component<IconBaseProps> {}
+  declare export class GiSaberAndPistol extends React$Component<IconBaseProps> {}
+  declare export class GiSaberToothedCatHead extends React$Component<IconBaseProps> {}
+  declare export class GiSaddle extends React$Component<IconBaseProps> {}
+  declare export class GiSafetyPin extends React$Component<IconBaseProps> {}
+  declare export class GiSagittarius extends React$Component<IconBaseProps> {}
+  declare export class GiSai extends React$Component<IconBaseProps> {}
+  declare export class GiSail extends React$Component<IconBaseProps> {}
+  declare export class GiSailboat extends React$Component<IconBaseProps> {}
+  declare export class GiSaintBasilCathedral extends React$Component<IconBaseProps> {}
+  declare export class GiSaiyanSuit extends React$Component<IconBaseProps> {}
+  declare export class GiSaloonDoors extends React$Component<IconBaseProps> {}
+  declare export class GiSaloon extends React$Component<IconBaseProps> {}
+  declare export class GiSamuraiHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiSandCastle extends React$Component<IconBaseProps> {}
+  declare export class GiSandSnake extends React$Component<IconBaseProps> {}
+  declare export class GiSandwich extends React$Component<IconBaseProps> {}
+  declare export class GiSarcophagus extends React$Component<IconBaseProps> {}
+  declare export class GiSasquatch extends React$Component<IconBaseProps> {}
+  declare export class GiSatelliteCommunication extends React$Component<IconBaseProps> {}
+  declare export class GiSauropodHead extends React$Component<IconBaseProps> {}
+  declare export class GiSausage extends React$Component<IconBaseProps> {}
+  declare export class GiSausagesRibbon extends React$Component<IconBaseProps> {}
+  declare export class GiSaveArrow extends React$Component<IconBaseProps> {}
+  declare export class GiSave extends React$Component<IconBaseProps> {}
+  declare export class GiSawedOffShotgun extends React$Component<IconBaseProps> {}
+  declare export class GiSaxophone extends React$Component<IconBaseProps> {}
+  declare export class GiScabbard extends React$Component<IconBaseProps> {}
+  declare export class GiScooter extends React$Component<IconBaseProps> {}
+  declare export class GiScorpio extends React$Component<IconBaseProps> {}
+  declare export class GiScoutShip extends React$Component<IconBaseProps> {}
+  declare export class GiScubaTanks extends React$Component<IconBaseProps> {}
+  declare export class GiSeaStar extends React$Component<IconBaseProps> {}
+  declare export class GiSeahorse extends React$Component<IconBaseProps> {}
+  declare export class GiSecretBook extends React$Component<IconBaseProps> {}
+  declare export class GiSecretDoor extends React$Component<IconBaseProps> {}
+  declare export class GiSeedling extends React$Component<IconBaseProps> {}
+  declare export class GiSellCard extends React$Component<IconBaseProps> {}
+  declare export class GiSergeant extends React$Component<IconBaseProps> {}
+  declare export class GiSettingsKnobs extends React$Component<IconBaseProps> {}
+  declare export class GiSevenPointedStar extends React$Component<IconBaseProps> {}
+  declare export class GiSextant extends React$Component<IconBaseProps> {}
+  declare export class GiShakingHands extends React$Component<IconBaseProps> {}
+  declare export class GiShamblingMound extends React$Component<IconBaseProps> {}
+  declare export class GiShamblingZombie extends React$Component<IconBaseProps> {}
+  declare export class GiShamrock extends React$Component<IconBaseProps> {}
+  declare export class GiSharkBite extends React$Component<IconBaseProps> {}
+  declare export class GiSharkFin extends React$Component<IconBaseProps> {}
+  declare export class GiSharpAxe extends React$Component<IconBaseProps> {}
+  declare export class GiSharpHalberd extends React$Component<IconBaseProps> {}
+  declare export class GiSheep extends React$Component<IconBaseProps> {}
+  declare export class GiSherlockHolmes extends React$Component<IconBaseProps> {}
+  declare export class GiShieldBash extends React$Component<IconBaseProps> {}
+  declare export class GiShintoShrineMirror extends React$Component<IconBaseProps> {}
+  declare export class GiShintoShrine extends React$Component<IconBaseProps> {}
+  declare export class GiShipWheel extends React$Component<IconBaseProps> {}
+  declare export class GiShipWreck extends React$Component<IconBaseProps> {}
+  declare export class GiShop extends React$Component<IconBaseProps> {}
+  declare export class GiShoppingCart extends React$Component<IconBaseProps> {}
+  declare export class GiShorts extends React$Component<IconBaseProps> {}
+  declare export class GiShotgunRounds extends React$Component<IconBaseProps> {}
+  declare export class GiShoulderArmor extends React$Component<IconBaseProps> {}
+  declare export class GiShoulderBag extends React$Component<IconBaseProps> {}
+  declare export class GiShower extends React$Component<IconBaseProps> {}
+  declare export class GiShrimp extends React$Component<IconBaseProps> {}
+  declare export class GiShrug extends React$Component<IconBaseProps> {}
+  declare export class GiShuttlecock extends React$Component<IconBaseProps> {}
+  declare export class GiSickle extends React$Component<IconBaseProps> {}
+  declare export class GiSiegeTower extends React$Component<IconBaseProps> {}
+  declare export class GiSilenced extends React$Component<IconBaseProps> {}
+  declare export class GiSilex extends React$Component<IconBaseProps> {}
+  declare export class GiSinagot extends React$Component<IconBaseProps> {}
+  declare export class GiSinkingShip extends React$Component<IconBaseProps> {}
+  declare export class GiSkeletalHand extends React$Component<IconBaseProps> {}
+  declare export class GiSkiBoot extends React$Component<IconBaseProps> {}
+  declare export class GiSkirt extends React$Component<IconBaseProps> {}
+  declare export class GiSkullStaff extends React$Component<IconBaseProps> {}
+  declare export class GiSlalom extends React$Component<IconBaseProps> {}
+  declare export class GiSleevelessJacket extends React$Component<IconBaseProps> {}
+  declare export class GiSleevelessTop extends React$Component<IconBaseProps> {}
+  declare export class GiSlicedMushroom extends React$Component<IconBaseProps> {}
+  declare export class GiSlime extends React$Component<IconBaseProps> {}
+  declare export class GiSling extends React$Component<IconBaseProps> {}
+  declare export class GiSlingshot extends React$Component<IconBaseProps> {}
+  declare export class GiSmart extends React$Component<IconBaseProps> {}
+  declare export class GiSmartphone extends React$Component<IconBaseProps> {}
+  declare export class GiSmokingPipe extends React$Component<IconBaseProps> {}
+  declare export class GiSmokingVolcano extends React$Component<IconBaseProps> {}
+  declare export class GiSnailEyes extends React$Component<IconBaseProps> {}
+  declare export class GiSnakeEgg extends React$Component<IconBaseProps> {}
+  declare export class GiSnakeSpiral extends React$Component<IconBaseProps> {}
+  declare export class GiSnakeTongue extends React$Component<IconBaseProps> {}
+  declare export class GiSniffingDog extends React$Component<IconBaseProps> {}
+  declare export class GiSnitchQuidditchBall extends React$Component<IconBaseProps> {}
+  declare export class GiSoccerBall extends React$Component<IconBaseProps> {}
+  declare export class GiSoccerField extends React$Component<IconBaseProps> {}
+  declare export class GiSocks extends React$Component<IconBaseProps> {}
+  declare export class GiSofa extends React$Component<IconBaseProps> {}
+  declare export class GiSolarSystem extends React$Component<IconBaseProps> {}
+  declare export class GiSolarTime extends React$Component<IconBaseProps> {}
+  declare export class GiSolidLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiSombrero extends React$Component<IconBaseProps> {}
+  declare export class GiSoundOff extends React$Component<IconBaseProps> {}
+  declare export class GiSoundOn extends React$Component<IconBaseProps> {}
+  declare export class GiSouthAfricaFlag extends React$Component<IconBaseProps> {}
+  declare export class GiSouthAfrica extends React$Component<IconBaseProps> {}
+  declare export class GiSouthAmerica extends React$Component<IconBaseProps> {}
+  declare export class GiSpaceShuttle extends React$Component<IconBaseProps> {}
+  declare export class GiSpaceship extends React$Component<IconBaseProps> {}
+  declare export class GiSpain extends React$Component<IconBaseProps> {}
+  declare export class GiSpartanHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiSpeakerOff extends React$Component<IconBaseProps> {}
+  declare export class GiSpeaker extends React$Component<IconBaseProps> {}
+  declare export class GiSpearFeather extends React$Component<IconBaseProps> {}
+  declare export class GiSpearfishing extends React$Component<IconBaseProps> {}
+  declare export class GiSpeedBoat extends React$Component<IconBaseProps> {}
+  declare export class GiSpeedometer extends React$Component<IconBaseProps> {}
+  declare export class GiSpellBook extends React$Component<IconBaseProps> {}
+  declare export class GiSpermWhale extends React$Component<IconBaseProps> {}
+  declare export class GiSpiderBot extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedDragonHead extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedShoulderArmor extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedTrunk extends React$Component<IconBaseProps> {}
+  declare export class GiSpikyPit extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralHilt extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralLollipop extends React$Component<IconBaseProps> {}
+  declare export class GiSpookyHouse extends React$Component<IconBaseProps> {}
+  declare export class GiSportMedal extends React$Component<IconBaseProps> {}
+  declare export class GiSpring extends React$Component<IconBaseProps> {}
+  declare export class GiSpy extends React$Component<IconBaseProps> {}
+  declare export class GiSquare extends React$Component<IconBaseProps> {}
+  declare export class GiSquirrel extends React$Component<IconBaseProps> {}
+  declare export class GiSriLanka extends React$Component<IconBaseProps> {}
+  declare export class GiStabbedNote extends React$Component<IconBaseProps> {}
+  declare export class GiStack extends React$Component<IconBaseProps> {}
+  declare export class GiStairsGoal extends React$Component<IconBaseProps> {}
+  declare export class GiStairs extends React$Component<IconBaseProps> {}
+  declare export class GiStakeHammer extends React$Component<IconBaseProps> {}
+  declare export class GiStakesFence extends React$Component<IconBaseProps> {}
+  declare export class GiStalactites extends React$Component<IconBaseProps> {}
+  declare export class GiStarAltar extends React$Component<IconBaseProps> {}
+  declare export class GiStarFormation extends React$Component<IconBaseProps> {}
+  declare export class GiStarGate extends React$Component<IconBaseProps> {}
+  declare export class GiStarStruck extends React$Component<IconBaseProps> {}
+  declare export class GiStarfighter extends React$Component<IconBaseProps> {}
+  declare export class GiStarsStack extends React$Component<IconBaseProps> {}
+  declare export class GiSteak extends React$Component<IconBaseProps> {}
+  declare export class GiStealthBomber extends React$Component<IconBaseProps> {}
+  declare export class GiSteamBlast extends React$Component<IconBaseProps> {}
+  declare export class GiSteamLocomotive extends React$Component<IconBaseProps> {}
+  declare export class GiSteam extends React$Component<IconBaseProps> {}
+  declare export class GiSteampunkGoggles extends React$Component<IconBaseProps> {}
+  declare export class GiSteeringWheel extends React$Component<IconBaseProps> {}
+  declare export class GiStegosaurusScales extends React$Component<IconBaseProps> {}
+  declare export class GiStethoscope extends React$Component<IconBaseProps> {}
+  declare export class GiStickFrame extends React$Component<IconBaseProps> {}
+  declare export class GiStickyBoot extends React$Component<IconBaseProps> {}
+  declare export class GiStockpiles extends React$Component<IconBaseProps> {}
+  declare export class GiStomach extends React$Component<IconBaseProps> {}
+  declare export class GiStoneBridge extends React$Component<IconBaseProps> {}
+  declare export class GiStoneBust extends React$Component<IconBaseProps> {}
+  declare export class GiStonePile extends React$Component<IconBaseProps> {}
+  declare export class GiStoneStack extends React$Component<IconBaseProps> {}
+  declare export class GiStoneWall extends React$Component<IconBaseProps> {}
+  declare export class GiStoneWheel extends React$Component<IconBaseProps> {}
+  declare export class GiStopSign extends React$Component<IconBaseProps> {}
+  declare export class GiStorkDelivery extends React$Component<IconBaseProps> {}
+  declare export class GiStrawberry extends React$Component<IconBaseProps> {}
+  declare export class GiStreetLight extends React$Component<IconBaseProps> {}
+  declare export class GiStripedSun extends React$Component<IconBaseProps> {}
+  declare export class GiStrongMan extends React$Component<IconBaseProps> {}
+  declare export class GiStumpRegrowth extends React$Component<IconBaseProps> {}
+  declare export class GiStunGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiSubmarine extends React$Component<IconBaseProps> {}
+  declare export class GiSubway extends React$Component<IconBaseProps> {}
+  declare export class GiSugarCane extends React$Component<IconBaseProps> {}
+  declare export class GiSuitcase extends React$Component<IconBaseProps> {}
+  declare export class GiSummits extends React$Component<IconBaseProps> {}
+  declare export class GiSunCloud extends React$Component<IconBaseProps> {}
+  declare export class GiSunSpear extends React$Component<IconBaseProps> {}
+  declare export class GiSunflower extends React$Component<IconBaseProps> {}
+  declare export class GiSunglasses extends React$Component<IconBaseProps> {}
+  declare export class GiSunrise extends React$Component<IconBaseProps> {}
+  declare export class GiSunset extends React$Component<IconBaseProps> {}
+  declare export class GiSverdIFjell extends React$Component<IconBaseProps> {}
+  declare export class GiSwallow extends React$Component<IconBaseProps> {}
+  declare export class GiSwallower extends React$Component<IconBaseProps> {}
+  declare export class GiSwampBat extends React$Component<IconBaseProps> {}
+  declare export class GiSwamp extends React$Component<IconBaseProps> {}
+  declare export class GiSwimfins extends React$Component<IconBaseProps> {}
+  declare export class GiSwissArmyKnife extends React$Component<IconBaseProps> {}
+  declare export class GiSwitchWeapon extends React$Component<IconBaseProps> {}
+  declare export class GiSwitzerland extends React$Component<IconBaseProps> {}
+  declare export class GiSwordAltar extends React$Component<IconBaseProps> {}
+  declare export class GiSwordBrandish extends React$Component<IconBaseProps> {}
+  declare export class GiSwordsPower extends React$Component<IconBaseProps> {}
+  declare export class GiTBrick extends React$Component<IconBaseProps> {}
+  declare export class GiTShirt extends React$Component<IconBaseProps> {}
+  declare export class GiTable extends React$Component<IconBaseProps> {}
+  declare export class GiTabletopPlayers extends React$Component<IconBaseProps> {}
+  declare export class GiTacos extends React$Component<IconBaseProps> {}
+  declare export class GiTakeMyMoney extends React$Component<IconBaseProps> {}
+  declare export class GiTallBridge extends React$Component<IconBaseProps> {}
+  declare export class GiTangerine extends React$Component<IconBaseProps> {}
+  declare export class GiTap extends React$Component<IconBaseProps> {}
+  declare export class GiTaurus extends React$Component<IconBaseProps> {}
+  declare export class GiTeacher extends React$Component<IconBaseProps> {}
+  declare export class GiTeamIdea extends React$Component<IconBaseProps> {}
+  declare export class GiTeapotLeaves extends React$Component<IconBaseProps> {}
+  declare export class GiTeePipe extends React$Component<IconBaseProps> {}
+  declare export class GiTemplarShield extends React$Component<IconBaseProps> {}
+  declare export class GiTemporaryShield extends React$Component<IconBaseProps> {}
+  declare export class GiTennisBall extends React$Component<IconBaseProps> {}
+  declare export class GiTennisCourt extends React$Component<IconBaseProps> {}
+  declare export class GiTennisRacket extends React$Component<IconBaseProps> {}
+  declare export class GiTexas extends React$Component<IconBaseProps> {}
+  declare export class GiTheaterCurtains extends React$Component<IconBaseProps> {}
+  declare export class GiThermometerCold extends React$Component<IconBaseProps> {}
+  declare export class GiThermometerHot extends React$Component<IconBaseProps> {}
+  declare export class GiThink extends React$Component<IconBaseProps> {}
+  declare export class GiThorHammer extends React$Component<IconBaseProps> {}
+  declare export class GiThreeFriends extends React$Component<IconBaseProps> {}
+  declare export class GiThroneKing extends React$Component<IconBaseProps> {}
+  declare export class GiThrowingBall extends React$Component<IconBaseProps> {}
+  declare export class GiThrustBend extends React$Component<IconBaseProps> {}
+  declare export class GiThumbDown extends React$Component<IconBaseProps> {}
+  declare export class GiThumbUp extends React$Component<IconBaseProps> {}
+  declare export class GiThwomp extends React$Component<IconBaseProps> {}
+  declare export class GiTiara extends React$Component<IconBaseProps> {}
+  declare export class GiTicTacToe extends React$Component<IconBaseProps> {}
+  declare export class GiTicket extends React$Component<IconBaseProps> {}
+  declare export class GiTie extends React$Component<IconBaseProps> {}
+  declare export class GiTigerHead extends React$Component<IconBaseProps> {}
+  declare export class GiTiger extends React$Component<IconBaseProps> {}
+  declare export class GiTightrope extends React$Component<IconBaseProps> {}
+  declare export class GiTipi extends React$Component<IconBaseProps> {}
+  declare export class GiTireTracks extends React$Component<IconBaseProps> {}
+  declare export class GiToaster extends React$Component<IconBaseProps> {}
+  declare export class GiTomahawk extends React$Component<IconBaseProps> {}
+  declare export class GiTomato extends React$Component<IconBaseProps> {}
+  declare export class GiTongue extends React$Component<IconBaseProps> {}
+  declare export class GiToolbox extends React$Component<IconBaseProps> {}
+  declare export class GiTorch extends React$Component<IconBaseProps> {}
+  declare export class GiTorpedo extends React$Component<IconBaseProps> {}
+  declare export class GiTortoise extends React$Component<IconBaseProps> {}
+  declare export class GiTotem extends React$Component<IconBaseProps> {}
+  declare export class GiToucan extends React$Component<IconBaseProps> {}
+  declare export class GiTowerBridge extends React$Component<IconBaseProps> {}
+  declare export class GiTowerFlag extends React$Component<IconBaseProps> {}
+  declare export class GiToyMallet extends React$Component<IconBaseProps> {}
+  declare export class GiTrackedRobot extends React$Component<IconBaseProps> {}
+  declare export class GiTrafficCone extends React$Component<IconBaseProps> {}
+  declare export class GiTrafficLightsGreen extends React$Component<IconBaseProps> {}
+  declare export class GiTrafficLightsOrange extends React$Component<IconBaseProps> {}
+  declare export class GiTrafficLightsReadyToGo extends React$Component<IconBaseProps> {}
+  declare export class GiTrafficLightsRed extends React$Component<IconBaseProps> {}
+  declare export class GiTransform extends React$Component<IconBaseProps> {}
+  declare export class GiTrashCan extends React$Component<IconBaseProps> {}
+  declare export class GiTrebuchet extends React$Component<IconBaseProps> {}
+  declare export class GiTreeBeehive extends React$Component<IconBaseProps> {}
+  declare export class GiTreeGrowth extends React$Component<IconBaseProps> {}
+  declare export class GiTreeSwing extends React$Component<IconBaseProps> {}
+  declare export class GiTriangleTarget extends React$Component<IconBaseProps> {}
+  declare export class GiTribalPendant extends React$Component<IconBaseProps> {}
+  declare export class GiTriceratopsHead extends React$Component<IconBaseProps> {}
+  declare export class GiTridentShield extends React$Component<IconBaseProps> {}
+  declare export class GiTriforce extends React$Component<IconBaseProps> {}
+  declare export class GiTripleGate extends React$Component<IconBaseProps> {}
+  declare export class GiTriquetra extends React$Component<IconBaseProps> {}
+  declare export class GiTrireme extends React$Component<IconBaseProps> {}
+  declare export class GiTroglodyte extends React$Component<IconBaseProps> {}
+  declare export class GiTrojanHorse extends React$Component<IconBaseProps> {}
+  declare export class GiTrophyCup extends React$Component<IconBaseProps> {}
+  declare export class GiTropicalFish extends React$Component<IconBaseProps> {}
+  declare export class GiTrowel extends React$Component<IconBaseProps> {}
+  declare export class GiTruck extends React$Component<IconBaseProps> {}
+  declare export class GiTrumpetFlag extends React$Component<IconBaseProps> {}
+  declare export class GiTrumpet extends React$Component<IconBaseProps> {}
+  declare export class GiTumbleweed extends React$Component<IconBaseProps> {}
+  declare export class GiTurban extends React$Component<IconBaseProps> {}
+  declare export class GiTurbine extends React$Component<IconBaseProps> {}
+  declare export class GiTusksFlag extends React$Component<IconBaseProps> {}
+  declare export class GiTvRemote extends React$Component<IconBaseProps> {}
+  declare export class GiTvTower extends React$Component<IconBaseProps> {}
+  declare export class GiTv extends React$Component<IconBaseProps> {}
+  declare export class GiTwoCoins extends React$Component<IconBaseProps> {}
+  declare export class GiTwoHandedSword extends React$Component<IconBaseProps> {}
+  declare export class GiUdder extends React$Component<IconBaseProps> {}
+  declare export class GiUfo extends React$Component<IconBaseProps> {}
+  declare export class GiUluru extends React$Component<IconBaseProps> {}
+  declare export class GiUmbrellaBayonet extends React$Component<IconBaseProps> {}
+  declare export class GiUnbalanced extends React$Component<IconBaseProps> {}
+  declare export class GiUnderwear extends React$Component<IconBaseProps> {}
+  declare export class GiUnicorn extends React$Component<IconBaseProps> {}
+  declare export class GiUnicycle extends React$Component<IconBaseProps> {}
+  declare export class GiUnionJack extends React$Component<IconBaseProps> {}
+  declare export class GiUpCard extends React$Component<IconBaseProps> {}
+  declare export class GiUpgrade extends React$Component<IconBaseProps> {}
+  declare export class GiUprising extends React$Component<IconBaseProps> {}
+  declare export class GiUrsaMajor extends React$Component<IconBaseProps> {}
+  declare export class GiUruguay extends React$Component<IconBaseProps> {}
+  declare export class GiUsaFlag extends React$Component<IconBaseProps> {}
+  declare export class GiUsbKey extends React$Component<IconBaseProps> {}
+  declare export class GiUzi extends React$Component<IconBaseProps> {}
+  declare export class GiVacuumCleaner extends React$Component<IconBaseProps> {}
+  declare export class GiValve extends React$Component<IconBaseProps> {}
+  declare export class GiVampireCape extends React$Component<IconBaseProps> {}
+  declare export class GiVampireDracula extends React$Component<IconBaseProps> {}
+  declare export class GiVanDammeSplit extends React$Component<IconBaseProps> {}
+  declare export class GiVelocipede extends React$Component<IconBaseProps> {}
+  declare export class GiVelociraptorTracks extends React$Component<IconBaseProps> {}
+  declare export class GiVelociraptor extends React$Component<IconBaseProps> {}
+  declare export class GiVendingMachine extends React$Component<IconBaseProps> {}
+  declare export class GiVenezuela extends React$Component<IconBaseProps> {}
+  declare export class GiVenusOfWillendorf extends React$Component<IconBaseProps> {}
+  declare export class GiVerticalBanner extends React$Component<IconBaseProps> {}
+  declare export class GiVerticalFlip extends React$Component<IconBaseProps> {}
+  declare export class GiVibratingShield extends React$Component<IconBaseProps> {}
+  declare export class GiVideoCamera extends React$Component<IconBaseProps> {}
+  declare export class GiVikingChurch extends React$Component<IconBaseProps> {}
+  declare export class GiVikingHead extends React$Component<IconBaseProps> {}
+  declare export class GiVikingHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiVikingLonghouse extends React$Component<IconBaseProps> {}
+  declare export class GiVikingShield extends React$Component<IconBaseProps> {}
+  declare export class GiVillage extends React$Component<IconBaseProps> {}
+  declare export class GiVirgo extends React$Component<IconBaseProps> {}
+  declare export class GiVirtualMarker extends React$Component<IconBaseProps> {}
+  declare export class GiVitruvianMan extends React$Component<IconBaseProps> {}
+  declare export class GiVolleyballBall extends React$Component<IconBaseProps> {}
+  declare export class GiVote extends React$Component<IconBaseProps> {}
+  declare export class GiVrHeadset extends React$Component<IconBaseProps> {}
+  declare export class GiVuvuzelas extends React$Component<IconBaseProps> {}
+  declare export class GiWalk extends React$Component<IconBaseProps> {}
+  declare export class GiWalkieTalkie extends React$Component<IconBaseProps> {}
+  declare export class GiWalkingScout extends React$Component<IconBaseProps> {}
+  declare export class GiWalkingTurret extends React$Component<IconBaseProps> {}
+  declare export class GiWallLight extends React$Component<IconBaseProps> {}
+  declare export class GiWallet extends React$Component<IconBaseProps> {}
+  declare export class GiWalrusHead extends React$Component<IconBaseProps> {}
+  declare export class GiWantedReward extends React$Component<IconBaseProps> {}
+  declare export class GiWarAxe extends React$Component<IconBaseProps> {}
+  declare export class GiWarBonnet extends React$Component<IconBaseProps> {}
+  declare export class GiWarPick extends React$Component<IconBaseProps> {}
+  declare export class GiWarlockEye extends React$Component<IconBaseProps> {}
+  declare export class GiWarlockHood extends React$Component<IconBaseProps> {}
+  declare export class GiWarpPipe extends React$Component<IconBaseProps> {}
+  declare export class GiWatch extends React$Component<IconBaseProps> {}
+  declare export class GiWatchtower extends React$Component<IconBaseProps> {}
+  declare export class GiWaterBottle extends React$Component<IconBaseProps> {}
+  declare export class GiWaterDivinerStick extends React$Component<IconBaseProps> {}
+  declare export class GiWaterFountain extends React$Component<IconBaseProps> {}
+  declare export class GiWaterGallon extends React$Component<IconBaseProps> {}
+  declare export class GiWaterfall extends React$Component<IconBaseProps> {}
+  declare export class GiWateringCan extends React$Component<IconBaseProps> {}
+  declare export class GiWatermelon extends React$Component<IconBaseProps> {}
+  declare export class GiWaveSurfer extends React$Component<IconBaseProps> {}
+  declare export class GiWaxTablet extends React$Component<IconBaseProps> {}
+  declare export class GiWeightLiftingDown extends React$Component<IconBaseProps> {}
+  declare export class GiWeightLiftingUp extends React$Component<IconBaseProps> {}
+  declare export class GiWeight extends React$Component<IconBaseProps> {}
+  declare export class GiWell extends React$Component<IconBaseProps> {}
+  declare export class GiWesternHat extends React$Component<IconBaseProps> {}
+  declare export class GiWhaleTail extends React$Component<IconBaseProps> {}
+  declare export class GiWheelbarrow extends React$Component<IconBaseProps> {}
+  declare export class GiWhistle extends React$Component<IconBaseProps> {}
+  declare export class GiWindTurbine extends React$Component<IconBaseProps> {}
+  declare export class GiWindmill extends React$Component<IconBaseProps> {}
+  declare export class GiWindowBars extends React$Component<IconBaseProps> {}
+  declare export class GiWindow extends React$Component<IconBaseProps> {}
+  declare export class GiWindpump extends React$Component<IconBaseProps> {}
+  declare export class GiWindsock extends React$Component<IconBaseProps> {}
+  declare export class GiWineBottle extends React$Component<IconBaseProps> {}
+  declare export class GiWinterGloves extends React$Component<IconBaseProps> {}
+  declare export class GiWinterHat extends React$Component<IconBaseProps> {}
+  declare export class GiWireframeGlobe extends React$Component<IconBaseProps> {}
+  declare export class GiWisdom extends React$Component<IconBaseProps> {}
+  declare export class GiWizardFace extends React$Component<IconBaseProps> {}
+  declare export class GiWomanElfFace extends React$Component<IconBaseProps> {}
+  declare export class GiWoodCabin extends React$Component<IconBaseProps> {}
+  declare export class GiWoodCanoe extends React$Component<IconBaseProps> {}
+  declare export class GiWoodClub extends React$Component<IconBaseProps> {}
+  declare export class GiWoodPile extends React$Component<IconBaseProps> {}
+  declare export class GiWoodStick extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenClogs extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenCrate extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenPegleg extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenPier extends React$Component<IconBaseProps> {}
+  declare export class GiWool extends React$Component<IconBaseProps> {}
+  declare export class GiWorms extends React$Component<IconBaseProps> {}
+  declare export class GiXylophone extends React$Component<IconBaseProps> {}
+  declare export class GiYinYang extends React$Component<IconBaseProps> {}
+  declare export class GiZBrick extends React$Component<IconBaseProps> {}
+  declare export class GiZatGun extends React$Component<IconBaseProps> {}
+  declare export class GiZigzagHieroglyph extends React$Component<IconBaseProps> {}
+  declare export class GiZipper extends React$Component<IconBaseProps> {}
+  declare export class GiCardDiscard extends React$Component<IconBaseProps> {}
+  declare export class GiCardDraw extends React$Component<IconBaseProps> {}
+  declare export class GiCardPick extends React$Component<IconBaseProps> {}
+  declare export class GiCardRandom extends React$Component<IconBaseProps> {}
+  declare export class GiDragonHead extends React$Component<IconBaseProps> {}
+  declare export class GiForwardSun extends React$Component<IconBaseProps> {}
+  declare export class GiMinerals extends React$Component<IconBaseProps> {}
+  declare export class GiNautilusShell extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaStar extends React$Component<IconBaseProps> {}
+  declare export class GiOre extends React$Component<IconBaseProps> {}
+  declare export class GiFingersCrossed extends React$Component<IconBaseProps> {}
+  declare export class GiShepherdsCrook extends React$Component<IconBaseProps> {}
+  declare export class GiPauseButton extends React$Component<IconBaseProps> {}
+  declare export class GiPlayButton extends React$Component<IconBaseProps> {}
+  declare export class GiSodaCan extends React$Component<IconBaseProps> {}
+  declare export class GiCatapult extends React$Component<IconBaseProps> {}
+  declare export class GiDefensiveWall extends React$Component<IconBaseProps> {}
+  declare export class GiArmoredPants extends React$Component<IconBaseProps> {}
+  declare export class GiPistolGun extends React$Component<IconBaseProps> {}
+  declare export class GiDwarfHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiDwarfKing extends React$Component<IconBaseProps> {}
+  declare export class GiElfHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiAce extends React$Component<IconBaseProps> {}
+  declare export class GiAcidBlob extends React$Component<IconBaseProps> {}
+  declare export class GiAcorn extends React$Component<IconBaseProps> {}
+  declare export class GiAerialSignal extends React$Component<IconBaseProps> {}
+  declare export class GiAerodynamicHarpoon extends React$Component<IconBaseProps> {}
+  declare export class GiAerosol extends React$Component<IconBaseProps> {}
+  declare export class GiAfterburn extends React$Component<IconBaseProps> {}
+  declare export class GiAirZigzag extends React$Component<IconBaseProps> {}
+  declare export class GiAlienFire extends React$Component<IconBaseProps> {}
+  declare export class GiAlienSkull extends React$Component<IconBaseProps> {}
+  declare export class GiAlienStare extends React$Component<IconBaseProps> {}
+  declare export class GiAllForOne extends React$Component<IconBaseProps> {}
+  declare export class GiAlligatorClip extends React$Component<IconBaseProps> {}
+  declare export class GiAmmoniteFossil extends React$Component<IconBaseProps> {}
+  declare export class GiAmmonite extends React$Component<IconBaseProps> {}
+  declare export class GiAnatomy extends React$Component<IconBaseProps> {}
+  declare export class GiAnchor extends React$Component<IconBaseProps> {}
+  declare export class GiAndroidMask extends React$Component<IconBaseProps> {}
+  declare export class GiAndromedaChain extends React$Component<IconBaseProps> {}
+  declare export class GiAngelOutfit extends React$Component<IconBaseProps> {}
+  declare export class GiAngelWings extends React$Component<IconBaseProps> {}
+  declare export class GiAnglerFish extends React$Component<IconBaseProps> {}
+  declare export class GiAngularSpider extends React$Component<IconBaseProps> {}
+  declare export class GiAnimalSkull extends React$Component<IconBaseProps> {}
+  declare export class GiAnkh extends React$Component<IconBaseProps> {}
+  declare export class GiAnthem extends React$Component<IconBaseProps> {}
+  declare export class GiAnvilImpact extends React$Component<IconBaseProps> {}
+  declare export class GiAnvil extends React$Component<IconBaseProps> {}
+  declare export class GiAppleMaggot extends React$Component<IconBaseProps> {}
+  declare export class GiAppleSeeds extends React$Component<IconBaseProps> {}
+  declare export class GiArcheryTarget extends React$Component<IconBaseProps> {}
+  declare export class GiArchitectMask extends React$Component<IconBaseProps> {}
+  declare export class GiArcingBolt extends React$Component<IconBaseProps> {}
+  declare export class GiArmadilloTail extends React$Component<IconBaseProps> {}
+  declare export class GiArmorVest extends React$Component<IconBaseProps> {}
+  declare export class GiArmouredShell extends React$Component<IconBaseProps> {}
+  declare export class GiArrowCluster extends React$Component<IconBaseProps> {}
+  declare export class GiArrowDunk extends React$Component<IconBaseProps> {}
+  declare export class GiArrowFlights extends React$Component<IconBaseProps> {}
+  declare export class GiArrowScope extends React$Component<IconBaseProps> {}
+  declare export class GiArrowed extends React$Component<IconBaseProps> {}
+  declare export class GiArrowhead extends React$Component<IconBaseProps> {}
+  declare export class GiArrowsShield extends React$Component<IconBaseProps> {}
+  declare export class GiArson extends React$Component<IconBaseProps> {}
+  declare export class GiArtificialHive extends React$Component<IconBaseProps> {}
+  declare export class GiAssassinPocket extends React$Component<IconBaseProps> {}
+  declare export class GiAtSea extends React$Component<IconBaseProps> {}
+  declare export class GiAtomicSlashes extends React$Component<IconBaseProps> {}
+  declare export class GiAubergine extends React$Component<IconBaseProps> {}
+  declare export class GiAura extends React$Component<IconBaseProps> {}
+  declare export class GiAutoRepair extends React$Component<IconBaseProps> {}
+  declare export class GiAutogun extends React$Component<IconBaseProps> {}
+  declare export class GiAutomaticSas extends React$Component<IconBaseProps> {}
+  declare export class GiAwareness extends React$Component<IconBaseProps> {}
+  declare export class GiAxeInStump extends React$Component<IconBaseProps> {}
+  declare export class GiAxeSwing extends React$Component<IconBaseProps> {}
+  declare export class GiBackForth extends React$Component<IconBaseProps> {}
+  declare export class GiBackPain extends React$Component<IconBaseProps> {}
+  declare export class GiBackboneShell extends React$Component<IconBaseProps> {}
+  declare export class GiBackstab extends React$Component<IconBaseProps> {}
+  declare export class GiBackup extends React$Component<IconBaseProps> {}
+  declare export class GiBallGlow extends React$Component<IconBaseProps> {}
+  declare export class GiBallHeart extends React$Component<IconBaseProps> {}
+  declare export class GiBalloons extends React$Component<IconBaseProps> {}
+  declare export class GiBandageRoll extends React$Component<IconBaseProps> {}
+  declare export class GiBandaged extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedArrow extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedCoil extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedNails extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedSpear extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedStar extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedSun extends React$Component<IconBaseProps> {}
+  declare export class GiBarbedWire extends React$Component<IconBaseProps> {}
+  declare export class GiBarbute extends React$Component<IconBaseProps> {}
+  declare export class GiBarefoot extends React$Component<IconBaseProps> {}
+  declare export class GiBatBlade extends React$Component<IconBaseProps> {}
+  declare export class GiBatWing extends React$Component<IconBaseProps> {}
+  declare export class GiBatteredAxe extends React$Component<IconBaseProps> {}
+  declare export class GiBatteries extends React$Component<IconBaseProps> {}
+  declare export class GiBattleAxe extends React$Component<IconBaseProps> {}
+  declare export class GiBattleGear extends React$Component<IconBaseProps> {}
+  declare export class GiBatwingEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiBeamWake extends React$Component<IconBaseProps> {}
+  declare export class GiBeamsAura extends React$Component<IconBaseProps> {}
+  declare export class GiBeanstalk extends React$Component<IconBaseProps> {}
+  declare export class GiBeard extends React$Component<IconBaseProps> {}
+  declare export class GiBeastEye extends React$Component<IconBaseProps> {}
+  declare export class GiBee extends React$Component<IconBaseProps> {}
+  declare export class GiBeech extends React$Component<IconBaseProps> {}
+  declare export class GiBeerStein extends React$Component<IconBaseProps> {}
+  declare export class GiBeetleShell extends React$Component<IconBaseProps> {}
+  declare export class GiBehold extends React$Component<IconBaseProps> {}
+  declare export class GiBellShield extends React$Component<IconBaseProps> {}
+  declare export class GiBeltBuckles extends React$Component<IconBaseProps> {}
+  declare export class GiBestialFangs extends React$Component<IconBaseProps> {}
+  declare export class GiBeveledStar extends React$Component<IconBaseProps> {}
+  declare export class GiBigWave extends React$Component<IconBaseProps> {}
+  declare export class GiBiohazard extends React$Component<IconBaseProps> {}
+  declare export class GiBirdClaw extends React$Component<IconBaseProps> {}
+  declare export class GiBirdLimb extends React$Component<IconBaseProps> {}
+  declare export class GiBirdMask extends React$Component<IconBaseProps> {}
+  declare export class GiBirdTwitter extends React$Component<IconBaseProps> {}
+  declare export class GiBlackBar extends React$Component<IconBaseProps> {}
+  declare export class GiBlackCat extends React$Component<IconBaseProps> {}
+  declare export class GiBlackFlag extends React$Component<IconBaseProps> {}
+  declare export class GiBlackHandShield extends React$Component<IconBaseProps> {}
+  declare export class GiBlackHoleBolas extends React$Component<IconBaseProps> {}
+  declare export class GiBlackball extends React$Component<IconBaseProps> {}
+  declare export class GiBlackcurrant extends React$Component<IconBaseProps> {}
+  declare export class GiBladeBite extends React$Component<IconBaseProps> {}
+  declare export class GiBladeDrag extends React$Component<IconBaseProps> {}
+  declare export class GiBladeFall extends React$Component<IconBaseProps> {}
+  declare export class GiBleedingEye extends React$Component<IconBaseProps> {}
+  declare export class GiBleedingHeart extends React$Component<IconBaseProps> {}
+  declare export class GiBleedingWound extends React$Component<IconBaseProps> {}
+  declare export class GiBloodyStash extends React$Component<IconBaseProps> {}
+  declare export class GiBloodySword extends React$Component<IconBaseProps> {}
+  declare export class GiBlunderbuss extends React$Component<IconBaseProps> {}
+  declare export class GiBoarTusks extends React$Component<IconBaseProps> {}
+  declare export class GiBodySwapping extends React$Component<IconBaseProps> {}
+  declare export class GiBoilingBubbles extends React$Component<IconBaseProps> {}
+  declare export class GiBolas extends React$Component<IconBaseProps> {}
+  declare export class GiBoltEye extends React$Component<IconBaseProps> {}
+  declare export class GiBoltSaw extends React$Component<IconBaseProps> {}
+  declare export class GiBoltShield extends React$Component<IconBaseProps> {}
+  declare export class GiBolterGun extends React$Component<IconBaseProps> {}
+  declare export class GiBombingRun extends React$Component<IconBaseProps> {}
+  declare export class GiBoneGnawer extends React$Component<IconBaseProps> {}
+  declare export class GiBookAura extends React$Component<IconBaseProps> {}
+  declare export class GiBookStorm extends React$Component<IconBaseProps> {}
+  declare export class GiBookmark extends React$Component<IconBaseProps> {}
+  declare export class GiBookmarklet extends React$Component<IconBaseProps> {}
+  declare export class GiBoomerangSun extends React$Component<IconBaseProps> {}
+  declare export class GiBootPrints extends React$Component<IconBaseProps> {}
+  declare export class GiBootStomp extends React$Component<IconBaseProps> {}
+  declare export class GiBoots extends React$Component<IconBaseProps> {}
+  declare export class GiBorderedShield extends React$Component<IconBaseProps> {}
+  declare export class GiBottleVapors extends React$Component<IconBaseProps> {}
+  declare export class GiBottledBolt extends React$Component<IconBaseProps> {}
+  declare export class GiBottomRight3DArrow extends React$Component<IconBaseProps> {}
+  declare export class GiBouncingSword extends React$Component<IconBaseProps> {}
+  declare export class GiBowieKnife extends React$Component<IconBaseProps> {}
+  declare export class GiBowlSpiral extends React$Component<IconBaseProps> {}
+  declare export class GiBowlingPropulsion extends React$Component<IconBaseProps> {}
+  declare export class GiBowman extends React$Component<IconBaseProps> {}
+  declare export class GiBoxingGloveSurprise extends React$Component<IconBaseProps> {}
+  declare export class GiBoxingGlove extends React$Component<IconBaseProps> {}
+  declare export class GiBrainFreeze extends React$Component<IconBaseProps> {}
+  declare export class GiBrainStem extends React$Component<IconBaseProps> {}
+  declare export class GiBrain extends React$Component<IconBaseProps> {}
+  declare export class GiBrainstorm extends React$Component<IconBaseProps> {}
+  declare export class GiBranchArrow extends React$Component<IconBaseProps> {}
+  declare export class GiBrandyBottle extends React$Component<IconBaseProps> {}
+  declare export class GiBrassEye extends React$Component<IconBaseProps> {}
+  declare export class GiBreastplate extends React$Component<IconBaseProps> {}
+  declare export class GiBridge extends React$Component<IconBaseProps> {}
+  declare export class GiBrightExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiBroadDagger extends React$Component<IconBaseProps> {}
+  declare export class GiBroadheadArrow extends React$Component<IconBaseProps> {}
+  declare export class GiBroadsword extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenBone extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenBottle extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenHeartZone extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenHeart extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenRibbon extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenShield extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenSkull extends React$Component<IconBaseProps> {}
+  declare export class GiBrokenTablet extends React$Component<IconBaseProps> {}
+  declare export class GiBubbleField extends React$Component<IconBaseProps> {}
+  declare export class GiBubbles extends React$Component<IconBaseProps> {}
+  declare export class GiBubblingBeam extends React$Component<IconBaseProps> {}
+  declare export class GiBubblingBowl extends React$Component<IconBaseProps> {}
+  declare export class GiBubblingFlask extends React$Component<IconBaseProps> {}
+  declare export class GiBud extends React$Component<IconBaseProps> {}
+  declare export class GiBugleCall extends React$Component<IconBaseProps> {}
+  declare export class GiBulb extends React$Component<IconBaseProps> {}
+  declare export class GiBullHorns extends React$Component<IconBaseProps> {}
+  declare export class GiBull extends React$Component<IconBaseProps> {}
+  declare export class GiBullets extends React$Component<IconBaseProps> {}
+  declare export class GiBurningBlobs extends React$Component<IconBaseProps> {}
+  declare export class GiBurningBook extends React$Component<IconBaseProps> {}
+  declare export class GiBurningDot extends React$Component<IconBaseProps> {}
+  declare export class GiBurningEmbers extends React$Component<IconBaseProps> {}
+  declare export class GiBurningEye extends React$Component<IconBaseProps> {}
+  declare export class GiBurningMeteor extends React$Component<IconBaseProps> {}
+  declare export class GiBurningPassion extends React$Component<IconBaseProps> {}
+  declare export class GiBurningRoundShot extends React$Component<IconBaseProps> {}
+  declare export class GiBurningTree extends React$Component<IconBaseProps> {}
+  declare export class GiBurstBlob extends React$Component<IconBaseProps> {}
+  declare export class GiButterflyWarning extends React$Component<IconBaseProps> {}
+  declare export class GiButterfly extends React$Component<IconBaseProps> {}
+  declare export class GiCagedBall extends React$Component<IconBaseProps> {}
+  declare export class GiCakeSlice extends React$Component<IconBaseProps> {}
+  declare export class GiCaldera extends React$Component<IconBaseProps> {}
+  declare export class GiCampfire extends React$Component<IconBaseProps> {}
+  declare export class GiCandleFlame extends React$Component<IconBaseProps> {}
+  declare export class GiCandleHolder extends React$Component<IconBaseProps> {}
+  declare export class GiCandleLight extends React$Component<IconBaseProps> {}
+  declare export class GiCandleSkull extends React$Component<IconBaseProps> {}
+  declare export class GiCandlebright extends React$Component<IconBaseProps> {}
+  declare export class GiCannister extends React$Component<IconBaseProps> {}
+  declare export class GiCannonBall extends React$Component<IconBaseProps> {}
+  declare export class GiCannonShot extends React$Component<IconBaseProps> {}
+  declare export class GiCannon extends React$Component<IconBaseProps> {}
+  declare export class GiCapitol extends React$Component<IconBaseProps> {}
+  declare export class GiCargoCrane extends React$Component<IconBaseProps> {}
+  declare export class GiCarillon extends React$Component<IconBaseProps> {}
+  declare export class GiCarnivoreMouth extends React$Component<IconBaseProps> {}
+  declare export class GiCarrion extends React$Component<IconBaseProps> {}
+  declare export class GiCartwheel extends React$Component<IconBaseProps> {}
+  declare export class GiCash extends React$Component<IconBaseProps> {}
+  declare export class GiCelebrationFire extends React$Component<IconBaseProps> {}
+  declare export class GiCentipede extends React$Component<IconBaseProps> {}
+  declare export class GiChainedArrowHeads extends React$Component<IconBaseProps> {}
+  declare export class GiChainedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiChaliceDrops extends React$Component<IconBaseProps> {}
+  declare export class GiChargedArrow extends React$Component<IconBaseProps> {}
+  declare export class GiCharm extends React$Component<IconBaseProps> {}
+  declare export class GiCheckboxTree extends React$Component<IconBaseProps> {}
+  declare export class GiCheckedShield extends React$Component<IconBaseProps> {}
+  declare export class GiCheckeredDiamond extends React$Component<IconBaseProps> {}
+  declare export class GiCheerful extends React$Component<IconBaseProps> {}
+  declare export class GiCheeseWedge extends React$Component<IconBaseProps> {}
+  declare export class GiChemicalArrow extends React$Component<IconBaseProps> {}
+  declare export class GiChemicalBolt extends React$Component<IconBaseProps> {}
+  declare export class GiChemicalDrop extends React$Component<IconBaseProps> {}
+  declare export class GiChemicalTank extends React$Component<IconBaseProps> {}
+  declare export class GiChewedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiChewedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiChickenLeg extends React$Component<IconBaseProps> {}
+  declare export class GiChoppedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiCircleCage extends React$Component<IconBaseProps> {}
+  declare export class GiCircleClaws extends React$Component<IconBaseProps> {}
+  declare export class GiCircleSparks extends React$Component<IconBaseProps> {}
+  declare export class GiCircuitry extends React$Component<IconBaseProps> {}
+  declare export class GiCircularSawblade extends React$Component<IconBaseProps> {}
+  declare export class GiClawHammer extends React$Component<IconBaseProps> {}
+  declare export class GiClawSlashes extends React$Component<IconBaseProps> {}
+  declare export class GiClawString extends React$Component<IconBaseProps> {}
+  declare export class GiCloakDagger extends React$Component<IconBaseProps> {}
+  declare export class GiClockwork extends React$Component<IconBaseProps> {}
+  declare export class GiCloudRing extends React$Component<IconBaseProps> {}
+  declare export class GiCloudyFork extends React$Component<IconBaseProps> {}
+  declare export class GiClout extends React$Component<IconBaseProps> {}
+  declare export class GiClover extends React$Component<IconBaseProps> {}
+  declare export class GiClusterBomb extends React$Component<IconBaseProps> {}
+  declare export class GiCobweb extends React$Component<IconBaseProps> {}
+  declare export class GiCoffeeMug extends React$Component<IconBaseProps> {}
+  declare export class GiCoffin extends React$Component<IconBaseProps> {}
+  declare export class GiCogLock extends React$Component<IconBaseProps> {}
+  declare export class GiCog extends React$Component<IconBaseProps> {}
+  declare export class GiCogsplosion extends React$Component<IconBaseProps> {}
+  declare export class GiCoilingCurl extends React$Component<IconBaseProps> {}
+  declare export class GiColdHeart extends React$Component<IconBaseProps> {}
+  declare export class GiComa extends React$Component<IconBaseProps> {}
+  declare export class GiComb extends React$Component<IconBaseProps> {}
+  declare export class GiCometSpark extends React$Component<IconBaseProps> {}
+  declare export class GiCompass extends React$Component<IconBaseProps> {}
+  declare export class GiConcentrationOrb extends React$Component<IconBaseProps> {}
+  declare export class GiConcentricCrescents extends React$Component<IconBaseProps> {}
+  declare export class GiCondorEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiCondyluraSkull extends React$Component<IconBaseProps> {}
+  declare export class GiConversation extends React$Component<IconBaseProps> {}
+  declare export class GiCoolSpices extends React$Component<IconBaseProps> {}
+  declare export class GiCorkedTube extends React$Component<IconBaseProps> {}
+  declare export class GiCornerExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiCowled extends React$Component<IconBaseProps> {}
+  declare export class GiCrabClaw extends React$Component<IconBaseProps> {}
+  declare export class GiCrab extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedAlienSkull extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedBallDunk extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedDisc extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedGlass extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedHelm extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedMask extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedSaber extends React$Component<IconBaseProps> {}
+  declare export class GiCrackedShield extends React$Component<IconBaseProps> {}
+  declare export class GiCrags extends React$Component<IconBaseProps> {}
+  declare export class GiCrenulatedShield extends React$Component<IconBaseProps> {}
+  declare export class GiCrescentBlade extends React$Component<IconBaseProps> {}
+  declare export class GiCrestedHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiCrocJaws extends React$Component<IconBaseProps> {}
+  declare export class GiCrocSword extends React$Component<IconBaseProps> {}
+  declare export class GiCroissantsPupil extends React$Component<IconBaseProps> {}
+  declare export class GiCrossFlare extends React$Component<IconBaseProps> {}
+  declare export class GiCrossMark extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedAirFlows extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedAxes extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedBones extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedChains extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedClaws extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedPistols extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedSabres extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedSlashes extends React$Component<IconBaseProps> {}
+  declare export class GiCrossedSwords extends React$Component<IconBaseProps> {}
+  declare export class GiCrosshairArrow extends React$Component<IconBaseProps> {}
+  declare export class GiCrowDive extends React$Component<IconBaseProps> {}
+  declare export class GiCrownCoin extends React$Component<IconBaseProps> {}
+  declare export class GiCrownOfThorns extends React$Component<IconBaseProps> {}
+  declare export class GiCrown extends React$Component<IconBaseProps> {}
+  declare export class GiCrownedExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiCrownedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiCrownedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiCrumblingBall extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalBall extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalBars extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalCluster extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalEye extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalGrowth extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalShine extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalWand extends React$Component<IconBaseProps> {}
+  declare export class GiCrystalize extends React$Component<IconBaseProps> {}
+  declare export class GiCubeforce extends React$Component<IconBaseProps> {}
+  declare export class GiCubes extends React$Component<IconBaseProps> {}
+  declare export class GiCultist extends React$Component<IconBaseProps> {}
+  declare export class GiCupidonArrow extends React$Component<IconBaseProps> {}
+  declare export class GiCurledLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiCurledTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiCurlingVines extends React$Component<IconBaseProps> {}
+  declare export class GiCurlyMask extends React$Component<IconBaseProps> {}
+  declare export class GiCurlyWing extends React$Component<IconBaseProps> {}
+  declare export class GiCursedStar extends React$Component<IconBaseProps> {}
+  declare export class GiCurvyKnife extends React$Component<IconBaseProps> {}
+  declare export class GiCutDiamond extends React$Component<IconBaseProps> {}
+  declare export class GiCutPalm extends React$Component<IconBaseProps> {}
+  declare export class GiCycle extends React$Component<IconBaseProps> {}
+  declare export class GiCyclops extends React$Component<IconBaseProps> {}
+  declare export class GiDaemonSkull extends React$Component<IconBaseProps> {}
+  declare export class GiDaggers extends React$Component<IconBaseProps> {}
+  declare export class GiDaisy extends React$Component<IconBaseProps> {}
+  declare export class GiDarkSquad extends React$Component<IconBaseProps> {}
+  declare export class GiDeadEye extends React$Component<IconBaseProps> {}
+  declare export class GiDeadWood extends React$Component<IconBaseProps> {}
+  declare export class GiDeadlyStrike extends React$Component<IconBaseProps> {}
+  declare export class GiDeathNote extends React$Component<IconBaseProps> {}
+  declare export class GiDeathZone extends React$Component<IconBaseProps> {}
+  declare export class GiDeathcab extends React$Component<IconBaseProps> {}
+  declare export class GiDecapitation extends React$Component<IconBaseProps> {}
+  declare export class GiDefibrilate extends React$Component<IconBaseProps> {}
+  declare export class GiDelighted extends React$Component<IconBaseProps> {}
+  declare export class GiDemolish extends React$Component<IconBaseProps> {}
+  declare export class GiDervishSwords extends React$Component<IconBaseProps> {}
+  declare export class GiDesertSkull extends React$Component<IconBaseProps> {}
+  declare export class GiDeskLamp extends React$Component<IconBaseProps> {}
+  declare export class GiDespair extends React$Component<IconBaseProps> {}
+  declare export class GiDew extends React$Component<IconBaseProps> {}
+  declare export class GiDiabloSkull extends React$Component<IconBaseProps> {}
+  declare export class GiDiamondHard extends React$Component<IconBaseProps> {}
+  declare export class GiDiamondsSmile extends React$Component<IconBaseProps> {}
+  declare export class GiDigDug extends React$Component<IconBaseProps> {}
+  declare export class GiDinosaurBones extends React$Component<IconBaseProps> {}
+  declare export class GiDinosaurEgg extends React$Component<IconBaseProps> {}
+  declare export class GiDinosaurRex extends React$Component<IconBaseProps> {}
+  declare export class GiDirewolf extends React$Component<IconBaseProps> {}
+  declare export class GiDisintegrate extends React$Component<IconBaseProps> {}
+  declare export class GiDivergence extends React$Component<IconBaseProps> {}
+  declare export class GiDivert extends React$Component<IconBaseProps> {}
+  declare export class GiDividedSpiral extends React$Component<IconBaseProps> {}
+  declare export class GiDivingDagger extends React$Component<IconBaseProps> {}
+  declare export class GiDna1 extends React$Component<IconBaseProps> {}
+  declare export class GiDna2 extends React$Component<IconBaseProps> {}
+  declare export class GiDoctorFace extends React$Component<IconBaseProps> {}
+  declare export class GiDodging extends React$Component<IconBaseProps> {}
+  declare export class GiDominoMask extends React$Component<IconBaseProps> {}
+  declare export class GiDorsalScales extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleDiaphragm extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleDragon extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleFaceMask extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleQuaver extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleRingedOrb extends React$Component<IconBaseProps> {}
+  declare export class GiDoubleShot extends React$Component<IconBaseProps> {}
+  declare export class GiDove extends React$Component<IconBaseProps> {}
+  declare export class GiDozen extends React$Component<IconBaseProps> {}
+  declare export class GiDragonBalls extends React$Component<IconBaseProps> {}
+  declare export class GiDragonBreath extends React$Component<IconBaseProps> {}
+  declare export class GiDragonSpiral extends React$Component<IconBaseProps> {}
+  declare export class GiDragonfly extends React$Component<IconBaseProps> {}
+  declare export class GiDramaMasks extends React$Component<IconBaseProps> {}
+  declare export class GiDreadSkull extends React$Component<IconBaseProps> {}
+  declare export class GiDrinkMe extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingBlade extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingGoo extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingHoney extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingKnife extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingStar extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingStone extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingSword extends React$Component<IconBaseProps> {}
+  declare export class GiDrippingTube extends React$Component<IconBaseProps> {}
+  declare export class GiDrop extends React$Component<IconBaseProps> {}
+  declare export class GiDropletSplash extends React$Component<IconBaseProps> {}
+  declare export class GiDroplets extends React$Component<IconBaseProps> {}
+  declare export class GiDrowning extends React$Component<IconBaseProps> {}
+  declare export class GiDualityMask extends React$Component<IconBaseProps> {}
+  declare export class GiDuality extends React$Component<IconBaseProps> {}
+  declare export class GiDustCloud extends React$Component<IconBaseProps> {}
+  declare export class GiEagleEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiEarthCrack extends React$Component<IconBaseProps> {}
+  declare export class GiEarthSpit extends React$Component<IconBaseProps> {}
+  declare export class GiEarwig extends React$Component<IconBaseProps> {}
+  declare export class GiEchoRipples extends React$Component<IconBaseProps> {}
+  declare export class GiEclipseFlare extends React$Component<IconBaseProps> {}
+  declare export class GiEclipseSaw extends React$Component<IconBaseProps> {}
+  declare export class GiEclipse extends React$Component<IconBaseProps> {}
+  declare export class GiEdgeCrack extends React$Component<IconBaseProps> {}
+  declare export class GiEdgedShield extends React$Component<IconBaseProps> {}
+  declare export class GiEggClutch extends React$Component<IconBaseProps> {}
+  declare export class GiEggDefense extends React$Component<IconBaseProps> {}
+  declare export class GiElderberry extends React$Component<IconBaseProps> {}
+  declare export class GiElectricWhip extends React$Component<IconBaseProps> {}
+  declare export class GiElectricalCrescent extends React$Component<IconBaseProps> {}
+  declare export class GiEmberShot extends React$Component<IconBaseProps> {}
+  declare export class GiEmbrassedEnergy extends React$Component<IconBaseProps> {}
+  declare export class GiEmbryo extends React$Component<IconBaseProps> {}
+  declare export class GiEmerald extends React$Component<IconBaseProps> {}
+  declare export class GiEmptyHourglass extends React$Component<IconBaseProps> {}
+  declare export class GiEnergise extends React$Component<IconBaseProps> {}
+  declare export class GiEnergyArrow extends React$Component<IconBaseProps> {}
+  declare export class GiEnergyBreath extends React$Component<IconBaseProps> {}
+  declare export class GiEnergyShield extends React$Component<IconBaseProps> {}
+  declare export class GiEnergySword extends React$Component<IconBaseProps> {}
+  declare export class GiEngagementRing extends React$Component<IconBaseProps> {}
+  declare export class GiEnlightenment extends React$Component<IconBaseProps> {}
+  declare export class GiEntMouth extends React$Component<IconBaseProps> {}
+  declare export class GiEntangledTyphoon extends React$Component<IconBaseProps> {}
+  declare export class GiEnvelope extends React$Component<IconBaseProps> {}
+  declare export class GiErlenmeyer extends React$Component<IconBaseProps> {}
+  declare export class GiEruption extends React$Component<IconBaseProps> {}
+  declare export class GiEskimo extends React$Component<IconBaseProps> {}
+  declare export class GiEvilBat extends React$Component<IconBaseProps> {}
+  declare export class GiEvilBook extends React$Component<IconBaseProps> {}
+  declare export class GiEvilBud extends React$Component<IconBaseProps> {}
+  declare export class GiEvilComet extends React$Component<IconBaseProps> {}
+  declare export class GiEvilFork extends React$Component<IconBaseProps> {}
+  declare export class GiEvilHand extends React$Component<IconBaseProps> {}
+  declare export class GiEvilMinion extends React$Component<IconBaseProps> {}
+  declare export class GiEvilMoon extends React$Component<IconBaseProps> {}
+  declare export class GiEvilTree extends React$Component<IconBaseProps> {}
+  declare export class GiExpandedRays extends React$Component<IconBaseProps> {}
+  declare export class GiExplosionRays extends React$Component<IconBaseProps> {}
+  declare export class GiExplosiveMaterials extends React$Component<IconBaseProps> {}
+  declare export class GiExplosiveMeeting extends React$Component<IconBaseProps> {}
+  declare export class GiExtraLucid extends React$Component<IconBaseProps> {}
+  declare export class GiExtractionOrb extends React$Component<IconBaseProps> {}
+  declare export class GiEyeShield extends React$Component<IconBaseProps> {}
+  declare export class GiEyeball extends React$Component<IconBaseProps> {}
+  declare export class GiEyedropper extends React$Component<IconBaseProps> {}
+  declare export class GiEyestalk extends React$Component<IconBaseProps> {}
+  declare export class GiFairyWand extends React$Component<IconBaseProps> {}
+  declare export class GiFallingBlob extends React$Component<IconBaseProps> {}
+  declare export class GiFallingBoulder extends React$Component<IconBaseProps> {}
+  declare export class GiFallingEye extends React$Component<IconBaseProps> {}
+  declare export class GiFallingLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiFallingOvoid extends React$Component<IconBaseProps> {}
+  declare export class GiFangedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiFangsCircle extends React$Component<IconBaseProps> {}
+  declare export class GiFastArrow extends React$Component<IconBaseProps> {}
+  declare export class GiFeatherWound extends React$Component<IconBaseProps> {}
+  declare export class GiFeather extends React$Component<IconBaseProps> {}
+  declare export class GiFeatheredWing extends React$Component<IconBaseProps> {}
+  declare export class GiFedora extends React$Component<IconBaseProps> {}
+  declare export class GiField extends React$Component<IconBaseProps> {}
+  declare export class GiFireAce extends React$Component<IconBaseProps> {}
+  declare export class GiFireAxe extends React$Component<IconBaseProps> {}
+  declare export class GiFireBomb extends React$Component<IconBaseProps> {}
+  declare export class GiFireBottle extends React$Component<IconBaseProps> {}
+  declare export class GiFireBowl extends React$Component<IconBaseProps> {}
+  declare export class GiFireBreath extends React$Component<IconBaseProps> {}
+  declare export class GiFireDash extends React$Component<IconBaseProps> {}
+  declare export class GiFirePunch extends React$Component<IconBaseProps> {}
+  declare export class GiFireRay extends React$Component<IconBaseProps> {}
+  declare export class GiFireRing extends React$Component<IconBaseProps> {}
+  declare export class GiFireShield extends React$Component<IconBaseProps> {}
+  declare export class GiFireSilhouette extends React$Component<IconBaseProps> {}
+  declare export class GiFireTail extends React$Component<IconBaseProps> {}
+  declare export class GiFireWave extends React$Component<IconBaseProps> {}
+  declare export class GiFireZone extends React$Component<IconBaseProps> {}
+  declare export class GiFireball extends React$Component<IconBaseProps> {}
+  declare export class GiFireworkRocket extends React$Component<IconBaseProps> {}
+  declare export class GiFishCorpse extends React$Component<IconBaseProps> {}
+  declare export class GiFishbone extends React$Component<IconBaseProps> {}
+  declare export class GiFishhookFork extends React$Component<IconBaseProps> {}
+  declare export class GiFishingHook extends React$Component<IconBaseProps> {}
+  declare export class GiFishingNet extends React$Component<IconBaseProps> {}
+  declare export class GiFission extends React$Component<IconBaseProps> {}
+  declare export class GiFist extends React$Component<IconBaseProps> {}
+  declare export class GiFizzingFlask extends React$Component<IconBaseProps> {}
+  declare export class GiFlameClaws extends React$Component<IconBaseProps> {}
+  declare export class GiFlameSpin extends React$Component<IconBaseProps> {}
+  declare export class GiFlameTunnel extends React$Component<IconBaseProps> {}
+  declare export class GiFlamedLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiFlamingArrow extends React$Component<IconBaseProps> {}
+  declare export class GiFlamingClaw extends React$Component<IconBaseProps> {}
+  declare export class GiFlamingSheet extends React$Component<IconBaseProps> {}
+  declare export class GiFlamingTrident extends React$Component<IconBaseProps> {}
+  declare export class GiFlashGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiFlatHammer extends React$Component<IconBaseProps> {}
+  declare export class GiFlatStar extends React$Component<IconBaseProps> {}
+  declare export class GiFleshyMass extends React$Component<IconBaseProps> {}
+  declare export class GiFlexibleStar extends React$Component<IconBaseProps> {}
+  declare export class GiFloatingCrystal extends React$Component<IconBaseProps> {}
+  declare export class GiFlowerPot extends React$Component<IconBaseProps> {}
+  declare export class GiFlowerTwirl extends React$Component<IconBaseProps> {}
+  declare export class GiFlowers extends React$Component<IconBaseProps> {}
+  declare export class GiFluffyCloud extends React$Component<IconBaseProps> {}
+  declare export class GiFluffyFlame extends React$Component<IconBaseProps> {}
+  declare export class GiFluffySwirl extends React$Component<IconBaseProps> {}
+  declare export class GiFluffyTrefoil extends React$Component<IconBaseProps> {}
+  declare export class GiFluffyWing extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingDagger extends React$Component<IconBaseProps> {}
+  declare export class GiFlyingFlag extends React$Component<IconBaseProps> {}
+  declare export class GiFoam extends React$Component<IconBaseProps> {}
+  declare export class GiFoamyDisc extends React$Component<IconBaseProps> {}
+  declare export class GiFocusedLightning extends React$Component<IconBaseProps> {}
+  declare export class GiFoldedPaper extends React$Component<IconBaseProps> {}
+  declare export class GiFoodChain extends React$Component<IconBaseProps> {}
+  declare export class GiFootTrip extends React$Component<IconBaseProps> {}
+  declare export class GiFootprint extends React$Component<IconBaseProps> {}
+  declare export class GiForwardField extends React$Component<IconBaseProps> {}
+  declare export class GiFossil extends React$Component<IconBaseProps> {}
+  declare export class GiFountainPen extends React$Component<IconBaseProps> {}
+  declare export class GiFountain extends React$Component<IconBaseProps> {}
+  declare export class GiFoxHead extends React$Component<IconBaseProps> {}
+  declare export class GiFragmentedMeteor extends React$Component<IconBaseProps> {}
+  declare export class GiFragmentedSword extends React$Component<IconBaseProps> {}
+  declare export class GiFragrance extends React$Component<IconBaseProps> {}
+  declare export class GiFrankensteinCreature extends React$Component<IconBaseProps> {}
+  declare export class GiFrayedArrow extends React$Component<IconBaseProps> {}
+  declare export class GiFreedomDove extends React$Component<IconBaseProps> {}
+  declare export class GiFrog extends React$Component<IconBaseProps> {}
+  declare export class GiFrontTeeth extends React$Component<IconBaseProps> {}
+  declare export class GiFrontalLobe extends React$Component<IconBaseProps> {}
+  declare export class GiFrostfire extends React$Component<IconBaseProps> {}
+  declare export class GiFrozenArrow extends React$Component<IconBaseProps> {}
+  declare export class GiFrozenBlock extends React$Component<IconBaseProps> {}
+  declare export class GiFrozenOrb extends React$Component<IconBaseProps> {}
+  declare export class GiFruiting extends React$Component<IconBaseProps> {}
+  declare export class GiFulguroPunch extends React$Component<IconBaseProps> {}
+  declare export class GiGalleon extends React$Component<IconBaseProps> {}
+  declare export class GiGamepadCross extends React$Component<IconBaseProps> {}
+  declare export class GiGasMask extends React$Component<IconBaseProps> {}
+  declare export class GiGavel extends React$Component<IconBaseProps> {}
+  declare export class GiGaze extends React$Component<IconBaseProps> {}
+  declare export class GiGearHammer extends React$Component<IconBaseProps> {}
+  declare export class GiGears extends React$Component<IconBaseProps> {}
+  declare export class GiGecko extends React$Component<IconBaseProps> {}
+  declare export class GiGemChain extends React$Component<IconBaseProps> {}
+  declare export class GiGemNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiGemPendant extends React$Component<IconBaseProps> {}
+  declare export class GiGems extends React$Component<IconBaseProps> {}
+  declare export class GiGhostAlly extends React$Component<IconBaseProps> {}
+  declare export class GiGhost extends React$Component<IconBaseProps> {}
+  declare export class GiGibbet extends React$Component<IconBaseProps> {}
+  declare export class GiGiftOfKnowledge extends React$Component<IconBaseProps> {}
+  declare export class GiGiftTrap extends React$Component<IconBaseProps> {}
+  declare export class GiGlassHeart extends React$Component<IconBaseProps> {}
+  declare export class GiGlassShot extends React$Component<IconBaseProps> {}
+  declare export class GiGlobe extends React$Component<IconBaseProps> {}
+  declare export class GiGloop extends React$Component<IconBaseProps> {}
+  declare export class GiGlowingHands extends React$Component<IconBaseProps> {}
+  declare export class GiGluttonousSmile extends React$Component<IconBaseProps> {}
+  declare export class GiGluttony extends React$Component<IconBaseProps> {}
+  declare export class GiGoldScarab extends React$Component<IconBaseProps> {}
+  declare export class GiGoldShell extends React$Component<IconBaseProps> {}
+  declare export class GiGooExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiGooSkull extends React$Component<IconBaseProps> {}
+  declare export class GiGooSpurt extends React$Component<IconBaseProps> {}
+  declare export class GiGooeyDaemon extends React$Component<IconBaseProps> {}
+  declare export class GiGooeyEyedSun extends React$Component<IconBaseProps> {}
+  declare export class GiGooeyImpact extends React$Component<IconBaseProps> {}
+  declare export class GiGooeyMolecule extends React$Component<IconBaseProps> {}
+  declare export class GiGooeySword extends React$Component<IconBaseProps> {}
+  declare export class GiGothicCross extends React$Component<IconBaseProps> {}
+  declare export class GiGrab extends React$Component<IconBaseProps> {}
+  declare export class GiGrapes extends React$Component<IconBaseProps> {}
+  declare export class GiGrapple extends React$Component<IconBaseProps> {}
+  declare export class GiGraspingClaws extends React$Component<IconBaseProps> {}
+  declare export class GiGreaseTrap extends React$Component<IconBaseProps> {}
+  declare export class GiGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiGrimReaper extends React$Component<IconBaseProps> {}
+  declare export class GiGroundSprout extends React$Component<IconBaseProps> {}
+  declare export class GiGroundbreaker extends React$Component<IconBaseProps> {}
+  declare export class GiGroupedDrops extends React$Component<IconBaseProps> {}
+  declare export class GiGuardedTower extends React$Component<IconBaseProps> {}
+  declare export class GiGuillotine extends React$Component<IconBaseProps> {}
+  declare export class GiGuitar extends React$Component<IconBaseProps> {}
+  declare export class GiGunshot extends React$Component<IconBaseProps> {}
+  declare export class GiHalberdShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiHalberd extends React$Component<IconBaseProps> {}
+  declare export class GiHalfHeart extends React$Component<IconBaseProps> {}
+  declare export class GiHalfTornado extends React$Component<IconBaseProps> {}
+  declare export class GiHammerDrop extends React$Component<IconBaseProps> {}
+  declare export class GiHammerNails extends React$Component<IconBaseProps> {}
+  declare export class GiHand extends React$Component<IconBaseProps> {}
+  declare export class GiHandcuffs extends React$Component<IconBaseProps> {}
+  declare export class GiHangingSpider extends React$Component<IconBaseProps> {}
+  declare export class GiHappySkull extends React$Component<IconBaseProps> {}
+  declare export class GiHarpoonChain extends React$Component<IconBaseProps> {}
+  declare export class GiHarpoonTrident extends React$Component<IconBaseProps> {}
+  declare export class GiHarpy extends React$Component<IconBaseProps> {}
+  declare export class GiHarryPotterSkull extends React$Component<IconBaseProps> {}
+  declare export class GiHatchets extends React$Component<IconBaseProps> {}
+  declare export class GiHaunting extends React$Component<IconBaseProps> {}
+  declare export class GiHawkEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiHazardSign extends React$Component<IconBaseProps> {}
+  declare export class GiHeadshot extends React$Component<IconBaseProps> {}
+  declare export class GiHeartBottle extends React$Component<IconBaseProps> {}
+  declare export class GiHeartDrop extends React$Component<IconBaseProps> {}
+  declare export class GiHeartInside extends React$Component<IconBaseProps> {}
+  declare export class GiHeartOrgan extends React$Component<IconBaseProps> {}
+  declare export class GiHeartTower extends React$Component<IconBaseProps> {}
+  declare export class GiHeartburn extends React$Component<IconBaseProps> {}
+  declare export class GiHeatHaze extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyArrow extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyFall extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyHelm extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyLightning extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyRain extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyThornyTriskelion extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyTimer extends React$Component<IconBaseProps> {}
+  declare export class GiHelmetHeadShot extends React$Component<IconBaseProps> {}
+  declare export class GiHidden extends React$Component<IconBaseProps> {}
+  declare export class GiHighFive extends React$Component<IconBaseProps> {}
+  declare export class GiHighShot extends React$Component<IconBaseProps> {}
+  declare export class GiHolyGrail extends React$Component<IconBaseProps> {}
+  declare export class GiHolySymbol extends React$Component<IconBaseProps> {}
+  declare export class GiHoneycomb extends React$Component<IconBaseProps> {}
+  declare export class GiHoneypot extends React$Component<IconBaseProps> {}
+  declare export class GiHood extends React$Component<IconBaseProps> {}
+  declare export class GiHoof extends React$Component<IconBaseProps> {}
+  declare export class GiHornInternal extends React$Component<IconBaseProps> {}
+  declare export class GiHornedHelm extends React$Component<IconBaseProps> {}
+  declare export class GiHornedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiHospitalCross extends React$Component<IconBaseProps> {}
+  declare export class GiHotSpices extends React$Component<IconBaseProps> {}
+  declare export class GiHound extends React$Component<IconBaseProps> {}
+  declare export class GiHourglass extends React$Component<IconBaseProps> {}
+  declare export class GiHuntingHorn extends React$Component<IconBaseProps> {}
+  declare export class GiHydraShot extends React$Component<IconBaseProps> {}
+  declare export class GiHydra extends React$Component<IconBaseProps> {}
+  declare export class GiHypersonicBolt extends React$Component<IconBaseProps> {}
+  declare export class GiHypersonicMelon extends React$Component<IconBaseProps> {}
+  declare export class GiHypodermicTest extends React$Component<IconBaseProps> {}
+  declare export class GiIceBolt extends React$Component<IconBaseProps> {}
+  declare export class GiIceBomb extends React$Component<IconBaseProps> {}
+  declare export class GiIceCube extends React$Component<IconBaseProps> {}
+  declare export class GiIceShield extends React$Component<IconBaseProps> {}
+  declare export class GiIceSpear extends React$Component<IconBaseProps> {}
+  declare export class GiIcebergs extends React$Component<IconBaseProps> {}
+  declare export class GiIciclesAura extends React$Component<IconBaseProps> {}
+  declare export class GiIciclesFence extends React$Component<IconBaseProps> {}
+  declare export class GiIfrit extends React$Component<IconBaseProps> {}
+  declare export class GiImbricatedArrows extends React$Component<IconBaseProps> {}
+  declare export class GiImpLaugh extends React$Component<IconBaseProps> {}
+  declare export class GiImp extends React$Component<IconBaseProps> {}
+  declare export class GiImpactPoint extends React$Component<IconBaseProps> {}
+  declare export class GiImplosion extends React$Component<IconBaseProps> {}
+  declare export class GiImprisoned extends React$Component<IconBaseProps> {}
+  declare export class GiIncense extends React$Component<IconBaseProps> {}
+  declare export class GiIncisors extends React$Component<IconBaseProps> {}
+  declare export class GiIncomingRocket extends React$Component<IconBaseProps> {}
+  declare export class GiInfestedMass extends React$Component<IconBaseProps> {}
+  declare export class GiInkSwirl extends React$Component<IconBaseProps> {}
+  declare export class GiInnerSelf extends React$Component<IconBaseProps> {}
+  declare export class GiInsectJaws extends React$Component<IconBaseProps> {}
+  declare export class GiInterdiction extends React$Component<IconBaseProps> {}
+  declare export class GiInterlacedTentacles extends React$Component<IconBaseProps> {}
+  declare export class GiInterleavedArrows extends React$Component<IconBaseProps> {}
+  declare export class GiInterleavedClaws extends React$Component<IconBaseProps> {}
+  declare export class GiInternalInjury extends React$Component<IconBaseProps> {}
+  declare export class GiInternalOrgan extends React$Component<IconBaseProps> {}
+  declare export class GiInterstellarPath extends React$Component<IconBaseProps> {}
+  declare export class GiIonCannonBlast extends React$Component<IconBaseProps> {}
+  declare export class GiIronMask extends React$Component<IconBaseProps> {}
+  declare export class GiJamesBondAperture extends React$Component<IconBaseProps> {}
+  declare export class GiJawbone extends React$Component<IconBaseProps> {}
+  declare export class GiJellyfish extends React$Component<IconBaseProps> {}
+  declare export class GiJetpack extends React$Component<IconBaseProps> {}
+  declare export class GiJeweledChalice extends React$Component<IconBaseProps> {}
+  declare export class GiJigsawBox extends React$Component<IconBaseProps> {}
+  declare export class GiJigsawPiece extends React$Component<IconBaseProps> {}
+  declare export class GiJourney extends React$Component<IconBaseProps> {}
+  declare export class GiJuggler extends React$Component<IconBaseProps> {}
+  declare export class GiJusticeStar extends React$Component<IconBaseProps> {}
+  declare export class GiKaleidoscopePearls extends React$Component<IconBaseProps> {}
+  declare export class GiKey extends React$Component<IconBaseProps> {}
+  declare export class GiKindle extends React$Component<IconBaseProps> {}
+  declare export class GiKing extends React$Component<IconBaseProps> {}
+  declare export class GiKitchenKnives extends React$Component<IconBaseProps> {}
+  declare export class GiKnapsack extends React$Component<IconBaseProps> {}
+  declare export class GiKnifeFork extends React$Component<IconBaseProps> {}
+  declare export class GiKnifeThrust extends React$Component<IconBaseProps> {}
+  declare export class GiLamellar extends React$Component<IconBaseProps> {}
+  declare export class GiLampreyMouth extends React$Component<IconBaseProps> {}
+  declare export class GiLandMine extends React$Component<IconBaseProps> {}
+  declare export class GiLanternFlame extends React$Component<IconBaseProps> {}
+  declare export class GiLantern extends React$Component<IconBaseProps> {}
+  declare export class GiLargeWound extends React$Component<IconBaseProps> {}
+  declare export class GiLaserBlast extends React$Component<IconBaseProps> {}
+  declare export class GiLaserPrecision extends React$Component<IconBaseProps> {}
+  declare export class GiLaserSparks extends React$Component<IconBaseProps> {}
+  declare export class GiLaserWarning extends React$Component<IconBaseProps> {}
+  declare export class GiLaserburn extends React$Component<IconBaseProps> {}
+  declare export class GiLaurelCrown extends React$Component<IconBaseProps> {}
+  declare export class GiLaurels extends React$Component<IconBaseProps> {}
+  declare export class GiLawStar extends React$Component<IconBaseProps> {}
+  declare export class GiLayeredArmor extends React$Component<IconBaseProps> {}
+  declare export class GiLeafSkeleton extends React$Component<IconBaseProps> {}
+  declare export class GiLeafSwirl extends React$Component<IconBaseProps> {}
+  declare export class GiLeakySkull extends React$Component<IconBaseProps> {}
+  declare export class GiLeatherBoot extends React$Component<IconBaseProps> {}
+  declare export class GiLeatherVest extends React$Component<IconBaseProps> {}
+  declare export class GiLeechingWorm extends React$Component<IconBaseProps> {}
+  declare export class GiLetterBomb extends React$Component<IconBaseProps> {}
+  declare export class GiLever extends React$Component<IconBaseProps> {}
+  declare export class GiLifeInTheBalance extends React$Component<IconBaseProps> {}
+  declare export class GiLifeSupport extends React$Component<IconBaseProps> {}
+  declare export class GiLifeTap extends React$Component<IconBaseProps> {}
+  declare export class GiLift extends React$Component<IconBaseProps> {}
+  declare export class GiLightBulb extends React$Component<IconBaseProps> {}
+  declare export class GiLightThornyTriskelion extends React$Component<IconBaseProps> {}
+  declare export class GiLightningArc extends React$Component<IconBaseProps> {}
+  declare export class GiLightningBow extends React$Component<IconBaseProps> {}
+  declare export class GiLightningBranches extends React$Component<IconBaseProps> {}
+  declare export class GiLightningDissipation extends React$Component<IconBaseProps> {}
+  declare export class GiLightningElectron extends React$Component<IconBaseProps> {}
+  declare export class GiLightningFrequency extends React$Component<IconBaseProps> {}
+  declare export class GiLightningHelix extends React$Component<IconBaseProps> {}
+  declare export class GiLightningMask extends React$Component<IconBaseProps> {}
+  declare export class GiLightningSaber extends React$Component<IconBaseProps> {}
+  declare export class GiLightningShadow extends React$Component<IconBaseProps> {}
+  declare export class GiLightningShield extends React$Component<IconBaseProps> {}
+  declare export class GiLightningShout extends React$Component<IconBaseProps> {}
+  declare export class GiLightningSlashes extends React$Component<IconBaseProps> {}
+  declare export class GiLightningSpanner extends React$Component<IconBaseProps> {}
+  declare export class GiLightningStorm extends React$Component<IconBaseProps> {}
+  declare export class GiLightningTear extends React$Component<IconBaseProps> {}
+  declare export class GiLightningTree extends React$Component<IconBaseProps> {}
+  declare export class GiLightningTrio extends React$Component<IconBaseProps> {}
+  declare export class GiLindenLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiLinkedRings extends React$Component<IconBaseProps> {}
+  declare export class GiLion extends React$Component<IconBaseProps> {}
+  declare export class GiLips extends React$Component<IconBaseProps> {}
+  declare export class GiLitCandelabra extends React$Component<IconBaseProps> {}
+  declare export class GiLizardTongue extends React$Component<IconBaseProps> {}
+  declare export class GiLizardman extends React$Component<IconBaseProps> {}
+  declare export class GiLobArrow extends React$Component<IconBaseProps> {}
+  declare export class GiLockedChest extends React$Component<IconBaseProps> {}
+  declare export class GiLockedFortress extends React$Component<IconBaseProps> {}
+  declare export class GiLongAntennaeBug extends React$Component<IconBaseProps> {}
+  declare export class GiLotusFlower extends React$Component<IconBaseProps> {}
+  declare export class GiLotus extends React$Component<IconBaseProps> {}
+  declare export class GiLoveHowl extends React$Component<IconBaseProps> {}
+  declare export class GiLoveInjection extends React$Component<IconBaseProps> {}
+  declare export class GiLoveSong extends React$Component<IconBaseProps> {}
+  declare export class GiLyre extends React$Component<IconBaseProps> {}
+  declare export class GiMaceHead extends React$Component<IconBaseProps> {}
+  declare export class GiMachete extends React$Component<IconBaseProps> {}
+  declare export class GiMadScientist extends React$Component<IconBaseProps> {}
+  declare export class GiMaggot extends React$Component<IconBaseProps> {}
+  declare export class GiMagicGate extends React$Component<IconBaseProps> {}
+  declare export class GiMagicLamp extends React$Component<IconBaseProps> {}
+  declare export class GiMagicPalm extends React$Component<IconBaseProps> {}
+  declare export class GiMagicPortal extends React$Component<IconBaseProps> {}
+  declare export class GiMagicShield extends React$Component<IconBaseProps> {}
+  declare export class GiMagicSwirl extends React$Component<IconBaseProps> {}
+  declare export class GiMagnetBlast extends React$Component<IconBaseProps> {}
+  declare export class GiMagnet extends React$Component<IconBaseProps> {}
+  declare export class GiMagnifyingGlass extends React$Component<IconBaseProps> {}
+  declare export class GiMailShirt extends React$Component<IconBaseProps> {}
+  declare export class GiMailedFist extends React$Component<IconBaseProps> {}
+  declare export class GiManacles extends React$Component<IconBaseProps> {}
+  declare export class GiMantrap extends React$Component<IconBaseProps> {}
+  declare export class GiMapleLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiMarrowDrain extends React$Component<IconBaseProps> {}
+  declare export class GiMartini extends React$Component<IconBaseProps> {}
+  declare export class GiMaskedSpider extends React$Component<IconBaseProps> {}
+  declare export class GiMasterOfArms extends React$Component<IconBaseProps> {}
+  declare export class GiMatchHead extends React$Component<IconBaseProps> {}
+  declare export class GiMatchTip extends React$Component<IconBaseProps> {}
+  declare export class GiMaterialsScience extends React$Component<IconBaseProps> {}
+  declare export class GiMazeCornea extends React$Component<IconBaseProps> {}
+  declare export class GiMazeSaw extends React$Component<IconBaseProps> {}
+  declare export class GiMaze extends React$Component<IconBaseProps> {}
+  declare export class GiMeatCleaver extends React$Component<IconBaseProps> {}
+  declare export class GiMeatHook extends React$Component<IconBaseProps> {}
+  declare export class GiMeat extends React$Component<IconBaseProps> {}
+  declare export class GiMechanicalArm extends React$Component<IconBaseProps> {}
+  declare export class GiMedalSkull extends React$Component<IconBaseProps> {}
+  declare export class GiMedal extends React$Component<IconBaseProps> {}
+  declare export class GiMeditation extends React$Component<IconBaseProps> {}
+  declare export class GiMegabot extends React$Component<IconBaseProps> {}
+  declare export class GiMeshBall extends React$Component<IconBaseProps> {}
+  declare export class GiMetalBar extends React$Component<IconBaseProps> {}
+  declare export class GiMetalDisc extends React$Component<IconBaseProps> {}
+  declare export class GiMetalHand extends React$Component<IconBaseProps> {}
+  declare export class GiMetalScales extends React$Component<IconBaseProps> {}
+  declare export class GiMeteorImpact extends React$Component<IconBaseProps> {}
+  declare export class GiMicrochip extends React$Component<IconBaseProps> {}
+  declare export class GiMicroscopeLens extends React$Component<IconBaseProps> {}
+  declare export class GiMiddleArrow extends React$Component<IconBaseProps> {}
+  declare export class GiMidnightClaw extends React$Component<IconBaseProps> {}
+  declare export class GiMightySpanner extends React$Component<IconBaseProps> {}
+  declare export class GiMineExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiMineralHeart extends React$Component<IconBaseProps> {}
+  declare export class GiMinigun extends React$Component<IconBaseProps> {}
+  declare export class GiMining extends React$Component<IconBaseProps> {}
+  declare export class GiMinions extends React$Component<IconBaseProps> {}
+  declare export class GiMinotaur extends React$Component<IconBaseProps> {}
+  declare export class GiMiracleMedecine extends React$Component<IconBaseProps> {}
+  declare export class GiMirrorMirror extends React$Component<IconBaseProps> {}
+  declare export class GiMissileMech extends React$Component<IconBaseProps> {}
+  declare export class GiMissilePod extends React$Component<IconBaseProps> {}
+  declare export class GiMissileSwarm extends React$Component<IconBaseProps> {}
+  declare export class GiMite extends React$Component<IconBaseProps> {}
+  declare export class GiMoebiusStar extends React$Component<IconBaseProps> {}
+  declare export class GiMoebiusTrefoil extends React$Component<IconBaseProps> {}
+  declare export class GiMoebiusTriangle extends React$Component<IconBaseProps> {}
+  declare export class GiMolecule extends React$Component<IconBaseProps> {}
+  declare export class GiMolotov extends React$Component<IconBaseProps> {}
+  declare export class GiMonkey extends React$Component<IconBaseProps> {}
+  declare export class GiMonsterGrasp extends React$Component<IconBaseProps> {}
+  declare export class GiMoonClaws extends React$Component<IconBaseProps> {}
+  declare export class GiMoon extends React$Component<IconBaseProps> {}
+  declare export class GiMorbidHumour extends React$Component<IconBaseProps> {}
+  declare export class GiMountains extends React$Component<IconBaseProps> {}
+  declare export class GiMountaintop extends React$Component<IconBaseProps> {}
+  declare export class GiMouthWatering extends React$Component<IconBaseProps> {}
+  declare export class GiMovementSensor extends React$Component<IconBaseProps> {}
+  declare export class GiMucousPillar extends React$Component<IconBaseProps> {}
+  declare export class GiMuscleFat extends React$Component<IconBaseProps> {}
+  declare export class GiMuscleUp extends React$Component<IconBaseProps> {}
+  declare export class GiMushroomCloud extends React$Component<IconBaseProps> {}
+  declare export class GiMushroomGills extends React$Component<IconBaseProps> {}
+  declare export class GiMushroom extends React$Component<IconBaseProps> {}
+  declare export class GiMusicSpell extends React$Component<IconBaseProps> {}
+  declare export class GiNailedFoot extends React$Component<IconBaseProps> {}
+  declare export class GiNailedHead extends React$Component<IconBaseProps> {}
+  declare export class GiNails extends React$Component<IconBaseProps> {}
+  declare export class GiNeedleDrill extends React$Component<IconBaseProps> {}
+  declare export class GiNeedleJaws extends React$Component<IconBaseProps> {}
+  declare export class GiNestedEclipses extends React$Component<IconBaseProps> {}
+  declare export class GiNightSky extends React$Component<IconBaseProps> {}
+  declare export class GiNinjaMask extends React$Component<IconBaseProps> {}
+  declare export class GiNoodleBall extends React$Component<IconBaseProps> {}
+  declare export class GiNothingToSay extends React$Component<IconBaseProps> {}
+  declare export class GiOak extends React$Component<IconBaseProps> {}
+  declare export class GiOat extends React$Component<IconBaseProps> {}
+  declare export class GiOctogonalEye extends React$Component<IconBaseProps> {}
+  declare export class GiOctoman extends React$Component<IconBaseProps> {}
+  declare export class GiOctopus extends React$Component<IconBaseProps> {}
+  declare export class GiOilySpiral extends React$Component<IconBaseProps> {}
+  declare export class GiOmega extends React$Component<IconBaseProps> {}
+  declare export class GiOnTarget extends React$Component<IconBaseProps> {}
+  declare export class GiOneEyed extends React$Component<IconBaseProps> {}
+  declare export class GiOpenBook extends React$Component<IconBaseProps> {}
+  declare export class GiOpenWound extends React$Component<IconBaseProps> {}
+  declare export class GiOpeningShell extends React$Component<IconBaseProps> {}
+  declare export class GiOppression extends React$Component<IconBaseProps> {}
+  declare export class GiOrbDirection extends React$Component<IconBaseProps> {}
+  declare export class GiOrbitalRays extends React$Component<IconBaseProps> {}
+  declare export class GiOrbital extends React$Component<IconBaseProps> {}
+  declare export class GiOuroboros extends React$Component<IconBaseProps> {}
+  declare export class GiOverInfinity extends React$Component<IconBaseProps> {}
+  declare export class GiOverdose extends React$Component<IconBaseProps> {}
+  declare export class GiOverdrive extends React$Component<IconBaseProps> {}
+  declare export class GiOwl extends React$Component<IconBaseProps> {}
+  declare export class GiPadlock extends React$Component<IconBaseProps> {}
+  declare export class GiPalm extends React$Component<IconBaseProps> {}
+  declare export class GiPaperArrow extends React$Component<IconBaseProps> {}
+  declare export class GiPaperBomb extends React$Component<IconBaseProps> {}
+  declare export class GiPaperLantern extends React$Component<IconBaseProps> {}
+  declare export class GiPapers extends React$Component<IconBaseProps> {}
+  declare export class GiParachute extends React$Component<IconBaseProps> {}
+  declare export class GiParanoia extends React$Component<IconBaseProps> {}
+  declare export class GiParmecia extends React$Component<IconBaseProps> {}
+  declare export class GiParrotHead extends React$Component<IconBaseProps> {}
+  declare export class GiPawFront extends React$Component<IconBaseProps> {}
+  declare export class GiPawHeart extends React$Component<IconBaseProps> {}
+  declare export class GiPawPrint extends React$Component<IconBaseProps> {}
+  declare export class GiPaw extends React$Component<IconBaseProps> {}
+  declare export class GiPawn extends React$Component<IconBaseProps> {}
+  declare export class GiPawprint extends React$Component<IconBaseProps> {}
+  declare export class GiPeaks extends React$Component<IconBaseProps> {}
+  declare export class GiPentagramRose extends React$Component<IconBaseProps> {}
+  declare export class GiPentarrowsTornado extends React$Component<IconBaseProps> {}
+  declare export class GiPerfumeBottle extends React$Component<IconBaseProps> {}
+  declare export class GiPerpendicularRings extends React$Component<IconBaseProps> {}
+  declare export class GiPieSlice extends React$Component<IconBaseProps> {}
+  declare export class GiPieceSkull extends React$Component<IconBaseProps> {}
+  declare export class GiPiercedBody extends React$Component<IconBaseProps> {}
+  declare export class GiPiercedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiPiercingSword extends React$Component<IconBaseProps> {}
+  declare export class GiPigFace extends React$Component<IconBaseProps> {}
+  declare export class GiPillDrop extends React$Component<IconBaseProps> {}
+  declare export class GiPill extends React$Component<IconBaseProps> {}
+  declare export class GiPincers extends React$Component<IconBaseProps> {}
+  declare export class GiPineTree extends React$Component<IconBaseProps> {}
+  declare export class GiPirateGrave extends React$Component<IconBaseProps> {}
+  declare export class GiPirateSkull extends React$Component<IconBaseProps> {}
+  declare export class GiPizzaCutter extends React$Component<IconBaseProps> {}
+  declare export class GiPlainDagger extends React$Component<IconBaseProps> {}
+  declare export class GiPlasmaBolt extends React$Component<IconBaseProps> {}
+  declare export class GiPlastron extends React$Component<IconBaseProps> {}
+  declare export class GiPlateClaw extends React$Component<IconBaseProps> {}
+  declare export class GiPocketBow extends React$Component<IconBaseProps> {}
+  declare export class GiPointing extends React$Component<IconBaseProps> {}
+  declare export class GiPointyHat extends React$Component<IconBaseProps> {}
+  declare export class GiPointySword extends React$Component<IconBaseProps> {}
+  declare export class GiPoisonBottle extends React$Component<IconBaseProps> {}
+  declare export class GiPoisonGas extends React$Component<IconBaseProps> {}
+  declare export class GiPokecog extends React$Component<IconBaseProps> {}
+  declare export class GiPokerHand extends React$Component<IconBaseProps> {}
+  declare export class GiPollenDust extends React$Component<IconBaseProps> {}
+  declare export class GiPortal extends React$Component<IconBaseProps> {}
+  declare export class GiPortculis extends React$Component<IconBaseProps> {}
+  declare export class GiPotionBall extends React$Component<IconBaseProps> {}
+  declare export class GiPouringChalice extends React$Component<IconBaseProps> {}
+  declare export class GiPowder extends React$Component<IconBaseProps> {}
+  declare export class GiPowerLightning extends React$Component<IconBaseProps> {}
+  declare export class GiPrayer extends React$Component<IconBaseProps> {}
+  declare export class GiPrettyFangs extends React$Component<IconBaseProps> {}
+  declare export class GiProcessor extends React$Component<IconBaseProps> {}
+  declare export class GiProfit extends React$Component<IconBaseProps> {}
+  declare export class GiPsychicWaves extends React$Component<IconBaseProps> {}
+  declare export class GiPummeled extends React$Component<IconBaseProps> {}
+  declare export class GiPumpkinLantern extends React$Component<IconBaseProps> {}
+  declare export class GiPumpkinMask extends React$Component<IconBaseProps> {}
+  declare export class GiPunchBlast extends React$Component<IconBaseProps> {}
+  declare export class GiPunch extends React$Component<IconBaseProps> {}
+  declare export class GiPuppet extends React$Component<IconBaseProps> {}
+  declare export class GiPyromaniac extends React$Component<IconBaseProps> {}
+  declare export class GiQuakeStomp extends React$Component<IconBaseProps> {}
+  declare export class GiQueenCrown extends React$Component<IconBaseProps> {}
+  declare export class GiQuickSlash extends React$Component<IconBaseProps> {}
+  declare export class GiQuicksand extends React$Component<IconBaseProps> {}
+  declare export class GiQuillInk extends React$Component<IconBaseProps> {}
+  declare export class GiQuill extends React$Component<IconBaseProps> {}
+  declare export class GiRadarDish extends React$Component<IconBaseProps> {}
+  declare export class GiRadarSweep extends React$Component<IconBaseProps> {}
+  declare export class GiRadialBalance extends React$Component<IconBaseProps> {}
+  declare export class GiRadioactive extends React$Component<IconBaseProps> {}
+  declare export class GiRaggedWound extends React$Component<IconBaseProps> {}
+  declare export class GiRainbowStar extends React$Component<IconBaseProps> {}
+  declare export class GiRaining extends React$Component<IconBaseProps> {}
+  declare export class GiRallyTheTroops extends React$Component<IconBaseProps> {}
+  declare export class GiRapidshareArrow extends React$Component<IconBaseProps> {}
+  declare export class GiRaven extends React$Component<IconBaseProps> {}
+  declare export class GiRayGun extends React$Component<IconBaseProps> {}
+  declare export class GiRazorBlade extends React$Component<IconBaseProps> {}
+  declare export class GiReaperScythe extends React$Component<IconBaseProps> {}
+  declare export class GiRearAura extends React$Component<IconBaseProps> {}
+  declare export class GiRecycle extends React$Component<IconBaseProps> {}
+  declare export class GiRelationshipBounds extends React$Component<IconBaseProps> {}
+  declare export class GiRelicBlade extends React$Component<IconBaseProps> {}
+  declare export class GiResonance extends React$Component<IconBaseProps> {}
+  declare export class GiReticule extends React$Component<IconBaseProps> {}
+  declare export class GiReturnArrow extends React$Component<IconBaseProps> {}
+  declare export class GiRibbon extends React$Component<IconBaseProps> {}
+  declare export class GiRibcage extends React$Component<IconBaseProps> {}
+  declare export class GiRingedBeam extends React$Component<IconBaseProps> {}
+  declare export class GiRingedPlanet extends React$Component<IconBaseProps> {}
+  declare export class GiRingingBell extends React$Component<IconBaseProps> {}
+  declare export class GiRiotShield extends React$Component<IconBaseProps> {}
+  declare export class GiRoastChicken extends React$Component<IconBaseProps> {}
+  declare export class GiRobe extends React$Component<IconBaseProps> {}
+  declare export class GiRobotGolem extends React$Component<IconBaseProps> {}
+  declare export class GiRock extends React$Component<IconBaseProps> {}
+  declare export class GiRocketFlight extends React$Component<IconBaseProps> {}
+  declare export class GiRocket extends React$Component<IconBaseProps> {}
+  declare export class GiRogue extends React$Component<IconBaseProps> {}
+  declare export class GiRollingBomb extends React$Component<IconBaseProps> {}
+  declare export class GiRollingEnergy extends React$Component<IconBaseProps> {}
+  declare export class GiRootTip extends React$Component<IconBaseProps> {}
+  declare export class GiRosaShield extends React$Component<IconBaseProps> {}
+  declare export class GiRose extends React$Component<IconBaseProps> {}
+  declare export class GiRoughWound extends React$Component<IconBaseProps> {}
+  declare export class GiRoundBottomFlask extends React$Component<IconBaseProps> {}
+  declare export class GiRoundStruck extends React$Component<IconBaseProps> {}
+  declare export class GiRoyalLove extends React$Component<IconBaseProps> {}
+  declare export class GiRun extends React$Component<IconBaseProps> {}
+  declare export class GiRuneStone extends React$Component<IconBaseProps> {}
+  declare export class GiRuneSword extends React$Component<IconBaseProps> {}
+  declare export class GiSaberSlash extends React$Component<IconBaseProps> {}
+  declare export class GiSaberTooth extends React$Component<IconBaseProps> {}
+  declare export class GiSabersChoc extends React$Component<IconBaseProps> {}
+  declare export class GiSacrificialDagger extends React$Component<IconBaseProps> {}
+  declare export class GiSadCrab extends React$Component<IconBaseProps> {}
+  declare export class GiSalamander extends React$Component<IconBaseProps> {}
+  declare export class GiSaltShaker extends React$Component<IconBaseProps> {}
+  declare export class GiSandsOfTime extends React$Component<IconBaseProps> {}
+  declare export class GiSaphir extends React$Component<IconBaseProps> {}
+  declare export class GiSattelite extends React$Component<IconBaseProps> {}
+  declare export class GiSawClaw extends React$Component<IconBaseProps> {}
+  declare export class GiScaleMail extends React$Component<IconBaseProps> {}
+  declare export class GiScales extends React$Component<IconBaseProps> {}
+  declare export class GiScallop extends React$Component<IconBaseProps> {}
+  declare export class GiScalpelStrike extends React$Component<IconBaseProps> {}
+  declare export class GiScalpel extends React$Component<IconBaseProps> {}
+  declare export class GiScarWound extends React$Component<IconBaseProps> {}
+  declare export class GiScarabBeetle extends React$Component<IconBaseProps> {}
+  declare export class GiScarecrow extends React$Component<IconBaseProps> {}
+  declare export class GiScissors extends React$Component<IconBaseProps> {}
+  declare export class GiScorpionTail extends React$Component<IconBaseProps> {}
+  declare export class GiScorpion extends React$Component<IconBaseProps> {}
+  declare export class GiScreaming extends React$Component<IconBaseProps> {}
+  declare export class GiScreenImpact extends React$Component<IconBaseProps> {}
+  declare export class GiScrewdriver extends React$Component<IconBaseProps> {}
+  declare export class GiScrollUnfurled extends React$Component<IconBaseProps> {}
+  declare export class GiScythe extends React$Component<IconBaseProps> {}
+  declare export class GiSeaDragon extends React$Component<IconBaseProps> {}
+  declare export class GiSeaSerpent extends React$Component<IconBaseProps> {}
+  declare export class GiSeatedMouse extends React$Component<IconBaseProps> {}
+  declare export class GiSelfLove extends React$Component<IconBaseProps> {}
+  declare export class GiSemiClosedEye extends React$Component<IconBaseProps> {}
+  declare export class GiSensuousness extends React$Component<IconBaseProps> {}
+  declare export class GiSentryGun extends React$Component<IconBaseProps> {}
+  declare export class GiSerratedSlash extends React$Component<IconBaseProps> {}
+  declare export class GiSewedShell extends React$Component<IconBaseProps> {}
+  declare export class GiSewingNeedle extends React$Component<IconBaseProps> {}
+  declare export class GiShadowFollower extends React$Component<IconBaseProps> {}
+  declare export class GiShadowGrasp extends React$Component<IconBaseProps> {}
+  declare export class GiShardSword extends React$Component<IconBaseProps> {}
+  declare export class GiSharkJaws extends React$Component<IconBaseProps> {}
+  declare export class GiSharpCrown extends React$Component<IconBaseProps> {}
+  declare export class GiSharpLips extends React$Component<IconBaseProps> {}
+  declare export class GiSharpSmile extends React$Component<IconBaseProps> {}
+  declare export class GiSharpedTeethSkull extends React$Component<IconBaseProps> {}
+  declare export class GiShatter extends React$Component<IconBaseProps> {}
+  declare export class GiShatteredGlass extends React$Component<IconBaseProps> {}
+  declare export class GiShatteredSword extends React$Component<IconBaseProps> {}
+  declare export class GiSheikahEye extends React$Component<IconBaseProps> {}
+  declare export class GiShieldBounces extends React$Component<IconBaseProps> {}
+  declare export class GiShieldEchoes extends React$Component<IconBaseProps> {}
+  declare export class GiShieldReflect extends React$Component<IconBaseProps> {}
+  declare export class GiShieldcomb extends React$Component<IconBaseProps> {}
+  declare export class GiShiningClaw extends React$Component<IconBaseProps> {}
+  declare export class GiShiningHeart extends React$Component<IconBaseProps> {}
+  declare export class GiShiningSword extends React$Component<IconBaseProps> {}
+  declare export class GiShinyApple extends React$Component<IconBaseProps> {}
+  declare export class GiShinyEntrance extends React$Component<IconBaseProps> {}
+  declare export class GiShinyIris extends React$Component<IconBaseProps> {}
+  declare export class GiShinyOmega extends React$Component<IconBaseProps> {}
+  declare export class GiShinyPurse extends React$Component<IconBaseProps> {}
+  declare export class GiShoulderScales extends React$Component<IconBaseProps> {}
+  declare export class GiShouting extends React$Component<IconBaseProps> {}
+  declare export class GiShurikenAperture extends React$Component<IconBaseProps> {}
+  declare export class GiShutRose extends React$Component<IconBaseProps> {}
+  declare export class GiSilence extends React$Component<IconBaseProps> {}
+  declare export class GiSing extends React$Component<IconBaseProps> {}
+  declare export class GiSinkingTrap extends React$Component<IconBaseProps> {}
+  declare export class GiSinusoidalBeam extends React$Component<IconBaseProps> {}
+  declare export class GiSixEyes extends React$Component<IconBaseProps> {}
+  declare export class GiSkeletonInside extends React$Component<IconBaseProps> {}
+  declare export class GiSkeletonKey extends React$Component<IconBaseProps> {}
+  declare export class GiSkidMark extends React$Component<IconBaseProps> {}
+  declare export class GiSkullBolt extends React$Component<IconBaseProps> {}
+  declare export class GiSkullCrack extends React$Component<IconBaseProps> {}
+  declare export class GiSkullCrossedBones extends React$Component<IconBaseProps> {}
+  declare export class GiSkullInJar extends React$Component<IconBaseProps> {}
+  declare export class GiSkullMask extends React$Component<IconBaseProps> {}
+  declare export class GiSkullRing extends React$Component<IconBaseProps> {}
+  declare export class GiSkullShield extends React$Component<IconBaseProps> {}
+  declare export class GiSkullSignet extends React$Component<IconBaseProps> {}
+  declare export class GiSkullSlices extends React$Component<IconBaseProps> {}
+  declare export class GiSlap extends React$Component<IconBaseProps> {}
+  declare export class GiSlashedShield extends React$Component<IconBaseProps> {}
+  declare export class GiSlaveryWhip extends React$Component<IconBaseProps> {}
+  declare export class GiSleepy extends React$Component<IconBaseProps> {}
+  declare export class GiSlicedBread extends React$Component<IconBaseProps> {}
+  declare export class GiSlicingArrow extends React$Component<IconBaseProps> {}
+  declare export class GiSly extends React$Component<IconBaseProps> {}
+  declare export class GiSmallFire extends React$Component<IconBaseProps> {}
+  declare export class GiSmashArrows extends React$Component<IconBaseProps> {}
+  declare export class GiSmitten extends React$Component<IconBaseProps> {}
+  declare export class GiSmokingFinger extends React$Component<IconBaseProps> {}
+  declare export class GiSmokingOrb extends React$Component<IconBaseProps> {}
+  declare export class GiSnail extends React$Component<IconBaseProps> {}
+  declare export class GiSnakeBite extends React$Component<IconBaseProps> {}
+  declare export class GiSnakeTotem extends React$Component<IconBaseProps> {}
+  declare export class GiSnake extends React$Component<IconBaseProps> {}
+  declare export class GiSnatch extends React$Component<IconBaseProps> {}
+  declare export class GiSnowBottle extends React$Component<IconBaseProps> {}
+  declare export class GiSnowflake1 extends React$Component<IconBaseProps> {}
+  declare export class GiSnowflake2 extends React$Component<IconBaseProps> {}
+  declare export class GiSnowing extends React$Component<IconBaseProps> {}
+  declare export class GiSnowman extends React$Component<IconBaseProps> {}
+  declare export class GiSoapExperiment extends React$Component<IconBaseProps> {}
+  declare export class GiSonicBoom extends React$Component<IconBaseProps> {}
+  declare export class GiSonicLightning extends React$Component<IconBaseProps> {}
+  declare export class GiSonicScreech extends React$Component<IconBaseProps> {}
+  declare export class GiSonicShout extends React$Component<IconBaseProps> {}
+  declare export class GiSpaceSuit extends React$Component<IconBaseProps> {}
+  declare export class GiSpadeSkull extends React$Component<IconBaseProps> {}
+  declare export class GiSpade extends React$Component<IconBaseProps> {}
+  declare export class GiSpanner extends React$Component<IconBaseProps> {}
+  declare export class GiSparkSpirit extends React$Component<IconBaseProps> {}
+  declare export class GiSparklingSabre extends React$Component<IconBaseProps> {}
+  declare export class GiSparkyBomb extends React$Component<IconBaseProps> {}
+  declare export class GiSparrow extends React$Component<IconBaseProps> {}
+  declare export class GiSpartan extends React$Component<IconBaseProps> {}
+  declare export class GiSpatter extends React$Component<IconBaseProps> {}
+  declare export class GiSpearHook extends React$Component<IconBaseProps> {}
+  declare export class GiSpears extends React$Component<IconBaseProps> {}
+  declare export class GiSpectacleLenses extends React$Component<IconBaseProps> {}
+  declare export class GiSpectacles extends React$Component<IconBaseProps> {}
+  declare export class GiSpectre extends React$Component<IconBaseProps> {}
+  declare export class GiSpiderWeb extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedArmor extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedCollar extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedFence extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedHalo extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedMace extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedShell extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedSnail extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedTail extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiSpikyEclipse extends React$Component<IconBaseProps> {}
+  declare export class GiSpikyExplosion extends React$Component<IconBaseProps> {}
+  declare export class GiSpikyField extends React$Component<IconBaseProps> {}
+  declare export class GiSpill extends React$Component<IconBaseProps> {}
+  declare export class GiSpinalCoil extends React$Component<IconBaseProps> {}
+  declare export class GiSpineArrow extends React$Component<IconBaseProps> {}
+  declare export class GiSpinningBlades extends React$Component<IconBaseProps> {}
+  declare export class GiSpinningRibbons extends React$Component<IconBaseProps> {}
+  declare export class GiSpinningSword extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralArrow extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralBloom extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralBottle extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralShell extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiSpiralThrust extends React$Component<IconBaseProps> {}
+  declare export class GiSplash extends React$Component<IconBaseProps> {}
+  declare export class GiSplashyStream extends React$Component<IconBaseProps> {}
+  declare export class GiSplitBody extends React$Component<IconBaseProps> {}
+  declare export class GiSplitCross extends React$Component<IconBaseProps> {}
+  declare export class GiSplurt extends React$Component<IconBaseProps> {}
+  declare export class GiSpoon extends React$Component<IconBaseProps> {}
+  declare export class GiSpotedFlower extends React$Component<IconBaseProps> {}
+  declare export class GiSpottedArrowhead extends React$Component<IconBaseProps> {}
+  declare export class GiSpottedMushroom extends React$Component<IconBaseProps> {}
+  declare export class GiSpottedWound extends React$Component<IconBaseProps> {}
+  declare export class GiSpoutnik extends React$Component<IconBaseProps> {}
+  declare export class GiSpray extends React$Component<IconBaseProps> {}
+  declare export class GiSprint extends React$Component<IconBaseProps> {}
+  declare export class GiSproutDisc extends React$Component<IconBaseProps> {}
+  declare export class GiSprout extends React$Component<IconBaseProps> {}
+  declare export class GiSpyglass extends React$Component<IconBaseProps> {}
+  declare export class GiSquareBottle extends React$Component<IconBaseProps> {}
+  declare export class GiSquib extends React$Component<IconBaseProps> {}
+  declare export class GiSquidHead extends React$Component<IconBaseProps> {}
+  declare export class GiSquid extends React$Component<IconBaseProps> {}
+  declare export class GiStagHead extends React$Component<IconBaseProps> {}
+  declare export class GiStalagtite extends React$Component<IconBaseProps> {}
+  declare export class GiStandingPotion extends React$Component<IconBaseProps> {}
+  declare export class GiStarCycle extends React$Component<IconBaseProps> {}
+  declare export class GiStarProminences extends React$Component<IconBaseProps> {}
+  declare export class GiStarPupil extends React$Component<IconBaseProps> {}
+  declare export class GiStarSattelites extends React$Component<IconBaseProps> {}
+  declare export class GiStarSkull extends React$Component<IconBaseProps> {}
+  declare export class GiStarSwirl extends React$Component<IconBaseProps> {}
+  declare export class GiStaryu extends React$Component<IconBaseProps> {}
+  declare export class GiStaticGuard extends React$Component<IconBaseProps> {}
+  declare export class GiStaticWaves extends React$Component<IconBaseProps> {}
+  declare export class GiStatic extends React$Component<IconBaseProps> {}
+  declare export class GiSteelClaws extends React$Component<IconBaseProps> {}
+  declare export class GiSteeltoeBoots extends React$Component<IconBaseProps> {}
+  declare export class GiSteelwingEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiStickSplitting extends React$Component<IconBaseProps> {}
+  declare export class GiStickingPlaster extends React$Component<IconBaseProps> {}
+  declare export class GiStigmata extends React$Component<IconBaseProps> {}
+  declare export class GiStiletto extends React$Component<IconBaseProps> {}
+  declare export class GiStitchedWound extends React$Component<IconBaseProps> {}
+  declare export class GiStompTornado extends React$Component<IconBaseProps> {}
+  declare export class GiStomp extends React$Component<IconBaseProps> {}
+  declare export class GiStoneAxe extends React$Component<IconBaseProps> {}
+  declare export class GiStoneBlock extends React$Component<IconBaseProps> {}
+  declare export class GiStoneCrafting extends React$Component<IconBaseProps> {}
+  declare export class GiStoneSpear extends React$Component<IconBaseProps> {}
+  declare export class GiStoneSphere extends React$Component<IconBaseProps> {}
+  declare export class GiStoneTablet extends React$Component<IconBaseProps> {}
+  declare export class GiStoneThrone extends React$Component<IconBaseProps> {}
+  declare export class GiStoneTower extends React$Component<IconBaseProps> {}
+  declare export class GiStonedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiStopwatch extends React$Component<IconBaseProps> {}
+  declare export class GiStrafe extends React$Component<IconBaseProps> {}
+  declare export class GiStrikingArrows extends React$Component<IconBaseProps> {}
+  declare export class GiStrikingBalls extends React$Component<IconBaseProps> {}
+  declare export class GiStrikingClamps extends React$Component<IconBaseProps> {}
+  declare export class GiStrikingDiamonds extends React$Component<IconBaseProps> {}
+  declare export class GiStrikingSplinter extends React$Component<IconBaseProps> {}
+  declare export class GiStripedSword extends React$Component<IconBaseProps> {}
+  declare export class GiStrong extends React$Component<IconBaseProps> {}
+  declare export class GiSuckeredTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiSuits extends React$Component<IconBaseProps> {}
+  declare export class GiSunRadiations extends React$Component<IconBaseProps> {}
+  declare export class GiSun extends React$Component<IconBaseProps> {}
+  declare export class GiSunbeams extends React$Component<IconBaseProps> {}
+  declare export class GiSundial extends React$Component<IconBaseProps> {}
+  declare export class GiSunkenEye extends React$Component<IconBaseProps> {}
+  declare export class GiSuperMushroom extends React$Component<IconBaseProps> {}
+  declare export class GiSupersonicArrow extends React$Component<IconBaseProps> {}
+  declare export class GiSupersonicBullet extends React$Component<IconBaseProps> {}
+  declare export class GiSurprisedSkull extends React$Component<IconBaseProps> {}
+  declare export class GiSurprised extends React$Component<IconBaseProps> {}
+  declare export class GiSurroundedEye extends React$Component<IconBaseProps> {}
+  declare export class GiSurroundedShield extends React$Component<IconBaseProps> {}
+  declare export class GiSuspicious extends React$Component<IconBaseProps> {}
+  declare export class GiSwanBreeze extends React$Component<IconBaseProps> {}
+  declare export class GiSwan extends React$Component<IconBaseProps> {}
+  declare export class GiSwapBag extends React$Component<IconBaseProps> {}
+  declare export class GiSwirlRing extends React$Component<IconBaseProps> {}
+  declare export class GiSwirlString extends React$Component<IconBaseProps> {}
+  declare export class GiSwordArray extends React$Component<IconBaseProps> {}
+  declare export class GiSwordBreak extends React$Component<IconBaseProps> {}
+  declare export class GiSwordClash extends React$Component<IconBaseProps> {}
+  declare export class GiSwordHilt extends React$Component<IconBaseProps> {}
+  declare export class GiSwordInStone extends React$Component<IconBaseProps> {}
+  declare export class GiSwordSlice extends React$Component<IconBaseProps> {}
+  declare export class GiSwordSmithing extends React$Component<IconBaseProps> {}
+  declare export class GiSwordSpade extends React$Component<IconBaseProps> {}
+  declare export class GiSwordSpin extends React$Component<IconBaseProps> {}
+  declare export class GiSwordTie extends React$Component<IconBaseProps> {}
+  declare export class GiSwordWound extends React$Component<IconBaseProps> {}
+  declare export class GiSwordsEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiSyringe extends React$Component<IconBaseProps> {}
+  declare export class GiTank extends React$Component<IconBaseProps> {}
+  declare export class GiTargetArrows extends React$Component<IconBaseProps> {}
+  declare export class GiTargetDummy extends React$Component<IconBaseProps> {}
+  declare export class GiTargetShot extends React$Component<IconBaseProps> {}
+  declare export class GiTargeting extends React$Component<IconBaseProps> {}
+  declare export class GiTatteredBanner extends React$Component<IconBaseProps> {}
+  declare export class GiTeapot extends React$Component<IconBaseProps> {}
+  declare export class GiTearTracks extends React$Component<IconBaseProps> {}
+  declare export class GiTearing extends React$Component<IconBaseProps> {}
+  declare export class GiTechnoHeart extends React$Component<IconBaseProps> {}
+  declare export class GiTelepathy extends React$Component<IconBaseProps> {}
+  declare export class GiTeleport extends React$Component<IconBaseProps> {}
+  declare export class GiTemplarEye extends React$Component<IconBaseProps> {}
+  declare export class GiTemplarHeart extends React$Component<IconBaseProps> {}
+  declare export class GiTemptation extends React$Component<IconBaseProps> {}
+  declare export class GiTensionSnowflake extends React$Component<IconBaseProps> {}
+  declare export class GiTentacleHeart extends React$Component<IconBaseProps> {}
+  declare export class GiTentacleStrike extends React$Component<IconBaseProps> {}
+  declare export class GiTentaclesSkull extends React$Component<IconBaseProps> {}
+  declare export class GiTentacurl extends React$Component<IconBaseProps> {}
+  declare export class GiTerror extends React$Component<IconBaseProps> {}
+  declare export class GiTeslaCoil extends React$Component<IconBaseProps> {}
+  declare export class GiTeslaTurret extends React$Component<IconBaseProps> {}
+  declare export class GiTestTubes extends React$Component<IconBaseProps> {}
+  declare export class GiThermometerScale extends React$Component<IconBaseProps> {}
+  declare export class GiThirdEye extends React$Component<IconBaseProps> {}
+  declare export class GiThorFist extends React$Component<IconBaseProps> {}
+  declare export class GiThornHelix extends React$Component<IconBaseProps> {}
+  declare export class GiThornedArrow extends React$Component<IconBaseProps> {}
+  declare export class GiThornyTentacle extends React$Component<IconBaseProps> {}
+  declare export class GiThornyVine extends React$Component<IconBaseProps> {}
+  declare export class GiThreeBurningBalls extends React$Component<IconBaseProps> {}
+  declare export class GiThreeKeys extends React$Component<IconBaseProps> {}
+  declare export class GiThreeLeaves extends React$Component<IconBaseProps> {}
+  declare export class GiThrownCharcoal extends React$Component<IconBaseProps> {}
+  declare export class GiThrownDaggers extends React$Component<IconBaseProps> {}
+  declare export class GiThrownKnife extends React$Component<IconBaseProps> {}
+  declare export class GiThrownSpear extends React$Component<IconBaseProps> {}
+  declare export class GiThunderBlade extends React$Component<IconBaseProps> {}
+  declare export class GiThunderSkull extends React$Component<IconBaseProps> {}
+  declare export class GiThunderStruck extends React$Component<IconBaseProps> {}
+  declare export class GiThunderball extends React$Component<IconBaseProps> {}
+  declare export class GiTick extends React$Component<IconBaseProps> {}
+  declare export class GiTiedScroll extends React$Component<IconBaseProps> {}
+  declare export class GiTimeBomb extends React$Component<IconBaseProps> {}
+  declare export class GiTimeTrap extends React$Component<IconBaseProps> {}
+  declare export class GiTinker extends React$Component<IconBaseProps> {}
+  declare export class GiToadTeeth extends React$Component<IconBaseProps> {}
+  declare export class GiTombstone extends React$Component<IconBaseProps> {}
+  declare export class GiTooth extends React$Component<IconBaseProps> {}
+  declare export class GiTopHat extends React$Component<IconBaseProps> {}
+  declare export class GiTopPaw extends React$Component<IconBaseProps> {}
+  declare export class GiTornadoDiscs extends React$Component<IconBaseProps> {}
+  declare export class GiTornado extends React$Component<IconBaseProps> {}
+  declare export class GiTotemHead extends React$Component<IconBaseProps> {}
+  declare export class GiTotemMask extends React$Component<IconBaseProps> {}
+  declare export class GiTowerFall extends React$Component<IconBaseProps> {}
+  declare export class GiTrade extends React$Component<IconBaseProps> {}
+  declare export class GiTransfuse extends React$Component<IconBaseProps> {}
+  declare export class GiTransparentTubes extends React$Component<IconBaseProps> {}
+  declare export class GiTransportationRings extends React$Component<IconBaseProps> {}
+  declare export class GiTrapMask extends React$Component<IconBaseProps> {}
+  declare export class GiTread extends React$Component<IconBaseProps> {}
+  declare export class GiTreasureMap extends React$Component<IconBaseProps> {}
+  declare export class GiTreeBranch extends React$Component<IconBaseProps> {}
+  declare export class GiTrefoilLily extends React$Component<IconBaseProps> {}
+  declare export class GiTrefoilShuriken extends React$Component<IconBaseProps> {}
+  declare export class GiTribalMask extends React$Component<IconBaseProps> {}
+  declare export class GiTrident extends React$Component<IconBaseProps> {}
+  declare export class GiTrilobite extends React$Component<IconBaseProps> {}
+  declare export class GiTriorb extends React$Component<IconBaseProps> {}
+  declare export class GiTripleBeak extends React$Component<IconBaseProps> {}
+  declare export class GiTripleClaws extends React$Component<IconBaseProps> {}
+  declare export class GiTripleCorn extends React$Component<IconBaseProps> {}
+  declare export class GiTripleLock extends React$Component<IconBaseProps> {}
+  declare export class GiTripleNeedle extends React$Component<IconBaseProps> {}
+  declare export class GiTriplePlier extends React$Component<IconBaseProps> {}
+  declare export class GiTripleScratches extends React$Component<IconBaseProps> {}
+  declare export class GiTripleShells extends React$Component<IconBaseProps> {}
+  declare export class GiTripleSkulls extends React$Component<IconBaseProps> {}
+  declare export class GiTripleYin extends React$Component<IconBaseProps> {}
+  declare export class GiTripwire extends React$Component<IconBaseProps> {}
+  declare export class GiTritonHead extends React$Component<IconBaseProps> {}
+  declare export class GiTronArrow extends React$Component<IconBaseProps> {}
+  declare export class GiTrophy extends React$Component<IconBaseProps> {}
+  declare export class GiTrousers extends React$Component<IconBaseProps> {}
+  declare export class GiTumor extends React$Component<IconBaseProps> {}
+  declare export class GiTunePitch extends React$Component<IconBaseProps> {}
+  declare export class GiTurd extends React$Component<IconBaseProps> {}
+  declare export class GiTurtleShell extends React$Component<IconBaseProps> {}
+  declare export class GiTurtle extends React$Component<IconBaseProps> {}
+  declare export class GiTwinShell extends React$Component<IconBaseProps> {}
+  declare export class GiTwirlCenter extends React$Component<IconBaseProps> {}
+  declare export class GiTwirlyFlower extends React$Component<IconBaseProps> {}
+  declare export class GiTwister extends React$Component<IconBaseProps> {}
+  declare export class GiTwoFeathers extends React$Component<IconBaseProps> {}
+  declare export class GiTwoShadows extends React$Component<IconBaseProps> {}
+  declare export class GiTyre extends React$Component<IconBaseProps> {}
+  declare export class GiUbisoftSun extends React$Component<IconBaseProps> {}
+  declare export class GiUltrasound extends React$Component<IconBaseProps> {}
+  declare export class GiUmbrella extends React$Component<IconBaseProps> {}
+  declare export class GiUncertainty extends React$Component<IconBaseProps> {}
+  declare export class GiUnfriendlyFire extends React$Component<IconBaseProps> {}
+  declare export class GiUnlitBomb extends React$Component<IconBaseProps> {}
+  declare export class GiUnlitCandelabra extends React$Component<IconBaseProps> {}
+  declare export class GiUnlocking extends React$Component<IconBaseProps> {}
+  declare export class GiUnstableOrb extends React$Component<IconBaseProps> {}
+  declare export class GiUnstableProjectile extends React$Component<IconBaseProps> {}
+  declare export class GiValley extends React$Component<IconBaseProps> {}
+  declare export class GiVanillaFlower extends React$Component<IconBaseProps> {}
+  declare export class GiVibratingBall extends React$Component<IconBaseProps> {}
+  declare export class GiVileFluid extends React$Component<IconBaseProps> {}
+  declare export class GiVineFlower extends React$Component<IconBaseProps> {}
+  declare export class GiVineLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiVineWhip extends React$Component<IconBaseProps> {}
+  declare export class GiVintageRobot extends React$Component<IconBaseProps> {}
+  declare export class GiViola extends React$Component<IconBaseProps> {}
+  declare export class GiVirus extends React$Component<IconBaseProps> {}
+  declare export class GiVisoredHelm extends React$Component<IconBaseProps> {}
+  declare export class GiVolcano extends React$Component<IconBaseProps> {}
+  declare export class GiVomiting extends React$Component<IconBaseProps> {}
+  declare export class GiVoodooDoll extends React$Component<IconBaseProps> {}
+  declare export class GiVortex extends React$Component<IconBaseProps> {}
+  declare export class GiVulture extends React$Component<IconBaseProps> {}
+  declare export class GiWalkingBoot extends React$Component<IconBaseProps> {}
+  declare export class GiWaspSting extends React$Component<IconBaseProps> {}
+  declare export class GiWaterBolt extends React$Component<IconBaseProps> {}
+  declare export class GiWaterSplash extends React$Component<IconBaseProps> {}
+  declare export class GiWaveCrest extends React$Component<IconBaseProps> {}
+  declare export class GiWaveStrike extends React$Component<IconBaseProps> {}
+  declare export class GiWavyChains extends React$Component<IconBaseProps> {}
+  declare export class GiWavyItinerary extends React$Component<IconBaseProps> {}
+  declare export class GiWaxSeal extends React$Component<IconBaseProps> {}
+  declare export class GiWebSpit extends React$Component<IconBaseProps> {}
+  declare export class GiWerewolf extends React$Component<IconBaseProps> {}
+  declare export class GiWheat extends React$Component<IconBaseProps> {}
+  declare export class GiWhip extends React$Component<IconBaseProps> {}
+  declare export class GiWhiplash extends React$Component<IconBaseProps> {}
+  declare export class GiWhirlwind extends React$Component<IconBaseProps> {}
+  declare export class GiWhiteCat extends React$Component<IconBaseProps> {}
+  declare export class GiWhiteTower extends React$Component<IconBaseProps> {}
+  declare export class GiWideArrowDunk extends React$Component<IconBaseProps> {}
+  declare export class GiWildfires extends React$Component<IconBaseProps> {}
+  declare export class GiWilliamTellSkull extends React$Component<IconBaseProps> {}
+  declare export class GiWilliamTell extends React$Component<IconBaseProps> {}
+  declare export class GiWindHole extends React$Component<IconBaseProps> {}
+  declare export class GiWindSlap extends React$Component<IconBaseProps> {}
+  declare export class GiWindyStripes extends React$Component<IconBaseProps> {}
+  declare export class GiWineGlass extends React$Component<IconBaseProps> {}
+  declare export class GiWingCloak extends React$Component<IconBaseProps> {}
+  declare export class GiWingedArrow extends React$Component<IconBaseProps> {}
+  declare export class GiWingedEmblem extends React$Component<IconBaseProps> {}
+  declare export class GiWingedLeg extends React$Component<IconBaseProps> {}
+  declare export class GiWingedShield extends React$Component<IconBaseProps> {}
+  declare export class GiWingedSword extends React$Component<IconBaseProps> {}
+  declare export class GiWingfoot extends React$Component<IconBaseProps> {}
+  declare export class GiWitchFlight extends React$Component<IconBaseProps> {}
+  declare export class GiWizardStaff extends React$Component<IconBaseProps> {}
+  declare export class GiWolfHead extends React$Component<IconBaseProps> {}
+  declare export class GiWolfHowl extends React$Component<IconBaseProps> {}
+  declare export class GiWolfTrap extends React$Component<IconBaseProps> {}
+  declare export class GiWolverineClaws extends React$Component<IconBaseProps> {}
+  declare export class GiWoodAxe extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenDoor extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenFence extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenSign extends React$Component<IconBaseProps> {}
+  declare export class GiWorld extends React$Component<IconBaseProps> {}
+  declare export class GiWormMouth extends React$Component<IconBaseProps> {}
+  declare export class GiWorriedEyes extends React$Component<IconBaseProps> {}
+  declare export class GiWrappedHeart extends React$Component<IconBaseProps> {}
+  declare export class GiWrappedSweet extends React$Component<IconBaseProps> {}
+  declare export class GiWrappingStar extends React$Component<IconBaseProps> {}
+  declare export class GiWreckingBall extends React$Component<IconBaseProps> {}
+  declare export class GiWyvern extends React$Component<IconBaseProps> {}
+  declare export class GiZebraShield extends React$Component<IconBaseProps> {}
+  declare export class GiZeusSword extends React$Component<IconBaseProps> {}
+  declare export class GiZigArrow extends React$Component<IconBaseProps> {}
+  declare export class GiZigzagCage extends React$Component<IconBaseProps> {}
+  declare export class GiZigzagLeaf extends React$Component<IconBaseProps> {}
+  declare export class GiZigzagTune extends React$Component<IconBaseProps> {}
+  declare export class GiAmplitude extends React$Component<IconBaseProps> {}
+  declare export class GiArtificialIntelligence extends React$Component<IconBaseProps> {}
+  declare export class GiBomber extends React$Component<IconBaseProps> {}
+  declare export class GiComputing extends React$Component<IconBaseProps> {}
+  declare export class GiDiagram extends React$Component<IconBaseProps> {}
+  declare export class GiHeavyFighter extends React$Component<IconBaseProps> {}
+  declare export class GiHolosphere extends React$Component<IconBaseProps> {}
+  declare export class GiLightFighter extends React$Component<IconBaseProps> {}
+  declare export class GiMicroscope extends React$Component<IconBaseProps> {}
+  declare export class GiPowerButton extends React$Component<IconBaseProps> {}
+  declare export class GiArtilleryShell extends React$Component<IconBaseProps> {}
+  declare export class GiBiplane extends React$Component<IconBaseProps> {}
+  declare export class GiBunkerAssault extends React$Component<IconBaseProps> {}
+  declare export class GiBunker extends React$Component<IconBaseProps> {}
+  declare export class GiCardPickup extends React$Component<IconBaseProps> {}
+  declare export class GiCardPlay extends React$Component<IconBaseProps> {}
+  declare export class GiDamagedHouse extends React$Component<IconBaseProps> {}
+  declare export class GiFieldGun extends React$Component<IconBaseProps> {}
+  declare export class GiLostLimb extends React$Component<IconBaseProps> {}
+  declare export class GiMilitaryAmbulance extends React$Component<IconBaseProps> {}
+  declare export class GiPoppy extends React$Component<IconBaseProps> {}
+  declare export class GiTrenchAssault extends React$Component<IconBaseProps> {}
+  declare export class GiChocolateBar extends React$Component<IconBaseProps> {}
+  declare export class GiMilkCarton extends React$Component<IconBaseProps> {}
+  declare export class GiPeanut extends React$Component<IconBaseProps> {}
+  declare export class GiAcidTube extends React$Component<IconBaseProps> {}
+  declare export class GiAcid extends React$Component<IconBaseProps> {}
+  declare export class GiAmmoBox extends React$Component<IconBaseProps> {}
+  declare export class GiArena extends React$Component<IconBaseProps> {}
+  declare export class GiBatteryPackAlt extends React$Component<IconBaseProps> {}
+  declare export class GiBatteryPack extends React$Component<IconBaseProps> {}
+  declare export class GiBigEgg extends React$Component<IconBaseProps> {}
+  declare export class GiBlast extends React$Component<IconBaseProps> {}
+  declare export class GiBlaster extends React$Component<IconBaseProps> {}
+  declare export class GiBurn extends React$Component<IconBaseProps> {}
+  declare export class GiCancel extends React$Component<IconBaseProps> {}
+  declare export class GiChaingun extends React$Component<IconBaseProps> {}
+  declare export class GiCircularSaw extends React$Component<IconBaseProps> {}
+  declare export class GiClaw extends React$Component<IconBaseProps> {}
+  declare export class GiCloverSpiked extends React$Component<IconBaseProps> {}
+  declare export class GiCrush extends React$Component<IconBaseProps> {}
+  declare export class GiDeathSkull extends React$Component<IconBaseProps> {}
+  declare export class GiDoubled extends React$Component<IconBaseProps> {}
+  declare export class GiDuel extends React$Component<IconBaseProps> {}
+  declare export class GiEggPod extends React$Component<IconBaseProps> {}
+  declare export class GiElectric extends React$Component<IconBaseProps> {}
+  declare export class GiEvilWings extends React$Component<IconBaseProps> {}
+  declare export class GiExpander extends React$Component<IconBaseProps> {}
+  declare export class GiFallDown extends React$Component<IconBaseProps> {}
+  declare export class GiFalling extends React$Component<IconBaseProps> {}
+  declare export class GiFire extends React$Component<IconBaseProps> {}
+  declare export class GiFireflake extends React$Component<IconBaseProps> {}
+  declare export class GiFlake extends React$Component<IconBaseProps> {}
+  declare export class GiFlamer extends React$Component<IconBaseProps> {}
+  declare export class GiHeadShot extends React$Component<IconBaseProps> {}
+  declare export class GiHealthDecrease extends React$Component<IconBaseProps> {}
+  declare export class GiHealthIncrease extends React$Component<IconBaseProps> {}
+  declare export class GiHealthNormal extends React$Component<IconBaseProps> {}
+  declare export class GiHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiHelp extends React$Component<IconBaseProps> {}
+  declare export class GiHive extends React$Component<IconBaseProps> {}
+  declare export class GiHotSurface extends React$Component<IconBaseProps> {}
+  declare export class GiJetPack extends React$Component<IconBaseProps> {}
+  declare export class GiKevlar extends React$Component<IconBaseProps> {}
+  declare export class GiLaserGun extends React$Component<IconBaseProps> {}
+  declare export class GiLava extends React$Component<IconBaseProps> {}
+  declare export class GiLevelFourAdvanced extends React$Component<IconBaseProps> {}
+  declare export class GiLevelFour extends React$Component<IconBaseProps> {}
+  declare export class GiLevelThreeAdvanced extends React$Component<IconBaseProps> {}
+  declare export class GiLevelThree extends React$Component<IconBaseProps> {}
+  declare export class GiLevelTwoAdvanced extends React$Component<IconBaseProps> {}
+  declare export class GiLevelTwo extends React$Component<IconBaseProps> {}
+  declare export class GiLuciferCannon extends React$Component<IconBaseProps> {}
+  declare export class GiMassDriver extends React$Component<IconBaseProps> {}
+  declare export class GiMedicalPackAlt extends React$Component<IconBaseProps> {}
+  declare export class GiMedicalPack extends React$Component<IconBaseProps> {}
+  declare export class GiNodular extends React$Component<IconBaseProps> {}
+  declare export class GiNuclear extends React$Component<IconBaseProps> {}
+  declare export class GiOverkill extends React$Component<IconBaseProps> {}
+  declare export class GiOvermind extends React$Component<IconBaseProps> {}
+  declare export class GiPoisonCloud extends React$Component<IconBaseProps> {}
+  declare export class GiPoison extends React$Component<IconBaseProps> {}
+  declare export class GiPounce extends React$Component<IconBaseProps> {}
+  declare export class GiPulse extends React$Component<IconBaseProps> {}
+  declare export class GiReactor extends React$Component<IconBaseProps> {}
+  declare export class GiRegeneration extends React$Component<IconBaseProps> {}
+  declare export class GiRifle extends React$Component<IconBaseProps> {}
+  declare export class GiSelect extends React$Component<IconBaseProps> {}
+  declare export class GiShield extends React$Component<IconBaseProps> {}
+  declare export class GiShotgun extends React$Component<IconBaseProps> {}
+  declare export class GiSlowBlob extends React$Component<IconBaseProps> {}
+  declare export class GiSnorkel extends React$Component<IconBaseProps> {}
+  declare export class GiSpawnNode extends React$Component<IconBaseProps> {}
+  declare export class GiSpikeball extends React$Component<IconBaseProps> {}
+  declare export class GiSpikesFull extends React$Component<IconBaseProps> {}
+  declare export class GiSpikesHalf extends React$Component<IconBaseProps> {}
+  declare export class GiSpikesInit extends React$Component<IconBaseProps> {}
+  declare export class GiSpikes extends React$Component<IconBaseProps> {}
+  declare export class GiSuicide extends React$Component<IconBaseProps> {}
+  declare export class GiTargetLaser extends React$Component<IconBaseProps> {}
+  declare export class GiTargeted extends React$Component<IconBaseProps> {}
+  declare export class GiTelefrag extends React$Component<IconBaseProps> {}
+  declare export class GiTesla extends React$Component<IconBaseProps> {}
+  declare export class GiTrample extends React$Component<IconBaseProps> {}
+  declare export class GiTriggerHurt extends React$Component<IconBaseProps> {}
+  declare export class GiTurret extends React$Component<IconBaseProps> {}
+  declare export class GiUnplugged extends React$Component<IconBaseProps> {}
+  declare export class GiUsable extends React$Component<IconBaseProps> {}
+  declare export class GiVial extends React$Component<IconBaseProps> {}
+  declare export class GiWaterDrop extends React$Component<IconBaseProps> {}
+  declare export class GiWeightCrush extends React$Component<IconBaseProps> {}
+  declare export class GiWrench extends React$Component<IconBaseProps> {}
+  declare export class GiAchievement extends React$Component<IconBaseProps> {}
+  declare export class GiAirForce extends React$Component<IconBaseProps> {}
+  declare export class GiAirplane extends React$Component<IconBaseProps> {}
+  declare export class GiAk47 extends React$Component<IconBaseProps> {}
+  declare export class GiAk47U extends React$Component<IconBaseProps> {}
+  declare export class GiAlliedStar extends React$Component<IconBaseProps> {}
+  declare export class GiAmethyst extends React$Component<IconBaseProps> {}
+  declare export class GiAmputation extends React$Component<IconBaseProps> {}
+  declare export class GiApc extends React$Component<IconBaseProps> {}
+  declare export class GiAtom extends React$Component<IconBaseProps> {}
+  declare export class GiBalaclava extends React$Component<IconBaseProps> {}
+  declare export class GiBalkenkreuz extends React$Component<IconBaseProps> {}
+  declare export class GiBallista extends React$Component<IconBaseProps> {}
+  declare export class GiBaton extends React$Component<IconBaseProps> {}
+  declare export class GiBayonet extends React$Component<IconBaseProps> {}
+  declare export class GiBigDiamondRing extends React$Component<IconBaseProps> {}
+  declare export class GiBlood extends React$Component<IconBaseProps> {}
+  declare export class GiBoxTrap extends React$Component<IconBaseProps> {}
+  declare export class GiBracers extends React$Component<IconBaseProps> {}
+  declare export class GiBreakingChain extends React$Component<IconBaseProps> {}
+  declare export class GiBrodieHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiBullseye extends React$Component<IconBaseProps> {}
+  declare export class GiBundleGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiBurningSkull extends React$Component<IconBaseProps> {}
+  declare export class GiC96 extends React$Component<IconBaseProps> {}
+  declare export class GiCarpetBombing extends React$Component<IconBaseProps> {}
+  declare export class GiCementShoes extends React$Component<IconBaseProps> {}
+  declare export class GiChessBishop extends React$Component<IconBaseProps> {}
+  declare export class GiChessKing extends React$Component<IconBaseProps> {}
+  declare export class GiChessKnight extends React$Component<IconBaseProps> {}
+  declare export class GiChessPawn extends React$Component<IconBaseProps> {}
+  declare export class GiChessQueen extends React$Component<IconBaseProps> {}
+  declare export class GiChessRook extends React$Component<IconBaseProps> {}
+  declare export class GiClick extends React$Component<IconBaseProps> {}
+  declare export class GiClubs extends React$Component<IconBaseProps> {}
+  declare export class GiColtM1911 extends React$Component<IconBaseProps> {}
+  declare export class GiCombinationLock extends React$Component<IconBaseProps> {}
+  declare export class GiConsoleController extends React$Component<IconBaseProps> {}
+  declare export class GiCzSkorpion extends React$Component<IconBaseProps> {}
+  declare export class GiD10 extends React$Component<IconBaseProps> {}
+  declare export class GiD12 extends React$Component<IconBaseProps> {}
+  declare export class GiD4 extends React$Component<IconBaseProps> {}
+  declare export class GiDesertEagle extends React$Component<IconBaseProps> {}
+  declare export class GiDiamonds extends React$Component<IconBaseProps> {}
+  declare export class GiDividedSquare extends React$Component<IconBaseProps> {}
+  declare export class GiDonkey extends React$Component<IconBaseProps> {}
+  declare export class GiDress extends React$Component<IconBaseProps> {}
+  declare export class GiDropWeapon extends React$Component<IconBaseProps> {}
+  declare export class GiEvilEyes extends React$Component<IconBaseProps> {}
+  declare export class GiF1Car extends React$Component<IconBaseProps> {}
+  declare export class GiFamas extends React$Component<IconBaseProps> {}
+  declare export class GiFangs extends React$Component<IconBaseProps> {}
+  declare export class GiFat extends React$Component<IconBaseProps> {}
+  declare export class GiFetus extends React$Component<IconBaseProps> {}
+  declare export class GiFlatbedCovered extends React$Component<IconBaseProps> {}
+  declare export class GiFlatbed extends React$Component<IconBaseProps> {}
+  declare export class GiFnFal extends React$Component<IconBaseProps> {}
+  declare export class GiFootsteps extends React$Component<IconBaseProps> {}
+  declare export class GiFruitBowl extends React$Component<IconBaseProps> {}
+  declare export class GiGladius extends React$Component<IconBaseProps> {}
+  declare export class GiGlider extends React$Component<IconBaseProps> {}
+  declare export class GiGlock extends React$Component<IconBaseProps> {}
+  declare export class GiGoat extends React$Component<IconBaseProps> {}
+  declare export class GiHalt extends React$Component<IconBaseProps> {}
+  declare export class GiHamShank extends React$Component<IconBaseProps> {}
+  declare export class GiHastyGrave extends React$Component<IconBaseProps> {}
+  declare export class GiHearingDisabled extends React$Component<IconBaseProps> {}
+  declare export class GiHearts extends React$Component<IconBaseProps> {}
+  declare export class GiHexes extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice1 extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice2 extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice3 extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice4 extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice5 extends React$Component<IconBaseProps> {}
+  declare export class GiInvertedDice6 extends React$Component<IconBaseProps> {}
+  declare export class GiIronCross extends React$Component<IconBaseProps> {}
+  declare export class GiJoint extends React$Component<IconBaseProps> {}
+  declare export class GiKevlarVest extends React$Component<IconBaseProps> {}
+  declare export class GiKnockout extends React$Component<IconBaseProps> {}
+  declare export class GiLaserBurst extends React$Component<IconBaseProps> {}
+  declare export class GiLeeEnfield extends React$Component<IconBaseProps> {}
+  declare export class GiLogging extends React$Component<IconBaseProps> {}
+  declare export class GiLongLeggedSpider extends React$Component<IconBaseProps> {}
+  declare export class GiLuger extends React$Component<IconBaseProps> {}
+  declare export class GiM3GreaseGun extends React$Component<IconBaseProps> {}
+  declare export class GiMac10 extends React$Component<IconBaseProps> {}
+  declare export class GiMachineGun extends React$Component<IconBaseProps> {}
+  declare export class GiMinefield extends React$Component<IconBaseProps> {}
+  declare export class GiMountedKnight extends React$Component<IconBaseProps> {}
+  declare export class GiMp40 extends React$Component<IconBaseProps> {}
+  declare export class GiMp5K extends React$Component<IconBaseProps> {}
+  declare export class GiMusket extends React$Component<IconBaseProps> {}
+  declare export class GiNuclearBomb extends React$Component<IconBaseProps> {}
+  declare export class GiOilDrum extends React$Component<IconBaseProps> {}
+  declare export class GiOpenChest extends React$Component<IconBaseProps> {}
+  declare export class GiOpenPalm extends React$Component<IconBaseProps> {}
+  declare export class GiOpenTreasureChest extends React$Component<IconBaseProps> {}
+  declare export class GiOrbit extends React$Component<IconBaseProps> {}
+  declare export class GiP90 extends React$Component<IconBaseProps> {}
+  declare export class GiPauldrons extends React$Component<IconBaseProps> {}
+  declare export class GiPc extends React$Component<IconBaseProps> {}
+  declare export class GiPegasus extends React$Component<IconBaseProps> {}
+  declare export class GiPentacle extends React$Component<IconBaseProps> {}
+  declare export class GiPestleMortar extends React$Component<IconBaseProps> {}
+  declare export class GiPickelhaube extends React$Component<IconBaseProps> {}
+  declare export class GiPig extends React$Component<IconBaseProps> {}
+  declare export class GiPlatform extends React$Component<IconBaseProps> {}
+  declare export class GiPocketWatch extends React$Component<IconBaseProps> {}
+  declare export class GiPteruges extends React$Component<IconBaseProps> {}
+  declare export class GiRaceCar extends React$Component<IconBaseProps> {}
+  declare export class GiRaiseSkeleton extends React$Component<IconBaseProps> {}
+  declare export class GiRaiseZombie extends React$Component<IconBaseProps> {}
+  declare export class GiRank1 extends React$Component<IconBaseProps> {}
+  declare export class GiRank2 extends React$Component<IconBaseProps> {}
+  declare export class GiRank3 extends React$Component<IconBaseProps> {}
+  declare export class GiRead extends React$Component<IconBaseProps> {}
+  declare export class GiRetroController extends React$Component<IconBaseProps> {}
+  declare export class GiSeaCreature extends React$Component<IconBaseProps> {}
+  declare export class GiShieldDisabled extends React$Component<IconBaseProps> {}
+  declare export class GiSiegeRam extends React$Component<IconBaseProps> {}
+  declare export class GiSightDisabled extends React$Component<IconBaseProps> {}
+  declare export class GiSiren extends React$Component<IconBaseProps> {}
+  declare export class GiSkeleton extends React$Component<IconBaseProps> {}
+  declare export class GiSolarPower extends React$Component<IconBaseProps> {}
+  declare export class GiSoundWaves extends React$Component<IconBaseProps> {}
+  declare export class GiSpades extends React$Component<IconBaseProps> {}
+  declare export class GiSpectreM4 extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedBall extends React$Component<IconBaseProps> {}
+  declare export class GiSpikedBat extends React$Component<IconBaseProps> {}
+  declare export class GiSpinningTop extends React$Component<IconBaseProps> {}
+  declare export class GiSpottedBug extends React$Component<IconBaseProps> {}
+  declare export class GiStahlhelm extends React$Component<IconBaseProps> {}
+  declare export class GiSteelDoor extends React$Component<IconBaseProps> {}
+  declare export class GiSteyrAug extends React$Component<IconBaseProps> {}
+  declare export class GiStickGrenade extends React$Component<IconBaseProps> {}
+  declare export class GiSwirledShell extends React$Component<IconBaseProps> {}
+  declare export class GiSwitchblade extends React$Component<IconBaseProps> {}
+  declare export class GiTablet extends React$Component<IconBaseProps> {}
+  declare export class GiTalk extends React$Component<IconBaseProps> {}
+  declare export class GiTankTread extends React$Component<IconBaseProps> {}
+  declare export class GiTec9 extends React$Component<IconBaseProps> {}
+  declare export class GiTelescopicBaton extends React$Component<IconBaseProps> {}
+  declare export class GiTellerMine extends React$Component<IconBaseProps> {}
+  declare export class GiThompsonM1 extends React$Component<IconBaseProps> {}
+  declare export class GiThompsonM1928 extends React$Component<IconBaseProps> {}
+  declare export class GiTopaz extends React$Component<IconBaseProps> {}
+  declare export class GiTrenchBodyArmor extends React$Component<IconBaseProps> {}
+  declare export class GiTrenchKnife extends React$Component<IconBaseProps> {}
+  declare export class GiTrenchSpade extends React$Component<IconBaseProps> {}
+  declare export class GiTroll extends React$Component<IconBaseProps> {}
+  declare export class GiWaltherPpk extends React$Component<IconBaseProps> {}
+  declare export class GiWinchesterRifle extends React$Component<IconBaseProps> {}
+  declare export class GiWoodenHelmet extends React$Component<IconBaseProps> {}
+  declare export class GiZeppelin extends React$Component<IconBaseProps> {}
+  declare export class GiBearFace extends React$Component<IconBaseProps> {}
+  declare export class GiDigitalTrace extends React$Component<IconBaseProps> {}
+  declare export class GiSkullWithSyringe extends React$Component<IconBaseProps> {}
+  declare export class GiViolin extends React$Component<IconBaseProps> {}
+  declare export class GiBlackBook extends React$Component<IconBaseProps> {}
+  declare export class GiChainLightning extends React$Component<IconBaseProps> {}
+  declare export class GiChainMail extends React$Component<IconBaseProps> {}
+  declare export class GiGoldBar extends React$Component<IconBaseProps> {}
+  declare export class GiOrbWand extends React$Component<IconBaseProps> {}
+  declare export class GiRoundShield extends React$Component<IconBaseProps> {}
+  declare export class GiWhiteBook extends React$Component<IconBaseProps> {}
+  declare export class GiHeartMinus extends React$Component<IconBaseProps> {}
+  declare export class GiHeartPlus extends React$Component<IconBaseProps> {}
+  declare export class GiPaper extends React$Component<IconBaseProps> {}
+  declare export class GiBelt extends React$Component<IconBaseProps> {}
+  declare export class GiCloak extends React$Component<IconBaseProps> {}
+  declare export class GiNecklace extends React$Component<IconBaseProps> {}
+  declare export class GiShirt extends React$Component<IconBaseProps> {}
+  declare export class GiBattery0 extends React$Component<IconBaseProps> {}
+  declare export class GiBattery100 extends React$Component<IconBaseProps> {}
+  declare export class GiBattery25 extends React$Component<IconBaseProps> {}
+  declare export class GiBattery50 extends React$Component<IconBaseProps> {}
+  declare export class GiBattery75 extends React$Component<IconBaseProps> {}
+  declare export class GiBatteryMinus extends React$Component<IconBaseProps> {}
+  declare export class GiBatteryPlus extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract001 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract002 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract003 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract004 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract005 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract006 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract007 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract008 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract009 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract010 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract011 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract012 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract013 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract014 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract015 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract016 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract017 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract018 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract019 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract020 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract021 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract022 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract023 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract024 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract025 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract026 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract027 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract028 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract029 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract030 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract031 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract032 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract033 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract034 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract035 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract036 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract037 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract038 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract039 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract040 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract041 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract042 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract043 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract044 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract045 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract046 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract047 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract048 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract049 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract050 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract051 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract052 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract053 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract054 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract055 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract056 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract057 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract058 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract059 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract060 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract061 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract062 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract063 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract064 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract065 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract066 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract067 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract068 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract069 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract070 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract071 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract072 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract073 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract074 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract075 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract076 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract077 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract078 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract079 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract080 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract081 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract082 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract083 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract084 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract085 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract086 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract087 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract088 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract089 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract090 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract091 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract092 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract093 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract094 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract095 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract096 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract097 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract098 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract099 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract100 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract101 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract102 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract103 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract104 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract105 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract106 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract107 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract108 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract109 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract110 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract111 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract112 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract113 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract114 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract115 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract116 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract117 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract118 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract119 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract120 extends React$Component<IconBaseProps> {}
+  declare export class GiAbstract121 extends React$Component<IconBaseProps> {}
+  declare export class GiInfinity extends React$Component<IconBaseProps> {}
+  declare export class GiSalmon extends React$Component<IconBaseProps> {}
+  declare export class GiDodge extends React$Component<IconBaseProps> {}
+  declare export class GiOverhead extends React$Component<IconBaseProps> {}
+  declare export class GiSideswipe extends React$Component<IconBaseProps> {}
+  declare export class GiThrust extends React$Component<IconBaseProps> {}
+  declare export class GiUnderhand extends React$Component<IconBaseProps> {}
+}
+
+declare module 'react-icons/wi' {
+  declare export class WiAlien extends React$Component<IconBaseProps> {}
+  declare export class WiBarometer extends React$Component<IconBaseProps> {}
+  declare export class WiCelsius extends React$Component<IconBaseProps> {}
+  declare export class WiCloudDown extends React$Component<IconBaseProps> {}
+  declare export class WiCloudRefresh extends React$Component<IconBaseProps> {}
+  declare export class WiCloudUp extends React$Component<IconBaseProps> {}
+  declare export class WiCloud extends React$Component<IconBaseProps> {}
+  declare export class WiCloudyGusts extends React$Component<IconBaseProps> {}
+  declare export class WiCloudyWindy extends React$Component<IconBaseProps> {}
+  declare export class WiCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiDayCloudyGusts extends React$Component<IconBaseProps> {}
+  declare export class WiDayCloudyHigh extends React$Component<IconBaseProps> {}
+  declare export class WiDayCloudyWindy extends React$Component<IconBaseProps> {}
+  declare export class WiDayCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiDayFog extends React$Component<IconBaseProps> {}
+  declare export class WiDayHail extends React$Component<IconBaseProps> {}
+  declare export class WiDayHaze extends React$Component<IconBaseProps> {}
+  declare export class WiDayLightWind extends React$Component<IconBaseProps> {}
+  declare export class WiDayLightning extends React$Component<IconBaseProps> {}
+  declare export class WiDayRainMix extends React$Component<IconBaseProps> {}
+  declare export class WiDayRainWind extends React$Component<IconBaseProps> {}
+  declare export class WiDayRain extends React$Component<IconBaseProps> {}
+  declare export class WiDayShowers extends React$Component<IconBaseProps> {}
+  declare export class WiDaySleetStorm extends React$Component<IconBaseProps> {}
+  declare export class WiDaySleet extends React$Component<IconBaseProps> {}
+  declare export class WiDaySnowThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiDaySnowWind extends React$Component<IconBaseProps> {}
+  declare export class WiDaySnow extends React$Component<IconBaseProps> {}
+  declare export class WiDaySprinkle extends React$Component<IconBaseProps> {}
+  declare export class WiDayStormShowers extends React$Component<IconBaseProps> {}
+  declare export class WiDaySunnyOvercast extends React$Component<IconBaseProps> {}
+  declare export class WiDaySunny extends React$Component<IconBaseProps> {}
+  declare export class WiDayThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiDayWindy extends React$Component<IconBaseProps> {}
+  declare export class WiDegrees extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionDownLeft extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionDownRight extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionDown extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionLeft extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionRight extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionUpLeft extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionUpRight extends React$Component<IconBaseProps> {}
+  declare export class WiDirectionUp extends React$Component<IconBaseProps> {}
+  declare export class WiDust extends React$Component<IconBaseProps> {}
+  declare export class WiEarthquake extends React$Component<IconBaseProps> {}
+  declare export class WiFahrenheit extends React$Component<IconBaseProps> {}
+  declare export class WiFire extends React$Component<IconBaseProps> {}
+  declare export class WiFlood extends React$Component<IconBaseProps> {}
+  declare export class WiFog extends React$Component<IconBaseProps> {}
+  declare export class WiGaleWarning extends React$Component<IconBaseProps> {}
+  declare export class WiHail extends React$Component<IconBaseProps> {}
+  declare export class WiHorizonAlt extends React$Component<IconBaseProps> {}
+  declare export class WiHorizon extends React$Component<IconBaseProps> {}
+  declare export class WiHot extends React$Component<IconBaseProps> {}
+  declare export class WiHumidity extends React$Component<IconBaseProps> {}
+  declare export class WiHurricaneWarning extends React$Component<IconBaseProps> {}
+  declare export class WiHurricane extends React$Component<IconBaseProps> {}
+  declare export class WiLightning extends React$Component<IconBaseProps> {}
+  declare export class WiLunarEclipse extends React$Component<IconBaseProps> {}
+  declare export class WiMeteor extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltFirstQuarter extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltFull extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltNew extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltThirdQuarter extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningCrescent6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaningGibbous6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingCrescent6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonAltWaxingGibbous6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonFirstQuarter extends React$Component<IconBaseProps> {}
+  declare export class WiMoonFull extends React$Component<IconBaseProps> {}
+  declare export class WiMoonNew extends React$Component<IconBaseProps> {}
+  declare export class WiMoonThirdQuarter extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningCrescent6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaningGibbous6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingCrescent6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous1 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous2 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous3 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous4 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous5 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonWaxingGibbous6 extends React$Component<IconBaseProps> {}
+  declare export class WiMoonrise extends React$Component<IconBaseProps> {}
+  declare export class WiMoonset extends React$Component<IconBaseProps> {}
+  declare export class WiNa extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltCloudyGusts extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltCloudyHigh extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltCloudyWindy extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltHail extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltLightning extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltPartlyCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltRainMix extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltRainWind extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltRain extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltShowers extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSleetStorm extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSleet extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSnowThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSnowWind extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSnow extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltSprinkle extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltStormShowers extends React$Component<IconBaseProps> {}
+  declare export class WiNightAltThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiNightClear extends React$Component<IconBaseProps> {}
+  declare export class WiNightCloudyGusts extends React$Component<IconBaseProps> {}
+  declare export class WiNightCloudyHigh extends React$Component<IconBaseProps> {}
+  declare export class WiNightCloudyWindy extends React$Component<IconBaseProps> {}
+  declare export class WiNightCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiNightFog extends React$Component<IconBaseProps> {}
+  declare export class WiNightHail extends React$Component<IconBaseProps> {}
+  declare export class WiNightLightning extends React$Component<IconBaseProps> {}
+  declare export class WiNightPartlyCloudy extends React$Component<IconBaseProps> {}
+  declare export class WiNightRainMix extends React$Component<IconBaseProps> {}
+  declare export class WiNightRainWind extends React$Component<IconBaseProps> {}
+  declare export class WiNightRain extends React$Component<IconBaseProps> {}
+  declare export class WiNightShowers extends React$Component<IconBaseProps> {}
+  declare export class WiNightSleetStorm extends React$Component<IconBaseProps> {}
+  declare export class WiNightSleet extends React$Component<IconBaseProps> {}
+  declare export class WiNightSnowThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiNightSnowWind extends React$Component<IconBaseProps> {}
+  declare export class WiNightSnow extends React$Component<IconBaseProps> {}
+  declare export class WiNightSprinkle extends React$Component<IconBaseProps> {}
+  declare export class WiNightStormShowers extends React$Component<IconBaseProps> {}
+  declare export class WiNightThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiRainMix extends React$Component<IconBaseProps> {}
+  declare export class WiRainWind extends React$Component<IconBaseProps> {}
+  declare export class WiRain extends React$Component<IconBaseProps> {}
+  declare export class WiRaindrop extends React$Component<IconBaseProps> {}
+  declare export class WiRaindrops extends React$Component<IconBaseProps> {}
+  declare export class WiRefreshAlt extends React$Component<IconBaseProps> {}
+  declare export class WiRefresh extends React$Component<IconBaseProps> {}
+  declare export class WiSandstorm extends React$Component<IconBaseProps> {}
+  declare export class WiShowers extends React$Component<IconBaseProps> {}
+  declare export class WiSleet extends React$Component<IconBaseProps> {}
+  declare export class WiSmallCraftAdvisory extends React$Component<IconBaseProps> {}
+  declare export class WiSmog extends React$Component<IconBaseProps> {}
+  declare export class WiSmoke extends React$Component<IconBaseProps> {}
+  declare export class WiSnowWind extends React$Component<IconBaseProps> {}
+  declare export class WiSnow extends React$Component<IconBaseProps> {}
+  declare export class WiSnowflakeCold extends React$Component<IconBaseProps> {}
+  declare export class WiSolarEclipse extends React$Component<IconBaseProps> {}
+  declare export class WiSprinkle extends React$Component<IconBaseProps> {}
+  declare export class WiStars extends React$Component<IconBaseProps> {}
+  declare export class WiStormShowers extends React$Component<IconBaseProps> {}
+  declare export class WiStormWarning extends React$Component<IconBaseProps> {}
+  declare export class WiStrongWind extends React$Component<IconBaseProps> {}
+  declare export class WiSunrise extends React$Component<IconBaseProps> {}
+  declare export class WiSunset extends React$Component<IconBaseProps> {}
+  declare export class WiThermometerExterior extends React$Component<IconBaseProps> {}
+  declare export class WiThermometerInternal extends React$Component<IconBaseProps> {}
+  declare export class WiThermometer extends React$Component<IconBaseProps> {}
+  declare export class WiThunderstorm extends React$Component<IconBaseProps> {}
+  declare export class WiTime1 extends React$Component<IconBaseProps> {}
+  declare export class WiTime10 extends React$Component<IconBaseProps> {}
+  declare export class WiTime11 extends React$Component<IconBaseProps> {}
+  declare export class WiTime12 extends React$Component<IconBaseProps> {}
+  declare export class WiTime2 extends React$Component<IconBaseProps> {}
+  declare export class WiTime3 extends React$Component<IconBaseProps> {}
+  declare export class WiTime4 extends React$Component<IconBaseProps> {}
+  declare export class WiTime5 extends React$Component<IconBaseProps> {}
+  declare export class WiTime6 extends React$Component<IconBaseProps> {}
+  declare export class WiTime7 extends React$Component<IconBaseProps> {}
+  declare export class WiTime8 extends React$Component<IconBaseProps> {}
+  declare export class WiTime9 extends React$Component<IconBaseProps> {}
+  declare export class WiTornado extends React$Component<IconBaseProps> {}
+  declare export class WiTrain extends React$Component<IconBaseProps> {}
+  declare export class WiTsunami extends React$Component<IconBaseProps> {}
+  declare export class WiUmbrella extends React$Component<IconBaseProps> {}
+  declare export class WiVolcano extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort0 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort1 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort10 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort11 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort12 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort2 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort3 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort4 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort5 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort6 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort7 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort8 extends React$Component<IconBaseProps> {}
+  declare export class WiWindBeaufort9 extends React$Component<IconBaseProps> {}
+  declare export class WiWindDeg extends React$Component<IconBaseProps> {}
+  declare export class WiWindy extends React$Component<IconBaseProps> {}
 }

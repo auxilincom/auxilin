@@ -31,10 +31,4 @@ const toast = (state: StateType = defaultState, action: ActionType): StateType =
   }
 };
 
-export const getToasterMessages = (state: StateType, filter: string): Array<MessageType> => {
-  return state.messages.filter((message: MessageType): boolean => {
-    return filter === 'all' || filter === message.type;
-  });
-};
-
 export default toast;

@@ -10,11 +10,7 @@ type PropsType = {
   className?: string,
 };
 
-const Column = ({ children, className }: PropsType): React$Node => (
-  <div className={classnames(styles.column, className)}>
-    {children}
-  </div>
-);
+const Column = ({ children, className }: PropsType): React$Node => <div className={classnames(styles.column, className)}>{children}</div>;
 
 Column.defaultProps = {
   className: '',

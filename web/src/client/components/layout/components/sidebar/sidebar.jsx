@@ -34,11 +34,7 @@ class Sidebar extends Component<*> {
   static item(link: LinkType): React$Node {
     return (
       <li key={link.label} className={styles.navLink}>
-        <NavLink
-          to={link.to}
-          exact
-          activeClassName={styles.active}
-        >
+        <NavLink to={link.to} exact activeClassName={styles.active}>
           <link.icon size="24px" className={styles.navLinkIcon} />
           {link.label}
         </NavLink>
@@ -58,9 +54,7 @@ class Sidebar extends Component<*> {
             <Logo />
           </NavLink>
         </div>
-        <ul className={styles.navLinks}>
-          {linkNodes}
-        </ul>
+        <ul className={styles.navLinks}>{linkNodes}</ul>
       </div>
     );
   }

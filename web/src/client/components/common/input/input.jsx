@@ -36,11 +36,7 @@ export default class Input extends Component<PropsType> {
       return null;
     }
 
-    return (
-      <div className={styles.errors}>
-        {_uniq(errors).join(', ')}
-      </div>
-    );
+    return <div className={styles.errors}>{_uniq(errors).join(', ')}</div>;
   }
 
   render(): React$Node {

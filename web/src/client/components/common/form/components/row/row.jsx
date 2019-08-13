@@ -10,11 +10,7 @@ type PropsType = {
   className?: string,
 };
 
-const Row = ({ children, className }: PropsType): React$Node => (
-  <div className={classnames(styles.row, className)}>
-    {children}
-  </div>
-);
+const Row = ({ children, className }: PropsType): React$Node => <div className={classnames(styles.row, className)}>{children}</div>;
 
 Row.defaultProps = {
   className: '',

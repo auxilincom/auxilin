@@ -15,7 +15,7 @@ module.exports = {
       "components": [ "Link" ],
       "specialLink": [ "to" ],
     }],
-    "max-len": ["error", 100, 2, {
+    "max-len": ["error", 150, 2, {
       ignoreUrls: true,
       ignoreComments: false,
       ignoreRegExpLiterals: true,
@@ -28,6 +28,9 @@ module.exports = {
       2,
       { forbidDefaultForRequired: false }
     ],
+    "react/default-props-match-prop-types": ["error", {
+      "allowRequiredDefaults": true
+    }],
     "flowtype/boolean-style": [
       2,
       "boolean"
