@@ -27,7 +27,6 @@ const validateFunc = async (data) => {
     return { errors };
   }
 
-
   return {
     value: {
       userId: user._id,
@@ -37,7 +36,4 @@ const validateFunc = async (data) => {
   };
 };
 
-module.exports = [
-  Joi.validate(schema),
-  validateFunc,
-];
+module.exports = [Joi.validate(schema), validateFunc];

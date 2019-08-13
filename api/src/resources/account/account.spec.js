@@ -30,7 +30,7 @@ describe('/account', () => {
     newUserData = {
       firstName: 'Ivan',
       lastName: 'Balalaikin',
-      email: 'test@test.test',
+      email: 'test@test.com',
       password: 'qwerty',
     };
   });
@@ -49,7 +49,7 @@ describe('/account', () => {
       .send({
         firstName: 'Petr',
         lastName: 'Ivanov',
-        email: 'test@test.test',
+        email: 'test@test.com',
         password: 'qwerty',
       })
       .expect(400)
@@ -62,7 +62,7 @@ describe('/account', () => {
 
   it('should return an error that token is invalid', (done) => {
     request
-      .get('/account/verifyEmail/111')
+      .get('/account/verify-email/111')
       .expect(400)
       .expect(({ body }) => {
         const { errors } = body;
@@ -73,7 +73,7 @@ describe('/account', () => {
 
   it('should successfully verify email', (done) => {
     request
-      .get(`/account/verifyEmail/${user.signupToken}`)
+      .get(`/account/verify-email/${user.signupToken}`)
       .expect(302)
       .end(done);
   });
@@ -82,7 +82,7 @@ describe('/account', () => {
     request
       .post('/account/signin')
       .send({
-        email: 'test@test.com1',
+        email: 'test1@test.com',
         password: 'incorrect_password',
       })
       .expect(400)
@@ -155,7 +155,7 @@ describe('/account', () => {
 
   it('should return an error that the email address is incorrect', (done) => {
     request
-      .post('/account/forgotPassword')
+      .post('/account/forgot-password')
       .send({
         email: 'test@test',
       })
@@ -169,7 +169,7 @@ describe('/account', () => {
 
   it('should successfully send forgot password link', (done) => {
     request
-      .post('/account/forgotPassword')
+      .post('/account/forgot-password')
       .send({
         email: newUserData.email,
       })
@@ -178,23 +178,25 @@ describe('/account', () => {
   });
 
   it('should return an error forgot password email is not registered', (done) => {
-    const email = 'not@registered.user';
+    const email = 'test@notregistereduser.com';
     request
-      .post('/account/forgotPassword')
+      .post('/account/forgot-password')
       .send({
         email,
       })
       .expect(400)
       .expect(({ body }) => {
         const { errors } = body;
-        errors[0].email.should.be.equal(`Couldn't find account associated with ${email}. Please try again`);
+        errors[0].email.should.be.equal(
+          `Couldn't find account associated with ${email}. Please try again`,
+        );
       })
       .end(done);
   });
 
   it('should return an error that reset password token is invalid', (done) => {
     request
-      .put('/account/resetPassword')
+      .put('/account/reset-password')
       .send({
         password: 'qwerty123',
         token: '234',
@@ -209,7 +211,7 @@ describe('/account', () => {
 
   it('should successfully reset old password', (done) => {
     request
-      .put('/account/resetPassword')
+      .put('/account/reset-password')
       .send({
         password: 'new_password',
         token: `${user._id}_reset_password_token`,

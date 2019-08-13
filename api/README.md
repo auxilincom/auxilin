@@ -1,17 +1,17 @@
 # Koa.JS REST api starter
 
-Fully featured [Koa.JS](http://koajs.com/) restful api starter application.
+Fully featured [Koa.JS](https://koajs.com/) restful api starter application.
 The goal of this project is to solve all routine tasks and keep your focus on the product and business logic of the application, not on the common things, such logging, configuration, dev/production environments
 
 Out of the box support following features:
 
 1. Config management.
-2. Configured console logger based on  [common-logger](https://www.npmjs.com/package/@auxilin/common-logger)
-3. Automatic application restart when code changes with [Nodemon](https://github.com/remy/nodemon)
-4. MongoDB configuration
+2. Configured console logger based on  [common-logger](https://www.npmjs.com/package/@auxilin/common-logger).
+3. Automatic application restart when code changes with [Nodemon](https://github.com/remy/nodemon).
+4. MongoDB configuration.
 5. Docker configuration for development and production environments.
-6. Code linting based on [@auxilin/eslint-config](https://github.com/auxilincom/eslint-config)
-7. Simplified request data validation and clean up based on [joi](https://github.com/hapijs/joi)
+6. Code linting based on [@auxilin/eslint-config](https://github.com/auxilincom/eslint-config).
+7. Simplified request data validation and clean up based on [joi](https://github.com/hapijs/joi).
 8. Production ready account API resource (singup, signin, forgot password, reset password functionality)
 9. JWT based authentication.
 10. Tests for endpoints.

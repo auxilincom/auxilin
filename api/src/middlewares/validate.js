@@ -5,9 +5,7 @@ const defaultOptions = {
 };
 
 const validateMiddleware = (validators = [], options = defaultOptions) => async (ctx, next) => {
-  const {
-    throwOnInvalid,
-  } = {
+  const { throwOnInvalid } = {
     ...defaultOptions,
     ...options,
   };

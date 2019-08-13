@@ -23,7 +23,7 @@ describe('validator', () => {
     },
   };
 
-  const noop = () => { };
+  const noop = () => {};
 
   it('should add validatedRequest to ctx', async () => {
     const schema = {
@@ -47,7 +47,6 @@ describe('validator', () => {
       err.message.should.be.equal('400');
     }
   });
-
 
   it('should throw error if validators is not a an function', async () => {
     const ctxMock = _.cloneDeep(ctx);

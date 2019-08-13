@@ -1,16 +1,13 @@
-const jwt = require('koa-jwt');
-
-const config = require('config');
-
-const { urlToken, user } = require('./middlewares');
+const { token, user, auth } = require('./middlewares');
 const publicRoutes = require('./public');
 const authenticatedRoutes = require('./authenticated');
 
 const defineRoutes = (app) => {
+  app.use(token);
+
   publicRoutes(app);
 
-  app.use(urlToken);
-  app.use(jwt(config.jwt));
+  app.use(auth);
   app.use(user);
 
   authenticatedRoutes(app);
