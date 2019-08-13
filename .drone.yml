@@ -95,13 +95,35 @@ kind: pipeline
 name: tests
 
 steps:
-- name: run-test-suite
-  image: compose:1.24.1
-  volumes:
-  - name: docker_sock
-    path: /var/run/docker.sock
+- name: run-landing-tests
+  image: node:10.16.0
   commands:
-  - up -f ./docker-compose.local-tests.yml
+  - chmod +x ./bin/run-test.sh
+  - cd ./landing
+  - ../bin/run-test.sh
+  - cd ../
+  when:
+    event:
+    - pull_request
+
+- name: run-web-tests
+  image: node:10.16.0
+  commands:
+  - chmod +x ./bin/run-test.sh
+  - cd ./web
+  - ../bin/run-test.sh
+  - cd ../
+  when:
+    event:
+    - pull_request
+
+- name: run-api-tests
+  image: node:10.16.0
+  commands:
+  - chmod +x ./bin/run-test.sh
+  - cd ./api
+  - ../bin/run-test.sh
+  - cd ../
   when:
     event:
     - pull_request
@@ -111,11 +133,6 @@ services:
   image: mongo:4.0.10
 - name: redis
   image: redis:5.0.5
-
-volumes:
-- name: docker_sock
-  host:
-    path: /var/run/docker.sock
 
 trigger:
  branch:
