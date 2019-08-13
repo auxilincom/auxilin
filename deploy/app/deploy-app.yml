@@ -3,7 +3,7 @@
   hosts: app
   become: true
   vars_files:
-    - ["vars/credentials.yml"]
+    - ["vars/credentials.yml", "vars/credentials-template.yml"]
     - ["vars/main.yml"]
   tasks:
     - name: Log into DockerHub
@@ -15,7 +15,8 @@
     - name: pull api docker image
       docker_image:
         state: present
-        force: yes
+        source: pull
+        force_source: yes
         name: "auxilinapp/auxilin-api:{{ docker_tag }}"
 
     - name: run api container
@@ -39,7 +40,8 @@
     - name: pull web docker image
       docker_image:
         state: present
-        force: yes
+        source: pull
+        force_source: yes
         name: "auxilinapp/auxilin-web:{{ docker_tag }}"
 
     - name: run web container
@@ -61,7 +63,8 @@
     - name: pull landing docker image
       docker_image:
         state: present
-        force: yes
+        source: pull
+        force_source: yes
         name: "auxilinapp/auxilin-landing:{{ docker_tag }}"
 
     - name: run landing container

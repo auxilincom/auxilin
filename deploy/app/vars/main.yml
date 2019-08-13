@@ -29,7 +29,7 @@ server_setup_letsencrypt_ssl: true
 server_setup_ssl: false
 
 # Letsencrypt variables
-certbot_version: v0.27.1
+certbot_version: v0.36.0
 email: launch@auxilin.com
 use_dns_plugin: true
 domains_list:

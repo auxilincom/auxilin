@@ -2,7 +2,7 @@ version: '3.3'
 services:
   mongo:
     command: mongod
-    image: mongo:4.0.4
+    image: mongo:4.0.10
     networks:
       - auxilin
     ports:
@@ -11,7 +11,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
   redis:
     command: redis
-    image: redis:5.0.1
+    image: redis:5.0.5
     command: ["redis-server", "--appendonly", "yes"]
     hostname: redis
     networks:
@@ -28,6 +28,7 @@ services:
       - "3001:3001"
     depends_on:
       - mongo
+      - redis
     networks:
       - auxilin
   web:
@@ -37,7 +38,6 @@ services:
     volumes:
       - "./web/src:/app/src"
     depends_on:
-      - redis
       - api
     networks:
       - auxilin

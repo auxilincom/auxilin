@@ -1,70 +1,124 @@
-pipeline:
-  run-test-suite:
-    image: stefanotorresi/docker-compose:latest
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    commands:
-      - chmod +x ./bin/drone-run-tests.sh
-      - ./bin/drone-run-tests.sh api-tests
-    when:
-      event: [pull_request]
+---
+kind: pipeline
+name: publish
 
-  publish-api-docker:
-    image: plugins/docker
-    secrets: [ docker_username, docker_password ]
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    repo: auxilinapp/auxilin-api
-    tags:
-      - latest
-      - ${DRONE_BRANCH}
+steps:
+- name: publish-api-docker
+  image: plugins/docker
+  settings:
     dockerfile: ./api/Dockerfile
     context: ./api
-    when:
-      branch: ["master", "production"]
-      event: [push]
-
-  publish-web-docker:
-    image: plugins/docker
-    secrets: [ docker_username, docker_password ]
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    repo: auxilinapp/auxilin-web
+    purge: true
+    repo: auxilinapp/auxilin-api
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
     tags:
-      - latest
-      - ${DRONE_BRANCH}
+    - latest
+    - ${DRONE_BRANCH}
+  when:
+    event:
+    - push
+
+- name: publish-web-docker
+  image: plugins/docker
+  settings:
     dockerfile: ./web/Dockerfile
     context: ./web
-    when:
-      branch: ["master", "production"]
-      event: [push]
-
-  publish-landing-docker:
-    image: plugins/docker
-    secrets: [ docker_username, docker_password ]
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    repo: auxilinapp/auxilin-landing
+    purge: true
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    repo: auxilinapp/auxilin-web
     tags:
-      - latest
-      - ${DRONE_BRANCH}
+    - latest
+    - ${DRONE_BRANCH}
+  when:
+    event:
+    - push
+
+- name: publish-landing-docker
+  image: plugins/docker
+  settings:
     dockerfile: ./landing/Dockerfile
     context: ./landing
-    when:
-      branch: ["master", "production"]
-      event: [push]
+    purge: true
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    repo: auxilinapp/auxilin-landing
+    tags:
+    - latest
+    - ${DRONE_BRANCH}
+  when:
+    event:
+    - push
 
-  deploy-staging-app:
-    image: williamyeh/ansible:ubuntu16.04
-    secrets: [ ssh_key, docker_username, docker_password, docker_email, mailgun_api_key, mailgun_domain ]
-    commands:
-      - mkdir -p ~/.ssh/
-      - echo -n "$SSH_KEY" >> ~/.ssh/id_rsa_app && chmod 600 ~/.ssh/id_rsa_app
-      - cp ./deploy/app/vars/credentials-template.yml ./deploy/app/vars/credentials.yml
-      - chmod +x ./deploy/app/bin/deploy-staging.sh
-      - cd ./deploy/app && ./bin/deploy-staging.sh --private-key ~/.ssh/id_rsa_app --extra-vars "docker_tag=latest docker_registry_username=$DOCKER_USERNAME docker_registry_password=$DOCKER_PASSWORD docker_registry_email=$DOCKER_EMAIL mailgun_api_key=$MAILGUN_API_KEY mailgun_domain=$MAILGUN_DOMAIN"
-    when:
-      branch: ["master"]
-      event: [push]
+- name: deploy-staging-app
+  image: plugins/ansible
+  commands:
+  - cp ./deploy/app/vars/credentials-template.yml ./deploy/app/vars/credentials.yml
+  settings:
+    playbook: ./deploy/app/deploy-app.yml
+    inventory: ./deploy/app/hosts/staging
+    private_key:
+      from_secret: ansible_private_key
+    extra_vars:
+      - docker_tag: latest
+      docker_registry_username:
+        from_secret: docker_username
+      docker_registry_password:
+        from_secret: docker_password
+      docker_registry_email:
+        from_secret: docker_email
+      mailgun_api_key:
+        from_secret: mailgun_api_key
+      mailgun_domain:
+        from_secret: mailgun_domain
+  when:
+    event:
+    - push
+    status:
+    - success
 
-branches: [ master, production, "*:master" ]
+trigger:
+  branch:
+  - master
+  event:
+  - push
+
+---
+kind: pipeline
+name: tests
+
+steps:
+- name: run-test-suite
+  image: compose:1.24.1
+  volumes:
+  - name: docker_sock
+    path: /var/run/docker.sock
+  commands:
+  - up -f ./docker-compose.local-tests.yml
+  when:
+    event:
+    - pull_request
+
+services:
+- name: mongo
+  image: mongo:4.0.10
+- name: redis
+  image: redis:5.0.5
+
+volumes:
+- name: docker_sock
+  host:
+    path: /var/run/docker.sock
+
+trigger:
+ branch:
+ - master
+ event:
+ - pull_request

@@ -21,16 +21,17 @@
     - name: pull redis docker image
       docker_image:
         state: present
-        force: yes
-        name: "redis:5.0.1"
-        tag: "5.0.1"
+        source: pull
+        force_source: yes
+        name: "redis:5.0.5"
+        tag: "5.0.5"
       tags:
         - redis
 
     - name: run redis using docker
       docker_container:
         name: redis
-        image: redis:5.0.1
+        image: redis:5.0.5
         command: ["redis-server", "--appendonly", "yes"]
         state: started
         restart_policy: always
@@ -46,16 +47,17 @@
     - name: pull mongo docker image
       docker_image:
         state: present
-        force: yes
-        name: "mongo:4.0.4"
-        tag: "4.0.4"
+        source: pull
+        force_source: yes
+        name: "mongo:4.0.10"
+        tag: "4.0.10"
       tags:
         - mongo
 
     - name: run mongo using docker
       docker_container:
         name: mongo
-        image: mongo:4.0.4
+        image: mongo:4.0.10
         command: mongod
         state: started
         restart_policy: always
