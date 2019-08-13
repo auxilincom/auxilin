@@ -67,7 +67,7 @@ steps:
     private_key:
       from_secret: ansible_private_key
     extra_vars:
-      - docker_tag: latest
+      docker_tag: latest
       docker_registry_username:
         from_secret: docker_username
       docker_registry_password:
