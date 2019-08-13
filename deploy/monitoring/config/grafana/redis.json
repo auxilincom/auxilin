@@ -74,7 +74,7 @@
             "#511749",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Redis Version",
           "format": "none",
           "gauge": {
@@ -191,7 +191,7 @@
             "#0a50a1",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Redis Up Time",
           "format": "dthms",
           "gauge": {
@@ -308,7 +308,7 @@
             "rgb(67, 154, 41)",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "decimals": null,
           "description": "Redis Used Memory",
           "format": "none",
@@ -432,7 +432,7 @@
             "#511749",
             "#e0752d"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Number of commands processed per second",
           "format": "none",
           "gauge": {
@@ -555,7 +555,7 @@
             "#bf1b00",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total Clients Connected",
           "format": "none",
           "gauge": {
@@ -678,7 +678,7 @@
             "#58140c",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total Commands Processed",
           "format": "none",
           "gauge": {
@@ -801,7 +801,7 @@
             "#511749",
             "#d44a3a"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total Clusters Enabled",
           "format": "none",
           "gauge": {
@@ -937,7 +937,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "System CPU consumed by the Redis server",
           "fill": 1,
           "gridPos": {
@@ -1067,7 +1067,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "User CPU consumed by the Redis server",
           "fill": 1,
           "gridPos": {
@@ -1210,7 +1210,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total number of connections accepted by the server",
           "fill": 1,
           "gridPos": {
@@ -1340,7 +1340,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total number of commands processed by the server",
           "fill": 1,
           "gridPos": {
@@ -1470,7 +1470,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Number of commands processed per second",
           "fill": 1,
           "gridPos": {
@@ -1600,7 +1600,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Number of connections rejected because of maxclients limit",
           "fill": 1,
           "gridPos": {
@@ -1730,7 +1730,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "The total number of bytes read from the network",
           "fill": 1,
           "gridPos": {
@@ -1865,7 +1865,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "The total number of bytes written to the network",
           "fill": 1,
           "gridPos": {
@@ -2013,7 +2013,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Total number of bytes allocated by Redis using its allocator",
           "fill": 1,
           "gridPos": {
@@ -2143,7 +2143,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Peak memory consumed by Redis (in bytes)",
           "fill": 1,
           "gridPos": {
@@ -2273,7 +2273,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Number of bytes used by the Lua engine",
           "fill": 1,
           "gridPos": {
@@ -2405,7 +2405,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "description": "Number of bytes that Redis allocated as seen by the operating system (a.k.a resident set size). This is the number reported by tools such as top(1) and ps(1)",
           "fill": 1,
           "gridPos": {
@@ -2543,7 +2543,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "{{data_source_name}}",
+        "datasource": "{{ data_source_name }}",
         "hide": 0,
         "includeAll": false,
         "label": "Host",
@@ -2563,7 +2563,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "{{data_source_name}}",
+        "datasource": "{{ data_source_name }}",
         "hide": 0,
         "includeAll": false,
         "label": "Server",
@@ -2583,7 +2583,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "{{data_source_name}}",
+        "datasource": "{{ data_source_name }}",
         "hide": 0,
         "includeAll": false,
         "label": "Instance",

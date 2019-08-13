@@ -59,7 +59,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -170,7 +170,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "format": "decmbytes",
           "gauge": {
             "maxValue": 100,
@@ -286,7 +286,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 2,
           "legend": {
@@ -624,7 +624,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "decimals": 0,
           "fill": 1,
           "id": 1,
@@ -863,7 +863,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 8,
           "legend": {
@@ -1027,7 +1027,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 3,
           "legend": {
@@ -1179,7 +1179,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 7,
           "legend": {
@@ -1343,7 +1343,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 6,
           "legend": {
@@ -1595,7 +1595,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "{{data_source_name}}",
+        "datasource": "{{ data_source_name }}",
         "hide": 0,
         "includeAll": false,
         "label": "host",

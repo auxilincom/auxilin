@@ -3,14 +3,14 @@ apiVersion: 1
 
 # list of datasources that should be deleted from the database
 deleteDatasources:
-  - name: {{data_source_name}}
+  - name: {{ data_source_name }}
     orgId: 1
 
 # list of datasources to insert/update depending
 # whats available in the database
 datasources:
   # <string, required> name of the datasource. Required
-- name: {{data_source_name}}
+- name: {{ data_source_name }}
   # <string, required> datasource type. Required
   type: influxdb
   # <string, required> access mode. direct or proxy. Required
@@ -20,11 +20,11 @@ datasources:
   # <string> url
   url: http://influxdb:8086
   # <string> database password, if used
-  password: {{influx_read_user_password}}
+  password: {{ influx_read_user_password }}
   # <string> database user, if used
-  user: {{influx_read_user}}
+  user: {{ influx_read_user }}
   # <string> database name, if used
-  database: {{influx_db_name}}
+  database: {{ influx_db_name }}
   # <bool> enable/disable basic auth
   basicAuth:
   # <string> basic auth username

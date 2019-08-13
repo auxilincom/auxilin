@@ -8,7 +8,7 @@
     - "vars/credentials.yml"
   tasks:
     - name: Assures directories exists
-      file: path="{{item}}" state=directory owner=root group=root
+      file: path="{{ item }}" state=directory owner=root group=root
       with_items:
         - "/etc/grafana/provisioning/dashboards"
         - "/etc/grafana/provisioning/datasources"
@@ -39,8 +39,8 @@
         - grafana
 
     - name: Copy dashboard
-      template: src="./config/grafana/{{item}}.json"
-                dest="/var/lib/grafana/dashboards/{{item}}.json"
+      template: src="./config/grafana/{{ item }}.json"
+                dest="/var/lib/grafana/dashboards/{{ item }}.json"
                 owner=root
                 group=root
       with_items:
@@ -62,16 +62,17 @@
     - name: "Pull PostgreSQL docker image"
       docker_image:
         state: present
-        force: yes
-        name: "postgres:11.1"
-        tag: "11.1"
+        source: pull
+        force_source: yes
+        name: "postgres:11.3"
+        tag: "11.3"
       tags:
         - postgres
 
     - name: "Launch PostgreSQL container"
       docker_container:
         name: postgres
-        image: postgres:11.1
+        image: postgres:11.3
         state: started
         restart_policy: always
         ports:
@@ -81,29 +82,48 @@
         volumes:
           - /var/lib/postgresql/data:/var/lib/postgresql/data
         env:
-          POSTGRES_USER: "{{postgres_user}}"
-          POSTGRES_PASSWORD: "{{postgres_password}}"
-          POSTGRES_DB: "{{postgres_db_name}}"
+          POSTGRES_USER: "{{ postgres_user }}"
+          POSTGRES_PASSWORD: "{{ postgres_password }}"
       tags:
         - postgres
 
     - name: "Pull Grafana docker image"
       docker_image:
         state: present
-        force: yes
-        name: "grafana/grafana:5.3.2"
-        tag: "5.3.2"
+        source: pull
+        force_source: yes
+        name: "grafana/grafana:6.2.5"
+        tag: "6.2.5"
       tags:
         - grafana
+
+    - name: Make sure psycopg2 is installed
+      apt:
+        name:
+          - python3-psycopg2
+          - python-psycopg2
+        state: latest
+      tags:
+        - postgres
+
+    - name: create postgres database
+      postgresql_db:
+        login_host: "localhost"
+        login_password: "{{ postgres_password }}"
+        login_user: "{{ postgres_user }}"
+        name: "{{ postgres_db_name }}"
+        port: "5432"
+      tags:
+        - postgres
 
     - name: "Launch Grafana container"
       docker_container:
         name: grafana
-        image: grafana/grafana:5.3.2
+        image: grafana/grafana:6.2.5
         state: started
         restart_policy: always
         ports:
-          - "3000:3300"
+          - "3300:3000"
         networks:
           - name: "{{ monitoring_network_name }}"
         volumes:
@@ -111,7 +131,7 @@
           - /etc/grafana:/etc/grafana
           - /var/log/grafana:/var/log/grafana
         env:
-          GF_SECURITY_ADMIN_USER: "{{gf_admin_user}}"
-          GF_SECURITY_ADMIN_PASSWORD: "{{gf_admin_password}}"
+          GF_SECURITY_ADMIN_USER: "{{ gf_admin_user }}"
+          GF_SECURITY_ADMIN_PASSWORD: "{{ gf_admin_password }}"
       tags:
         - grafana
