@@ -5,11 +5,7 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    main: [
-      '@babel/polyfill',
-      'react-hot-loader/patch',
-      './index.jsx',
-    ],
+    main: ['core-js/stable', 'regenerator-runtime/runtime', './index.jsx'],
   },
 
   output: {
@@ -34,13 +30,36 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
               importLoaders: 1,
-              camelCase: true,
-              localIdentName: '[local]_[hash:base64:5]',
+              localsConvention: 'dashesOnly',
+              modules: {
+                localIdentName: '[local]__[hash:base64:5]',
+              },
             },
           },
           { loader: 'postcss-loader' },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: 'react-svg-loader',
+            options: {
+              jsx: true, // true outputs JSX tags
+              svgo: {
+                plugins: [
+                  {
+                    removeViewBox: false,
+                    cleanupIDs: false,
+                  },
+                ],
+              },
+            },
+          },
         ],
       },
     ],
@@ -52,8 +71,7 @@ module.exports = {
     modules: ['./', 'node_modules'],
     extensions: ['.mjs', '.js', '.jsx', '.pcss'],
     alias: {
-      // temp solution [issue](https://github.com/jquense/yup/issues/273)
-      '@babel/runtime/helpers/builtin': path.resolve('./node_modules/@babel/runtime/helpers'),
+      'react-dom': '@hot-loader/react-dom',
     },
   },
 

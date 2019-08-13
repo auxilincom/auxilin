@@ -1,6 +1,10 @@
 const config = require('config');
-const { createConsoleLogger } = require('@auxilin/common-logger');
+const { createConsoleLogger, format } = require('@auxilin/common-logger');
 
-module.exports = createConsoleLogger({
-  isDev: config.isDev,
-});
+module.exports = createConsoleLogger(
+  config.isDev
+    ? {
+      format: format.combine(format.colorize(), format.splat(), format.simple()),
+    }
+    : {},
+);

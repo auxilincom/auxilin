@@ -1,7 +1,9 @@
-const urlToken = require('./urlToken.middleware');
+const token = require('./token.middleware');
 const user = require('./user.middleware');
+const auth = require('./auth.middleware');
 
 module.exports = {
-  urlToken,
+  token,
   user,
+  auth,
 };

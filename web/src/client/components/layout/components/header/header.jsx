@@ -10,11 +10,7 @@ import UserMenu from './components/user-menu';
 
 import styles from './header.styles.pcss';
 
-const renderPageTitle = (title: string): React$Node => (
-  <span className={styles.title}>
-    {title}
-  </span>
-);
+const renderPageTitle = (title: string): React$Node => <span className={styles.title}>{title}</span>;
 
 const Header = (): React$Node => {
   return (

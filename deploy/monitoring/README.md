@@ -55,16 +55,16 @@ Deployment to remote server is done using [Ansible](https://www.ansible.com/) - 
     * unix:///var/run/redis.sock
 
 Once you done all above, run the following command:
-```
-./bin/setup-server.sh && ./bin/deploy-influxdb.sh && ./bin/deploy-grafana.sh ./bin/deploy-nginx.sh
+```bash
+$ ./bin/setup-server.sh && ./bin/deploy-influxdb.sh && ./bin/deploy-grafana.sh ./bin/deploy-nginx.sh
 ```
 
 ### Setting up Telegraf to collect data
 
 If you would like to install telegraf - just run following command:
 
-```
-./bin/deploy-telegraf.sh
+```bash
+$ ./bin/deploy-telegraf.sh
 ```
 
 ### License

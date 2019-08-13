@@ -13,15 +13,7 @@ export const sizes = {
 
 /* eslint-disable */
 
-const Button = ({
-  className,
-  isLoading,
-  action,
-  state,
-  size,
-  children,
-  type,
-}) => {
+const Button = ({ className, isLoading, action, state, size, children, type }) => {
   return (
     <button
       type={type}
@@ -43,7 +35,7 @@ Button.propTypes = {
   children: PropTypes.node,
   state: PropTypes.string,
   size: PropTypes.string,
-  type: PropTypes.oneOf(['button', 'submit', 'reset'])
+  type: PropTypes.oneOf(['button', 'submit', 'reset']),
 };
 
 Button.defaultProps = {

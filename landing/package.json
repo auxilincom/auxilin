@@ -1,6 +1,6 @@
 {
   "name": "nextjs-landing-starter",
-  "version": "0.3.2",
+  "version": "0.6.0",
   "description": "Common landing website starter driven by next.js",
   "main": "src/server/app.js",
   "author": "Auxilin",
@@ -16,47 +16,52 @@
     "type": "git",
     "url": "https://github.com/auxilincom/nextjs-landing-starter"
   },
+  "engines": {
+    "node": ">= 8.9.0"
+  },
   "scripts": {
     "development": "npm run next-server",
     "start": "npm run next-server",
     "next-server": "node ./src/server/app.js",
     "test": "run-s test:**",
     "test:eslint": "eslint src/**/*.js src/**/*.jsx",
-    "test:lint-styles": "stylelint \"src/client/**/*.pcss\""
+    "test:lint-styles": "stylelint \"src/client/**/*.pcss\"",
+    "format": "prettier-eslint --write \"src/**/*.?(js|jsx)\""
   },
   "dependencies": {
-    "@auxilin/common-logger": "0.3.1",
-    "axios": "0.18.0",
+    "@auxilin/common-logger": "0.4.0",
+    "axios": "0.19.0",
     "classnames": "2.2.6",
     "cssnano": "4.1.10",
-    "extract-css-chunks-webpack-plugin": "4.1.1",
-    "find-up": "3.0.0",
-    "lodash": "4.17.11",
-    "next": "8.0.3",
+    "extract-css-chunks-webpack-plugin": "4.5.6",
+    "find-up": "4.1.0",
+    "lodash": "4.17.15",
+    "next": "9.0.2",
     "normalize.css": "8.0.1",
     "npm-run-all": "4.1.5",
-    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
     "postcss-import": "12.0.1",
     "postcss-nested": "4.1.2",
-    "postcss-preset-env": "6.6.0",
+    "postcss-preset-env": "6.7.0",
     "prop-types": "15.7.2",
-    "react": "16.8.0",
-    "react-dom": "16.8.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-icon-base": "2.1.2",
-    "stylelint": "9.10.1",
-    "stylelint-config-standard": "18.2.0"
+    "stylelint": "10.1.0",
+    "stylelint-config-standard": "18.3.0"
   },
   "devDependencies": {
     "@auxilin/eslint-config": "0.1.1",
-    "babel-eslint": "10.0.1",
-    "babel-plugin-inline-react-svg": "1.0.1",
+    "babel-eslint": "10.0.2",
     "babel-plugin-module-resolver": "3.2.0",
-    "css-loader": "2.1.1",
-    "eslint": "5.15.3",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.12.4",
+    "css-loader": "3.1.0",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
     "extracted-loader": "1.0.7",
-    "postcss-loader": "3.0.0"
+    "postcss-loader": "3.0.0",
+    "prettier-eslint-cli": "5.0.0",
+    "react-svg-loader": "3.0.3"
   }
 }

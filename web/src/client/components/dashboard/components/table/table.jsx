@@ -12,7 +12,6 @@ const tableColors = {
   orange: 'orange',
 };
 
-
 type ColorType = 'purple' | 'green' | 'blue' | 'orange';
 
 type PropsType = {
@@ -30,53 +29,39 @@ class Table extends Component<PropsType> {
     headerDescription: '',
     className: '',
     color: 'green',
-  }
+  };
 
   static tableColors = tableColors;
 
   render(): React$Node {
     const {
-      className,
-      headerTitle,
-      headerDescription,
-      color,
-      columns,
-      rows,
-      keyIndex,
+      className, headerTitle, headerDescription, color, columns, rows, keyIndex,
     } = this.props;
 
     return (
       <div className={classnames(styles.tableComponent, className)}>
         <div className={classnames(styles.tableHeader, styles[color])}>
-          <span className={styles.headerTitle}>
-            {headerTitle}
-          </span>
-          <span className={styles.headerDescription}>
-            {headerDescription}
-          </span>
+          <span className={styles.headerTitle}>{headerTitle}</span>
+          <span className={styles.headerDescription}>{headerDescription}</span>
         </div>
         <table className={classnames(styles.table, styles[color])} cellPadding="0" cellSpacing="0">
           <thead>
             <tr>
-              {columns.map((column: string): React$Node => (<td key={column}>{column}</td>))}
+              {columns.map((column: string): React$Node => (
+                <td key={column}>{column}</td>
+              ))}
             </tr>
           </thead>
           <tbody>
-            {
-              rows.map((row: Array<string>): React$Node => {
-                return (
-                  <tr key={row[keyIndex]}>
-                    {
-                      row.map(
-                        (value: string, index: number): React$Node => (
-                          <td key={`${row[keyIndex]}_${columns[index]}`}>{value}</td>
-                        ),
-                      )
-                    }
-                  </tr>
-                );
-              })
-            }
+            {rows.map((row: Array<string>): React$Node => {
+              return (
+                <tr key={row[keyIndex]}>
+                  {row.map((value: string, index: number): React$Node => (
+                    <td key={`${row[keyIndex]}_${columns[index]}`}>{value}</td>
+                  ))}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

@@ -4,7 +4,7 @@ import { combineReducers } from 'redux';
 import { connectRouter } from 'connected-react-router';
 
 import type { CombinedReducer } from 'redux';
-import type { BrowserHistory } from 'history/createBrowserHistory';
+import type { BrowserHistory } from 'history';
 
 import type { StateType, ActionType } from './types';
 

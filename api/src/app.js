@@ -1,5 +1,5 @@
 // allows require modules relative to /src folder
-// for example: require('lib/mongo/idGenerator')
+// for example: require('helpers/validator')
 // all options can be found here: https://gist.github.com/branneman/8048520
 require('app-module-path').addPath(__dirname);
 global.logger = require('logger');

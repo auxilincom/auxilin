@@ -5,15 +5,15 @@ nginx_main_template_worker_processes: 2
 nginx_main_template_worker_connections: 1024
 nginx_http_template_enable: true
 
-server_setup_ssl: false
-server_setup_letsencrypt_ssl: true
+server_setup_ssl: no
+server_setup_letsencrypt_ssl: yes
 
-server_ssl_key_path: "/etc/letsencrypt/live/demo-monitor.auxilin.com/fullchain.pem"
-server_ssl_cert_path: "/etc/letsencrypt/live/demo-monitor.auxilin.com/privkey.pem"
+server_ssl_key_path: "/etc/letsencrypt/live/auxilin.com/fullchain.pem"
+server_ssl_cert_path: "/etc/letsencrypt/live/auxilin.com/privkey.pem"
 server_ssl_dhparams: "/etc/nginx/dhparams.pem"
 
 # Letsencrypt variables
-certbot_version: v0.27.1
+certbot_version: v0.30.2
 email: launch@auxilin.com
 domains_list:
   - "demo-monitor.auxilin.com"

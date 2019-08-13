@@ -14,10 +14,7 @@ describe('validator', () => {
   });
 
   it('should return the value from the last validator', async () => {
-    const validators = [
-      () => ({ value: 1 }),
-      () => ({ value: 2 }),
-    ];
+    const validators = [() => ({ value: 1 }), () => ({ value: 2 })];
 
     const validationResult = await validate({}, validators);
     validationResult.should.be.deep.equal({

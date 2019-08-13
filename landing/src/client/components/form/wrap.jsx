@@ -5,11 +5,7 @@ import classnames from 'classnames';
 import styles from './styles.pcss';
 
 const Wrap = ({ children, className }) => {
-  return (
-    <div className={classnames(styles.wrap, className)}>
-      {children}
-    </div>
-  );
+  return <div className={classnames(styles.wrap, className)}>{children}</div>;
 };
 
 Wrap.propTypes = {

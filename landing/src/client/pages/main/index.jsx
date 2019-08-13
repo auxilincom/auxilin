@@ -13,9 +13,7 @@ import Video from './components/video';
 import Pics from './components/pics';
 
 const Green = ({ children }) => {
-  return (
-    <span className={styles.green}>{children}</span>
-  );
+  return <span className={styles.green}>{children}</span>;
 };
 
 Green.propTypes = {
@@ -60,9 +58,7 @@ export default () => (
     </Layout.Section>
     <Layout.Section className={styles.clients} isNoBorder>
       <div className={styles.leftSide}>
-        <h1 className={classnames(styles.title, styles.right, styles.large)}>
-          {'Clients speak'}
-        </h1>
+        <h1 className={classnames(styles.title, styles.right, styles.large)}>Clients speak</h1>
       </div>
       <div className={styles.rightSide}>
         <p className={classnames(styles.subtitle, styles.short, styles.quote)}>
@@ -70,11 +66,7 @@ export default () => (
           Keep up great work.`}
         </p>
         <div className={styles.client}>
-          <img
-            src="/static/andrew.jpeg"
-            alt="client"
-            className={styles.clientPhoto}
-          />
+          <img src="/static/andrew.jpeg" alt="client" className={styles.clientPhoto} />
           <p className={classnames(styles.subtitle, styles.short, styles.bold)}>
             {'Andrew, CEO at Maqpie'}
           </p>
@@ -90,11 +82,7 @@ export default () => (
       </div>
       <div className={styles.rightSide}>
         <div className={styles.center}>
-          <ButtonLink
-            className={styles.button}
-            href="/signup"
-            state={states.green}
-          >
+          <ButtonLink className={styles.button} href="/signup" state={states.green}>
             {'Get started for free'}
           </ButtonLink>
         </div>

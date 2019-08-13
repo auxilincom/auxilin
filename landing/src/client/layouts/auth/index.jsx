@@ -7,9 +7,7 @@ import styles from './styles.pcss';
 const Auth = ({ children, className }) => {
   return (
     <div className={styles.page}>
-      <div className={classnames(styles.panel, className)}>
-        {children}
-      </div>
+      <div className={classnames(styles.panel, className)}>{children}</div>
     </div>
   );
 };

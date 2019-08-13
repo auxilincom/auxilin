@@ -18,7 +18,7 @@ const schema = {
       },
     }),
   email: Joi.string()
-    .email({ minDomainAtoms: 2 })
+    .email({ minDomainSegments: 2 })
     .trim()
     .lowercase()
     .options({
@@ -52,14 +52,10 @@ const validateFunc = async (data) => {
     };
   }
 
-
   return {
     value: data,
     errors,
   };
 };
 
-module.exports = [
-  Joi.validate(schema),
-  validateFunc,
-];
+module.exports = [Joi.validate(schema), validateFunc];

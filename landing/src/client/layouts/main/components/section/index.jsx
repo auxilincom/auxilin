@@ -5,10 +5,7 @@ import classnames from 'classnames';
 import styles from './styles.pcss';
 
 const Section = ({
-  children,
-  className,
-  isNoBorder,
-  isWithShadow,
+  children, className, isNoBorder, isWithShadow,
 }) => {
   const cx = {
     [styles.noBorder]: isNoBorder,
@@ -33,6 +30,5 @@ Section.defaultProps = {
   isNoBorder: false,
   isWithShadow: false,
 };
-
 
 export default Section;

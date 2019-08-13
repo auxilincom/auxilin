@@ -16,9 +16,15 @@ let base = {
     secret: 'jwt_secret',
     audience: 'api',
     issuer: 'api',
+    expiresIn: 3600 * 1000, // 1 hour
+    refreshTokenExpiresIn: 3600 * 1000 * 10, // 10 hours
   },
   mongo: {
     connection: 'mongodb://localhost:27017/api',
+  },
+  redis: {
+    host: 'redis',
+    port: 6379,
   },
   mailgun: {
     apiKey: 'key',

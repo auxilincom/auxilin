@@ -13,10 +13,9 @@ export default (err) => {
         let errorText = '';
 
         err.data.errors.forEach((e) => {
-          Object.values(e)
-            .forEach((errorValue) => {
-              errorText += `${errorValue}\n`;
-            });
+          Object.values(e).forEach((errorValue) => {
+            errorText += `${errorValue}\n`;
+          });
         });
 
         return errorText;

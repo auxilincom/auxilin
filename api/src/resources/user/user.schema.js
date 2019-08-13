@@ -1,11 +1,11 @@
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 
 const userSchema = {
   _id: Joi.string(),
   createdOn: Joi.date(),
   firstName: Joi.string().allow(''),
   lastName: Joi.string(),
-  email: Joi.string().email({ minDomainAtoms: 2 }),
+  email: Joi.string().email({ minDomainSegments: 2 }),
   passwordHash: Joi.string(),
   passwordSalt: Joi.string(),
   signupToken: Joi.string(),

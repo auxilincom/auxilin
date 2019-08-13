@@ -8,7 +8,7 @@ import styles from './styles.pcss';
 class VideoPage extends React.PureComponent {
   state = {
     isShowVideo: false,
-  }
+  };
 
   setVideoSizeByDOMElement = (elem) => {
     if (elem === null) {
@@ -21,15 +21,15 @@ class VideoPage extends React.PureComponent {
         width: elem.scrollWidth,
       });
     }
-  }
+  };
 
   showVideo = () => {
     this.setState({ isShowVideo: true });
-  }
+  };
 
   hideVideo = () => {
     this.setState({ isShowVideo: false });
-  }
+  };
 
   render() {
     const { isShowVideo, width, height } = this.state;

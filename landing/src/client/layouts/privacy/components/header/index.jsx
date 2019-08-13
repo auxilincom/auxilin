@@ -17,9 +17,7 @@ class Header extends Component {
 
   isActiveLink(href) {
     const {
-      router: {
-        pathname,
-      },
+      router: { pathname },
     } = this.props;
     return pathname === href;
   }
@@ -29,7 +27,9 @@ class Header extends Component {
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <Link prefetch href="/">
-            <a href="/"><Logo width={100} /></a>
+            <a href="/">
+              <Logo width={100} />
+            </a>
           </Link>
         </div>
 

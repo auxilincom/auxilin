@@ -20,21 +20,24 @@ const getValidators = (validators = []) => {
 
 module.exports.validate = (payload, validators = []) => {
   const persistentData = payload[Symbols.PERSISTENT];
-  return getValidators(validators).reduce(async (result, validator) => {
-    const data = await result;
+  return getValidators(validators).reduce(
+    async (result, validator) => {
+      const data = await result;
 
-    if (data.errors.length) {
-      return data;
-    }
+      if (data.errors.length) {
+        return data;
+      }
 
-    const validationResult = await validator(data.value, persistentData);
+      const validationResult = await validator(data.value, persistentData);
 
-    return {
-      errors: validationResult.errors || [],
-      value: validationResult.value,
-    };
-  }, {
-    errors: [],
-    value: payload,
-  });
+      return {
+        errors: validationResult.errors || [],
+        value: validationResult.value,
+      };
+    },
+    {
+      errors: [],
+      value: payload,
+    },
+  );
 };

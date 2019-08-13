@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import Link from 'next/link';
-import getConfig from 'next/config';
 
 import Error from '~/components/error';
 import Button from '~/components/button';
@@ -15,10 +14,6 @@ import { setFormValue } from '~/helpers';
 import { signin } from '~/resources/account/account.api';
 
 import styles from './styles.pcss';
-
-const {
-  publicRuntimeConfig: { webUrl },
-} = getConfig();
 
 export default class Signin extends PureComponent {
   constructor(props) {
@@ -42,10 +37,7 @@ export default class Signin extends PureComponent {
   async submitSignin(event) {
     event.preventDefault();
 
-    const {
-      email,
-      password,
-    } = this.state;
+    const { email, password } = this.state;
 
     try {
       this.setState({ isLoading: true });
@@ -54,7 +46,7 @@ export default class Signin extends PureComponent {
         password,
       });
 
-      window.location.href = `${webUrl}?token=${response.token}`;
+      window.location.href = response.redirectUrl;
     } catch (error) {
       this.setState({ error });
     } finally {
@@ -64,10 +56,7 @@ export default class Signin extends PureComponent {
 
   render() {
     const {
-      email,
-      password,
-      error,
-      isLoading,
+      email, password, error, isLoading,
     } = this.state;
 
     return (
@@ -118,9 +107,7 @@ export default class Signin extends PureComponent {
 
               <div className={styles.signup}>
                 <Link href="/signup">
-                  <a href="/signup">
-                    {"Don't have an account? Sign Up"}
-                  </a>
+                  <a href="/signup">Don&apos;t have an account? Sign Up</a>
                 </Link>
               </div>
             </Form>

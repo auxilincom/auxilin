@@ -23,23 +23,16 @@ const Header = ({ state }) => (
         </div>
         <div className={styles.item}>
           <ul className={styles.links}>
-            <li className={styles.link}>
-              {'About'}
-            </li>
+            <li className={styles.link}>About</li>
+
+            <li className={styles.link}>Blog</li>
 
             <li className={styles.link}>
-              {'Blog'}
-            </li>
-
-            <li className={styles.link}>
-              <ButtonLink
-                prefetch
-                href="/signin"
-                state={state}
-                className={styles.login}
-              >
+              <ButtonLink prefetch href="/signin" state={state} className={styles.login}>
                 <span className={styles.text}>Log In</span>
-                <div className={styles.arrow}><ArrowSvg /></div>
+                <div className={styles.arrow}>
+                  <ArrowSvg />
+                </div>
               </ButtonLink>
             </li>
           </ul>

@@ -8,24 +8,13 @@ import Button, { sizes } from '~/components/button';
 import styles from './styles.pcss';
 
 const ButtonLink = ({
-  href,
-  children,
-  prefetch,
-  className,
-  ...props
+  href, children, prefetch, className, ...props
 }) => {
   const { size } = props;
 
   return (
-    <Button
-      {...props}
-      className={classnames(styles.button, className)}
-    >
-      <Link
-        href={href}
-        className={classnames(styles.link, styles[size])}
-        prefetch={prefetch}
-      >
+    <Button {...props} className={classnames(styles.button, className)}>
+      <Link href={href} className={classnames(styles.link, styles[size])} prefetch={prefetch}>
         {children}
       </Link>
     </Button>

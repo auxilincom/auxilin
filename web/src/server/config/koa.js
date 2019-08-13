@@ -3,12 +3,9 @@ const requestLogger = require('koa-logger');
 const serve = require('koa-static');
 const mount = require('koa-mount');
 const views = require('koa-views');
-const session = require('koa-generic-session');
 const handlebars = require('handlebars');
 
 const config = require('config');
-
-const redisStore = require('koa-redis')(config.session.store);
 
 const { logger } = global;
 
@@ -21,15 +18,17 @@ handlebars.registerHelper('json', context => JSON.stringify(context));
 
 module.exports = async (app) => {
   app.use(requestLogger());
-  app.use(views(config.isDev ? pathToViews : pathToStatic, {
-    default: 'html',
-    map: { html: 'handlebars' },
-    options: {
-      helpers: {
-        json: ctx => JSON.stringify(ctx),
+  app.use(
+    views(config.isDev ? pathToViews : pathToStatic, {
+      default: 'html',
+      map: { html: 'handlebars' },
+      options: {
+        helpers: {
+          json: ctx => JSON.stringify(ctx),
+        },
       },
-    },
-  }));
+    }),
+  );
 
   if (config.isDev) {
     const middleware = await hmr();
@@ -37,12 +36,6 @@ module.exports = async (app) => {
   } else {
     app.use(mount('/static', serve(pathToStatic)));
   }
-
-  app.keys = [config.session.secret]; // eslint-disable-line
-  app.use(session({
-    store: redisStore,
-    ttl: config.session.ttl,
-  }));
 
   app.use(async (ctx, next) => {
     try {

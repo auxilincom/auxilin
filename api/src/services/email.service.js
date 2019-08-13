@@ -2,10 +2,7 @@ const { join } = require('path');
 const MailService = require('@auxilin/email-service');
 
 const {
-  mailgun,
-  isTest,
-  landingUrl,
-  apiUrl,
+  mailgun, isTest, landingUrl, apiUrl,
 } = require('config');
 
 const { logger } = global;
@@ -13,20 +10,16 @@ const { logger } = global;
 const mailService = new MailService({
   isSendEmail: !isTest,
   mailgun,
-  templatesDir: join(__dirname, './assets/emails/dist'), // absolute path to templates directory
+  templatesDir: join(__dirname, '../assets/emails/dist'), // absolute path to templates directory
 });
 
 const _sendEmail = async (template, emailData, data = {}) => {
   try {
-    await mailService.send(
-      template,
-      data,
-      {
-        from: 'Excited User <me@samples.mailgun.org>',
-        to: emailData.to,
-        subject: emailData.subject,
-      },
-    );
+    await mailService.send(template, data, {
+      from: 'Excited User <me@samples.mailgun.org>',
+      to: emailData.to,
+      subject: emailData.subject,
+    });
     logger.debug(`Sending email [${template}]. The data is: ${JSON.stringify(data)}`);
   } catch (e) {
     logger.error(`Error in sending email. Data: ${e.message}`);

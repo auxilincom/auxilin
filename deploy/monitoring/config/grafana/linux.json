@@ -59,7 +59,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "format": "none",
@@ -172,7 +172,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(245, 54, 54, 0.9)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "format": "percent",
@@ -296,7 +296,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "format": "bits",
@@ -422,7 +422,7 @@
             "cpu.mean": "#629E51"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 4,
@@ -790,7 +790,7 @@
             "Used": "#58140C"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "decimals": null,
           "editable": true,
           "error": false,
@@ -1039,7 +1039,7 @@
             "5 Minute Average": "#E0752D"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -1252,7 +1252,7 @@
             "CPU Usage": "#BF1B00"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 16,
           "legend": {
@@ -1419,7 +1419,7 @@
             "Used Mem": "#BF1B00"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "fill": 1,
           "id": 17,
           "legend": {
@@ -1584,7 +1584,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -1703,7 +1703,7 @@
             "Interrupts": "#E24D42"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -1821,7 +1821,7 @@
             "Processes Forked": "#F4D598"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -1957,7 +1957,7 @@
             "Running": "#7EB26D"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 7,
@@ -2156,7 +2156,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -2284,7 +2284,7 @@
             "net.derivative": "#1F78C1"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -2489,7 +2489,7 @@
             "TIME Wait": "#1F78C1"
           },
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 8,
@@ -2963,7 +2963,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(245, 54, 54, 0.9)"
           ],
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "format": "bytes",
@@ -3076,7 +3076,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": "{{data_source_name}}",
+          "datasource": "{{ data_source_name }}",
           "editable": true,
           "error": false,
           "fill": 1,
@@ -3264,7 +3264,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "{{data_source_name}}",
+        "datasource": "{{ data_source_name }}",
         "hide": 0,
         "includeAll": false,
         "label": "Host",

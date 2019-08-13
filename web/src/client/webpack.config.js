@@ -34,16 +34,17 @@ const createUniqueIdGenerator = () => {
 const uniqueIdGenerator = createUniqueIdGenerator();
 
 const getComponentName = (resourcePath, separator) => {
-  return resourcePath.split(separator).slice(-5, -1).join(separator);
+  return resourcePath
+    .split(separator)
+    .slice(-5, -1)
+    .join(separator);
 };
 
 const generateScopedName = (localName, resourcePath) => {
   const componentUnixName = getComponentName(resourcePath, '/');
   const componentWindowsName = getComponentName(resourcePath, '\\');
 
-  const componentName = componentUnixName > componentWindowsName
-    ? componentUnixName
-    : componentWindowsName;
+  const componentName = componentUnixName > componentWindowsName ? componentUnixName : componentWindowsName;
 
   return `${uniqueIdGenerator(componentName)}_${uniqueIdGenerator(localName)}`;
 };
@@ -52,7 +53,7 @@ module.exports = {
   mode: 'production',
 
   entry: {
-    main: ['@babel/polyfill', './index.jsx'],
+    main: ['core-js/stable', 'regenerator-runtime/runtime', './index.jsx'],
   },
 
   output: {
@@ -90,12 +91,13 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              camelCase: true,
               getLocalIdent: ({ resourcePath }, localIdentName, localName) => {
                 return generateScopedName(localName, resourcePath);
               },
-              modules: true,
-              localIdentName: '[local]_[hash:base64:5]',
+              localsConvention: 'dashesOnly',
+              modules: {
+                localIdentName: '[local]_[hash:base64:5]',
+              },
             },
           },
           {
@@ -105,8 +107,26 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|woff|woff2|ttf|eot|ico)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: ['url-loader?limit=5000&name=[name].[hash].[ext]?'],
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: 'react-svg-loader',
+            options: {
+              jsx: true, // true outputs JSX tags
+              svgo: {
+                plugins: [
+                  {
+                    removeViewBox: false,
+                    cleanupIDs: false,
+                  },
+                ],
+              },
+            },
+          },
+        ],
       },
     ],
   },
