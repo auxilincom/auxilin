@@ -8,7 +8,7 @@ import ButtonLink from '~/components/button-link';
 import Link from '~/components/link';
 
 import Logo from '~/static/auxilin-logo.svg';
-import ArrowSvg from './components/arrow';
+import ArrowSvg from './arrow.svg';
 
 import styles from './styles.pcss';
 

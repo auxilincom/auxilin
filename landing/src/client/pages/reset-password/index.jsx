@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import Error from '~/components/error';
@@ -17,11 +17,7 @@ import { resetPassword } from '~/resources/account/account.api';
 
 import styles from './styles.pcss';
 
-export default class ResetPassword extends PureComponent {
-  static propTypes = {
-    token: PropTypes.string.isRequired,
-  };
-
+class ResetPassword extends PureComponent {
   constructor(props) {
     super(props);
     this.setPassword = setFormValue('password').bind(this);
@@ -80,7 +76,7 @@ export default class ResetPassword extends PureComponent {
     }
 
     return (
-      <Fragment>
+      <>
         <h2 key="title">Reset Your Password</h2>
 
         <Form key="form" onSubmit={this.submitSigninAsync}>
@@ -108,7 +104,7 @@ export default class ResetPassword extends PureComponent {
             </Button>
           </div>
         </Form>
-      </Fragment>
+      </>
     );
   }
 
@@ -123,3 +119,9 @@ export default class ResetPassword extends PureComponent {
     );
   }
 }
+
+ResetPassword.propTypes = {
+  token: PropTypes.string.isRequired,
+};
+
+export default ResetPassword;

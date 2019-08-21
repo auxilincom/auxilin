@@ -10,6 +10,6 @@ module.exports = {
       "devDependencies": [
         "**/*.config.js",
       ],
-    }],
+    }]
   }
 };

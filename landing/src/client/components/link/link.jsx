@@ -2,13 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import NextLink from 'next/link';
 
-import _omit from 'lodash/omit';
-
-const Link = (props) => {
-  const { href, className, children } = props;
-
+const Link = ({
+  href,
+  className,
+  children,
+  prefetch,
+}) => {
   return (
-    <NextLink {..._omit(props, ['className'])}>
+    <NextLink
+      prefetch={prefetch}
+      href={href}
+    >
       <a href={href} className={className}>
         {children}
       </a>
@@ -20,10 +24,12 @@ Link.propTypes = {
   href: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
+  prefetch: PropTypes.bool,
 };
 
 Link.defaultProps = {
   className: '',
+  prefetch: false,
 };
 
 export default Link;

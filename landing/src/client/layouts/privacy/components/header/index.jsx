@@ -9,12 +9,6 @@ import Logo from '~/static/logo.svg';
 import styles from './styles.pcss';
 
 class Header extends Component {
-  static propTypes = {
-    router: PropTypes.shape({
-      pathname: PropTypes.string,
-    }).isRequired,
-  };
-
   isActiveLink(href) {
     const {
       router: { pathname },
@@ -63,5 +57,11 @@ class Header extends Component {
     );
   }
 }
+
+Header.propTypes = {
+  router: PropTypes.shape({
+    pathname: PropTypes.string,
+  }).isRequired,
+};
 
 export default withRouter(Header);

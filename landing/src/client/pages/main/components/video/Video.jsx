@@ -6,9 +6,13 @@ import Close from './close_icon.svg';
 import styles from './styles.pcss';
 
 class VideoPage extends React.PureComponent {
-  state = {
-    isShowVideo: false,
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isShowVideo: false,
+    };
+  }
 
   setVideoSizeByDOMElement = (elem) => {
     if (elem === null) {
