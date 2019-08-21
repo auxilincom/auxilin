@@ -15,9 +15,13 @@ type StateType = {
 };
 
 class Search extends Component<*, StateType> {
-  state = {
-    search: '',
-  };
+  constructor(props: *) {
+    super(props);
+
+    this.state = {
+      search: '',
+    };
+  }
 
   onChangeSearchValue = (e: string) => {
     this.setState({ search: e });

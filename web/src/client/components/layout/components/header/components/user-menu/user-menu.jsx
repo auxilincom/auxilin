@@ -77,11 +77,15 @@ class UserMenu extends Component<*, StateType> {
     });
   }
 
-  state = {
-    menuOpen: false,
-  };
-
   menu: ?HTMLSpanElement;
+
+  constructor(props: *) {
+    super(props);
+
+    this.state = {
+      menuOpen: false,
+    };
+  }
 
   componentDidMount() {
     document.addEventListener('click', this.onDocumentClick);

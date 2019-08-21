@@ -91,12 +91,11 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              getLocalIdent: ({ resourcePath }, localIdentName, localName) => {
-                return generateScopedName(localName, resourcePath);
-              },
               localsConvention: 'dashesOnly',
               modules: {
-                localIdentName: '[local]_[hash:base64:5]',
+                getLocalIdent: ({ resourcePath }, localIdentName, localName) => {
+                  return generateScopedName(localName, resourcePath);
+                },
               },
             },
           },

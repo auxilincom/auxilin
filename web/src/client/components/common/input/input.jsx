@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 
 import _uniq from 'lodash/uniq';
-import _omit from 'lodash/omit';
 
 import styles from './input.styles.pcss';
 
@@ -40,8 +39,12 @@ export default class Input extends Component<PropsType> {
   }
 
   render(): React$Node {
-    const { className, errors } = this.props;
-    const props = _omit(this.props, ['className', 'errors', 'onChange']);
+    const {
+      className,
+      errors,
+      type,
+      value,
+    } = this.props;
 
     return (
       <div>
@@ -50,7 +53,8 @@ export default class Input extends Component<PropsType> {
             [styles.error]: errors.length,
           })}
           onChange={this.onChange}
-          {...props}
+          type={type}
+          value={value}
         />
         <div className={styles.focusBorderWrap}>
           <div className={styles.focusBorder} />

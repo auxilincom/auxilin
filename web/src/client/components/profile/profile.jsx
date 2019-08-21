@@ -40,7 +40,6 @@ type ProfileStateType = {
   lastName: string,
   email: string,
   errors: ValidationErrorsType,
-  prevProps?: PropsType,
 };
 
 type ChangeFnType = (value: string) => void;
@@ -71,7 +70,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
   };
 
   validateField = (field: UserFieldType): AsyncFnType => async (): Promise<*> => {
-    const userData = _omit(this.state, ['errors', 'prevProps']);
+    const userData = _omit(this.state, ['errors']);
     const result = await validateUserField(userData, field);
 
     this.setState({ errors: result.errors });
@@ -92,7 +91,7 @@ class Profile extends React.Component<PropsType, ProfileStateType> {
   }
 
   async updateUser(): Promise<*> {
-    const result: ValidationResultErrorsType = await validateUser(_omit(this.state, ['errors', 'prevProps']));
+    const result: ValidationResultErrorsType = await validateUser(_omit(this.state, ['errors']));
 
     if (!result.isValid) {
       this.showErrors(result.errors);

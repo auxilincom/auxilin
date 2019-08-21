@@ -15,6 +15,7 @@ module.exports = {
       "components": [ "Link" ],
       "specialLink": [ "to" ],
     }],
+    "react/static-property-placement": ["error", "static public field"],
     "max-len": ["error", 150, 2, {
       ignoreUrls: true,
       ignoreComments: false,
