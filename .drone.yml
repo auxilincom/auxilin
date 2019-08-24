@@ -75,9 +75,7 @@ steps:
     inventory: ./deploy/app/hosts/staging
     private_key:
       from_secret: ansible_private_key
-    extra_vars:
-      docker_tag: latest
-      env: staging
+    extra_vars: docker_tag=latest,env=staging
   when:
     event:
     - push
