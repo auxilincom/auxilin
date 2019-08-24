@@ -58,23 +58,14 @@ steps:
     - push
 
 - name: deploy-staging-app
-  image: plugins/ansible
-  environment:
-    docker_registry_username:
-      from_secret: docker_username
-    docker_registry_password:
-      from_secret: docker_password
-    docker_registry_email:
-      from_secret: docker_email
-    mailgun_api_key:
-      from_secret: mailgun_api_key
-    mailgun_domain:
-      from_secret: mailgun_domain
+  image: ezhivitsa/drone-ansible:linux-amd64
   settings:
     playbook: ./deploy/app/deploy-app.yml
     inventory: ./deploy/app/hosts/staging
     private_key:
       from_secret: ansible_private_key
+    extra_vars_from_file:
+      from_secret: credentials
     extra_vars: docker_tag=latest,env=staging
   when:
     event:
