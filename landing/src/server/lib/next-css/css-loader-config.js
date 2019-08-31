@@ -43,6 +43,7 @@ module.exports = (
           ? 'static/chunks/[name].chunk.css'
           : 'static/chunks/[name].[contenthash:8].chunk.css',
         hot: dev,
+        ignoreOrder: true,
       }),
     );
     extractCssInitialized = true;
@@ -69,30 +70,29 @@ module.exports = (
 
   if (postcssConfigPath) {
     // Copy the postcss-loader config options first.
-    const postcssOptionsConfig = Object.assign({}, postcssLoaderOptions.config, {
+    const postcssOptionsConfig = {
+      ...postcssLoaderOptions.config,
       path: postcssConfigPath,
-    });
+    };
 
     postcssLoader = {
       loader: 'postcss-loader',
-      options: Object.assign({}, postcssLoaderOptions, {
+      options: {
+        ...postcssLoaderOptions,
         config: postcssOptionsConfig,
-      }),
+      },
     };
   }
 
   const cssLoader = {
     loader: 'css-loader',
-    options: Object.assign(
-      {},
-      {
-        modules: cssModules,
-        sourceMap: dev,
-        importLoaders: loaders.length + (postcssLoader ? 1 : 0),
-        onlyLocals: isServer,
-      },
-      cssLoaderOptions,
-    ),
+    options: {
+      modules: cssModules,
+      sourceMap: dev,
+      importLoaders: loaders.length + (postcssLoader ? 1 : 0),
+      onlyLocals: isServer,
+      ...cssLoaderOptions,
+    },
   };
 
   // When not using css modules we don't transpile on the server

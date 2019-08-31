@@ -1,7 +1,8 @@
 const cssLoaderConfig = require('./css-loader-config');
 
 module.exports = (nextConfig = {}) => {
-  return Object.assign({}, nextConfig, {
+  return {
+    ...nextConfig,
     webpack(config, options) {
       if (!options.defaultLoaders) {
         throw new Error(
@@ -33,5 +34,5 @@ module.exports = (nextConfig = {}) => {
 
       return config;
     },
-  });
+  };
 };
