@@ -1,3 +1,12 @@
+## 0.6.1 (August 31, 2019)
+
+* New release of auxilin with the following components:
+  1) api version [0.6.0](https://github.com/auxilincom/koa-api-starter/releases/tag/0.6.0)
+  2) landing version [0.7.1](https://github.com/auxilincom/nextjs-landing-starter/releases/tag/0.7.1)
+  3) web version [0.7.0](https://github.com/auxilincom/koa-react-starter/releases/tag/0.7.0)
+  4) deploy drone version [1.5.1](https://github.com/auxilincom/deploy-drone/releases/tag/1.5.1)
+  5) deploy grafana version [0.4.0](https://github.com/auxilincom/deploy-grafana/releases/tag/0.4.0)
+
 ## 0.6.0 (August 21, 2019)
 
 * New release of auxilin with the following components:
