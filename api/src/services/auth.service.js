@@ -34,11 +34,6 @@ exports.decodeToken = async (token) => {
     logger.warning('Invalid json web token', err);
   }
 
-  const inBlackList = await accessTokenService.has(token);
-  if (inBlackList) {
-    return null;
-  }
-
   return res;
 };
 

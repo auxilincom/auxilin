@@ -1,3 +1,4 @@
+const url = require('url');
 const psl = require('psl');
 
 const constants = require('app.constants');
@@ -41,8 +42,9 @@ const setTokens = async (ctx, userId) => {
 
   await authService.addRefreshToken(userId, refreshToken);
 
-  const parsed = psl.parse(config.webUrl);
-  const cookiesDomain = parsed.subdomain ? `${parsed.subdomain}.${parsed.domain}` : parsed.domain;
+  const parsedUrl = url.parse(config.webUrl);
+  const parsed = psl.parse(parsedUrl.hostname);
+  const cookiesDomain = parsed.domain;
 
   ctx.cookies.set(constants.COOKIES.ACCESS_TOKEN, token, {
     httpOnly: true,
