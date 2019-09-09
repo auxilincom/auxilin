@@ -2,7 +2,7 @@
 
 [![Auxilin.com — Production ready Node, React starter kit for building products at a warp speed](https://raw.githubusercontent.com/auxilincom/component-template/master/assets/cover-black.png)](https://github.com/auxilincom/auxilin)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Build Status](https://ci.auxilin.com/api/badges/auxilincom/auxilin/status.svg)](https://ci.auxilin.com/auxilincom/auxilin)
@@ -39,14 +39,14 @@ We believe we could ship great products faster, while maintain decent quality an
 
 |Name|Description|Version|
 |:---|:----------|:------|
-|[Next.JS landing](https://github.com/auxilincom/nextjs-landing-starter)|Landing site|[0.2.2](https://github.com/auxilincom/nextjs-landing-starter/releases/tag/0.2.2)|
-|[Koa.JS REST api](https://github.com/auxilincom/koa-api-starter)|REST api|[0.2.1](https://github.com/auxilincom/koa-api-starter/releases/tag/0.2.1)|
-|[React.JS(with Redux) web app](https://github.com/auxilincom/koa-react-starter)|React.JS application|[0.2.1](https://github.com/auxilincom/koa-react-starter/releases/tag/0.2.1)
-|[MongoDB Api for Node.JS](https://github.com/auxilincom/node-mongo)|Reactive 🚀 extension to MongoDB API |[0.1.0](https://github.com/auxilincom/node-mongo/releases/tag/0.1.0)|
-|[Ansible Drone role](https://github.com/auxilincom/ansible-drone)|Ansible role for drone deployment|[0.1.1](https://github.com/auxilincom/ansible-drone/releases/tag/0.1.1)|
-|[Deploy Drone CI](https://github.com/auxilincom/deploy-drone)|Ansible automation for production-ready Drone CI deployment|[1.3.1](https://github.com/auxilincom/deploy-drone/releases/tag/1.3.1)|
-|[Deploy Grafana](https://github.com/auxilincom/deploy-grafana)|Ansible automation for production-ready Grafana deployment|[0.1.0](https://github.com/auxilincom/deploy-grafana/releases/tag/0.1.0)|
-|[Eslint config](https://github.com/auxilincom/eslint-config)|Airbnb based eslint config|[0.1.1](https://github.com/auxilincom/eslint-config/releases/tag/0.1.1)|
+|[Next.JS landing](https://github.com/auxilincom/nextjs-landing-starter)|Landing site|[0.7.3](https://github.com/auxilincom/nextjs-landing-starter/releases/tag/0.7.3)|
+|[Koa.JS REST api](https://github.com/auxilincom/koa-api-starter)|REST api|[0.6.3](https://github.com/auxilincom/koa-api-starter/releases/tag/0.6.3)|
+|[React.JS(with Redux) web app](https://github.com/auxilincom/koa-react-starter)|React.JS application|[0.8.0](https://github.com/auxilincom/koa-react-starter/releases/tag/0.8.0)
+|[MongoDB Api for Node.JS](https://github.com/auxilincom/node-mongo)|Reactive 🚀 extension to MongoDB API |[1.3.0](https://github.com/auxilincom/node-mongo/releases/tag/1.3.0)|
+|[Ansible Drone role](https://github.com/auxilincom/ansible-drone)|Ansible role for drone deployment|[0.4.1](https://github.com/auxilincom/ansible-drone/releases/tag/0.4.1)|
+|[Deploy Drone CI](https://github.com/auxilincom/deploy-drone)|Ansible automation for production-ready Drone CI deployment|[1.5.1](https://github.com/auxilincom/deploy-drone/releases/tag/1.5.1)|
+|[Deploy Grafana](https://github.com/auxilincom/deploy-grafana)|Ansible automation for production-ready Grafana deployment|[0.4.0](https://github.com/auxilincom/deploy-grafana/releases/tag/0.4.0)|
+|[Eslint config](https://github.com/auxilincom/eslint-config)|Airbnb based eslint config|[0.2.0](https://github.com/auxilincom/eslint-config/releases/tag/0.2.0)|
 
 Note: [release.yml](release.yml) always contains correct versions of every component and produced by automated merge process. We do our best to keep readme in sync :)
 
@@ -80,9 +80,17 @@ Join us and share something developers need 👌.
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/6461311?v=4" width="100px;"/><br /><sub><b>Evgeny Zhivitsa</b></sub>](https://github.com/ezhivitsa)<br />[💻](https://github.com/auxilin/auxilin/commits?author=ezhivitsa "Code") [📖](https://github.com/auxilin/auxilin/commits?author=ezhivitsa "Documentation") [🤔](#ideas-ezhivitsa "Ideas, Planning, & Feedback") [👀](#review-ezhivitsa "Reviewed Pull Requests") [⚠️](https://github.com/auxilin/auxilin/commits?author=ezhivitsa "Tests") | [<img src="https://avatars3.githubusercontent.com/u/681396?v=4" width="100px;"/><br /><sub><b>Andrew Orsich</b></sub>](https://github.com/anorsich)<br />[💻](https://github.com/auxilin/auxilin/commits?author=anorsich "Code") [📖](https://github.com/auxilin/auxilin/commits?author=anorsich "Documentation") [🤔](#ideas-anorsich "Ideas, Planning, & Feedback") |
-| :---: | :---: |
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ezhivitsa"><img src="https://avatars2.githubusercontent.com/u/6461311?v=4" width="100px;" alt="Evgeny Zhivitsa"/><br /><sub><b>Evgeny Zhivitsa</b></sub></a><br /><a href="https://github.com/auxilin/auxilin/commits?author=ezhivitsa" title="Code">💻</a> <a href="https://github.com/auxilin/auxilin/commits?author=ezhivitsa" title="Documentation">📖</a> <a href="#ideas-ezhivitsa" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-ezhivitsa" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/auxilin/auxilin/commits?author=ezhivitsa" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/anorsich"><img src="https://avatars3.githubusercontent.com/u/681396?v=4" width="100px;" alt="Andrew Orsich"/><br /><sub><b>Andrew Orsich</b></sub></a><br /><a href="https://github.com/auxilin/auxilin/commits?author=anorsich" title="Code">💻</a> <a href="https://github.com/auxilin/auxilin/commits?author=anorsich" title="Documentation">📖</a> <a href="#ideas-anorsich" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
