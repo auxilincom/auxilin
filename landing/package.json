@@ -1,6 +1,6 @@
 {
   "name": "nextjs-landing-starter",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Common landing website starter driven by next.js",
   "main": "src/server/app.js",
   "author": "Auxilin",
@@ -29,7 +29,7 @@
     "format": "prettier-eslint --write \"src/**/*.?(js|jsx)\""
   },
   "dependencies": {
-    "@auxilin/common-logger": "0.5.0",
+    "@auxilin/common-logger": "0.5.1",
     "axios": "0.19.0",
     "classnames": "2.2.6",
     "cssnano": "4.1.10",
@@ -54,7 +54,7 @@
     "babel-eslint": "10.0.3",
     "babel-plugin-module-resolver": "3.2.0",
     "css-loader": "3.2.0",
-    "eslint": "6.1.0",
+    "eslint": "6.3.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.3",
