@@ -1,10 +1,7 @@
 // @flow
 
-import React from 'react';
-import { connect } from 'react-redux';
-
-import _omit from 'lodash/omit';
-import _pick from 'lodash/pick';
+import React, { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
 import Input from 'components/common/input';
 import Button, { colors as buttonColors } from 'components/common/button';
@@ -12,149 +9,132 @@ import Form from 'components/common/form';
 
 import { errorsToObject } from 'helpers/api/api.error';
 
+import type { DispatchType } from 'resources/types';
 import {
   updateUser as updateUserAction, fetchUser as fetchUserAction, validateUserField, validateUser,
 } from 'resources/user/user.actions';
-import type { StateType as UserStateType, ValidationErrorsType } from 'resources/user/user.types';
+import type { StateType as UserStateType, ValidationErrorsType, UpdateUserType } from 'resources/user/user.types';
 import type { ValidationResultErrorsType } from 'helpers/validation/types';
-import { addErrorMessage as addErrorMessageAction, addSuccessMessage as addSuccessMessageAction } from 'resources/toast/toast.actions';
-import type { AddErrorMessageType, AddSuccessMessageType } from 'resources/toast/toast.types';
+import {
+  addErrorMessage as addErrorMessageAction,
+  addSuccessMessage as addSuccessMessageAction,
+} from 'resources/toast/toast.actions';
 
 import styles from './profile.styles.pcss';
 
 type UserFieldType = 'firstName' | 'lastName' | 'email';
 
-type ConnectedDispatchPropsType = {
-  updateUser: (id: string, data: UserStateType) => ValidationResultErrorsType,
-  fetchUser: (id: string) => Promise<?UserStateType>,
-  addErrorMessage: AddErrorMessageType,
-  addSuccessMessage: AddSuccessMessageType,
-};
+export default function Profile(): React$Node {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [errors, setErrors] = useState({});
 
-type PropsType = {
-  ...$Exact<ConnectedDispatchPropsType>,
-};
+  const dispatch: DispatchType = useDispatch();
 
-type ProfileStateType = {
-  firstName: string,
-  lastName: string,
-  email: string,
-  errors: ValidationErrorsType,
-};
-
-type ChangeFnType = (value: string) => void;
-type AsyncFnType = () => Promise<*>;
-
-class Profile extends React.Component<PropsType, ProfileStateType> {
-  updateUserAsync: AsyncFnType;
-
-  constructor(props: PropsType) {
-    super(props);
-
-    this.state = {
-      firstName: '',
-      lastName: '',
-      email: '',
-      errors: {},
-    };
-
-    this.updateUserAsync = this.updateUser.bind(this);
-  }
-
-  componentDidMount() {
-    this.feathUserData();
-  }
-
-  onFieldChange = (field: string): ChangeFnType => (value: string) => {
-    this.setState({ [field]: value });
+  const userData: UpdateUserType = {
+    firstName,
+    lastName,
+    email,
   };
 
-  validateField = (field: UserFieldType): AsyncFnType => async (): Promise<*> => {
-    const userData = _omit(this.state, ['errors']);
+  function onChangeFirstName(value: string) {
+    setFirstName(value);
+  }
+  function onChangeLastName(value: string) {
+    setLastName(value);
+  }
+  function onChangeEmailName(value: string) {
+    setEmail(value);
+  }
+
+  function showErrors(validationErrors: ValidationErrorsType) {
+    setErrors(validationErrors);
+    dispatch(addErrorMessageAction(
+      'Unable to save user info:',
+      validationErrors._global ? validationErrors._global.join(', ') : '',
+    ));
+  }
+  function fieldError(field: UserFieldType): Array<string> {
+    return errors[field] || [];
+  }
+  async function validateField(field: UserFieldType) {
     const result = await validateUserField(userData, field);
-
-    this.setState({ errors: result.errors });
-  };
-
-  showErrors(errors: ValidationErrorsType) {
-    this.setState({ errors });
-
-    const { addErrorMessage } = this.props;
-    addErrorMessage('Unable to save user info:', errors._global ? errors._global.join(', ') : '');
+    setErrors(result.errors);
   }
 
-  async feathUserData(): Promise<*> {
-    const { fetchUser } = this.props;
-
-    const response: ?UserStateType = await fetchUser('current');
-    this.setState(_pick(response, ['firstName', 'lastName', 'email']));
-  }
-
-  async updateUser(): Promise<*> {
-    const result: ValidationResultErrorsType = await validateUser(_omit(this.state, ['errors']));
+  async function updateUserAsync() {
+    const result: ValidationResultErrorsType = await validateUser(userData);
 
     if (!result.isValid) {
-      this.showErrors(result.errors);
+      showErrors(result.errors);
       return;
     }
 
-    const { updateUser, addSuccessMessage } = this.props;
-
     try {
-      await updateUser('current', _omit(this.state, 'errors'));
-      addSuccessMessage('User info updated!');
+      await dispatch(updateUserAction('current', userData));
+      dispatch(addSuccessMessageAction('User info updated!'));
     } catch (error) {
-      this.setState({ errors: errorsToObject(error) });
+      setErrors(errorsToObject(error));
     }
   }
 
-  error(field: UserFieldType): Array<string> {
-    const { errors } = this.state;
-    return errors[field] || [];
+  async function getCurrentUser() {
+    const response: ?UserStateType = await dispatch(fetchUserAction('current'));
+    if (response) {
+      setFirstName(response.firstName);
+      setLastName(response.lastName);
+      setEmail(response.email);
+    }
   }
 
-  render(): React$Node {
-    const { firstName, lastName, email } = this.state;
+  useEffect(() => {
+    getCurrentUser();
+  }, []);
 
-    return (
-      <div className={styles.profile}>
-        <div className={styles.profileHeader}>
-          <span className={styles.headerTitle}>Edit Profile</span>
-          <span className={styles.headerDescription}>Complete your profile</span>
-        </div>
-        <Form className={styles.form}>
-          <span className={styles.inputTitle}>First name</span>
-
-          <Input
-            errors={this.error('firstName')}
-            value={firstName}
-            onChange={this.onFieldChange('firstName')}
-            onBlur={this.validateField('firstName')}
-          />
-
-          <span className={styles.inputTitle}>Last name</span>
-
-          <Input errors={this.error('lastName')} value={lastName} onChange={this.onFieldChange('lastName')} onBlur={this.validateField('lastName')} />
-          <span className={styles.inputTitle}>Email</span>
-
-          <Input errors={this.error('email')} value={email} onChange={this.onFieldChange('email')} onBlur={this.validateField('email')} />
-          <div className={styles.buttonWrap}>
-            <Button className={styles.button} onClick={this.updateUserAsync} tabIndex={0} color={buttonColors.purple}>
-              {'Save'}
-            </Button>
-          </div>
-        </Form>
+  return (
+    <div className={styles.profile}>
+      <div className={styles.profileHeader}>
+        <span className={styles.headerTitle}>Edit Profile</span>
+        <span className={styles.headerDescription}>Complete your profile</span>
       </div>
-    );
-  }
-}
+      <Form className={styles.form}>
+        <span className={styles.inputTitle}>First name</span>
 
-export default connect<PropsType, {}, _, _, _, _>(
-  null,
-  {
-    updateUser: updateUserAction,
-    fetchUser: fetchUserAction,
-    addErrorMessage: addErrorMessageAction,
-    addSuccessMessage: addSuccessMessageAction,
-  },
-)(Profile);
+        <Input
+          errors={fieldError('firstName')}
+          value={firstName}
+          onChange={onChangeFirstName}
+          onBlur={() => { validateField('firstName'); }}
+        />
+
+        <span className={styles.inputTitle}>Last name</span>
+
+        <Input
+          errors={fieldError('lastName')}
+          value={lastName}
+          onChange={onChangeLastName}
+          onBlur={() => { validateField('lastName'); }}
+        />
+        <span className={styles.inputTitle}>Email</span>
+
+        <Input
+          errors={fieldError('email')}
+          value={email}
+          onChange={onChangeEmailName}
+          onBlur={() => { validateField('email'); }}
+        />
+        <div className={styles.buttonWrap}>
+          <Button
+            className={styles.button}
+            onClick={updateUserAsync}
+            tabIndex={0}
+            color={buttonColors.purple}
+          >
+            {'Save'}
+          </Button>
+        </div>
+      </Form>
+    </div>
+  );
+}

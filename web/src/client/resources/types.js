@@ -1,6 +1,7 @@
 // @flow
 
-import type { Store as ReduxStore, Dispatch as ReduxDispatch } from 'redux';
+import type { Store as ReduxStore } from 'redux';
+import type { ThunkDispatch, ThunkAction } from 'redux-thunk';
 
 import type { StateType as ToastStateType, ActionType as ToastActionType } from './toast/toast.types';
 import type { StateType as UserStateType, ActionType as UserActionType } from './user/user.types';
@@ -14,10 +15,10 @@ export type ReduxInitActionType = { type: '@@INIT' };
 
 export type ActionType = ReduxInitActionType | ToastActionType | UserActionType;
 
-export type ThunkedActionType = (dispatch: Dispatch) => void;
+export type DispatchType = ThunkDispatch<StateType, void, ActionType>;
 
-export type DispatchType = ReduxDispatch<ActionType> & ((action: ThunkedActionType) => void);
+export type ThunkActionType<TReturnType> = ThunkAction<TReturnType, StateType, void, ActionType>;
+
+export type VoidThunkActionType = ThunkActionType<void>;
 
 export type StoreType = ReduxStore<StateType, ActionType, DispatchType>;
-
-export type DispatchFnType = (obj: ActionType | Promise<ActionType> | ((dispatch: DispatchFnType) => void)) => void;

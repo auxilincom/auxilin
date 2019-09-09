@@ -18,6 +18,12 @@ export type StateType = {
   errors?: ValidationErrorsType,
 };
 
+export type UpdateUserType = {
+  firstName: string,
+  lastName: string,
+  email: string,
+};
+
 export type ActionType = {
   type: string,
   payload: StateType,

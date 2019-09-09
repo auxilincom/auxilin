@@ -1,15 +1,13 @@
-// flow-typed signature: 44cdeb3649742233612e463fa19769d2
-// flow-typed version: 9d7a8571fd/react-hot-loader_v4.6.x/flow_>=v0.53.0
+// flow-typed signature: 2353effc2ec590772ed12577ece4f3bc
+// flow-typed version: c6154227d1/react-hot-loader_v4.6.x/flow_>=v0.104.x
 
 // @flow
 declare module "react-hot-loader" {
-  declare type Module = {
-    id: string,
-  };
+  declare type Module = { id: string, ... };
 
   declare type ErrorReporterProps = {|
     error: Error,
-    errorInfo: { componentStack: string }
+    errorInfo: { componentStack: string, ... }
   |}
 
   declare export type ContainerProps = {|
@@ -22,7 +20,7 @@ declare module "react-hot-loader" {
 
   declare export function hot(module: Module): <T: React$ComponentType<any>>(
     Component: T,
-    props?: $Diff<ContainerProps, { children: React$Element<any> }>
+    props?: $Diff<ContainerProps, { children: React$Element<any>, ... }>
   ) => T
 
   declare export function cold<T: React$ComponentType<any>>(component: T): T
@@ -42,7 +40,7 @@ declare module "react-hot-loader" {
     ignoreSFC: boolean,
     ignoreComponents: boolean,
     errorReporter: React$ComponentType<ErrorReporterProps>,
-    ErrorOverlay: React$ComponentType<{ errors: Array<ErrorReporterProps> }>,
+    ErrorOverlay: React$ComponentType<{ errors: Array<ErrorReporterProps>, ... }>,
     onComponentRegister: (type: any, uniqueLocalName: string, fileName: string) => any,
     onComponentCreate: (type: any, displayName: string) => any,
   |}
@@ -55,6 +53,6 @@ declare module "react-hot-loader/root" {
 
   declare export function hot<T: React$ComponentType<any>>(
     Component: T,
-    props?: $Diff<ContainerProps, { children: React$Element<any> }>
+    props?: $Diff<ContainerProps, { children: React$Element<any>, ... }>
   ): T;
 }

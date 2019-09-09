@@ -13,16 +13,92 @@
  * https://github.com/flowtype/flow-typed
  */
 
-import { Middleware, Dispatch } from 'redux';
+import {
+  Action,
+  Middleware
+} from "redux";
 
-declare module 'redux-thunk' {
-  declare export type ThunkAction<R, S, E> = (
-    dispatch: Dispatch<S>,
-    getState: () => S,
-    extraArgument: E
-  ) => R;
-  declare var thunk: Middleware & {
-    withExtraArgument(extraArgument: any): Middleware
+declare module "redux-thunk" {
+  declare export type AnyAction = { type: any };
+
+  /**
+   * The dispatch method as modified by React-Thunk; overloaded so that you can
+   * dispatch:
+   *    - standard (object) actions: `dispatch()` returns the action itself
+   *    - thunk actions: `dispatch()` returns the thunk's return value
+   * @template The redux state
+   * @template The extra argument passed to the inner function of
+   * thunks (if specified when setting up the Thunk middleware)
+   * @template The (non-thunk) actions that can be dispatched.
+   */
+  declare export interface ThunkDispatch<TState, TExtraThunkArg, TBasicAction: Action> {
+    <TReturnType>(
+      thunkAction: ThunkAction<TReturnType, TState, TExtraThunkArg, TBasicAction>
+    ): TReturnType;
+    <A: TBasicAction>(action: A): A;
+    <TReturnType, TAction: TBasicAction>(
+      action:
+        | TAction
+        | ThunkAction<TReturnType, TState, TExtraThunkArg, TBasicAction>
+    ): TAction | TReturnType;
+  }
+  /**
+   * A "thunk" action (a callback function that can be dispatched to the Redux
+   * store.)
+   *
+   * Also known as the "thunk inner function", when used with the typical pattern
+   * of an action creator function that returns a thunk action.
+   * @template The return type of the thunk's inner function
+   * @template The redux state
+   * @template Optional extra argument passed to the inner function
+   * (if specified when setting up the Thunk middleware)
+   * @template The (non-thunk) actions that can be dispatched.
+   */
+  declare export type ThunkAction<
+    TReturnType,
+    TState,
+    TExtraThunkArg,
+    TBasicAction: Action
+  > = (
+    dispatch: ThunkDispatch<TState, TExtraThunkArg, TBasicAction>,
+    getState: () => TState,
+    extraArgument: TExtraThunkArg
+  ) => TReturnType;
+  /**
+   * A generic type that takes a thunk action creator and returns a function
+   * signature which matches how it would appear after being processed using
+   * bindActionCreators(): a function that takes the arguments of the outer
+   * function, and returns the return type of the inner "thunk" function.
+   * @template Thunk action creator to be wrapped
+   */
+  declare export type ThunkActionDispatch<
+    TActionCreator: (...args: any[]) => ThunkAction<any, any, any, any>
+  > = (
+    ...args: Parameters<TActionCreator>
+  ) => $Call<
+    <R>((...args: any[]) => R) => R,
+    $Call<<R>((...args: any[]) => R) => R, TActionCreator>
+  >;
+  /**
+   * @template The redux state
+   * @template The (non-thunk) actions that can be dispatched
+   * @template An optional extra argument to pass to a thunk's
+   * inner function. (Only used if you call `thunk.withExtraArgument()`)
+   */
+  declare export type ThunkMiddleware<
+    TState = { ... },
+    TBasicAction: Action = AnyAction,
+    TExtraThunkArg = void
+  > = Middleware<
+    ThunkDispatch<TState, TExtraThunkArg, TBasicAction>,
+    TState,
+    ThunkDispatch<TState, TExtraThunkArg, TBasicAction>
+  >;
+  declare var thunk: ThunkMiddleware<> & {
+    withExtraArgument<TExtraThunkArg, TState, TBasicAction: Action<any>>(
+      extraArgument: TExtraThunkArg
+    ): ThunkMiddleware<TState, TBasicAction, TExtraThunkArg>,
+    ...
   };
-  declare module.exports: typeof thunk;
+  declare export default typeof thunk;
 }

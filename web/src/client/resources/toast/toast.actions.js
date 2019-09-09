@@ -2,24 +2,22 @@
 
 import uuidv4 from 'uuid/v4';
 
+import type { DispatchType, VoidThunkActionType } from 'resources/types';
+
 import type { ApiErrorType, ErrorDataType } from 'helpers/api/api.types';
-import type { ShortMessageType, ActionType } from './toast.types';
+import type { ShortMessageType } from './toast.types';
 
 export const ADD_MESSAGE: string = 'add toast message';
 export const REMOVE_MESSAGE: string = 'remove toast message';
 
 const displayTime = 3000;
 
-type DispatchFnType = (obj: ActionType | Promise<ActionType>) => void;
-
-type VoidFnType = (dispatch: DispatchFnType) => void;
-
 type RemoveMessageType = {
   type: string,
   id: string,
 };
 
-const hideAfterTimeout = (dispatch: DispatchFnType, id: string) => {
+const hideAfterTimeout = (dispatch: DispatchType, id: string) => {
   setTimeout(() => {
     dispatch({
       type: REMOVE_MESSAGE,
@@ -28,7 +26,7 @@ const hideAfterTimeout = (dispatch: DispatchFnType, id: string) => {
   }, displayTime);
 };
 
-const addMessage = (dispatch: DispatchFnType, data: ShortMessageType) => {
+const addMessage = (dispatch: DispatchType, data: ShortMessageType) => {
   const id: string = uuidv4();
 
   hideAfterTimeout(dispatch, id);
@@ -42,7 +40,7 @@ const addMessage = (dispatch: DispatchFnType, data: ShortMessageType) => {
   });
 };
 
-export const addErrorMessage = (title: string, text?: string, isHTML?: boolean = false): VoidFnType => (dispatch: DispatchFnType) => {
+export const addErrorMessage = (title: string, text?: string, isHTML?: boolean = false): VoidThunkActionType => (dispatch: DispatchType) => {
   addMessage(dispatch, {
     type: 'error',
     title,
@@ -51,7 +49,7 @@ export const addErrorMessage = (title: string, text?: string, isHTML?: boolean =
   });
 };
 
-export const addSuccessMessage = (title: string, text?: string, isHTML?: boolean = false): VoidFnType => (dispatch: DispatchFnType) => {
+export const addSuccessMessage = (title: string, text?: string, isHTML?: boolean = false): VoidThunkActionType => (dispatch: DispatchType) => {
   addMessage(dispatch, {
     type: 'success',
     title,
@@ -65,7 +63,7 @@ export const removeMessage = (id: string): RemoveMessageType => ({
   id,
 });
 
-export const addErrorMessageFromError = (error: ApiErrorType, title?: string = 'Error:'): VoidFnType => (dispatch: DispatchFnType) => {
+export const addErrorMessageFromError = (error: ApiErrorType, title?: string = 'Error:'): VoidThunkActionType => (dispatch: DispatchType) => {
   const { errors }: ErrorDataType = error.data;
 
   addMessage(dispatch, {

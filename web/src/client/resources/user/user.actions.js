@@ -5,13 +5,13 @@ import _isEmpty from 'lodash/isEmpty';
 
 import { addErrorMessageFromError } from 'resources/toast/toast.actions';
 
-import type { DispatchFnType } from 'resources/types';
+import type { DispatchType, ThunkActionType } from 'resources/types';
 
 import { validate, validateField } from 'helpers/validation';
 import type { ValidationResultType, ValidationResultErrorsType } from 'helpers/validation/types';
 import * as api from './user.api';
 
-import type { StateType, AxiosUserType } from './user.types';
+import type { StateType, AxiosUserType, UpdateUserType } from './user.types';
 
 const schema = object({
   firstName: string()
@@ -30,9 +30,7 @@ const schema = object({
 export const FETCH_USER = 'fetchUser';
 export const UPDATE_USER = 'updateUser';
 
-type UserFnType = (dispatch: DispatchFnType) => Promise<?StateType>;
-
-export const fetchUser = (id: string): UserFnType => async (dispatch: DispatchFnType): Promise<?StateType> => {
+export const fetchUser = (id: string): ThunkActionType<Promise<?StateType>> => async (dispatch: DispatchType): Promise<?StateType> => {
   try {
     const response: AxiosUserType = await api.fetchUser(id);
     dispatch({
@@ -64,7 +62,7 @@ export const validateUser = async (data: $Shape<StateType>): Promise<ValidationR
   };
 };
 
-export const updateUser = (id: string, data: StateType): UserFnType => async (dispatch: DispatchFnType): Promise<StateType> => {
+export const updateUser = (id: string, data: UpdateUserType): ThunkActionType<Promise<StateType>> => async (dispatch: DispatchType): Promise<StateType> => {
   try {
     const response: AxiosUserType = await api.updateUser(id, data);
     dispatch({

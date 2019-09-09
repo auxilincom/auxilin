@@ -20,4 +20,4 @@ module.name_mapper='^assets\/\(.*\)$' -> '<PROJECT_ROOT>/src/client/assets/\1'
 module.name_mapper='^flow-interfaces\/\(.*\)$' -> '<PROJECT_ROOT>/src/client/flow-interfaces/\1'
 
 [version]
-^0.105.2
+^0.107.0
